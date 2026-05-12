@@ -5,6 +5,11 @@ import os
 from core.language_manager import LanguageManager
 
 
+class SafeDict(dict):
+    """Dicionário que retorna a própria chave se ela não for encontrada, evitando KeyError no .format()"""
+    def __missing__(self, key):
+        return f"{{{key}}}"
+
 class DialogueManager:
     def __init__(self, language="en"):
         self.language = language
@@ -40,14 +45,18 @@ class DialogueManager:
             print(f"[DialogueManager] Erro ao carregar {path}: {e}")
             return {}
 
-    def _resolve_context(self, context: dict) -> dict:
-        resolved = {}
-        for key, value in context.items():
-            if isinstance(value, dict):
-                resolved[key] = value.get(self.language) or value.get("en")
-            else:
-                resolved[key] = value
-        return resolved
+    def _resolve_context(self, context):
+        if isinstance(context, dict):
+            resolved = {}
+            for key, value in context.items():
+                resolved[key] = self._resolve_context(value)
+            return resolved
+
+        elif isinstance(context, list):
+            return [self._resolve_context(v) for v in context]
+
+        else:
+            return context
 
     def _resolve_perk(self, heroes: list, context: dict) -> str | None:
         """Retorna o primeiro perk da party que esteja nos perks usados na quest."""
@@ -81,6 +90,22 @@ class DialogueManager:
             context = {}
 
         resolved_ctx = self._resolve_context(context)
+        
+        # Injeta bits dinâmicos (enemy_detail, place_detail, etc) para uso no .format()
+        dynamic_bits = self._build_dynamic_bits(resolved_ctx)
+        resolved_ctx.update(dynamic_bits)
+        
+        # Garante que todas as chaves gramaticais existam para evitar KeyError
+        grammatical_keys = ["do_enemy", "no_enemy", "ao_enemy", "da_place", "na_place", "enemy", "location"]
+        for k in grammatical_keys:
+            if k not in resolved_ctx:
+                # Tenta fallback para chaves básicas
+                if k == "enemy": resolved_ctx[k] = resolved_ctx.get("enemy_type") or "inimigo"
+                elif k == "location": resolved_ctx[k] = resolved_ctx.get("location_key") or "local"
+                else: resolved_ctx[k] = resolved_ctx.get("enemy") or resolved_ctx.get("location") or ""
+
+        # Converte para SafeDict para proteção extra contra chaves inesperadas
+        safe_ctx = SafeDict(resolved_ctx)
 
         # ── Ordenação narrativa: tank → dps → healer ──────────────────
         ROLE_ORDER = {"tank": 0, "dps": 1, "healer": 2}
@@ -116,6 +141,10 @@ class DialogueManager:
             blocks = hero_data.get("dialogue_blocks", {})
             parts  = []
 
+            narrative_data = resolved_ctx.get("narrative", {})
+            # No novo formato, place/enemy estão dentro de um bloco 'narrative' no JSON do herói
+            hero_narrative = blocks.get("narrative", {})
+                
             # ── ARRIVED: apenas o herói âncora fala ao chegar ─────────
             if hero_id == anchor_id:
                 arrived_texts = (
@@ -124,7 +153,20 @@ class DialogueManager:
                           .get(self.language)
                 )
                 if isinstance(arrived_texts, list) and arrived_texts:
-                    parts.append(random.choice(arrived_texts).format(**resolved_ctx))
+                    parts.append(random.choice(arrived_texts).format(**safe_ctx))
+
+            # 1. Escolhe uma categoria de 'place' (history, feeling, landmark, details)
+            place_categories = ["history", "feeling", "landmark", "details"]
+            random.shuffle(place_categories)
+            for cat in place_categories:
+                hero_place_tpls = hero_narrative.get("place", {}).get(cat, {}).get(self.language)
+                fragments = narrative_data.get("place", {}).get(cat, [])
+                if hero_place_tpls and fragments:
+                    tpl = random.choice(hero_place_tpls)
+                    frag = random.choice(fragments)
+                    parts.append(tpl.replace("{fragment}", frag).format(**safe_ctx))
+                    break
+
 
             # ── ACTION: escolhido pelo tipo da quest ──────────────────
             action_texts = (
@@ -134,21 +176,27 @@ class DialogueManager:
                       .get(self.language)
             )
             if isinstance(action_texts, list) and action_texts:
-                parts.append(random.choice(action_texts).format(**resolved_ctx))
-            else:
-                print(f"[DialogueManager] WARN: sem action '{quest_type}' para herói {hero_id}")
+                parts.append(random.choice(action_texts).format(**safe_ctx))
+
+            # 2. Escolhe uma categoria de 'enemy' (details, attack)
+            enemy_categories = ["details", "attack"]
+            random.shuffle(enemy_categories)
+            for cat in enemy_categories:
+                hero_enemy_tpls = hero_narrative.get("enemy", {}).get(cat, {}).get(self.language)
+                fragments = narrative_data.get("enemy", {}).get(cat, [])
+                if hero_enemy_tpls and fragments:
+                    tpl = random.choice(hero_enemy_tpls)
+                    frag = random.choice(fragments)
+                    parts.append(tpl.replace("{fragment}", frag).format(**safe_ctx))
+                    break
 
             # ── OTHERS: menção a outros heróis da party ───────────────
             if len(ordered_heroes) > 1:
                 others_block = blocks.get("others", {})
-
-                # candidatos: todo mundo exceto o próprio herói
                 candidates = [h for h in ordered_heroes if h.id != hero.id]
-                random.shuffle(candidates)  # <- pulo do gato
+                random.shuffle(candidates)
 
                 for other in candidates:
-                    if other.id == hero.id:
-                        continue
                     other_texts = (
                         others_block.get(str(other.id), {})
                                     .get(party_key, {})
@@ -158,13 +206,13 @@ class DialogueManager:
                         text = random.choice(other_texts).replace(
                             "{hero_name}", getattr(other, "name", f"hero_{other.id}")
                         )
-                        parts.append(text.format(**resolved_ctx))
-                        break  # Uma menção por herói é suficiente
+                        parts.append(text.format(**safe_ctx))
+                        break
 
             # ── CONCLUSION: apenas o último herói da party ────────────
             if index == len(ordered_heroes) - 1:
                 if isinstance(conclusion_texts, list) and conclusion_texts:
-                    parts.append(random.choice(conclusion_texts).format(**resolved_ctx))
+                    parts.append(random.choice(conclusion_texts).format(**safe_ctx))
 
             if parts:
                 falas.append({"id": hero_id, "text": " ".join(parts)})
@@ -215,15 +263,45 @@ class DialogueManager:
 
         return falas or [{"id": "assistant", "text": self.lm.t("assistant_fallback_silent_start")}]
     
-"""
-🧪 TESTE SIMPLES PARA DIALOGUE MANAGER
-=======================================
+    def _pick_from_context(self, ctx_list):
+        if isinstance(ctx_list, list) and ctx_list:
+            return random.choice(ctx_list)
+        return ""
 
-Cole este código no final do seu core/dialogue_manager.py
+    def _build_dynamic_bits(self, resolved_ctx):
+        narrative = resolved_ctx.get("narrative", {})
 
-Execute: python core/dialogue_manager.py
-Digite os IDs e veja o resultado!
-"""
+        enemy = narrative.get("enemy", {})
+        place = narrative.get("place", {})
+
+        # Obtém dados dos sujeitos/locais para concordância
+        # Note: 'enemy_data' e 'sub_loc_data' precisariam ser passados no context
+        # Se não estiverem lá, o LM usará a lógica padrão de string
+        enemy_data = resolved_ctx.get("enemy_data", {})
+        sub_loc_data = resolved_ctx.get("sub_location_data", {})
+
+        bits = {
+            "enemy_detail": self._pick_from_context(enemy.get("details", [])),
+            "enemy_attack": self._pick_from_context(enemy.get("attack", [])),
+            "place_detail": self._pick_from_context(place.get("details", [])),
+            "place_feeling": self._pick_from_context(place.get("feeling", [])),
+            "place_history": self._pick_from_context(place.get("history", [])),
+        }
+
+        # Adiciona versões com preposição se os dados estiverem disponíveis
+        if enemy_data:
+            bits["do_enemy"] = self.lm.get_with_preposition(enemy_data, "de")
+            bits["no_enemy"] = self.lm.get_with_preposition(enemy_data, "em")
+            bits["ao_enemy"] = self.lm.get_with_preposition(enemy_data, "a")
+            bits["o_enemy"] = self.lm.get_with_preposition(enemy_data, "o")
+            bits["um_enemy"] = self.lm.get_with_preposition(enemy_data, "um")
+        
+        if sub_loc_data:
+            bits["da_place"] = self.lm.get_with_preposition(sub_loc_data, "de")
+            bits["na_place"] = self.lm.get_with_preposition(sub_loc_data, "em")
+            bits["a_place"] = self.lm.get_with_preposition(sub_loc_data, "a")
+
+        return bits
 
 if __name__ == "__main__":
     import os

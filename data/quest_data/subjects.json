@@ -1,0 +1,2239 @@
+{
+  "slimes": {
+    "id": 1,
+    "category": "slime",
+    "locations": [
+      "cave",
+      "mine",
+      "fields",
+      "camp",
+      "wilds"
+    ],
+    "power": 0.9,
+    "min_level": 1,
+    "max_level": 3,
+    "weight": 40,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "slimes",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos",
+      "with_o": "os",
+      "with_um": "uns"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "slimes",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "slimes",
+      "article_indefinite": ""
+    },
+    "zh": {
+      "number": "plural",
+      "text": "史莱姆",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "plural",
+      "text": "スライム",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "plural",
+      "text": "слизни",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "o núcleo brilhante e translúcido",
+          "en": "glowing and translucent core",
+          "es": "el núcleo brillante y translúcido",
+          "ru": "светящееся и прозрачное ядро",
+          "ja": "輝く半透明の核",
+          "zh": "闪烁且半透明的核心"
+        },
+        {
+          "pt": "o corpo gelatinoso",
+          "en": "gelatinous body",
+          "es": "el cuerpo gelatinoso",
+          "ru": "желатиноподобное тело",
+          "ja": "ゼリーのような体",
+          "zh": "胶状的身体"
+        },
+        {
+          "pt": "a superfície fria e pegajosa",
+          "en": "cold and sticky surface",
+          "es": "la superficie fría y pegajosa",
+          "ru": "холодная и липкая поверхность",
+          "ja": "冷たくてベたつく表面",
+          "zh": "冰冷且粘稠的表面"
+        },
+        {
+          "pt": "o movimento de rastro viscoso",
+          "en": "viscous trail movement",
+          "es": "el movimiento de rastro viscoso",
+          "ru": "движение по вязкому следу",
+          "ja": "粘液の跡を残す動き",
+          "zh": "留下粘液足迹的移动"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o salto e impacto esmagador",
+          "en": "leap and crushing impact",
+          "es": "el salto e impacto aplastante",
+          "ru": "прыжок и сокрушительный удар",
+          "ja": "跳躍からの体当たり",
+          "zh": "跳跃重压"
+        },
+        {
+          "pt": "a tentativa de engolir o alvo inteiro",
+          "en": "attempt to engulf the target whole",
+          "es": "el intento de engullir al objetivo entero",
+          "ru": "попытка поглотить цель целиком",
+          "ja": "標的を丸呑みにしようとする動き",
+          "zh": "试图整口吞下目标"
+        },
+        {
+          "pt": "a absorção de objetos para regeneração",
+          "en": "absorption of objects for regeneration",
+          "es": "la absorción de objetos para regeneración",
+          "ru": "поглощение объектов для регенерации",
+          "ja": "再生のための物体吸収",
+          "zh": "吸收物体以进行再生"
+        }
+      ]
+    }
+  },
+  "cave_worm": {
+    "id": 5,
+    "category": "monster",
+    "locations": [
+      "cave",
+      "mine"
+    ],
+    "power": 2.8,
+    "min_level": 5,
+    "max_level": 12,
+    "weight": 850,
+    "pt": {
+      "gender": "m",
+      "number": "singular",
+      "text": "verme das cavernas",
+      "with_em": "no",
+      "with_de": "do",
+      "with_a": "ao"
+    },
+    "es": {
+      "gender": "m",
+      "number": "singular",
+      "text": "gusano de las cavernas",
+      "article_definite": "el",
+      "article_indefinite": "un"
+    },
+    "en": {
+      "number": "singular",
+      "text": "cave worm",
+      "article_indefinite": "a"
+    },
+    "ru": {
+      "gender": "m",
+      "number": "singular",
+      "text": "пещерный червь"
+    },
+    "ja": {
+      "number": "singular",
+      "text": "ケィヴ・ワーム"
+    },
+    "zh": {
+      "number": "singular",
+      "text": "洞穴蠕虫"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "as mandíbulas circulares com fileiras de dentes",
+          "en": "circular mandibles with rows of teeth",
+          "es": "las mandíbulas circulares con hileras de dientes",
+          "ru": "циркулярные челюсти с рядами зубов",
+          "ja": "幾重にも並んだ円形の牙",
+          "zh": "带着排排利齿的圆形口器"
+        },
+        {
+          "pt": "o corpo segmentado coberto por muco ácido",
+          "en": "segmented body covered in acidic mucus",
+          "es": "el cuerpo segmentado cubierto de muco ácido",
+          "ru": "сегментированное тело, покрытое кислотной слизью",
+          "ja": "酸性の粘液に覆われた節のある体",
+          "zh": "覆盖着酸性粘液的分节身体"
+        },
+        {
+          "pt": "a vibração rítmica vinda das paredes",
+          "en": "rhythmic vibration coming from the walls",
+          "es": "la vibración rítmica proveniente de las paredes",
+          "ru": "ритмичная вибрация, исходящая от стен",
+          "ja": "壁から伝わる規則的な振動",
+          "zh": "墙壁传来的节奏性震动"
+        },
+        {
+          "pt": "a ausência de olhos e pele pálida",
+          "en": "absence of eyes and pale skin",
+          "es": "la ausencia de ojos y piel pálida",
+          "ru": "отсутствие глаз и бледная кожа",
+          "ja": "目のない顔と青白い皮膚",
+          "zh": "没有眼睛和苍白的皮肤"
+        },
+        {
+          "pt": "o eco de terra sendo triturada",
+          "en": "echo of earth being crushed",
+          "es": "el eco de tierra siendo triturada",
+          "ru": "эхо дробящейся земли",
+          "ja": "土が削り取られるエコー",
+          "zh": "大地被粉碎的回响"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o bote vertical vindo do solo",
+          "en": "vertical strike from the ground",
+          "es": "la embestida vertical desde el suelo",
+          "ru": "вертикальный выпад из-под земли",
+          "ja": "地中からの垂直な奇襲",
+          "zh": "来自地底的垂直冲锋"
+        },
+        {
+          "pt": "o esguicho de bile corrosiva",
+          "en": "corrosive bile spray",
+          "es": "el chorro de bilis corrosiva",
+          "ru": "плевок коррозийной желчью",
+          "ja": "腐食性の胆汁の噴射",
+          "zh": "腐蚀性胆汁喷射"
+        },
+        {
+          "pt": "a tentativa de engolir o alvo inteiro",
+          "en": "attempt to swallow the target whole",
+          "es": "el intento de tragar al objetivo entero",
+          "ru": "попытка проглотить цель целиком",
+          "ja": "標的を丸呑みにしようとする動き",
+          "zh": "试图整口吞下目标"
+        },
+        {
+          "pt": "o golpe de cauda contra as paredes da caverna",
+          "en": "tail slam against the cave walls",
+          "es": "el golpe de cola contra las paredes de la cueva",
+          "ru": "удар хвостом о стены пещеры",
+          "ja": "洞窟の壁を叩く尾の一撃",
+          "zh": "横扫洞穴墙壁的尾击"
+        },
+        {
+          "pt": "a constrição esmagadora em túneis estreitos",
+          "en": "crushing constriction in narrow tunnels",
+          "es": "la constricción aplastante en túneles estrechos",
+          "ru": "сокрушительное сдавливание в узких туннелях",
+          "ja": "狭いトンネルでの締め付け",
+          "zh": "在狭窄隧道中的粉碎性绞杀"
+        }
+      ]
+    }
+  },
+  "spiders": {
+    "id": 6,
+    "category": "monster",
+    "locations": [
+      "cave",
+      "mine"
+    ],
+    "power": 2.1,
+    "min_level": 6,
+    "max_level": 8,
+    "weight": 40,
+    "pt": {
+      "gender": "f",
+      "number": "plural",
+      "text": "aranhas",
+      "with_em": "nas",
+      "with_de": "das",
+      "with_a": "ás"
+    },
+    "es": {
+      "gender": "f",
+      "number": "plural",
+      "text": "arañas",
+      "article_definite": "las",
+      "article_indefinite": "unas"
+    },
+    "en": {
+      "number": "plural",
+      "text": "spiders",
+      "article_indefinite": ""
+    },
+    "zh": {
+      "number": "plural",
+      "text": "蜘蛛",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "plural",
+      "text": "蜘蛛",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "plural",
+      "text": "пауки",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "os vários olhos compostos que brilham no escuro",
+          "en": "multiple compound eyes that glow in the dark",
+          "es": "los varios ojos compuestos que brillan en la oscuridad",
+          "ru": "множество фасеточных глаз, светящихся в темноте",
+          "ja": "暗闇で光る複数の複眼",
+          "zh": "在黑暗中闪烁的多个复眼"
+        },
+        {
+          "pt": "as pernas longas e peludas que se movem silenciosamente",
+          "en": "long hairy legs that move silently",
+          "es": "las patas largas y peludas que se mueven silenciosamente",
+          "ru": "длинные волосатые лапы, движущиеся бесшумно",
+          "ja": "静かに動く長く毛むくじゃらの脚",
+          "zh": "无声移动的长毛腿"
+        },
+        {
+          "pt": "o abdômen pulsante pronto para expelir seda",
+          "en": "pulsating abdomen ready to expel silk",
+          "es": "el abdomen pulsante listo para expeler seda",
+          "ru": "пульсирующее брюшко, готовое выпустить паутину",
+          "ja": "糸を吐き出そうと脈動する腹部",
+          "zh": "准备吐丝的脉动腹部"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o disparo de teia pegajosa e paralisante",
+          "en": "shot of sticky and paralyzing web",
+          "es": "el disparo de telaraña pegajosa y paralizante",
+          "ru": "выстрел липкой и парализующей паутиной",
+          "ja": "粘着性のある麻痺糸の放出",
+          "zh": "发射粘性麻痹蛛网"
+        },
+        {
+          "pt": "o bote rápido com quelíceras venenosas",
+          "en": "fast strike with venomous chelicerae",
+          "es": "el ataque rápido con quelíceros venenosos",
+          "ru": "быстрый выпад ядовитыми хелицерами",
+          "ja": "毒牙による素早い噛みつき",
+          "zh": "带毒螯肢的快速攻击"
+        },
+        {
+          "pt": "o salto surpresa vindo do teto",
+          "en": "surprise leap from the ceiling",
+          "es": "el salto sorpresa desde el techo",
+          "ru": "внезапный прыжок с потолка",
+          "ja": "天井からの奇襲ジャンプ",
+          "zh": "来自天花板的突袭跳跃"
+        }
+      ]
+    }
+  },
+  "elementals": {
+    "id": 9,
+    "category": "elemental",
+    "locations": [
+      "wilds",
+      "camp",
+      "fields",
+      "village"
+    ],
+    "min_level": 7,
+    "max_level": 9,
+    "weight": 40,
+    "power": 9.0,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "elementais",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "elementales",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "elementals",
+      "article_indefinite": ""
+    },
+    "zh": {
+      "number": "plural",
+      "text": "元素",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "plural",
+      "text": "エレメンタル",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "plural",
+      "text": "элементали",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "o corpo composto por energia pura e instável",
+          "en": "body composed of pure and unstable energy",
+          "es": "el cuerpo compuesto por energía pura e inestable",
+          "ru": "тело, состоящее из чистой и нестабильной энергии",
+          "ja": "純粋で不安定なエネルギーで構成された体",
+          "zh": "由纯净而不稳定的能量构成的身体"
+        },
+        {
+          "pt": "um núcleo brilhante que sustenta sua forma física",
+          "en": "a glowing core that sustains its physical form",
+          "es": "un núcleo brillante que sustenta su forma física",
+          "ru": "светящееся ядро, поддерживающее его физическую форму",
+          "ja": "その肉体を維持する輝く核",
+          "zh": "维持其物理形态的闪耀核心"
+        },
+        {
+          "pt": "a presença que altera as condições do ambiente ao redor",
+          "en": "presence that alters the surrounding environmental conditions",
+          "es": "la presencia que altera las condiciones del ambiente circundante",
+          "ru": "присутствие, изменяющее условия окружающей среды",
+          "ja": "周囲の環境条件を変化させる存在感",
+          "zh": "改变周围环境条件的特殊存在"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "a explosão concentrada de poder bruto",
+          "en": "concentrated burst of raw power",
+          "es": "la explosión concentrada de poder bruto",
+          "ru": "концентрированный взрыв чистой мощи",
+          "ja": "凝縮された生の力の爆発",
+          "zh": "原始力量的集中爆发"
+        },
+        {
+          "pt": "o golpe físico imbuído de essência elemental",
+          "en": "physical blow imbued with elemental essence",
+          "es": "el golpe físico imbuido de esencia elemental",
+          "ru": "физический удар, наполненный элементальной сущностью",
+          "ja": "属性の精髄を宿した物理的打撃",
+          "zh": "蕴含元素精华的物理打击"
+        },
+        {
+          "pt": "a liberação de uma onda de energia em área",
+          "en": "release of an area-of-effect energy wave",
+          "es": "la liberación de una onda de energía en área",
+          "ru": "высвобождение волны энергии по площади",
+          "ja": "広範囲へのエネルギー波の放出",
+          "zh": "释放范围能量波"
+        }
+      ]
+    }
+  },
+  "goblins": {
+    "id": 10,
+    "category": "humanoid",
+    "locations": [
+      "camp",
+      "bridge",
+      "village",
+      "wilds",
+      "farm"
+    ],
+    "power": 1.4,
+    "min_level": 2,
+    "max_level": 4,
+    "weight": 40,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "goblins",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "goblins",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "goblins",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "gender": "m",
+      "number": "plural",
+      "text": "гоблины"
+    },
+    "ja": {
+      "number": "plural",
+      "text": "ゴブリン"
+    },
+    "zh": {
+      "number": "plural",
+      "text": "哥布林"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "a pele esverdeada e orelhas pontiagudas",
+          "en": "greenish skin and pointed ears",
+          "es": "la piel verdosa y orejas puntiagudas",
+          "ru": "зеленоватая кожа и заостренные уши",
+          "ja": "緑がかった肌と尖った耳",
+          "zh": "青绿色的皮肤和尖耳朵"
+        },
+        {
+          "pt": "as armaduras feitas de sucata e restos",
+          "en": "armor made of scrap and leftovers",
+          "es": "las armaduras hechas de chatarra y restos",
+          "ru": "доспехи из металлолома и объедков",
+          "ja": "クズ鉄や残骸で作られた防具",
+          "zh": "由废料和残渣制成的盔甲"
+        },
+        {
+          "pt": "os olhares maliciosos e dentes tortos",
+          "en": "malicious glares and crooked teeth",
+          "es": "las miradas maliciosas y dientes torcidos",
+          "ru": "злобные взгляды и кривые зубы",
+          "ja": "悪意に満ちた眼差しと曲がった歯",
+          "zh": "狡黠的眼神和歪斜的牙齿"
+        },
+        {
+          "pt": "o riso estridente e hálito fétido",
+          "en": "shrill laughter and foul breath",
+          "es": "la risa estridente y aliento fétido",
+          "ru": "пронзительный смех и зловонное дыхание",
+          "ja": "耳障りな笑い声とひどい口臭",
+          "zh": "尖锐的笑声和口臭"
+        },
+        {
+          "pt": "o cheiro de fumaça e óleo barato",
+          "en": "smell of smoke and cheap oil",
+          "es": "el olor a humo y aceite barato",
+          "ru": "запах дыма и дешевого масла",
+          "ja": "煙と安物の油の臭い",
+          "zh": "烟味和廉价机油的味道"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "as estocadas rápidas com adagas enferrujadas",
+          "en": "quick thrusts with rusty daggers",
+          "es": "las estocadas rápidas con dagas oxidadas",
+          "ru": "быстрые выпады ржавыми кинжалами",
+          "ja": "錆びた短剣による素早い刺突",
+          "zh": "生锈匕首的快速刺击"
+        },
+        {
+          "pt": "o arremesso de pedras e objetos pesados",
+          "en": "throwing stones and heavy objects",
+          "es": "el lanzamiento de piedras y objetos pesados",
+          "ru": "метание камней и тяжелых предметов",
+          "ja": "石や重い物の投げつけ",
+          "zh": "投掷石块和重物"
+        },
+        {
+          "pt": "os ataques coordenados em bando",
+          "en": "coordinated pack attacks",
+          "es": "los ataques coordinados en manada",
+          "ru": "скоординированные атаки стаей",
+          "ja": "集団による連携攻撃",
+          "zh": "成群结队的协同攻击"
+        },
+        {
+          "pt": "o uso de bombas de fumaça rudimentares",
+          "en": "use of rudimentary smoke bombs",
+          "es": "el uso de bombas de humo rudimentarias",
+          "ru": "использование грубых дымовых шашек",
+          "ja": "粗末な煙幕弾の使用",
+          "zh": "使用粗糙的烟雾弹"
+        },
+        {
+          "pt": "as mordidas e arranhões desesperados",
+          "en": "desperate bites and scratches",
+          "es": "las mordeduras y arañazos desesperados",
+          "ru": "отчаянные укусы и царапины",
+          "ja": "必死な噛みつきと引っ掻き",
+          "zh": "拼死咬击与抓挠"
+        }
+      ]
+    }
+  },
+  "gnolls": {
+    "id": 11,
+    "category": "humanoid",
+    "locations": [
+      "camp",
+      "bridge",
+      "village",
+      "wilds",
+      "farm"
+    ],
+    "power": 1.8,
+    "min_level": 3,
+    "max_level": 5,
+    "weight": 35,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "gnolls",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "gnolls",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "gnolls",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "gender": "m",
+      "number": "plural",
+      "text": "гноллы"
+    },
+    "ja": {
+      "number": "plural",
+      "text": "ノール"
+    },
+    "zh": {
+      "number": "plural",
+      "text": "豺狼人"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "os humanoides com características de hiena e pelos eriçados",
+          "en": "humanoids with hyena-like features and bristly fur",
+          "es": "los humanoides con características de hiena y pelaje erizado",
+          "ru": "гуманоиды с чертами гиены и дыбом стоящей шерстью",
+          "ja": "ハイエナのような特徴と逆立った毛を持つ人型生物",
+          "zh": "具有类似鬣狗特征和鬃毛耸立的人型生物"
+        },
+        {
+          "pt": "as risadas histéricas que ecoam durante a caçada",
+          "en": "hysterical laughter echoing during the hunt",
+          "es": "las risas histéricas que resuenan durante la caza",
+          "ru": "истерический смех, раздающийся во время охоты",
+          "ja": "狩りの最中に響き渡るヒステリックな笑い声",
+          "zh": "狩猎时回荡着歇斯底里的笑声"
+        },
+        {
+          "pt": "as armas rudimentares adornadas com dentes e ossos",
+          "en": "rudimentary weapons adorned with teeth and bones",
+          "es": "las armas rudimentarias adornadas con dientes y huesos",
+          "ru": "грубое оружие, украшенное зубами и костями",
+          "ja": "牙や骨で飾られた粗末な武器",
+          "zh": "用牙齿和骨头装饰的粗糙武器"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "a mordida feroz visando os membros do alvo",
+          "en": "ferocious bite targeting the target's limbs",
+          "es": "la mordida feroz dirigida a las extremidades del objetivo",
+          "ru": "свирепый укус, нацеленный на конечности жертвы",
+          "ja": "標本の四肢を狙った猛烈な噛みつき",
+          "zh": "针对目标肢体的凶猛咬击"
+        },
+        {
+          "pt": "o ataque frenético com manguais de osso",
+          "en": "frenzied attack with bone flails",
+          "es": "el ataque frenético con manguales de hueso",
+          "ru": "яростная атака костяными цепами",
+          "ja": "骨製のフレイルによる狂乱の攻撃",
+          "zh": "使用骨枷进行的狂暴攻击"
+        },
+        {
+          "pt": "a investida coordenada em alcateia",
+          "en": "coordinated pack charge",
+          "es": "la carga coordinada em manada",
+          "ru": "скоординированный групповой наскок",
+          "ja": "群れによる組織的な突撃",
+          "zh": "成群结队的协同冲锋"
+        }
+      ]
+    }
+  },
+  "harpies": {
+    "id": 12,
+    "category": "humanoid",
+    "locations": [
+      "farm",
+      "wilds"
+    ],
+    "power": 3.4,
+    "min_level": 3,
+    "max_level": 5,
+    "weight": 40,
+    "pt": {
+      "gender": "f",
+      "number": "plural",
+      "text": "harpias",
+      "with_em": "nas",
+      "with_de": "das",
+      "with_a": "ás"
+    },
+    "es": {
+      "gender": "f",
+      "number": "plural",
+      "text": "arpías",
+      "article_definite": "las",
+      "article_indefinite": "unas"
+    },
+    "en": {
+      "number": "plural",
+      "text": "harpies",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "gender": "f",
+      "number": "plural",
+      "text": "гарпии"
+    },
+    "ja": {
+      "number": "plural",
+      "text": "ハーピー"
+    },
+    "zh": {
+      "number": "plural",
+      "text": "鹰身女妖"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "as criaturas aladas com torso humano e garras afiadas",
+          "en": "winged creatures with human torsos and sharp talons",
+          "es": "las criaturas aladas con torso humano y garras afiladas",
+          "ru": "крылатые существа с человеческим торсом и острыми когтями",
+          "ja": "人間の胴体と鋭い爪を持つ翼のある生物",
+          "zh": "拥有人类躯干和锋利爪子的有翼生物"
+        },
+        {
+          "pt": "as penas sujas e olhos que buscam presas do alto",
+          "en": "dirty feathers and eyes searching for prey from above",
+          "es": "las plumas sucias y ojos que buscan presas desde lo alto",
+          "ru": "грязные перья и глаза, ищущие добычу сверху",
+          "ja": "汚れた羽と上空から獲物を探す瞳",
+          "zh": "肮脏的羽毛和在高空搜寻猎物的眼睛"
+        },
+        {
+          "pt": "um grito agudo que ecoa pelos campos abertos",
+          "en": "a high-pitched shriek echoing through the open fields",
+          "es": "un grito agudo que resuena por los campos abiertos",
+          "ru": "пронзительный крик, эхом разносящийся по открытым полям",
+          "ja": "開けた野原に響き渡る高音の叫び声",
+          "zh": "回荡在开阔田野上的尖锐嘶鸣"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o mergulho rápido com garras em riste",
+          "en": "swift dive with talons ready",
+          "es": "el picado rápido con garras listas",
+          "ru": "быстрое пикирование с выпущенными когтями",
+          "ja": "鋭い爪を立てた素早い急降下",
+          "zh": "亮出利爪的快速俯冲"
+        },
+        {
+          "pt": "o golpe de asa para desorientar o inimigo",
+          "en": "wing gust to disorient the enemy",
+          "es": "el golpe de ala para desorientar al enemigo",
+          "ru": "удар крылом, чтобы дезориентировать противника",
+          "ja": "敵を混乱させる翼の一撃",
+          "zh": "拍打双翼令敌人眩晕"
+        },
+        {
+          "pt": "o canto estridente que causa dor de cabeça",
+          "en": "piercing song that causes headaches",
+          "es": "el canto estridente que causa dolor de cabeza",
+          "ru": "пронзительное пение, вызывающее головную боль",
+          "ja": "頭痛を引き起こす耳障りな歌声",
+          "zh": "引起头痛的刺耳鸣叫"
+        }
+      ]
+    }
+  },
+  "orc": {
+    "id": 13,
+    "category": "humanoid",
+    "locations": [
+      "camp",
+      "bridge",
+      "village",
+      "farm",
+      "wilds"
+    ],
+    "power": 2.2,
+    "min_level": 3,
+    "max_level": 5,
+    "weight": 40,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "orcs",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "orcos",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "orcs",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "gender": "m",
+      "number": "plural",
+      "text": "орки"
+    },
+    "ja": {
+      "number": "plural",
+      "text": "オーク"
+    },
+    "zh": {
+      "number": "plural",
+      "text": "兽人"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "os guerreiros robustos de pele esverdeada e presas proeminentes",
+          "en": "sturdy green-skinned warriors with prominent tusks",
+          "es": "los guerreros robustos de piel verdosa y colmillos prominentes",
+          "ru": "крепкие зеленокожие воины с выдающимися клыками",
+          "ja": "たくましい緑色の肌と突き出た牙を持つ戦士",
+          "zh": "皮肤青绿、獠牙突出的强壮战士"
+        },
+        {
+          "pt": "as armaduras pesadas marcadas por cicatrizes de inúmeras batalhas",
+          "en": "heavy armor marked by scars from countless battles",
+          "es": "las armaduras pesadas marcadas por cicatrices de innumerables batallas",
+          "ru": "тяжелые доспехи, покрытые шрамами бесчисленных сражений",
+          "ja": "数々の戦いの傷跡が刻まれた重厚な鎧",
+          "zh": "布满无数战斗伤痕 exploration 的重型盔甲"
+        },
+        {
+          "pt": "um grito de guerra gutural que impõe medo aos fracos",
+          "en": "a guttural war cry that strikes fear into the weak",
+          "es": "un grito de guerra gutural que impone miedo a los débiles",
+          "ru": "гортанный боевой клич, внушающий страх слабым",
+          "ja": "弱者に恐怖を与える野太い雄叫び",
+          "zh": "令弱者胆寒的低沉战吼"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o golpe esmagador com um machado de batalha",
+          "en": "crushing blow with a battle axe",
+          "es": "el golpe aplastante con un hacha de batalla",
+          "ru": "сокрушительный удар боевым топором",
+          "ja": "戦斧による一撃粉砕",
+          "zh": "战斧重劈"
+        },
+        {
+          "pt": "a investida brutal que derruba o oponente",
+          "en": "brutal charge that knocks down the opponent",
+          "es": "la carga brutal que derriba al oponente",
+          "ru": "жестокий натиск, сбивающий противника с ног",
+          "ja": "敵をなぎ倒す荒々しい突撃",
+          "zh": "击倒对手的残暴冲锋"
+        },
+        {
+          "pt": "a sequência de ataques ferozes e incansáveis",
+          "en": "sequence of fierce and relentless attacks",
+          "es": "la secuencia de ataques feroces e incansables",
+          "ru": "серия яростных и неустанных атак",
+          "ja": "猛烈で容赦のない連続攻撃",
+          "zh": "凶狠且不间断的连击"
+        }
+      ]
+    }
+  },
+  "trolls": {
+    "id": 14,
+    "category": "humanoid",
+    "locations": [
+      "fields",
+      "wilds",
+      "farm"
+    ],
+    "power": 5.6,
+    "min_level": 7,
+    "max_level": 9,
+    "weight": 40,
+    "pt": {
+      "gender": "m",
+      "number": "singular",
+      "text": "troll",
+      "with_em": "no",
+      "with_de": "do",
+      "with_a": "ao"
+    },
+    "es": {
+      "gender": "m",
+      "number": "singular",
+      "text": "trol",
+      "article_definite": "el",
+      "article_indefinite": "un"
+    },
+    "en": {
+      "number": "singular",
+      "text": "troll",
+      "article_indefinite": "a"
+    },
+    "ru": {
+      "gender": "m",
+      "number": "singular",
+      "text": "тролль"
+    },
+    "ja": {
+      "number": "singular",
+      "text": "トロール"
+    },
+    "zh": {
+      "number": "singular",
+      "text": "巨魔"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "uma criatura colossal com pele rígida e regeneração acelerada",
+          "en": "a colossal creature with tough skin and accelerated regeneration",
+          "es": "una criatura colosal con piel rígida y regeneración acelerada",
+          "ru": "колоссальное существо с жесткой кожей и ускоренной регенерацией",
+          "ja": "頑丈な皮膚と驚異的な再生能力を持つ巨大な生物",
+          "zh": "皮肤坚韧且拥有加速再生能力的巨型生物"
+        },
+        {
+          "pt": "o olhar animalesco e braços longos que arrastam no solo",
+          "en": "animalistic gaze and long arms that drag on the ground",
+          "es": "la mirada animalesca y brazos largos que se arrastran por el suelo",
+          "ru": "звериный взгляд и длинные руки, волочащиеся по земле",
+          "ja": "獣のような眼差しと、地面を引きずる長い腕",
+          "zh": "兽性的眼神和拖在地上的长臂"
+        },
+        {
+          "pt": "um odor fétido de carne podre e musgo úmido",
+          "en": "a foul odor of rotting meat and damp moss",
+          "es": "un olor fétido a carne podrida y musgo húmedo",
+          "ru": "зловонный запах гнилого мяса и сырого мха",
+          "ja": "腐肉と湿った苔のひどい悪臭",
+          "zh": "散发着腐肉和潮湿苔藓 tear 恶臭"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o golpe esmagador com um tronco de árvore ou clava",
+          "en": "crushing blow with a tree trunk or club",
+          "es": "el golpe aplastante con un tronco de árbol o maza",
+          "ru": "сокрушительный удар стволом дерева или палицей",
+          "ja": "丸太や棍棒による粉砕攻撃",
+          "zh": "使用树干或木槌的粉碎重击"
+        },
+        {
+          "pt": "o arremesso de rochas maciças à longa distância",
+          "en": "throwing massive rocks at long range",
+          "es": "el lanzamiento de rocas macizas a larga distancia",
+          "ru": "бросок массивных валунов на большое расстояние",
+          "ja": "遠距離からの巨大な岩の投げつけ",
+          "zh": "远距离投掷巨石"
+        },
+        {
+          "pt": "o rugido ensurdecedor que paralisa as vítimas",
+          "en": "deafening roar that paralyzes victims",
+          "es": "el rugido ensordecedor que paraliza a las víctimas",
+          "ru": "оглушительный рев, парализующий жертв",
+          "ja": "犠牲者をすくませる耳をんざんばかりの咆哮",
+          "zh": "令受害者瘫痪的震耳欲聋的吼叫"
+        }
+      ]
+    }
+  },
+  "kobolds": {
+    "id": 15,
+    "category": "humanoid",
+    "locations": [
+      "cave",
+      "mine"
+    ],
+    "power": 1.6,
+    "min_level": 2,
+    "max_level": 5,
+    "weight": 35,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "kobolds",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "kobolds",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "kobolds",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "gender": "m",
+      "number": "plural",
+      "text": "кобольды"
+    },
+    "ja": {
+      "number": "plural",
+      "text": "コボルド"
+    },
+    "zh": {
+      "number": "plural",
+      "text": "狗头人"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "o cheiro de enxofre e as escamas foscas",
+          "en": "the smell of sulfur and dull scales",
+          "es": "el olor a azufre y las escamas opacas",
+          "ru": "запах серы и тусклая чешуя",
+          "ja": "硫黄の臭いとくすんだ鱗",
+          "zh": "硫磺味和暗淡的鳞片"
+        },
+        {
+          "pt": "as armadilhas rudimentares de ossos e cordas",
+          "en": "the rudimentary bone and rope traps",
+          "es": "las trampas rudimentarias de huesos y cuerdas",
+          "ru": "грубые ловушки из костей и веревок",
+          "ja": "骨と紐で作られた粗末な罠",
+          "zh": "粗糙的骨头和绳索陷阱"
+        },
+        {
+          "pt": "o brilho das velas presas em seus elmos",
+          "en": "the glow of candles fastened to their helmets",
+          "es": "el brillo de las velas sujetas a sus cascos",
+          "ru": "блеск свечей, закрепленных на их шлемах",
+          "ja": "兜に固定された蝋燭の灯り",
+          "zh": "固定在头盔上的蜡烛光芒"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "as estocadas desordenadas com picaretas de mineração",
+          "en": "disordered thrusts with mining pickaxes",
+          "es": "las estocadas desordenadas con picos de minería",
+          "ru": "беспорядочные выпады шахтерскими кирками",
+          "ja": "採掘用ツルハシによる乱雑な刺突",
+          "zh": "使用采矿镐进行的杂乱刺击"
+        },
+        {
+          "pt": "o arremesso de bolsas de pólvora instáveis",
+          "en": "throwing unstable gunpowder pouches",
+          "es": "el lanzamiento de bolsas de pólvora inestables",
+          "ru": "метание нестабильных мешочков с порохом",
+          "ja": "不安定な火薬袋の投げつけ",
+          "zh": "投掷不稳定的火药袋"
+        },
+        {
+          "pt": "a emboscada frenética em túneis apertados",
+          "en": "frenzied ambush in cramped tunnels",
+          "es": "la emboscada frenética en túneles estrechos",
+          "ru": "яростная засада в тесных туннелях",
+          "ja": "狭いトンネル内での狂乱の伏兵",
+          "zh": "在狭窄隧道内的疯狂伏击"
+        }
+      ]
+    }
+  },
+  "zombies": {
+    "id": 20,
+    "category": "undead",
+    "power": 1.0,
+    "min_level": 2,
+    "max_level": 4,
+    "weight": 40,
+    "locations": [
+      "graveyard"
+    ],
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "zumbis",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "zombis",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "zombies",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "gender": "m",
+      "number": "plural",
+      "text": "зомби"
+    },
+    "ja": {
+      "number": "plural",
+      "text": "ゾンビ"
+    },
+    "zh": {
+      "number": "plural",
+      "text": "僵尸"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "os corpos em decomposição com movimentos lentos e desajeitados",
+          "en": "decaying bodies with slow and clumsy movements",
+          "es": "los cuerpos en descomposición con movimientos lentos y torpes",
+          "ru": "разлагающиеся тела с медленными и неуклюжими движениями",
+          "ja": "ゆっくりと不器用な動きをする腐敗した体",
+          "zh": "动作迟缓、笨拙的腐烂尸体"
+        },
+        {
+          "pt": "os olhares vazios e gemidos guturais constantes",
+          "en": "vacant stares and constant guttural moans",
+          "es": "las miradas vacías y gemidos guturales constantes",
+          "ru": "пустые взгляды и постоянные гортанные стоны",
+          "ja": "虚ろな眼差しと絶え間ない低いうめき声",
+          "zh": "空洞的眼神和持续的低沉呻吟"
+        },
+        {
+          "pt": "o cheiro insuportável de morte e carne apodrecida",
+          "en": "unbearable smell of death and rotting flesh",
+          "es": "el olor insoportable a muerte y carne podrida",
+          "ru": "невыносимый запах смерти и гнилой плоти",
+          "ja": "耐え難い死の臭いと腐肉の香り",
+          "zh": "令人窒息的死亡和腐肉味"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "a tentativa de agarrar e morder o pescoço",
+          "en": "attempt to grab and bite the neck",
+          "es": "el intento de agarrar y morder el cuello",
+          "ru": "попытка схватить и укусить за шею",
+          "ja": "首を掴んで噛みつこうとする動き",
+          "zh": "尝试抓住并啃咬脖子"
+        },
+        {
+          "pt": "os golpes pesados com membros rígidos",
+          "en": "heavy blows with stiff limbs",
+          "es": "los golpes pesados con extremidades rígidas",
+          "ru": "тяжелые удары окоченевшими конечностями",
+          "ja": "硬直した肢体による重い一撃",
+          "zh": "僵硬肢体的沉重打击"
+        },
+        {
+          "pt": "o cerco lento em horda para encurralar a presa",
+          "en": "slow horde encirclement to corner the prey",
+          "es": "el cerco lento en horda para acorralar a la presa",
+          "ru": "медленное окружение ордой, чтобы загнать жертву в угол",
+          "ja": "獲物を追い詰めるゆっくりとした集団包囲",
+          "zh": "成群结队的缓慢围攻以困住猎物"
+        }
+      ]
+    }
+  },
+  "skeletons": {
+    "id": 21,
+    "category": "undead",
+    "locations": [
+      "graveyard"
+    ],
+    "power": 2,
+    "min_level": 3,
+    "max_level": 5,
+    "weight": 40,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "esqueletos",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "esqueletos",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "skeletons",
+      "article_indefinite": ""
+    },
+    "zh": {
+      "number": "plural",
+      "text": "骷髅",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "plural",
+      "text": "скелеты",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "plural",
+      "text": "スケルトン",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "os ossos amarelados mantidos unidos por uma magia obscura",
+          "en": "yellowish bones held together by dark magic",
+          "es": "los huesos amarillentos mantenidos unidos por magia oscura",
+          "ru": "пожелтевшие кости, удерживаемые вместе темной магией",
+          "ja": "闇の魔法によって繋ぎ止められた黄ばんだ骨",
+          "zh": "被黑暗魔法维持在一起的泛黄骨架"
+        },
+        {
+          "pt": "um brilho pálido e sobrenatural nas órbitas vazias",
+          "en": "a pale supernatural glow in the empty eye sockets",
+          "es": "un brillo pálido y sobrenatural en las cuencas vacías",
+          "ru": "бледное сверхъестественное свечение в пустых глазницах",
+          "ja": "空っぽの眼窩に宿る青白い超自然的な輝き",
+          "zh": "空洞眼眶中闪烁着苍白的超自然光芒"
+        },
+        {
+          "pt": "o som seco de ossos batendo a cada movimento",
+          "en": "the dry sound of clattering bones with every movement",
+          "es": "el sonido seco de huesos chocando con cada movimiento",
+          "ru": "сухой стук костей при каждом движении",
+          "ja": "動くたびに響く乾いた骨のぶつかる音",
+          "zh": "每一次移动都伴随着骨骼摩擦的干巴巴响声"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o ataque preciso com uma espada de ferro enferrujada",
+          "en": "precise strike with a rusty iron sword",
+          "es": "el ataque preciso con una espada de hierro oxidada",
+          "ru": "точный удар ржавым железным мечом",
+          "ja": "錆びた鉄の剣による正確な一撃",
+          "zh": "生锈铁剑的精准打击"
+        },
+        {
+          "pt": "o uso coordenado de escudos para bloquear contra-ataques",
+          "en": "coordinated use of shields to block counterattacks",
+          "es": "el uso coordinado de escudos para bloquear contraataques",
+          "ru": "скоординированное использование щитов для блокирования контратак",
+          "ja": "反撃を阻止するための盾による連携防御",
+          "zh": "协同使用盾牌阻挡反击"
+        },
+        {
+          "pt": "o avanço implacável que ignora o cansaço",
+          "en": "relentless advance that ignores exhaustion",
+          "es": "el avance implacable que ignora el cansancio",
+          "ru": "неумолимое продвижение, игнорирующее усталость",
+          "ja": "疲労を知らぬ容赦ない前進",
+          "zh": "无视疲劳的冷酷推进"
+        }
+      ]
+    }
+  },
+  "ghouls": {
+    "id": 22,
+    "category": "undead",
+    "locations": [
+      "graveyard",
+      "wilds"
+    ],
+    "power": 2.5,
+    "min_level": 3,
+    "max_level": 6,
+    "weight": 30,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "carniçais",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "necrófagos",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "ghouls",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "gender": "m",
+      "number": "plural",
+      "text": "гулы"
+    },
+    "ja": {
+      "number": "plural",
+      "text": "グール"
+    },
+    "zh": {
+      "number": "plural",
+      "text": "食尸鬼"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "as criaturas pálidas e magras com garras feitas para cavar sepulturas",
+          "en": "pale and slender creatures with claws made for digging graves",
+          "es": "las criaturas pálidas y delgadas con garras hechas para cavar tumbas",
+          "ru": "бледные и худые существа с когтями, созданными para рытья могил",
+          "ja": "墓を掘り返すための爪を持つ、蒼白で痩せこけた生物",
+          "zh": "面色苍白、身形消瘦的生物，拥有专为挖掘坟墓而生的利爪"
+        },
+        {
+          "pt": "os movimentos ágeis e quadrúpedes que desafiam a anatomia humana",
+          "en": "agile and quadrupedal movements that defy human anatomy",
+          "es": "los movimientos ágiles y cuadrúpedos que desafían la anatomía humana",
+          "ru": "проворные движения на четырех конечностях, бросающие вызов человеческой анатомии",
+          "ja": "人間の解剖学的構造を無視した、素早い四足歩行の動き",
+          "zh": "违背人类解剖学的敏捷四足动作"
+        },
+        {
+          "pt": "as línguas longas e dentes afiados adaptados para consumir carniça",
+          "en": "long tongues and sharp teeth adapted for consuming carrion",
+          "es": "las lenguas largas y dientes afilados adaptados para consumir carroña",
+          "ru": "длинные языки и острые зубы, приспособленные для поедания падали",
+          "ja": "死肉を喰らうために適応した長い舌と鋭い牙",
+          "zh": "适应于食用腐肉的长舌和利齿"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o bote frenético seguido de uma sequência de arranhões",
+          "en": "frenzied pounce followed by a sequence of scratches",
+          "es": "la embestida frenética seguida de una secuencia de arañazos",
+          "ru": "яростный прыжок, за которым следует серия царапин",
+          "ja": "狂乱の飛びかかりからの連続したひっかき攻撃",
+          "zh": "狂暴的扑击及随后的连续抓挠"
+        },
+        {
+          "pt": "a mordida infectada que causa fraqueza muscular",
+          "en": "infected bite that causes muscle weakness",
+          "es": "la mordida infectada que causa debilidad muscular",
+          "ru": "инфицированный укус, вызывающий мышечную слабость",
+          "ja": "筋力低下を引き起こす感染性の噛みつき",
+          "zh": "导致肌肉无力的感染性咬伤"
+        },
+        {
+          "pt": "o uivo estridente que atrai outros necrófagos próximos",
+          "en": "shrill howl that attracts other nearby ghouls",
+          "es": "el aullido estridente que atrae a otros necrófagos cercanos",
+          "ru": "пронзительный вой, привлекающий других гулов поблизости",
+          "ja": "近くのグールを呼び寄せる耳をつんざくような咆哮",
+          "zh": "吸引附近其他食尸鬼的尖锐嚎叫"
+        }
+      ]
+    }
+  },
+  "wraiths": {
+    "id": 23,
+    "category": "undead",
+    "locations": [
+      "fields",
+      "wilds",
+      "graveyard"
+    ],
+    "power": 5.5,
+    "min_level": 6,
+    "max_level": 9,
+    "weight": 15,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "espectros",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "espectros",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "wraiths",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "gender": "m",
+      "number": "plural",
+      "text": "призрачные духи"
+    },
+    "ja": {
+      "number": "plural",
+      "text": "レイス"
+    },
+    "zh": {
+      "number": "plural",
+      "text": "幽魂"
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "as entidades incorpóreas envoltas em mantos de sombra",
+          "en": "incorporeal entities shrouded in cloaks of shadow",
+          "es": "las entidades incorpóreas envueltas en mantos de sombra",
+          "ru": "бестелесные существа, окутанные плащами из теней",
+          "ja": "影の外套に包まれた実体のない存在",
+          "zh": "笼罩在阴影斗篷中的无形实体"
+        },
+        {
+          "pt": "uma presença gélida que drena o calor e a esperança",
+          "en": "a chilling presence that drains heat and hope",
+          "es": "una presencia gélida que drena el calor y la esperanza",
+          "ru": "леденящее присутствие, высасывающее тепло и надежду",
+          "ja": "熱と希望を奪い去る凍てつくような気配",
+          "zh": "吸走热量和希望的冰冷存在"
+        },
+        {
+          "pt": "as formas flutuantes que parecem ignorar as leis da física",
+          "en": "floating forms that seem to ignore the laws of physics",
+          "es": "las formas flotantes que parecen ignorar las leyes de la física",
+          "ru": "парящие формы, которые, кажется, игнорируют законы физики",
+          "ja": "物理法則を無視しているかのような浮遊する姿",
+          "zh": "仿佛无视物理定律的漂浮形态"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o toque espectral que atravessa armaduras e drena a alma",
+          "en": "spectral touch that passes through armor and drains the soul",
+          "es": "el toque espectral que atraviesa armaduras y drena el alma",
+          "ru": "призрачное прикосновение, проходящее сквозь доспехи и высасывающее душу",
+          "ja": "鎧を通り抜け、魂を削り取る霊的な接触",
+          "zh": "穿透盔甲并吸取灵魂的幽灵触碰"
+        },
+        {
+          "pt": "a lâmina de energia negativa que causa terror absoluto",
+          "en": "blade of negative energy that causes absolute terror",
+          "es": "la hoja de energía negativa que causa terror absoluto",
+          "ru": "клинок негативной энергии, вызывающий абсолютный ужас",
+          "ja": "絶対的な恐怖をもたらす負のエネルギーの刃",
+          "zh": "引起绝对恐惧的负能量之刃"
+        },
+        {
+          "pt": "o grito silencioso que paralisa a mente do oponente",
+          "en": "silent scream that paralyzes the opponent's mind",
+          "es": "el grito silencioso que paraliza la mente del oponente",
+          "ru": "беззвучный крик, парализующий разум противника",
+          "ja": "相手の精神を麻痺させる声なき叫び",
+          "zh": "令对手精神麻痹的无声嘶鸣"
+        }
+      ]
+    }
+  },
+  "rats": {
+    "id": 30,
+    "category": "beast",
+    "locations": [
+      "fields",
+      "wilds",
+      "farm",
+      "village",
+      "camp"
+    ],
+    "power": 0.9,
+    "min_level": 2,
+    "max_level": 3,
+    "weight": 40,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "ratos",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "ratones",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "rats",
+      "article_indefinite": ""
+    },
+    "zh": {
+      "number": "plural",
+      "text": "老鼠",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "plural",
+      "text": "крысы",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "plural",
+      "text": "ネズミ",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "as pequenas criaturas peludas com olhos vermelhos e caudas longas",
+          "en": "small furry creatures with red eyes and long tails",
+          "es": "las pequeñas criaturas peludas com ojos rojos y colas largas",
+          "ru": "маленькие пушистые существа с красными глазами и длинными хвостами",
+          "ja": "赤い目と長い尾を持つ小さな毛むくじゃらの生物",
+          "zh": "长着红眼睛和长尾巴的小型毛茸茸生物"
+        },
+        {
+          "pt": "os movimentos rápidos e furtivos acompanhados de guinchos agudos",
+          "en": "quick and stealthy movements accompanied by high-pitched squeaks",
+          "es": "los movimientos rápidos y furtivos acompañados de chillidos agudos",
+          "ru": "быстрые и скрытные движения, сопровождаемые пронзительным писком",
+          "ja": "高い鳴き声と共に素早く密かに動く姿",
+          "zh": "伴随着尖锐吱吱声的快速且隐秘的动作"
+        },
+        {
+          "pt": "a presença constante em locais sujos ou abandonados",
+          "en": "constant presence in dirty or abandoned places",
+          "es": "la presencia constante en lugares sucios o abandonados",
+          "ru": "постоянное присутствие в грязных или заброшенных местах",
+          "ja": "汚れた場所や廃墟に常に存在する姿",
+          "zh": "常出现在肮脏或废弃的地方"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "a mordida rápida com dentes incisivos afiados",
+          "en": "quick bite with sharp incisor teeth",
+          "es": "la mordida rápida con dientes incisivos afilados",
+          "ru": "быстрый укус острыми резцами",
+          "ja": "鋭い門歯による素早い噛みつき",
+          "zh": "用锋利的门牙快速啃咬"
+        },
+        {
+          "pt": "a investida em bando para sobrecarregar a vítima",
+          "en": "pack charge to overwhelm the victim",
+          "es": "la carga en manada para abrumar a la víctima",
+          "ru": "нападение стаей, чтобы подавить жертву",
+          "ja": "犠牲者を圧倒するための集団による突撃",
+          "zh": "通过成群结队的冲锋压倒受害者"
+        },
+        {
+          "pt": "a transmissão de doenças através de arranhões sujos",
+          "en": "transmission of diseases through dirty scratches",
+          "es": "la transmisión de enfermedades a través de arañazos sucios",
+          "ru": "передача болезней через грязные царапины",
+          "ja": "不潔なひっかき傷による病気の伝染",
+          "zh": "通过肮脏的抓挠传播疾病"
+        }
+      ]
+    }
+  },
+  "boars": {
+    "id": 31,
+    "category": "beast",
+    "locations": [
+      "fields",
+      "wilds",
+      "farm"
+    ],
+    "power": 1.2,
+    "min_level": 2,
+    "max_level": 4,
+    "weight": 50,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "javalis",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "jabalíes",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "boars",
+      "article_indefinite": ""
+    },
+    "zh": {
+      "number": "plural",
+      "text": "野猪",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "plural",
+      "text": "кабаны",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "plural",
+      "text": "イノシシ",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "as bestas robustas com presas afiadas e pelos grossos",
+          "en": "sturdy beasts with sharp tusks and thick fur",
+          "es": "las bestias robustas con colmillos afilados y pelaje grueso",
+          "ru": "крепкие звери с острыми клыками и густой шерстью",
+          "ja": "鋭い牙と厚い毛皮を持つたくましい獣",
+          "zh": "长着锋利獠牙和浓密毛发的强壮野兽"
+        },
+        {
+          "pt": "os olhares agressivos e o hábito de escavar o solo",
+          "en": "aggressive glares and the habit of digging the soil",
+          "es": "las miradas agresivas y el hábito de excavar el suelo",
+          "ru": "агрессивный взгляд и привычка рыть землю",
+          "ja": "攻撃的な眼差しと地面を掘り返す習性",
+          "zh": "凶狠的眼神和挖掘土壤的习性"
+        },
+        {
+          "pt": "um temperamento instável que os torna imprevisíveis",
+          "en": "an unstable temperament that makes them unpredictable",
+          "es": "un temperamento inestable que los hace impredecibles",
+          "ru": "нестабильный темперамент, делающий их непредсказуемыми",
+          "ja": "予測不能なほど気性が荒い性格",
+          "zh": "阴晴不定的脾气使其难以捉摸"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "a investida violenta com a cabeça baixa",
+          "en": "violent charge with head down",
+          "es": "la carga violenta con la cabeza baja",
+          "ru": "яростный таран с опущенной головой",
+          "ja": "頭を下げた猛烈な突進",
+          "zh": "低头猛冲"
+        },
+        {
+          "pt": "o golpe lateral com as presas afiadas",
+          "en": "side strike with sharp tusks",
+          "es": "el golpe lateral con los colmillos afilados",
+          "ru": "боковой удар острыми клыками",
+          "ja": "鋭い牙による横なぎの一撃",
+          "zh": "锋利獠牙 e 侧击"
+        },
+        {
+          "pt": "o pisoteio frenético após derrubar o alvo",
+          "en": "frenzied trampling after knocking down the target",
+          "es": "el pisoteo frenético tras derribar al objetivo",
+          "ru": "яростное топтание после того, как цель сбита с ног",
+          "ja": "標的を倒した後の狂乱の踏みつけ",
+          "zh": "击倒目标后的狂暴踩踏"
+        }
+      ]
+    }
+  },
+  "wolves": {
+    "id": 32,
+    "category": "beast",
+    "locations": [
+      "fields",
+      "wilds",
+      "farm",
+      "village"
+    ],
+    "power": 1.5,
+    "min_level": 3,
+    "max_level": 5,
+    "weight": 45,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "lobos",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "lobos",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "wolves",
+      "article_indefinite": ""
+    },
+    "zh": {
+      "number": "plural",
+      "text": "狼",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "plural",
+      "text": "волки",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "plural",
+      "text": "狼",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "os predadores ágeis com pelos cinzentos e sentidos aguçados",
+          "en": "agile predators with grey fur and sharp senses",
+          "es": "los depredadores ágiles con pelaje grisáceo y sentidos agudos",
+          "ru": "проворные хищники с серой шерстью и острыми чувствами",
+          "ja": "灰色毛と鋭い感覚を持つ素早い捕食者",
+          "zh": "拥有灰色毛发和敏锐感官的敏捷掠食者"
+        },
+        {
+          "pt": "os olhares atentos que brilham sob a luz do luar",
+          "en": "watchful glares that glow under the moonlight",
+          "es": "las miradas atentas que brillan sob la luz de la luna",
+          "ru": "бдительные взгляды, светящиеся в лунном свете",
+          "ja": "月光の下で輝く注意深い眼差し",
+          "zh": "在月光下闪烁的警惕目光"
+        },
+        {
+          "pt": "os uivos melancólicos que servem para coordenar a alcateia",
+          "en": "melancholy howls used to coordinate the pack",
+          "es": "los aullidos melancólicos que sirven para coordinar la manada",
+          "ru": "меланхоличный вой, используемый для координации стаи",
+          "ja": "群れの連携に使われる哀愁を帯びた遠吠え",
+          "zh": "用于协调狼群的忧郁嚎叫"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o bote rápido visando o calcanhar da presa",
+          "en": "quick pounce targeting the prey's heel",
+          "es": "la embestida rápida dirigida al talón de la presa",
+          "ru": "быстрый прыжок с прицелом на пятку жертвы",
+          "ja": "獲物の踵を狙った素早い飛びかかり",
+          "zh": "针对猎物脚踝的快速扑击"
+        },
+        {
+          "pt": "o cerco estratégico para impedir a fuga",
+          "en": "strategic encirclement to prevent escape",
+          "es": "el cerco estratégico para impedir la huida",
+          "ru": "стратегическое окружение для предотвращения побега",
+          "ja": "逃走を防ぐための戦略的な包囲",
+          "zh": "防止逃跑的战略包围"
+        },
+        {
+          "pt": "a mordida em grupo para derrubar oponentes maiores",
+          "en": "group bite to bring down larger opponents",
+          "es": "la mordida en grupo para derribar oponentes más grandes",
+          "ru": "групповой укус, чтобы повалить более крупных противников",
+          "ja": "大型の敵を倒すための集団での噛みつき",
+          "zh": "成群咬合以击倒更大的对手"
+        }
+      ]
+    }
+  },
+  "bats": {
+    "id": 33,
+    "category": "beast",
+    "locations": [
+      "fields",
+      "wilds"
+    ],
+    "power": 0.8,
+    "min_level": 2,
+    "max_level": 4,
+    "weight": 60,
+    "pt": {
+      "gender": "m",
+      "number": "plural",
+      "text": "morcegos",
+      "with_em": "nos",
+      "with_de": "dos",
+      "with_a": "aos"
+    },
+    "es": {
+      "gender": "m",
+      "number": "plural",
+      "text": "murciélagos",
+      "article_definite": "los",
+      "article_indefinite": "unos"
+    },
+    "en": {
+      "number": "plural",
+      "text": "bats",
+      "article_indefinite": ""
+    },
+    "zh": {
+      "number": "plural",
+      "text": "蝙蝠",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "plural",
+      "text": "летучие мыши",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "plural",
+      "text": "コウモリ",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "as pequenas criaturas aladas com membranas de couro e orelhas grandes",
+          "en": "small winged creatures with leathery membranes and large ears",
+          "es": "las pequeñas criaturas aladas con membranas de cuero y orejas grandes",
+          "ru": "маленькие крылатые существа с кожистыми перепонками и большими ушами",
+          "ja": "皮のような膜と大きな耳を持つ小さな翼のある生物",
+          "zh": "长着皮革般薄膜和圆大耳朵的小型有翼生物"
+        },
+        {
+          "pt": "os movimentos erráticos no ar que dificultam o contra-ataque",
+          "en": "erratic airborne movements that make counter-attacks difficult",
+          "es": "los movimientos erráticos en el aire que dificultan o contraataque",
+          "ru": "беспорядочные движения в воздухе, затрудняющие контратаку",
+          "ja": "反撃を困難にする空中での不規則な動き",
+          "zh": "空中飘忽不定的动作使反击变得困难"
+        },
+        {
+          "pt": "vulneráveis à luz forte mas letais na escuridão completa",
+          "en": "vulnerable to bright light but lethal in complete darkness",
+          "es": "vulnerables a la luz fuerte pero letales en la oscuridad completa",
+          "ru": "уязвимы к яркому свету, но смертоносны в полной темноте",
+          "ja": "強い光には弱いが、完全な暗闇では致命的",
+          "zh": "对强光敏感但在完全黑暗中极为致命"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o rasante rápido para morder e recuar",
+          "en": "quick swoop to bite and retreat",
+          "es": "el rasante rápido para morder y retroceder",
+          "ru": "быстрый налет, чтобы укусить и отступить",
+          "ja": "噛みついてからすぐに撤退する素早い急降下",
+          "zh": "快速俯冲咬击并立即撤退"
+        },
+        {
+          "pt": "a emissão de ondas sônicas para desorientar o oponente",
+          "en": "emission of sonic waves to disorient the opponent",
+          "es": "la emisión de ondas sónicas para desorientar al oponente",
+          "ru": "излучение звуковых волн для дезориентации противника",
+          "ja": "相手を混乱させる音波の放出",
+          "zh": "发射超声波令对手眩晕"
+        },
+        {
+          "pt": "a investida em grupo criando uma nuvem de asas",
+          "en": "group charge creating a cloud of wings",
+          "es": "la embestida en grupo criando una nube de alas",
+          "ru": "групповой наскок, создающий облако из крыльев",
+          "ja": "翼の雲を作り出す集団での突撃",
+          "zh": "成群扑击形成一片翼云"
+        }
+      ]
+    }
+  },
+  "bear": {
+    "id": 34,
+    "category": "beast",
+    "locations": [
+      "fields",
+      "wilds",
+      "camp",
+      "village"
+    ],
+    "power": 2.5,
+    "min_level": 4,
+    "max_level": 8,
+    "weight": 15,
+    "pt": {
+      "gender": "m",
+      "number": "singular",
+      "text": "urso",
+      "with_em": "no",
+      "with_de": "do",
+      "with_a": "ao"
+    },
+    "es": {
+      "gender": "m",
+      "number": "singular",
+      "text": "oso",
+      "article_definite": "el",
+      "article_indefinite": "un"
+    },
+    "en": {
+      "number": "singular",
+      "text": "bear",
+      "article_indefinite": "a"
+    },
+    "zh": {
+      "number": "singular",
+      "text": "熊",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "singular",
+      "text": "медведь",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "singular",
+      "text": "クマ",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "uma fera massiva de pelagem espessa e garras poderosas",
+          "en": "a massive beast with thick fur and powerful claws",
+          "es": "una bestia masiva de pelaje espeso y garras poderosas",
+          "ru": "массивный зверь с густой шерстью и мощными когтями",
+          "ja": "厚い毛皮と強力な爪を持つ巨大な獣",
+          "zh": "拥有厚重毛发和强力利爪的巨兽"
+        },
+        {
+          "pt": "a presença territorial que impõe respeito em seu domínio",
+          "en": "territorial presence that commands respect in its domain",
+          "es": "la presencia territorial que impone respeto en su dominio",
+          "ru": "территориальное присутствие, внушающее уважение в своих владениях",
+          "ja": "自らの縄張りで威圧感を与える領土的な存在",
+          "zh": "在其领地内具有令人敬畏的领地意识"
+        },
+        {
+          "pt": "os movimentos lentos que escondem uma velocidade surpreendente no bote",
+          "en": "slow movements that hide a surprising speed when pouncing",
+          "es": "los movimientos lentos que esconden una velocidad sorprendente al atacar",
+          "ru": "медленные движения, скрывающие удивительную скорость при нападении",
+          "ja": "襲いかかる際の驚くべき速さを隠した緩慢な動き",
+          "zh": "看似缓慢的动作下隐藏着惊人的扑击速度"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "a patada esmagadora capaz de quebrar ossos",
+          "en": "crushing paw swipe capable of breaking bones",
+          "es": "el zarpazo aplastante capaz de romper huesos",
+          "ru": "сокрушительный удар лапой, способный ломать кости",
+          "ja": "骨を砕くほどの一撃粉砕",
+          "zh": "能拍碎骨头的重击"
+        },
+        {
+          "pt": "o abraço mortal que imobiliza e sufoca o oponente",
+          "en": "deadly hug that immobilizes and suffocates the opponent",
+          "es": "el abrazo mortal que inmoviliza y asfixia al oponente",
+          "ru": "смертельные объятия, обездвиживающие и удушающие противника",
+          "ja": "相手を拘束し窒息させる死の抱擁",
+          "zh": "令对手动弹不得并窒息的致命拥抱"
+        },
+        {
+          "pt": "o rugido de intimidação que abala o moral do inimigo",
+          "en": "intimidating roar that shakes the enemy's morale",
+          "es": "el rugido de intimidación que debilita a moral del enemigo",
+          "ru": "устрашающий рев, подрывающий боевой дух врага",
+          "ja": "敵の士気を挫く威嚇の咆哮",
+          "zh": "震慑敌方士气的恐惧吼叫"
+        }
+      ]
+    }
+  },
+  "giant_crocodile": {
+    "id": 35,
+    "category": "beast",
+    "locations": [
+      "river"
+    ],
+    "power": 4.5,
+    "min_level": 8,
+    "max_level": 15,
+    "weight": 150,
+    "pt": {
+      "gender": "m",
+      "number": "singular",
+      "text": "crocodilo gigante",
+      "with_em": "no",
+      "with_de": "do",
+      "with_a": "ao"
+    },
+    "es": {
+      "gender": "m",
+      "number": "singular",
+      "text": "cocodrilo gigante",
+      "article_definite": "el",
+      "article_indefinite": "un"
+    },
+    "en": {
+      "number": "singular",
+      "text": "giant crocodile",
+      "article_indefinite": "a"
+    },
+    "zh": {
+      "number": "singular",
+      "text": "巨型鳄鱼",
+      "article_indefinite": ""
+    },
+    "ja": {
+      "number": "singular",
+      "text": "巨大なワニ",
+      "article_indefinite": ""
+    },
+    "ru": {
+      "number": "singular",
+      "text": "гигантский крокодил",
+      "article_indefinite": ""
+    },
+    "context": {
+      "details": [
+        {
+          "pt": "uma bocarra imensa com dentes que lembram estacas de pedra",
+          "en": "an immense maw with teeth resembling stone stakes",
+          "ja": "石の杭のような歯を持つ巨大な大口",
+          "zh": "巨大的大嘴，牙齿像石桩一样"
+        },
+        {
+          "pt": "as escamas reforçadas que parecem uma armadura natural de rocha",
+          "en": "reinforced scales that look like natural rock armor",
+          "ja": "天然の岩の鎧のような強化された鱗",
+          "zh": "看起来像天然岩石盔甲的强化鳞片"
+        },
+        {
+          "pt": "os olhos amarelos que permanecem imóveis acima da linha d'água",
+          "en": "yellow eyes that remain motionless above the waterline",
+          "ja": "水面上にじっと浮かぶ黄色い瞳",
+          "zh": "停留在水面上不动声色的黄色眼睛"
+        }
+      ],
+      "attack": [
+        {
+          "pt": "o giro da morte após uma mordida bem-sucedida",
+          "en": "death roll after a successful bite",
+          "ja": "噛みつき直後のデスロール",
+          "zh": "咬合后的死亡翻滚"
+        },
+        {
+          "pt": "o bote explosivo vindo debaixo da água",
+          "en": "explosive strike coming from underwater",
+          "ja": "水中からの爆発的な奇襲",
+          "zh": "来自水下的爆发性突袭"
+        },
+        {
+          "pt": "o golpe de cauda massivo que gera ondas de choque",
+          "en": "massive tail slap that generates shockwaves",
+          "ja": "衝撃波を生み出す巨大な尾の一撃",
+          "zh": "产生冲击波的巨大尾部扫击"
+        }
+      ]
+    }
+  },
+  "storm": {
+    "id": 70,
+    "pt": "tempestade mágica",
+    "en": "magical storm",
+    "category": "phenomenon",
+    "power": 1.5
+  },
+  "cave": {
+    "id": 71,
+    "pt": "caverna selada",
+    "en": "sealed cave",
+    "category": "place",
+    "power": 0.8
+  },
+  "herbs": {
+    "id": 72,
+    "pt": "ervas raras",
+    "en": "rare herbs",
+    "category": "resource",
+    "power": 0.4
+  },
+  "wall": {
+    "id": 73,
+    "pt": "muralha da cidade",
+    "en": "city wall",
+    "category": "obstacle",
+    "power": 1.1
+  },
+  "road": {
+    "id": 74,
+    "pt": "estrada bloqueada",
+    "en": "blocked road",
+    "category": "route",
+    "power": 0.7
+  },
+  "vault": {
+    "id": 75,
+    "pt": "cofre de ferro",
+    "en": "iron vault",
+    "category": "item",
+    "power": 1.2
+  },
+  "spirits": {
+    "id": 76,
+    "pt": "espíritos antigos",
+    "en": "ancient spirits",
+    "category": "spirit",
+    "power": 1.4
+  },
+  "idol": {
+    "id": 77,
+    "pt": "ídolo sagrado",
+    "en": "sacred idol",
+    "category": "artifact",
+    "power": 0.9
+  },
+  "crowd": {
+    "id": 78,
+    "pt": "multidão enfurecida",
+    "en": "angry crowd",
+    "category": "crowd",
+    "power": 1.1
+  },
+  "crimescene": {
+    "id": 79,
+    "pt": "cena do crime",
+    "en": "crime scene",
+    "category": "event",
+    "power": 0.6
+  },
+  "potion": {
+    "id": 80,
+    "pt": "poção instável",
+    "en": "unstable potion",
+    "category": "item",
+    "power": 1.0
+  },
+  "camp": {
+    "id": 81,
+    "pt": "acampamento inimigo",
+    "en": "enemy camp",
+    "category": "place",
+    "power": 1.3
+  },
+  "bridge": {
+    "id": 82,
+    "pt": "ponte quebrada",
+    "en": "broken bridge",
+    "category": "obstacle",
+    "power": 0.6
+  },
+  "grimoire": {
+    "id": 83,
+    "pt": "grimório amaldiçoado",
+    "en": "cursed grimoire",
+    "category": "artifact",
+    "power": 1.2
+  },
+  "mine": {
+    "id": 84,
+    "pt": "mina abandonada",
+    "en": "abandoned mine",
+    "category": "place",
+    "power": 1.0
+  },
+  "clue": {
+    "id": 85,
+    "pt": "pista oculta",
+    "en": "hidden clue",
+    "category": "item",
+    "power": 0.3
+  },
+  "ghost": {
+    "id": 86,
+    "pt": "fantasma vingativo",
+    "en": "vengeful ghost",
+    "category": "spirit",
+    "power": 1.3
+  },
+  "fountain": {
+    "id": 87,
+    "pt": "fonte de mana",
+    "en": "mana fountain",
+    "category": "phenomenon",
+    "power": 1.1
+  },
+  "relic": {
+    "id": 88,
+    "pt": "relíquia perdida",
+    "en": "lost relic",
+    "category": "item",
+    "power": 0.8
+  },
+  "pass": {
+    "id": 89,
+    "pt": "passagem da montanha",
+    "en": "mountain pass",
+    "category": "route",
+    "power": 0.9
+  },
+  "crystal": {
+    "id": 90,
+    "pt": "cristal bruto",
+    "en": "raw crystal",
+    "category": "resource",
+    "power": 0.5
+  },
+  "noble": {
+    "id": 91,
+    "pt": "nobre corrupto",
+    "en": "corrupt noble",
+    "category": "person",
+    "power": 0.7
+  }
+}

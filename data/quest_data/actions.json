@@ -1,0 +1,234 @@
+{
+  "fight": {
+    "id": 1,
+    "verbs": {
+      "defeat": {
+        "id": 1,
+        "pt": "Derrotar",
+        "en": "Defeat",
+        "difficulty": 1.0
+      },
+      "eliminate": {
+        "id": 2,
+        "pt": "Eliminar",
+        "en": "Eliminate",
+        "difficulty": 1.2
+      }
+    }
+  },
+  "diplomacy": {
+    "id": 2,
+    "verbs": {
+      "negotiate": {
+        "id": 1,
+        "pt": "Negociar com",
+        "en": "Negotiate with",
+        "difficulty": 0.8
+      }
+    }
+  },
+  "nature": {
+    "id": 3,
+    "verbs": {
+      "calm": {
+        "id": 1,
+        "pt": "Acalmar",
+        "en": "Calm",
+        "difficulty": 0.9
+      },
+      "study": {
+        "id": 2,
+        "pt": "Estudar",
+        "en": "Study",
+        "difficulty": 1.0
+      }
+    }
+  },
+  "athletics": {
+    "id": 4,
+    "verbs": {
+      "climb": {
+        "id": 1,
+        "pt": "Escalar",
+        "en": "Climb",
+        "difficulty": 1.0
+      },
+      "carry": {
+        "id": 2,
+        "pt": "Carregar",
+        "en": "Carry",
+        "difficulty": 1.1
+      }
+    }
+  },
+  "thievery": {
+    "id": 5,
+    "verbs": {
+      "disarm": {
+        "id": 1,
+        "pt": "Desarmar",
+        "en": "Disarm",
+        "difficulty": 1.1
+      },
+      "unlock": {
+        "id": 2,
+        "pt": "Abrir",
+        "en": "Unlock",
+        "difficulty": 0.9
+      }
+    }
+  },
+  "religion": {
+    "id": 6,
+    "verbs": {
+      "bless": {
+        "id": 1,
+        "pt": "Abençoar",
+        "en": "Bless",
+        "difficulty": 0.9
+      },
+      "purify": {
+        "id": 2,
+        "pt": "Purificar",
+        "en": "Purify",
+        "difficulty": 1.1
+      }
+    }
+  },
+  "arcana": {
+    "id": 7,
+    "verbs": {
+      "dispel": {
+        "id": 1,
+        "pt": "Dissipar",
+        "en": "Dispel",
+        "difficulty": 1.2
+      },
+      "analyze": {
+        "id": 2,
+        "pt": "Analisar",
+        "en": "Analyze",
+        "difficulty": 1.0
+      }
+    }
+  },
+  "intimidation": {
+    "id": 8,
+    "verbs": {
+      "threaten": {
+        "id": 1,
+        "pt": "Ameaçar",
+        "en": "Threaten",
+        "difficulty": 1.0
+      },
+      "coerce": {
+        "id": 2,
+        "pt": "Coagir",
+        "en": "Coerce",
+        "difficulty": 1.2
+      }
+    }
+  },
+  "survival": {
+    "id": 9,
+    "verbs": {
+      "track": {
+        "id": 1,
+        "pt": "Rastrear",
+        "en": "Track",
+        "difficulty": 1.0
+      },
+      "endure": {
+        "id": 2,
+        "pt": "Resistir",
+        "en": "Endure",
+        "difficulty": 1.1
+      }
+    }
+  },
+  "cure": {
+    "id": 11,
+    "verbs": {
+      "heal": {
+        "id": 1,
+        "pt": "Curar",
+        "en": "Heal",
+        "difficulty": 0.9
+      },
+      "treat": {
+        "id": 2,
+        "pt": "Tratar",
+        "en": "Treat",
+        "difficulty": 1.0
+      }
+    }
+  },
+  "performance": {
+    "id": 12,
+    "verbs": {
+      "entertain": {
+        "id": 1,
+        "pt": "Entreter",
+        "en": "Entertain",
+        "difficulty": 0.8
+      },
+      "perform": {
+        "id": 2,
+        "pt": "Apresentar-se para",
+        "en": "Perform for",
+        "difficulty": 1.0
+      }
+    }
+  },
+  "investigation": {
+    "id": 13,
+    "verbs": {
+      "investigate": {
+        "id": 1,
+        "pt": "Investigar",
+        "en": "Investigate",
+        "difficulty": 1.0
+      },
+      "examine": {
+        "id": 2,
+        "pt": "Examinar",
+        "en": "Examine",
+        "difficulty": 0.9
+      }
+    }
+  },
+  "alchemy": {
+    "id": 14,
+    "verbs": {
+      "brew": {
+        "id": 1,
+        "pt": "Preparar",
+        "en": "Brew",
+        "difficulty": 1.1
+      },
+      "distill": {
+        "id": 2,
+        "pt": "Destilar",
+        "en": "Distill",
+        "difficulty": 1.2
+      }
+    }
+  },
+  "stealth": {
+    "id": 15,
+    "verbs": {
+      "infiltrate": {
+        "id": 1,
+        "pt": "Infiltrar-se em",
+        "en": "Infiltrate",
+        "difficulty": 1.1
+      },
+      "sneak_past": {
+        "id": 2,
+        "pt": "Passar furtivamente por",
+        "en": "Sneak past",
+        "difficulty": 1.0
+      }
+    }
+  }
+}

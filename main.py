@@ -1,3 +1,16 @@
+import sys, os, traceback
+from datetime import datetime
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+def _log_error(e):
+    exc_type, exc_value, exc_tb = sys.exc_info()
+    tb_text = "".join(traceback.format_exception(exc_type, exc_value, exc_tb))
+    with open("log.txt", "a", encoding="utf-8") as f:
+        f.write(f"\n{'='*60}\n{datetime.now()}\n{tb_text}\n{'='*60}\n")
+    print(tb_text)
+
 try:
     import os, sys, json
     os.environ['KIVY_NO_CONSOLELOG'] = '1'

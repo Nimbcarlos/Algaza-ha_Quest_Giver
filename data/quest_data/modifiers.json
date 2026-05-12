@@ -1,0 +1,580 @@
+{
+  "none": {
+    "id": 0,
+    "difficulty_add": 0.0,
+    "forms": {
+      "pt": {
+        "m_singular": "",
+        "f_singular": "",
+        "m_plural": "",
+        "f_plural": ""
+      },
+      "es": {
+        "m_singular": "",
+        "f_singular": "",
+        "m_plural": "",
+        "f_plural": ""
+      },
+      "en": {
+        "default_before": ""
+      },
+      "eu": {
+        "default_after": ""
+      },
+      "zh": {
+        "default_before": ""
+      },
+      "ja": {
+        "default_before": ""
+      }
+    }
+  },
+  "furious": {
+    "id": 1,
+    "difficulty_add": 0.4,
+    "forms": {
+      "pt": {
+        "m_singular": "furioso",
+        "f_singular": "furiosa",
+        "m_plural": "furiosos",
+        "f_plural": "furiosas"
+      },
+      "es": {
+        "m_singular": "furioso",
+        "f_singular": "furiosa",
+        "m_plural": "furiosos",
+        "f_plural": "furiosas"
+      },
+      "en": {
+        "default_before": "furious"
+      },
+      "eu": {
+        "default_after": "sutsuak"
+      },
+      "zh": {
+        "default_before": "狂暴的"
+      },
+      "ja": {
+        "default_before": "狂暴な"
+      }
+    }
+  },
+  "corrupted": {
+    "id": 2,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "corrompido",
+        "f_singular": "corrompida",
+        "m_plural": "corrompidos",
+        "f_plural": "corrompidas"
+      },
+      "es": {
+        "m_singular": "corrupto",
+        "f_singular": "corrupta",
+        "m_plural": "corruptos",
+        "f_plural": "corruptas"
+      },
+      "en": {
+        "default_before": "corrupted"
+      },
+      "eu": {
+        "default_after": "usteldu"
+      },
+      "zh": {
+        "default_before": "腐败的"
+      },
+      "ja": {
+        "default_before": "汚染された"
+      }
+    }
+  },
+  "hidden": {
+    "id": 3,
+    "difficulty_add": 0.4,
+    "forms": {
+      "pt": {
+        "m_singular": "escondido",
+        "f_singular": "escondida",
+        "m_plural": "escondidos",
+        "f_plural": "escondidas"
+      },
+      "es": {
+        "m_singular": "oculto",
+        "f_singular": "oculta",
+        "m_plural": "ocultos",
+        "f_plural": "ocultas"
+      },
+      "en": {
+        "default_before": "hidden"
+      },
+      "eu": {
+        "default_after": "ezkutuko"
+      },
+      "zh": {
+        "default_before": "隐藏 atomic"
+      },
+      "ja": {
+        "default_before": "隠された"
+      }
+    }
+  },
+  "cursed": {
+    "id": 4,
+    "difficulty_add": 0.4,
+    "forms": {
+      "pt": {
+        "m_singular": "amaldiçoado",
+        "f_singular": "amaldiçoada",
+        "m_plural": "amaldiçoados",
+        "f_plural": "amaldiçoadas"
+      },
+      "es": {
+        "m_singular": "maldito",
+        "f_singular": "maldita",
+        "m_plural": "malditos",
+        "f_plural": "malditas"
+      },
+      "en": {
+        "default_before": "cursed"
+      },
+      "eu": {
+        "default_after": "madarikatu"
+      },
+      "zh": {
+        "default_before": "被诅咒的"
+      },
+      "ja": {
+        "default_before": "呪われた"
+      }
+    }
+  },
+  "desperate": {
+    "id": 5,
+    "difficulty_add": 0.4,
+    "forms": {
+      "pt": {
+        "m_singular": "desesperado",
+        "f_singular": "desesperada",
+        "m_plural": "desesperados",
+        "f_plural": "desesperadas"
+      },
+      "es": {
+        "m_singular": "desesperado",
+        "f_singular": "desesperada",
+        "m_plural": "desesperados",
+        "f_plural": "desesperadas"
+      },
+      "en": {
+        "default_before": "desperate"
+      },
+      "eu": {
+        "default_after": "etsi"
+      },
+      "zh": {
+        "default_before": "绝望的"
+      },
+      "ja": {
+        "default_before": "絶望的な"
+      }
+    }
+  },
+  "ancient": {
+    "id": 6,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "ancião",
+        "f_singular": "anciã",
+        "m_plural": "anciões",
+        "f_plural": "anciãs"
+      },
+      "es": {
+        "m_singular": "anciano",
+        "f_singular": "anciana",
+        "m_plural": "ancianos",
+        "f_plural": "ancianas"
+      },
+      "en": {
+        "default_before": "ancient"
+      },
+      "eu": {
+        "default_after": "antzina"
+      },
+      "zh": {
+        "default_before": "古老的"
+      },
+      "ja": {
+        "default_before": "古代の"
+      }
+    }
+  },
+  "stolen": {
+    "id": 7,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "roubado",
+        "f_singular": "roubada",
+        "m_plural": "roubados",
+        "f_plural": "roubadas"
+      },
+      "es": {
+        "m_singular": "robado",
+        "f_singular": "robada",
+        "m_plural": "robados",
+        "f_plural": "robadas"
+      },
+      "en": {
+        "default_before": "stolen"
+      },
+      "eu": {
+        "default_after": "lapurtutako"
+      },
+      "zh": {
+        "default_before": "被盗的"
+      },
+      "ja": {
+        "default_before": "盗まれた"
+      }
+    }
+  },
+  "sacred": {
+    "id": 8,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "sagrado",
+        "f_singular": "sagrada",
+        "m_plural": "sagrados",
+        "f_plural": "sagradas"
+      },
+      "es": {
+        "m_singular": "sagrado",
+        "f_singular": "sagrada",
+        "m_plural": "sagrados",
+        "f_plural": "sagradas"
+      },
+      "en": {
+        "default_before": "sacred"
+      },
+      "eu": {
+        "default_after": "sakratu"
+      },
+      "zh": {
+        "default_before": "神圣的"
+      },
+      "ja": {
+        "default_before": "神聖な"
+      }
+    }
+  },
+  "abandoned": {
+    "id": 9,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "abandonado",
+        "f_singular": "abandonada",
+        "m_plural": "abandonados",
+        "f_plural": "abandonadas"
+      },
+      "es": {
+        "m_singular": "abandonado",
+        "f_singular": "abandonada",
+        "m_plural": "abandonados",
+        "f_plural": "abandonadas"
+      },
+      "en": {
+        "default_before": "abandoned"
+      },
+      "eu": {
+        "default_after": "abandonatu"
+      },
+      "zh": {
+        "default_before": "被遗弃的"
+      },
+      "ja": {
+        "default_before": "捨てられた"
+      }
+    }
+  },
+  "hostile": {
+    "id": 10,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "hostil",
+        "f_singular": "hostil",
+        "m_plural": "hostis",
+        "f_plural": "hostis"
+      },
+      "es": {
+        "m_singular": "hostil",
+        "f_singular": "hostil",
+        "m_plural": "hostiles",
+        "f_plural": "hostiles"
+      },
+      "en": {
+        "default_before": "hostile"
+      },
+      "eu": {
+        "default_after": "etsai"
+      },
+      "zh": {
+        "default_before": "敌对的"
+      },
+      "ja": {
+        "default_before": "敵対的な"
+      }
+    }
+  },
+  "protected": {
+    "id": 11,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "protegido",
+        "f_singular": "protegida",
+        "m_plural": "protegidos",
+        "f_plural": "protegidas"
+      },
+      "es": {
+        "m_singular": "protegido",
+        "f_singular": "protegida",
+        "m_plural": "protegidos",
+        "f_plural": "protegidas"
+      },
+      "en": {
+        "default_before": "protected"
+      },
+      "eu": {
+        "default_after": "babestuta"
+      },
+      "zh": {
+        "default_before": "受保护的"
+      },
+      "ja": {
+        "default_before": "保護された"
+      }
+    }
+  },
+  "unstable": {
+    "id": 12,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "instável",
+        "f_singular": "instável",
+        "m_plural": "instáveis",
+        "f_plural": "instáveis"
+      },
+      "es": {
+        "m_singular": "inestable",
+        "f_singular": "inestable",
+        "m_plural": "inestables",
+        "f_plural": "inestables"
+      },
+      "en": {
+        "default_before": "unstable"
+      },
+      "eu": {
+        "default_after": "ezegonkorra"
+      },
+      "zh": {
+        "default_before": "不稳定的"
+      },
+      "ja": {
+        "default_before": "不安定な"
+      }
+    }
+  },
+  "green": {
+    "id": 13,
+    "difficulty_add": 0.2,
+    "forms": {
+      "pt": {
+        "m_singular": "verde",
+        "f_singular": "verde",
+        "m_plural": "verdes",
+        "f_plural": "verdes"
+      },
+      "es": {
+        "m_singular": "verde",
+        "f_singular": "verde",
+        "m_plural": "verdes",
+        "f_plural": "verdes"
+      },
+      "en": {
+        "default_before": "green"
+      },
+      "zh": {
+        "default_before": "绿色的"
+      },
+      "ja": {
+        "default_before": "緑の"
+      },
+      "ru": {
+        "default_before": "зеленый"
+      }
+    },
+    "context": {
+      "modifier": [
+        { "pt": "verde", "en": "green" }
+      ],
+      "details_add": [
+        {
+          "pt": "exala um odor ácido e vegetal",
+          "en": "emits an acidic, vegetal odor",
+          "es": "emite un olor ácido y vegetal",
+          "zh": "散发出酸性、植物性的气味",
+          "ja": "酸性で植物のような臭いを放つ",
+          "ru": "издает кислый, растительный запах"
+        },
+        { "pt": "corpo verde translúcido com restos de folhas", "en": "translucent green body with leaf remnants", "es": "cuerpo verde translúcido con restos de hojas", "zh": "半透明的绿色身体，带有叶子残留物", "ja": "葉の残骸がある半透明の緑色の体", "ru": "полупрозрачное зеленое тело с остатками листьев" },
+        { "pt": "cheiro de grama recém-cortada e seiva", "en": "smell of freshly cut grass and sap", "es": "olor de hierba recién cortada y savia", "zh": "新鲜割草和树汁的气味", "ja": "新しく切られた草と樹液の匂い", "ru": "запах свежескошенной травы и сока" }        
+      ],
+      "attack_add": [
+        {
+          "pt": "liberação de toxinas corrosivas ao contato",
+          "en": "releases corrosive toxins on contact",
+          "es": "libera toxinas corrosivas al contacto",
+          "zh": "接触时释放腐蚀性毒素",
+          "ja": "接触すると腐食性の毒素を放出する",
+          "ru": "при контакте выделяет коррозионные токсины"
+        },
+        { "pt": "esguicho de seiva grudenta", "en": "sticky sap squirt", "es": "chorro de savia pegajosa", "zh": "粘稠的树汁喷射", "ja": "粘り気のある樹液の squirt", "ru": "липкий сок, выдаваемый под давлением" },
+        { "pt": "liberação de esporos alucinógenos ao ser atingido", "en": "releases hallucinogenic spores when struck", "es": "libera esporas alucinógenas al ser golpeado", "zh": "被击中时释放致幻孢子", "ja": "攻撃されたときに幻覚性の胞子を放出する", "ru": "при ударе выделяет галлюциногенные споры" }
+      ]
+    }
+  },
+  "blue": {
+    "id": 14,
+    "difficulty_add": 0.3,
+    "forms": {
+      "pt": {
+        "m_singular": "azul",
+        "f_singular": "azul",
+        "m_plural": "azuis",
+        "f_plural": "azuis"
+      },
+      "es": {
+        "m_singular": "azul",
+        "f_singular": "azul",
+        "m_plural": "azules",
+        "f_plural": "azules"
+      },
+      "en": {
+        "default_before": "blue"
+      },
+      "zh": {
+        "default_before": "蓝色的"
+      },
+      "ja": {
+        "default_before": "青の"
+      },
+      "ru": {
+        "default_before": "синий"
+      }
+    },
+    "context": {
+      "attack_add": [
+        {
+          "pt": "descargas elétricas ao ser atingido",
+          "en": "emits electric shocks when struck",
+          "es": "emite descargas eléctricas al ser golpeado",
+          "zh": "被击中时发出电击",
+          "ja": "攻撃されたときに電撃を発生させる",
+          "ru": "при ударе выдает электрические разряды"
+        },
+        { "pt": "congelamento por contato", "en": "freezing by contact", "es": "congelación por contacto", "zh": "接触时冻结", "ja": "接触すると凍結する", "ru": "замораживание при контакте" },
+        { "pt": "disparo de estilhaços de gelo", "en": "ice shard shot", "es": "disparo de fragmentos de hielo", "zh": "冰 shard 射击", "ja": "氷の破片を撃つ", "ru": "выстрел из осколков льда" }
+      ],
+      "details_add": [
+        {
+          "pt": "faíscas percorrem seu núcleo líquido",
+          "en": "sparks run through its liquid core",
+          "es": "chispas recorren su núcleo líquido",
+          "zh": "火花穿过它的液态核心",
+          "ja": "液体のコアを走る火花",
+          "ru": "искры бегают по его жидкому ядру"
+        },
+        { "pt": "núcleo azul vibrante que emana frio", "en": "vibrant blue core emanating cold", "es": "núcleo azul vibrante que emana frio", "zh": "发出寒冷的鲜艳蓝色核心", "ja": "寒さを放つ鮮やかな青いコア", "ru": "яркое синее ядро, излучающее холод" },
+        { "pt": "superfície levemente congelada", "en": "slightly frozen surface", "es": "superficie ligeramente congelada", "zh": "略微冻结的表面", "ja": "わずかに凍結した表面", "ru": "слегка замороженная поверхность" }
+      ]
+    }
+  },
+  "red": {
+    "id": 15,
+    "difficulty_add": 0.4,
+    "forms": {
+      "pt": {
+        "m_singular": "vermelho",
+        "f_singular": "vermelha",
+        "m_plural": "vermelhos",
+        "f_plural": "vermelhas"
+      },
+      "es": {
+        "m_singular": "rojo",
+        "f_singular": "roja",
+        "m_plural": "rojos",
+        "f_plural": "rojas"
+      },
+      "en": {
+        "default_before": "red"
+      },
+      "zh": {
+        "default_before": "红色的"
+      },
+      "ja": {
+        "default_before": "赤の"
+      },
+      "ru": {
+        "default_before": "красный"
+      }
+    },
+    "context": {
+      "attack_add": [
+        {
+          "pt": "explosão térmica ao colapsar",
+          "en": "thermal burst upon collapse",
+          "es": "explosión térmica al colapsar",
+          "zh": "崩溃时的热爆炸",
+          "ja": "崩壊時の熱爆発",
+          "ru": "тепловой взрыв при коллапсе"
+        },
+        { "pt": "explosão térmica ao sofrer impacto", "en": "thermal explosion upon impact", "es": "explosión térmica al sufrir impacto", "zh": "受到冲击时的热爆炸", "ja": "衝撃を受けると熱爆発する", "ru": "тепловой взрыв при ударе" },
+        { "pt": "esguicho de fluido inflamável", "en": "flammable fluid squirt", "es": "rociador de fluido inflamable", "zh": "喷射易燃液体", "ja": "可燃性液体を噴射する", "ru": "брызги воспламеняющегося жидкости" }
+      ],
+      "details_add": [
+        {
+          "pt": "calor visível distorce o ar ao redor",
+          "en": "visible heat distorts the air around it",
+          "es": "calor visible distorsiona el aire a su alrededor",
+          "zh": "可见的热量扭曲了周围的空气",
+          "ja": "見える熱は周囲の空気を歪める",
+          "ru": "видимое тепло искажает воздух вокруг"
+        },
+        { "pt": "calor intenso sentido à distância", "en": "intense heat felt from a distance", "es": "calor intenso sentido desde la distancia", "zh": "从远处感受到的强烈热量", "ja": "距離から感じられる強い熱", "ru": "сильное тепло, чувствуется с расстояния" }
+      ]
+    }
+  },
+  "archer": {
+    "id": 16,
+    "difficulty_add": 0.2,
+    "forms": {
+      "pt": { "m_singular": "arqueiro", "f_singular": "arqueira" },
+      "en": { "default_before": "archer" }
+    },
+    "context": {
+      "details_add": [
+        { "pt": "carrega uma aljava de flechas improvisadas", "en": "carries a quiver of improvised arrows", "es": "lleva un carcaj de flechas improvisadas", "zh": "携带一个装有临时箭的箭袋", "ja": "即席の矢を入れた矢筒を持っている", "ru": "носит колчан с импровизированными стрелами" },
+        { "pt": "mantém distância e observa os arredores", "en": "keeps distance and watches the surroundings", "es": "mantiene distancia y observa los alrededores", "zh": "保持距离并观察周围环境", "ja": "距離を保って周囲を観察する", "ru": "держит дистанцию и наблюдает за окрестностями" }
+      ],
+      "attack_add": [
+        { "pt": "disparo de flecha de longo alcance", "en": "long-range arrow shot", "es": "disparo de flecha de largo alcance", "zh": "远程箭矢射击", "ja": "遠距離の矢撃ち", "ru": "удар из дальнего лука" },
+        { "pt": "chuva de flechas rudimentares", "en": "rain of rudimentary arrows", "es": "lluvia de flechas rudimentarias", "zh": "简易箭矢雨", "ja": "原始的な矢の雨", "ru": "дождь из примитивных стрел" }
+      ]
+    }
+  }  
+}

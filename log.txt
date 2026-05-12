@@ -1,127 +1,2004 @@
 
 ============================================================
-Erro em: 2026-04-14 16:28:19.201712
-Exception: AttributeError
-Arquivo: d:\Python\Jogo\core\quest.py
-Linha: 112
-Função: calculate_duration
-Mensagem: 'int' object has no attribute 'get_distance_to'
-Código: distance = map_graph.get_distance_to(location_key)
+Erro em: 2026-04-23 18:04:23.554690
+Exception: ModuleNotFoundError
+Arquivo: g:\Python\Jogo\screens\menu_screen.py
+Linha: 12
+Função: <module>
+Mensagem: No module named 'gameplay_screen'
+Código: from gameplay_screen import GameplayScreen
 
 --- Traceback completo ---
 Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
-    Clock.tick()
-    ~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
-    self.post_idle(ts, self.idle())
-    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
-    self._process_events()
-    ~~~~~~~~~~~~~~~~~~~~^^
-  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
-  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
-  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
-  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
-    self.stop(widget)
-    ~~~~~~~~~^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
-    self.dispatch('on_complete', widget)
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
-    self.screen_in.dispatch('on_enter')
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 72, in on_enter
-    self.update_sidebar()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 192, in update_sidebar
-    for quest in qm.get_available_quests():
-                 ~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "d:\Python\Jogo\core\quest_manager.py", line 259, in get_available_quests
-    return self.available_quests()
-           ~~~~~~~~~~~~~~~~~~~~~^^
-  File "d:\Python\Jogo\core\quest_manager.py", line 232, in available_quests
-    self._handle_quest_map_impact(quest)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "d:\Python\Jogo\core\quest_manager.py", line 378, in _handle_quest_map_impact
-    additional_turns = quest.calculate_duration(distance)
-  File "d:\Python\Jogo\core\quest.py", line 112, in calculate_duration
-    distance = map_graph.get_distance_to(location_key)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'int' object has no attribute 'get_distance_to'
+  File "g:\Python\Jogo\main.py", line 31, in <module>
+    from screens.menu_screen import MenuScreen
+  File "g:\Python\Jogo\screens\menu_screen.py", line 12, in <module>
+    from gameplay_screen import GameplayScreen
+ModuleNotFoundError: No module named 'gameplay_screen'
 
 ============================================================
 
 ============================================================
-Erro em: 2026-04-15 19:15:47.407590
-Exception: AttributeError
-Arquivo: d:\Python\Jogo\core\quest_manager.py
-Linha: 471
-Função: _generate_new_procedural
-Mensagem: 'QuestManager' object has no attribute '_update_quest_accessibility'
-Código: self._update_quest_accessibility(quest)
+Erro em: 2026-04-23 18:07:21.745499
+Exception: ModuleNotFoundError
+Arquivo: g:\Python\Jogo\core\quest_success_calculator.py
+Linha: 4
+Função: <module>
+Mensagem: No module named 'hero'
+Código: from hero import Hero
 
 --- Traceback completo ---
 Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
+  File "g:\Python\Jogo\main.py", line 31, in <module>
+    from screens.menu_screen import MenuScreen
+  File "g:\Python\Jogo\screens\menu_screen.py", line 12, in <module>
+    from screens.gameplay_screen import GameplayScreen
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 14, in <module>
+    from core.quest_success_calculator import calculate_success_chance
+  File "g:\Python\Jogo\core\quest_success_calculator.py", line 4, in <module>
+    from hero import Hero
+ModuleNotFoundError: No module named 'hero'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:11:01.653406
+Exception: ModuleNotFoundError
+Arquivo: g:\Python\Jogo\core\dialogue_manager.py
+Linha: 5
+Função: <module>
+Mensagem: No module named 'language_manager'
+Código: from language_manager import LanguageManager
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 31, in <module>
+    from screens.menu_screen import MenuScreen
+  File "g:\Python\Jogo\screens\menu_screen.py", line 12, in <module>
+    from screens.gameplay_screen import GameplayScreen
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 15, in <module>
+    from core.dialogue_manager import DialogueManager
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 5, in <module>
+    from language_manager import LanguageManager
+ModuleNotFoundError: No module named 'language_manager'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:12:36.923001
+Exception: ModuleNotFoundError
+Arquivo: g:\Python\Jogo\screens\gameplay_screen.py
+Linha: 17
+Função: <module>
+Mensagem: No module named 'dialog_box'
+Código: from dialog_box import DialogueBox
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 31, in <module>
+    from screens.menu_screen import MenuScreen
+  File "g:\Python\Jogo\screens\menu_screen.py", line 12, in <module>
+    from screens.gameplay_screen import GameplayScreen
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 17, in <module>
+    from dialog_box import DialogueBox
+ModuleNotFoundError: No module named 'dialog_box'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:13:35.668686
+Exception: SyntaxError
+Arquivo: g:\Python\Jogo\screens\gameplay_screen.py
+Linha: 20
+Função: <module>
+Mensagem: f-string: unmatched '(' (hero_popup.py, line 62)
+Código: from screens.gameplay.hero_popup import show_hero_details
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 31, in <module>
+    from screens.menu_screen import MenuScreen
+  File "g:\Python\Jogo\screens\menu_screen.py", line 12, in <module>
+    from screens.gameplay_screen import GameplayScreen
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 20, in <module>
+    from screens.gameplay.hero_popup import show_hero_details
+  File "g:\Python\Jogo\screens\gameplay\hero_popup.py", line 62
+    text=f"{lm.t("level_label")}: {hero.level} ",
+                  ^^^^^^^^^^^
+SyntaxError: f-string: unmatched '('
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:14:21.017680
+Exception: SyntaxError
+Arquivo: g:\Python\Jogo\screens\gameplay_screen.py
+Linha: 20
+Função: <module>
+Mensagem: f-string: unmatched '(' (hero_popup.py, line 62)
+Código: from screens.gameplay.hero_popup import show_hero_details
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 26, in <module>
+    from screens.menu_screen import MenuScreen
+  File "g:\Python\Jogo\screens\menu_screen.py", line 12, in <module>
+    from screens.gameplay_screen import GameplayScreen
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 20, in <module>
+    from screens.gameplay.hero_popup import show_hero_details
+  File "g:\Python\Jogo\screens\gameplay\hero_popup.py", line 62
+    text=f"{lm.t("level_label")}: {hero.level} ",
+                  ^^^^^^^^^^^
+SyntaxError: f-string: unmatched '('
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:18:54.365584
+Exception: SyntaxError
+Arquivo: g:\Python\Jogo\screens\gameplay_screen.py
+Linha: 20
+Função: <module>
+Mensagem: f-string: unmatched '(' (hero_popup.py, line 62)
+Código: from screens.gameplay.hero_popup import show_hero_details
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 26, in <module>
+    from screens.menu_screen import MenuScreen
+  File "g:\Python\Jogo\screens\menu_screen.py", line 12, in <module>
+    from screens.gameplay_screen import GameplayScreen
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 20, in <module>
+    from screens.gameplay.hero_popup import show_hero_details
+  File "g:\Python\Jogo\screens\gameplay\hero_popup.py", line 62
+    text=f"{lm.t("level_label")}: {hero.level} ",
+                  ^^^^^^^^^^^
+SyntaxError: f-string: unmatched '('
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:21:09.073601
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 235
+Função: _validate_loaded_data
+Mensagem: Sub-location 'chillyard_border_pass' referencia location inexistente: 'jurah_wilds'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
     GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 112, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 235, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'chillyard_border_pass' referencia location inexistente: 'jurah_wilds'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:23:15.944500
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 235
+Função: _validate_loaded_data
+Mensagem: Sub-location 'chillyard_border_pass' referencia location inexistente: 'chillyard_patrol_gorge'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 112, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 235, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'chillyard_border_pass' referencia location inexistente: 'chillyard_patrol_gorge'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:38:11.311762
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 235
+Função: _validate_loaded_data
+Mensagem: Sub-location 'olympos_chillyard_trail' referencia location inexistente: 'chillyard_exile_passage'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 112, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 235, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'olympos_chillyard_trail' referencia location inexistente: 'chillyard_exile_passage'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:38:52.665322
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 235
+Função: _validate_loaded_data
+Mensagem: Sub-location 'monarch_crown_link' referencia location inexistente: 'mount_chillyard'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 112, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 235, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'monarch_crown_link' referencia location inexistente: 'mount_chillyard'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:43:36.378799
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 305
+Função: _get_type_by_id
+Mensagem: Tipo ID 10 não encontrado
+Código: raise ValueError(f"Tipo ID {type_id} não encontrado")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\core\quest_gen.py", line 303, in _get_type_by_id
+    return self.type_by_id[type_id]
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
     runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
     EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
     self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
     self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
     post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
     wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
     self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
     on_release=lambda *_: self.advance_turn()
-                          ~~~~~~~~~~~~~~~~~^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
     self.qm.advance_turn()
-    ~~~~~~~~~~~~~~~~~~~~^^
-  File "d:\Python\Jogo\core\quest_manager.py", line 268, in advance_turn
+  File "g:\Python\Jogo\core\quest_manager.py", line 269, in advance_turn
     self._ensure_procedural_pool()
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "d:\Python\Jogo\core\quest_manager.py", line 327, in _ensure_procedural_pool
+  File "g:\Python\Jogo\core\quest_manager.py", line 328, in _ensure_procedural_pool
     quest = self._generate_new_procedural()
-  File "d:\Python\Jogo\core\quest_manager.py", line 471, in _generate_new_procedural
-    self._update_quest_accessibility(quest)
-    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'QuestManager' object has no attribute '_update_quest_accessibility'
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 454, in _generate_new_procedural
+    quest = self.proc_gen.generate_quest_of_type("fight", avg_lvl)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 501, in generate_quest_of_type
+    quest_data = self.reconstruct_quest_from_seed(seed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 399, in reconstruct_quest_from_seed
+    quest_type = self._get_type_by_id(parts["type_id"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 305, in _get_type_by_id
+    raise ValueError(f"Tipo ID {type_id} não encontrado")
+ValueError: Tipo ID 10 não encontrado
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:45:51.546979
+Exception: TypeError
+Arquivo: g:\Python\Jogo\core\quest_manager.py
+Linha: 46
+Função: __init__
+Mensagem: ProceduralQuestSystem.__init__() got an unexpected keyword argument 'data_file'
+Código: self.proc_gen = ProceduralQuestSystem(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ProceduralQuestSystem.__init__() got an unexpected keyword argument 'data_file'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:48:10.310636
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 326
+Função: _get_type_by_id
+Mensagem: Tipo ID 10 não encontrado
+Código: raise ValueError(f"Tipo ID {type_id} não encontrado")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\core\quest_gen.py", line 324, in _get_type_by_id
+    return self.type_by_id[type_id]
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 269, in advance_turn
+    self._ensure_procedural_pool()
+  File "g:\Python\Jogo\core\quest_manager.py", line 328, in _ensure_procedural_pool
+    quest = self._generate_new_procedural()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 454, in _generate_new_procedural
+    quest = self.proc_gen.generate_quest_of_type("fight", avg_lvl)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 522, in generate_quest_of_type
+    quest_data = self.reconstruct_quest_from_seed(seed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 420, in reconstruct_quest_from_seed
+    quest_type = self._get_type_by_id(parts["type_id"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 326, in _get_type_by_id
+    raise ValueError(f"Tipo ID {type_id} não encontrado")
+ValueError: Tipo ID 10 não encontrado
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:51:15.000270
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 210
+Função: _validate_loaded_data
+Mensagem: JSON sem 'actions'
+Código: raise ValueError("JSON sem 'actions'")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 133, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 210, in _validate_loaded_data
+    raise ValueError("JSON sem 'actions'")
+ValueError: JSON sem 'actions'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 18:57:53.344396
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 210
+Função: _validate_loaded_data
+Mensagem: JSON sem 'actions'
+Código: raise ValueError("JSON sem 'actions'")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 133, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 210, in _validate_loaded_data
+    raise ValueError("JSON sem 'actions'")
+ValueError: JSON sem 'actions'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:09:33.468577
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 209
+Função: _validate_loaded_data
+Mensagem: JSON sem 'actions'
+Código: raise ValueError("JSON sem 'actions'")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 135, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 209, in _validate_loaded_data
+    raise ValueError("JSON sem 'actions'")
+ValueError: JSON sem 'actions'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:12:10.597558
+Exception: TypeError
+Arquivo: g:\Python\Jogo\core\quest_manager.py
+Linha: 46
+Função: __init__
+Mensagem: ProceduralQuestSystem.__init__() got an unexpected keyword argument 'data_path'
+Código: self.proc_gen = ProceduralQuestSystem(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ProceduralQuestSystem.__init__() got an unexpected keyword argument 'data_path'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:12:51.874479
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 189
+Função: _validate_loaded_data
+Mensagem: JSON sem 'actions'
+Código: raise ValueError("JSON sem 'actions'")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 112, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 189, in _validate_loaded_data
+    raise ValueError("JSON sem 'actions'")
+ValueError: JSON sem 'actions'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:13:04.748879
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 235
+Função: _validate_loaded_data
+Mensagem: Sub-location 'chillyard_border_pass' referencia location inexistente: 'jurah_wilds'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 112, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 235, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'chillyard_border_pass' referencia location inexistente: 'jurah_wilds'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:14:38.690847
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 235
+Função: _validate_loaded_data
+Mensagem: Sub-location 'rothgar_jurah_descent' referencia location inexistente: 'jurah_wilds'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 83, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 112, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 235, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'rothgar_jurah_descent' referencia location inexistente: 'jurah_wilds'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:16:08.572611
+Exception: JSONDecodeError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 112
+Função: _load_file
+Mensagem: Erro ao ler locations.json: Expecting value: line 1 column 1 (char 0)
+Código: raise json.JSONDecodeError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\core\quest_gen.py", line 107, in _load_file
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 90, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 133, in _load_data
+    locations_data      = self._load_file("locations.json")
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 112, in _load_file
+    raise json.JSONDecodeError(
+json.decoder.JSONDecodeError: Erro ao ler locations.json: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:17:44.959257
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 223
+Função: _validate_loaded_data
+Mensagem: JSON sem 'actions'
+Código: raise ValueError("JSON sem 'actions'")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 90, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 158, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 223, in _validate_loaded_data
+    raise ValueError("JSON sem 'actions'")
+ValueError: JSON sem 'actions'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:19:59.262272
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 269
+Função: _validate_loaded_data
+Mensagem: Sub-location 'chillyard_border_pass' referencia location inexistente: 'jurah_wilds'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 90, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 158, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 269, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'chillyard_border_pass' referencia location inexistente: 'jurah_wilds'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:20:50.024642
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 269
+Função: _validate_loaded_data
+Mensagem: Sub-location 'chillyard_border_pass' referencia location inexistente: 'chillyard_patrol_gorge'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 90, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 158, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 269, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'chillyard_border_pass' referencia location inexistente: 'chillyard_patrol_gorge'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:21:52.770673
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 269
+Função: _validate_loaded_data
+Mensagem: Sub-location 'monarch_crown_link' referencia location inexistente: 'mount_chillyard'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 46, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 90, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 158, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 269, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'monarch_crown_link' referencia location inexistente: 'mount_chillyard'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-23 19:22:34.942559
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 339
+Função: _get_type_by_id
+Mensagem: Tipo ID 10 não encontrado
+Código: raise ValueError(f"Tipo ID {type_id} não encontrado")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\core\quest_gen.py", line 337, in _get_type_by_id
+    return self.type_by_id[type_id]
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 269, in advance_turn
+    self._ensure_procedural_pool()
+  File "g:\Python\Jogo\core\quest_manager.py", line 328, in _ensure_procedural_pool
+    quest = self._generate_new_procedural()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 454, in _generate_new_procedural
+    quest = self.proc_gen.generate_quest_of_type("fight", avg_lvl)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 535, in generate_quest_of_type
+    quest_data = self.reconstruct_quest_from_seed(seed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 433, in reconstruct_quest_from_seed
+    quest_type = self._get_type_by_id(parts["type_id"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 339, in _get_type_by_id
+    raise ValueError(f"Tipo ID {type_id} não encontrado")
+ValueError: Tipo ID 10 não encontrado
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 09:30:08.336198
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\quest_manager.py
+Linha: 356
+Função: _handle_quest_map_impact
+Mensagem: 'ProceduralQuestSystem' object has no attribute 'map_graph'
+Código: map_graph = self.proc_gen.map_graph
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 169, in advance_turn
+    self.update_sidebar()
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 192, in update_sidebar
+    for quest in qm.get_available_quests():
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 261, in get_available_quests
+    return self.available_quests()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 234, in available_quests
+    self._handle_quest_map_impact(quest)
+  File "g:\Python\Jogo\core\quest_manager.py", line 356, in _handle_quest_map_impact
+    map_graph = self.proc_gen.map_graph
+                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProceduralQuestSystem' object has no attribute 'map_graph'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 09:31:26.172556
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 339
+Função: _get_type_by_id
+Mensagem: Tipo ID 10 não encontrado
+Código: raise ValueError(f"Tipo ID {type_id} não encontrado")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\core\quest_gen.py", line 337, in _get_type_by_id
+    return self.type_by_id[type_id]
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 269, in advance_turn
+    self._ensure_procedural_pool()
+  File "g:\Python\Jogo\core\quest_manager.py", line 328, in _ensure_procedural_pool
+    quest = self._generate_new_procedural()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 454, in _generate_new_procedural
+    quest = self.proc_gen.generate_quest_of_type("fight", avg_lvl)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 535, in generate_quest_of_type
+    quest_data = self.reconstruct_quest_from_seed(seed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 433, in reconstruct_quest_from_seed
+    quest_type = self._get_type_by_id(parts["type_id"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 339, in _get_type_by_id
+    raise ValueError(f"Tipo ID {type_id} não encontrado")
+ValueError: Tipo ID 10 não encontrado
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 09:32:18.392942
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 339
+Função: _get_type_by_id
+Mensagem: Tipo ID 10 não encontrado
+Código: raise ValueError(f"Tipo ID {type_id} não encontrado")
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\core\quest_gen.py", line 337, in _get_type_by_id
+    return self.type_by_id[type_id]
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 10
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 269, in advance_turn
+    self._ensure_procedural_pool()
+  File "g:\Python\Jogo\core\quest_manager.py", line 328, in _ensure_procedural_pool
+    quest = self._generate_new_procedural()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 454, in _generate_new_procedural
+    quest = self.proc_gen.generate_quest_of_type("fight", avg_lvl)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 535, in generate_quest_of_type
+    quest_data = self.reconstruct_quest_from_seed(seed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 433, in reconstruct_quest_from_seed
+    quest_type = self._get_type_by_id(parts["type_id"])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 339, in _get_type_by_id
+    raise ValueError(f"Tipo ID {type_id} não encontrado")
+ValueError: Tipo ID 10 não encontrado
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 09:36:44.459188
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\quest_manager.py
+Linha: 356
+Função: _handle_quest_map_impact
+Mensagem: 'ProceduralQuestSystem' object has no attribute 'map_graph'
+Código: map_graph = self.proc_gen.map_graph
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 169, in advance_turn
+    self.update_sidebar()
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 192, in update_sidebar
+    for quest in qm.get_available_quests():
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 261, in get_available_quests
+    return self.available_quests()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 234, in available_quests
+    self._handle_quest_map_impact(quest)
+  File "g:\Python\Jogo\core\quest_manager.py", line 356, in _handle_quest_map_impact
+    map_graph = self.proc_gen.map_graph
+                ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ProceduralQuestSystem' object has no attribute 'map_graph'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 16:33:03.431157
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 256
+Função: _validate_loaded_data
+Mensagem: Sub-location 'three_battles_bridge' referencia location inexistente: 'fields_of_endless_strife'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 47, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 90, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 145, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 256, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'three_battles_bridge' referencia location inexistente: 'fields_of_endless_strife'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 16:33:58.885489
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 256
+Função: _validate_loaded_data
+Mensagem: Sub-location 'three_battles_bridge' referencia location inexistente: 'fields_of_endless_strife'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 47, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 90, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 145, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 256, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'three_battles_bridge' referencia location inexistente: 'fields_of_endless_strife'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 16:42:34.562963
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 256
+Função: _validate_loaded_data
+Mensagem: Sub-location 'three_battles_bridge' referencia location inexistente: 'fields_of_endless_strife'
+Código: raise ValueError(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 955, in run
+    self._run_prepare()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 925, in _run_prepare
+    root = self.build()
+           ^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 72, in build
+    sm = GameScreenManager()
+         ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\main.py", line 52, in __init__
+    self.quest_manager = QuestManager()
+                         ^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 47, in __init__
+    self.proc_gen = ProceduralQuestSystem(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 90, in __init__
+    self._load_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 145, in _load_data
+    self._validate_loaded_data()
+  File "g:\Python\Jogo\core\quest_gen.py", line 256, in _validate_loaded_data
+    raise ValueError(
+ValueError: Sub-location 'three_battles_bridge' referencia location inexistente: 'fields_of_endless_strife'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 18:10:23.372712
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\quest_manager.py
+Linha: 436
+Função: _get_latest_quest_in_location
+Mensagem: 'str' object has no attribute 'context'
+Código: is_bridge = quest.context.get("location_type") == "bridge"
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 270, in advance_turn
+    self._ensure_procedural_pool()
+  File "g:\Python\Jogo\core\quest_manager.py", line 329, in _ensure_procedural_pool
+    quest = self._generate_new_procedural()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 476, in _generate_new_procedural
+    latest_quest, latest_end = self._get_latest_quest_in_location(location)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 436, in _get_latest_quest_in_location
+    is_bridge = quest.context.get("location_type") == "bridge"
+                ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'context'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 18:12:46.867910
+Exception: ValueError
+Arquivo: g:\Python\Jogo\core\map_graph.py
+Linha: 89
+Função: _build_graph
+Mensagem: not enough values to unpack (expected 4, got 3)
+Código: for origin, destination, bridge, distance in MAP_EDGES:
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 169, in advance_turn
+    self.update_sidebar()
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 192, in update_sidebar
+    for quest in qm.get_available_quests():
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 262, in get_available_quests
+    return self.available_quests()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 235, in available_quests
+    self._handle_quest_map_impact(quest)
+  File "g:\Python\Jogo\core\quest_manager.py", line 357, in _handle_quest_map_impact
+    map_graph = MapGraph()
+                ^^^^^^^^^^
+  File "g:\Python\Jogo\core\map_graph.py", line 83, in __init__
+    self.graph: Dict = self._build_graph()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\map_graph.py", line 89, in _build_graph
+    for origin, destination, bridge, distance in MAP_EDGES:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 3)
+
+============================================================
+
+============================================================
+Erro em: 2026-04-24 18:15:58.767463
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\quest_manager.py
+Linha: 436
+Função: _get_latest_quest_in_location
+Mensagem: 'str' object has no attribute 'context'
+Código: is_bridge = quest.context.get("location_type") == "bridge"
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 270, in advance_turn
+    self._ensure_procedural_pool()
+  File "g:\Python\Jogo\core\quest_manager.py", line 329, in _ensure_procedural_pool
+    quest = self._generate_new_procedural()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 476, in _generate_new_procedural
+    latest_quest, latest_end = self._get_latest_quest_in_location(location)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 436, in _get_latest_quest_in_location
+    is_bridge = quest.context.get("location_type") == "bridge"
+                ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'context'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-28 17:14:20.957805
+Exception: ModuleNotFoundError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 6
+Função: <module>
+Mensagem: No module named 'quest'
+Código: from quest import Quest
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 26, in <module>
+    from screens.menu_screen import MenuScreen
+  File "g:\Python\Jogo\screens\menu_screen.py", line 13, in <module>
+    from core.quest_manager import QuestManager
+  File "g:\Python\Jogo\core\quest_manager.py", line 21, in <module>
+    from core.quest_gen import ProceduralQuestSystem
+  File "g:\Python\Jogo\core\quest_gen.py", line 6, in <module>
+    from quest import Quest
+ModuleNotFoundError: No module named 'quest'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-28 17:15:39.318794
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\dialogue_manager.py
+Linha: 228
+Função: _build_dynamic_bits
+Mensagem: 'NoneType' object has no attribute 'get'
+Código: enemy = narrative.get("enemy", {})
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 290, in advance_turn
+    self.resolve_quest(qid, data)
+  File "g:\Python\Jogo\core\quest_manager.py", line 211, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 861, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes,
+  File "g:\Python\Jogo\screens\dialog_box.py", line 53, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 84, in show_quest_dialogue
+    dynamic_bits = self._build_dynamic_bits(resolved_ctx)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 228, in _build_dynamic_bits
+    enemy = narrative.get("enemy", {})
+            ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-28 17:27:45.444172
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\dialogue_manager.py
+Linha: 228
+Função: _build_dynamic_bits
+Mensagem: 'NoneType' object has no attribute 'get'
+Código: enemy = narrative.get("enemy", {})
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 290, in advance_turn
+    self.resolve_quest(qid, data)
+  File "g:\Python\Jogo\core\quest_manager.py", line 211, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 861, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes,
+  File "g:\Python\Jogo\screens\dialog_box.py", line 53, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 84, in show_quest_dialogue
+    dynamic_bits = self._build_dynamic_bits(resolved_ctx)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 228, in _build_dynamic_bits
+    enemy = narrative.get("enemy", {})
+            ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-28 17:34:43.103114
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\dialogue_manager.py
+Linha: 229
+Função: _build_dynamic_bits
+Mensagem: 'NoneType' object has no attribute 'get'
+Código: enemy = narrative.get("enemy", {})
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 290, in advance_turn
+    self.resolve_quest(qid, data)
+  File "g:\Python\Jogo\core\quest_manager.py", line 211, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 861, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes,
+  File "g:\Python\Jogo\screens\dialog_box.py", line 53, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 84, in show_quest_dialogue
+    dynamic_bits = self._build_dynamic_bits(resolved_ctx)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 229, in _build_dynamic_bits
+    enemy = narrative.get("enemy", {})
+            ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-28 17:35:49.937418
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\dialogue_manager.py
+Linha: 230
+Função: _build_dynamic_bits
+Mensagem: 'NoneType' object has no attribute 'get'
+Código: enemy = narrative.get("enemy", {})
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 290, in advance_turn
+    self.resolve_quest(qid, data)
+  File "g:\Python\Jogo\core\quest_manager.py", line 211, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 861, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes,
+  File "g:\Python\Jogo\screens\dialog_box.py", line 53, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 85, in show_quest_dialogue
+    dynamic_bits = self._build_dynamic_bits(resolved_ctx)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 230, in _build_dynamic_bits
+    enemy = narrative.get("enemy", {})
+            ^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-29 13:12:36.537634
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\quest_gen.py
+Linha: 1035
+Função: _get_location_with_preposition
+Mensagem: 'ProceduralQuestSystem' object has no attribute 'lm'
+Código: if self.lm:
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 270, in advance_turn
+    self._ensure_procedural_pool()
+  File "g:\Python\Jogo\core\quest_manager.py", line 329, in _ensure_procedural_pool
+    quest = self._generate_new_procedural()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_manager.py", line 470, in _generate_new_procedural
+    quest = self.proc_gen.generate_quest_of_type("fight", avg_lvl)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 522, in generate_quest_of_type
+    quest_data = self.reconstruct_quest_from_seed(seed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 445, in reconstruct_quest_from_seed
+    description = self._generate_description(quest_type, verb, subject, location, sub_location, modifier)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 586, in _generate_description
+    sub = self._get_location_with_preposition(sub_location, "de", lang)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\quest_gen.py", line 1035, in _get_location_with_preposition
+    if self.lm:
+       ^^^^^^^
+AttributeError: 'ProceduralQuestSystem' object has no attribute 'lm'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-29 13:45:30.501864
+Exception: KeyError
+Arquivo: g:\Python\Jogo\core\dialogue_manager.py
+Linha: 172
+Função: show_quest_dialogue
+Mensagem: 'na_place'
+Código: parts.append(random.choice(arrived_texts).format(**resolved_ctx))
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 290, in advance_turn
+    self.resolve_quest(qid, data)
+  File "g:\Python\Jogo\core\quest_manager.py", line 211, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 861, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes,
+  File "g:\Python\Jogo\screens\dialog_box.py", line 53, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 172, in show_quest_dialogue
+    parts.append(random.choice(arrived_texts).format(**resolved_ctx))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'na_place'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-29 13:46:47.744018
+Exception: KeyError
+Arquivo: g:\Python\Jogo\core\dialogue_manager.py
+Linha: 182
+Função: show_quest_dialogue
+Mensagem: 'ao_enemy'
+Código: parts.append(random.choice(action_texts).format(**resolved_ctx))
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 290, in advance_turn
+    self.resolve_quest(qid, data)
+  File "g:\Python\Jogo\core\quest_manager.py", line 211, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 861, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes,
+  File "g:\Python\Jogo\screens\dialog_box.py", line 53, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 182, in show_quest_dialogue
+    parts.append(random.choice(action_texts).format(**resolved_ctx))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'ao_enemy'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-29 13:49:10.490294
+Exception: KeyError
+Arquivo: g:\Python\Jogo\core\dialogue_manager.py
+Linha: 182
+Função: show_quest_dialogue
+Mensagem: 'ao_enemy'
+Código: parts.append(random.choice(action_texts).format(**resolved_ctx))
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 290, in advance_turn
+    self.resolve_quest(qid, data)
+  File "g:\Python\Jogo\core\quest_manager.py", line 211, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 861, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes,
+  File "g:\Python\Jogo\screens\dialog_box.py", line 53, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 182, in show_quest_dialogue
+    parts.append(random.choice(action_texts).format(**resolved_ctx))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'ao_enemy'
+
+============================================================
+
+============================================================
+Erro em: 2026-04-29 14:37:42.214650
+Exception: AttributeError
+Arquivo: g:\Python\Jogo\core\language_manager.py
+Linha: 69
+Função: get_with_preposition
+Mensagem: 'str' object has no attribute 'get'
+Código: data = item_data.get(lang, {})
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "g:\Python\Jogo\main.py", line 108, in <module>
+    GameApp().run()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "C:\Users\consu\AppData\Local\Programs\Python\Python311\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+  File "g:\Python\Jogo\core\quest_manager.py", line 290, in advance_turn
+    self.resolve_quest(qid, data)
+  File "g:\Python\Jogo\core\quest_manager.py", line 211, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
+  File "g:\Python\Jogo\screens\gameplay_screen.py", line 861, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes,
+  File "g:\Python\Jogo\screens\dialog_box.py", line 53, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 95, in show_quest_dialogue
+    dynamic_bits = self._build_dynamic_bits(resolved_ctx)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\dialogue_manager.py", line 293, in _build_dynamic_bits
+    bits["do_enemy"] = self.lm.get_with_preposition(enemy_data, "de")
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "g:\Python\Jogo\core\language_manager.py", line 69, in get_with_preposition
+    data = item_data.get(lang, {})
+           ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
 
 ============================================================

@@ -2139,7 +2139,7 @@
       },
     "chillyard_border_pass": {
       "id": 105,
-      "locations": ["jurah_wilds", "chillyard_patrol_gorge"],
+      "locations": ["great_jura_wilds", "mount_chillyard_gorge"],
       "danger_add": 0.2,
       "pt": {
         "gender": "f",
@@ -2293,7 +2293,7 @@
     },
     "olympos_chillyard_trail": {
       "id": 107,
-      "locations": ["olympos_peak_plateau", "chillyard_exile_passage"],
+      "locations": ["olympos_peak_plateau", "mount_chillyard_summit"],
       "danger_add": 0.4,
       "pt": {
         "gender": "f",
@@ -2418,7 +2418,7 @@
     },
    "monarch_crown_link": {
       "id": 111,
-      "locations": ["mount_chillyard", "howling_crown_range"],
+      "locations": ["mount_chillyard_summit", "howling_crown_range"],
       "danger_add": 0.4,
       "pt": { "gender": "m", "number": "singular", "base": "Elo do Monarca", "with_em": "no", "with_de": "do" },
       "en": "Monarch's Link",
@@ -2440,7 +2440,7 @@
     },
     "rothgar_jurah_descent": {
       "id": 112,
-      "locations": ["throat_of_rotghar", "jurah_wilds"],
+      "locations": ["throat_of_rotghar", "great_jura_wilds"],
       "danger_add": 0.2,
       "pt": { "gender": "f", "number": "singular", "base": "Descida dos Gigantes", "with_em": "na", "with_de": "da" },
       "en": "Giants' Descent",
@@ -2502,7 +2502,7 @@
         ]
       }
     },
-"worldshard_caelum_gate": {
+    "worldshard_caelum_gate": {
       "id": 113,
       "locations": ["spine_of_the_worldshard", "petrified_caelum"],
       "danger_add": 0.4,

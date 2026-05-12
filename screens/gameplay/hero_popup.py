@@ -59,7 +59,7 @@ def show_hero_details(screen_instance, hero, parent_size):
         valign="middle"
     ))
     content.add_widget(Label(
-        text=f"{lm.t("level_label")}: {hero.level} ",
+        text=f'{lm.t("level_label")}: {hero.level} ',
         font_size=max(22, int(frame_height * 0.0295)),
         color=(0, 0, 0, 1),
         size_hint_y=None,

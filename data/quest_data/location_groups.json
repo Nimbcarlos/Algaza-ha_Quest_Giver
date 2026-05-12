@@ -1,0 +1,66 @@
+{
+  "mountain": {
+    "pt": "na montanha",
+    "en": "in the mountain",
+    "es": "en la montaña",
+    "ru": "в горах",
+    "ja": "山にて",
+    "zh": "在山中"
+  },
+  "forest": {
+    "pt": "na floresta",
+    "en": "in the forest",
+    "es": "en el bosque",
+    "ru": "в лесу",
+    "ja": "森にて",
+    "zh": "在森林里"
+  },
+  "plains": {
+    "pt": "nas planícies",
+    "en": "in the plains",
+    "es": "en las llanuras",
+    "ru": "на равнинах",
+    "ja": "平原にて",
+    "zh": "在平原上"
+  },
+  "swamp": {
+    "pt": "no pântano",
+    "en": "in the swamp",
+    "es": "en el pantano",
+    "ru": "в болоте",
+    "ja": "沼地にて",
+    "zh": "在沼泽里"
+  },
+  "wasteland": {
+    "pt": "nas terras desoladas",
+    "en": "in the wasteland",
+    "es": "en as tierras desoladas",
+    "ru": "в пустоши",
+    "ja": "荒野にて",
+    "zh": "在废土中"
+  },
+  "valley": {
+    "pt": "no vale",
+    "en": "in the valley",
+    "es": "en el valle",
+    "ru": "в долине",
+    "ja": "谷にて",
+    "zh": "在山谷中"
+  },
+  "shore": {
+    "pt": "na costa",
+    "en": "in the shore",
+    "es": "en la costa",
+    "ru": "на берегу",
+    "ja": "海岸にて",
+    "zh": "在岸边"
+  },
+  "abyss": {
+    "pt": "no abismo",
+    "en": "in the abyss",
+    "es": "en el abismo",
+    "ru": "в бездне",
+    "ja": "深淵にて",
+    "zh": "在深渊中"
+  }
+}

@@ -84,9 +84,7 @@ class Quest:
             f"Pré-requisitos: {', '.join(str(q) for q in self.required_quests) if self.required_quests else 'Nenhum'}"
             f"\nforbidden_quests: {', '.join(str(q) for q in self.forbidden_quests) if self.forbidden_quests else 'Nenhum'}"
             f"\nFailed Quests: {', '.join(str(q) for q in self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
-            f"\nRequired Heroes: {', '.join(str(q) for q in self.required_perks
-) if self.required_perks
- else 'Nenhum'}"
+            f"\nRrequired_perks: {', '.join(str(q) for q in self.required_perks) if self.required_perks  else 'Nenhum'}"
             f"\nForbidden Heroes: {', '.join(str(q) for q in self.forbidden_heroes) if self.forbidden_heroes else 'Nenhum'}"
             f"\nIniciada no turno: {self.available_since_turn}"
         )

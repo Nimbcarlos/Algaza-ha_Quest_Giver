@@ -1,0 +1,1895 @@
+{
+  "plains": {
+    "goldenreach_plains": {
+      "id": 10,
+      "danger": 0.8,
+      "group": "plains",
+      "pt": "nas planícies do alcance dourado",
+      "en": "in the goldenreach plains",
+      "es": "en las llanuras del alcance dorado",
+      "zh": "在金辉平原",
+      "ja": "黄金の平野にて",
+      "ru": "в равнинах золотого края",
+      "context": {
+      "landmark": [
+        {
+          "pt": "uma estrada de pedra dourada que corta o horizonte",
+          "en": "a golden stone road that cuts through the horizon",
+          "es": "un camino de piedra dorada que corta el horizonte",
+          "ru": "золотая каменная дорога, пересекающая горизонт",
+          "ja": "地平線を貫く黄金の石畳の道",
+          "zh": "一条横贯地平线的金色石路"
+        },
+        {
+          "pt": "espadas cravadas no solo que servem como marcos de fronteira",
+          "en": "swords driven into the ground serving as boundary markers",
+          "es": "espadas clavadas en el suelo que sirven como hitos fronterizos",
+          "ru": "мечи, воткнутые в землю и служащие пограничными знаками",
+          "ja": "境界標として地面に突き刺された剣",
+          "zh": "插在地上的剑，用作边界标记"
+        },
+        {
+          "pt": "ruínas de moinhos de vento cujas pás ainda giram silenciosamente",
+          "en": "ruins of windmills whose blades still turn silently",
+          "es": "ruinas de molinos de viento cuyas aspas aún giran silenciosamente",
+          "ru": "руины ветряных мельниц, лопасти которых все еще бесшумно вращаются",
+          "ja": "今も静かに羽根が回る風車の廃墟",
+          "zh": "风车遗迹，其叶片仍在无声地转动"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "a sensação de ser observado por olhos escondidos na grama alta",
+          "en": "the feeling of being watched by eyes hidden in the tall grass",
+          "es": "la sensación de ser observado por ojos ocultos en la hierba alta",
+          "ru": "ощущение, что за тобой следят глаза, спрятанные в высокой траве",
+          "ja": "背の高い草の中に隠れた瞳に見守られているような感覚",
+          "zh": "感觉被躲在高草丛中的眼睛注视着"
+        },
+        {
+          "pt": "um vento constante que carrega o cheiro de trigo e ferro velho",
+          "en": "a constant wind carrying the smell of wheat and scrap iron",
+          "es": "un viento constante que trae el olor a trigo y hierro viejo",
+          "ru": "постоянный ветер, приносящий запах пшеницы и старого железа",
+          "ja": "小麦と古鉄の香りを運ぶ絶え間ない風",
+          "zh": "持续不断的风，带着小麦和废铁的味道"
+        },
+        {
+          "pt": "uma paz inquietante que sugere uma tempestade iminente",
+          "en": "an unsettling peace that suggests an imminent storm",
+          "es": "una paz inquietante que sugiere una tormenta inminente",
+          "ru": "тревожный покой, предвещающий надвигающуюся бурю",
+          "ja": "嵐の予感を感じさせる、不気味なほどの静けさ",
+          "zh": "一种令人不安的宁静，预示着风暴即将来临"
+        }
+      ]
+    }
+    },
+    "fields_of_endless_strife_west": {
+      "id": 11,
+      "danger": 1.5,
+      "group": "plains",
+      "pt": "nos campos do conflito eterno (oeste)",
+      "en": "in the fields of endless strife (west)",
+      "es": "en los campos de la lucha eterna (oeste)",
+      "zh": "在永恒斗争之野（西部）",
+      "ja": "果てなき闘争の野にて（西）",
+      "ru": "в полях вечного раздора (запад)",
+      "context": {
+      "landmark": [
+        {
+          "pt": "uma colina feita inteiramente de armaduras vazias e escudos partidos",
+          "en": "a hill made entirely of empty armor and broken shields",
+          "es": "una colina feita inteiramente de armaduras vacías y escudos rotos",
+          "ru": "холм, целиком состоящий из пустых доспехов и разбитых щитов",
+          "ja": "空の鎧と砕けた盾だけで作られた丘",
+          "zh": "一座完全由空盔甲和残破盾牌堆成的山丘"
+        },
+        {
+          "pt": "estandartes rasgados que flutuam sem vento, presos a lanças fincadas",
+          "en": "torn banners fluttering without wind, attached to driven spears",
+          "es": "estandartes rotos que flotan sin viento, sujetos a lanzas clavadas",
+          "ru": "рваные знамена, развевающиеся без ветра на вогнанных в землю копьях",
+          "ja": "突き刺さった槍に結ばれ、風もないのに揺れる破れた旗",
+          "zh": "系在深插的长矛上、无风自动的残破旗帜"
+        },
+        {
+          "pt": "grandes crateras onde a terra permanece negra e queimada",
+          "en": "large craters where the earth remains black and scorched",
+          "es": "grandes cráteres donde la tierra permanece negra y quemada",
+          "ru": "огромные кратеры, где земля остается черной и обожженной",
+          "ja": "大地が黒く焦げたままの巨大なクレーター",
+          "zh": "大地依然焦黑残存的大型弹坑"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "o eco distante de espadas se chocando que nunca silencia",
+          "en": "the distant echo of clashing swords that never silences",
+          "es": "el eco distante de espadas chocando que nunca se silencia",
+          "ru": "далекое эхо звона мечей, которое никогда не утихает",
+          "ja": "決して静まることのない、遠くで響く剣のぶつかり合う音",
+          "zh": "远方从未平息的剑刃交锋回响"
+        },
+        {
+          "pt": "uma sede de sangue inexplicável que consome os pensamentos",
+          "en": "an inexplicable bloodlust that consumes one's thoughts",
+          "es": "una sed de sangre inexplicable que consume los pensamientos",
+          "ru": "необъяснимая жажда крови, поглощающая все мысли",
+          "ja": "思考を支配する説明のつかない血への渇望",
+          "zh": "一种占据思绪的莫名的嗜血冲动"
+        },
+        {
+          "pt": "a sensação de que o solo está impregnado com o ódio de séculos",
+          "en": "the feeling that the soil is soaked with centuries of hatred",
+          "es": "la sensación de que el suelo está impregnado con el odio de siglos",
+          "ru": "ощущение, что почва пропитана ненавистью веков",
+          "ja": "大地に何世紀にもわたる憎しみが染み込んでいるような感覚",
+          "zh": "感觉脚下的土壤浸透了数百年的恨意"
+        }
+      ]
+    }
+    },
+    "fields_of_endless_strife_east": {
+      "id": 12,
+      "danger": 1.5,
+      "group": "plains",
+      "pt": "nos campos do conflito eterno (leste)",
+      "en": "in the fields of endless strife (east)",
+      "es": "en los campos de la lucha eterna (east)",
+      "zh": "在永恒斗争之野（东部）",
+      "ja": "果てなき闘争の野にて（東）",
+      "ru": "в полях вечного раздора (восток)",
+      "context": {
+      "landmark": [
+        {
+          "pt": "névoas matinais que se agarram ao solo como fantasmas",
+          "en": "morning mists that cling to the ground like ghosts",
+          "es": "nieblas matinales que se aferran al suelo como fantasmas",
+          "ru": "утренние туманы, цепляющиеся за землю, словно призраки",
+          "ja": "幽霊のように地面にまとわりつく朝霧",
+          "zh": "像幽灵一样笼罩在地面上的晨雾"
+        },
+        {
+          "pt": "poças de água estagnada refletindo o céu alaranjado",
+          "en": "pools of stagnant water reflecting the orange sky",
+          "es": "charcos de agua estancada que reflejan el cielo anaranjado",
+          "ru": "лужи застойной воды, отражающие оранжевое небо",
+          "ja": "オレンジ色の空を映し出す濁った水たまり",
+          "zh": "倒映着橙色天空的积水潭"
+        },
+        {
+          "pt": "valas comuns cobertas por flores brancas que nascem entre ossos",
+          "en": "mass graves covered by white flowers growing among bones",
+          "es": "fosas comunes cubiertas por flores blancas que crecen entre huesos",
+          "ru": "братские могилы, покрытые белыми цветами, растущими среди костей",
+          "ja": "骨の間から白い花が咲き乱れる集団墓地",
+          "zh": "白花盛开在白骨间的乱葬岗"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "o peso do silêncio que precede o soar das trombetas",
+          "en": "the weight of the silence that precedes the sounding of trumpets",
+          "es": "el peso del silencio que precede al sonido de las trompetas",
+          "ru": "тяжесть тишины, предшествующей звуку труб",
+          "ja": "進軍のラッパが鳴り響く前の重苦しい静寂",
+          "zh": "号角响起前沉重的寂静"
+        },
+        {
+          "pt": "uma brisa fria que parece carregar lamentos sussurrados",
+          "en": "a cold breeze that seems to carry whispered laments",
+          "es": "una brisa fría que parece traer lamentos susurrados",
+          "ru": "холодный бриз, который, кажется, несет в себе шепот причитаний",
+          "ja": "囁くような嘆きを運んでくるかのような冷たい微風",
+          "zh": "冷风中仿佛夹杂着低语的哀悼"
+        },
+        {
+          "pt": "a percepção de que a glória das batalhas é apenas uma ilusão passageira",
+          "en": "the realization that the glory of battles is but a fleeting illusion",
+          "es": "la percepción de que la gloria de las batallas es solo una ilusión pasajera",
+          "ru": "осознание того, что слава сражений — лишь мимолетная иллюзия",
+          "ja": "戦いの栄光とは儚い幻想に過ぎないという実感",
+          "zh": "意识到战斗的荣耀不过是转瞬即逝的幻象"
+        }
+      ]
+    }
+    },
+    "azurewind_prairie": {
+      "id": 13,
+      "danger": 1.0,
+      "group": "plains",
+      "pt": "na pradaria dos ventos azuis",
+      "en": "in the azurewind prairie",
+      "es": "en la pradera de los vientos azures",
+      "zh": "在蔚蓝风之草原",
+      "ja": "蒼風の草原にて",
+      "ru": "в прерии лазурного ветра",
+      "context": {
+      "landmark": [
+        {
+          "pt": "ondas de grama azulada que se movem como o oceano",
+          "en": "waves of bluish grass moving like the ocean",
+          "es": "olas de hierba azulada que se mueven como el océano",
+          "ru": "волны голубоватой травы, колышущиеся подобно океану",
+          "ja": "海のようにうねる青みがかった草の波",
+          "zh": "如海洋般翻腾的淡蓝色草浪"
+        },
+        {
+          "pt": "nuvens rápidas que projetam sombras passageiras sobre o campo",
+          "en": "fast-moving clouds casting fleeting shadows over the field",
+          "es": "nubes rápidas que proyectan sombras pasajeras sobre el campo",
+          "ru": "быстрые облака, отбрасывающие мимолетные тени на поле",
+          "ja": "草原に流れゆく影を落とす速い雲の流れ",
+          "zh": "在草场上投下瞬息残影的疾云"
+        },
+        {
+          "pt": "pétalas azuis flutuando em redemoinhos de vento constante",
+          "en": "blue petals floating in constant wind swirls",
+          "es": "pétalos azules flotando en remolinos de viento constante",
+          "ru": "голубые лепестки, парящие em постоянных вихрях ветра",
+          "ja": "絶え間ない風の渦に舞う青い花びら",
+          "zh": "在持续不断的旋风中飞舞的蓝色花瓣"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "um frescor revigorante que limpa os pulmões e a mente",
+          "en": "an invigorating freshness that clears the lungs and mind",
+          "es": "una frescura vigorizante que limpia los pulmones y la mente",
+          "ru": "бодрящая свежесть, очищающая легкие и разум",
+          "ja": "肺と精神を澄みわたらせる、元気づけられるような清涼感",
+          "zh": "一种令人心旷神怡、净化身心的清爽感"
+        },
+        {
+          "pt": "a sensação de liberdade proporcionada pelo horizonte infinito",
+          "en": "the sense of freedom provided by the infinite horizon",
+          "es": "la sensación de libertad proporcionada por el horizonte infinito",
+          "ru": "чувство свободы, даруемое бесконечным горизонтом",
+          "ja": "果てしない地平線がもたらす自由な感覚",
+          "zh": "无尽的地平线带来的自由感"
+        },
+        {
+          "pt": "uma leveza no peito como se o vento pudesse te carregar",
+          "en": "a lightness in the chest as if the wind could carry you",
+          "es": "una ligereza en el pecho como si el viento pudiese llevarte",
+          "ru": "легкость в груди, словно ветер может унести тебя с собой",
+          "ja": "風が自分を運んでいってしまいそうな胸の軽やかさ",
+          "zh": "胸中感到一阵轻盈，仿佛风儿能将你带走"
+        }
+      ]
+    }
+    },
+    "fields_of_broken_grace": {
+      "id": 14,
+      "danger": 1.3,
+      "group": "plains",
+      "pt": "nos campos da graça partida",
+      "en": "in the fields of broken grace",
+      "es": "en los campos de la gracia rota",
+      "zh": "在残破恩典之野",
+      "ja": "砕かれし恩寵の原にて",
+      "ru": "в полях разбитой благодати",
+      "context": {
+      "landmark": [
+        {
+          "pt": "estátuas decapitadas que parecem chorar água da chuva",
+          "en": "headless statues that seem to weep rainwater",
+          "es": "estatuas decapitadas que parecen llorar agua de lluvia",
+          "ru": "обезглавленные статуи, которые, кажется, плачут дождевой водой",
+          "ja": "雨水が涙のように流れる、首のない像",
+          "zh": "似乎在流着雨水泪珠的断头雕像"
+        },
+        {
+          "pt": "cristais opacos que brotam do solo como ervas daninhas",
+          "en": "dull crystals sprouting from the ground like weeds",
+          "es": "cristales opacos que brotan del suelo como maleza",
+          "ru": "тусклые кристаллы, прорастающие из земли, как сорняки",
+          "ja": "雑草のように地面から生え出したくすんだ水晶",
+          "zh": "像杂草一样从地里长出来的暗淡水晶"
+        },
+        {
+          "pt": "raios de luz pálida que atravessam nuvens eternamente cinzentas",
+          "en": "shafts of pale light piercing through eternally grey clouds",
+          "es": "rayos de luz pálida que atraviesan nubes eternamente grises",
+          "ru": "лучи бледного света, пробивающиеся сквозь вечно серые облака",
+          "ja": "永遠に灰色の雲を突き抜ける、青白い光の筋",
+          "zh": "穿透永恒阴云的苍白光束"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "uma nostalgia por uma era de ouro que você nunca viveu",
+          "en": "a nostalgia for a golden age you never lived through",
+          "es": "una nostalgia por una edad de oro que nunca viviste",
+          "ru": "ностальгия по золотому веку, в котором ты никогда не жил",
+          "ja": "生きたことのない黄金時代へのノスタルジー",
+          "zh": "对从未经历过的黄金时代的怀旧之情"
+        },
+        {
+          "pt": "a sensação de que algo sagrado foi violado neste lugar",
+          "en": "the feeling that something sacred was violated in this place",
+          "es": "la sensación de que algo sagrado fue violado en este lugar",
+          "ru": "ощущение, что в этом месте было осквернено что-то священное",
+          "ja": "この場所で聖なる何かが侵されたという感覚",
+          "zh": "感觉这个地方神圣的东西被侵犯了"
+        },
+        {
+          "pt": "um cansaço espiritual que torna os passos mais pesados",
+          "en": "a spiritual weariness that makes every step feel heavier",
+          "es": "un cansancio espiritual que hace que cada paso se sienta más pesado",
+          "ru": "духовная усталость, из-за которой каждый шаг кажется тяжелее",
+          "ja": "足取りを重くさせる、精神的な疲れ",
+          "zh": "一种让步伐变得沉重的精神疲惫感"
+        }
+      ]
+    }
+    },
+    "the_tarnished_expanse": {
+      "id": 15,
+      "danger": 1.6,
+      "group": "plains",
+      "pt": "na vastidão maculada",
+      "en": "in the tarnished expanse",
+      "es": "en la extensión maculada",
+      "zh": "在晦暗旷野",
+      "ja": "褪せし広がりにて",
+      "ru": "в тусклой пустоши",
+      "context": {
+      "landmark": [
+      {
+        "pt": "colunas negras inclinadas, como se tivessem desistido de sustentar o céu",
+        "en": "blackened pillars leaning as if they gave up holding the sky",
+        "es": "columnas ennegrecidas inclinadas como si hubieran renunciado a sostener el cielo",
+        "ru": "почерневшие колонны, словно отказавшиеся держать небо",
+        "ja": "空を支えることを諦めたかのように傾く黒き柱",
+        "zh": "仿佛放弃支撑天空的倾斜黑柱"
+      },
+        {
+          "pt": "poças de óleo iridescente que sufocam a vegetação rasteira",
+          "en": "pools of iridescent oil stifling the undergrowth",
+          "es": "charcos de aceite iridiscente que asfixian la vegetación baja",
+          "ru": "лужи радужного масла, удушающие подлесок",
+          "ja": "下草を枯らす、虹色に光る油溜まり",
+          "zh": "压抑着植被生长的斑斓油潭"
+        },
+        {
+          "pt": "árvores petrificadas e retorcidas que não projetam sombras",
+          "en": "petrified, twisted trees that cast no shadows",
+          "es": "árboles petrificados y retorcidos que no proyectan sombras",
+          "ru": "окаменевшие, скрученные деревья, не отбрасывающие теней",
+          "ja": "影を落とすことのない、石化したねじれた木々",
+          "zh": "不投下阴影的石化扭曲树木"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "um gosto metálico persistente que invade o paladar",
+          "en": "a lingering metallic taste that invades the palate",
+          "es": "un gusto metálico persistente que invade el paladar",
+          "ru": "стойкий металлический привкус во рту",
+          "ja": "口の中に広がる、いつまでも消えない金属のような味",
+          "zh": "入侵味觉的持久金属感"
+        },
+        {
+          "pt": "a sensação de que a vitalidade está sendo lentamente drenada",
+          "en": "the feeling that vitality is being slowly drained away",
+          "es": "la sensación de que la vitalidad está siendo drenada lentamente",
+          "ru": "ощущение, что жизненные силы медленно уходят",
+          "ja": "生命力がゆっくりと吸い取られていくような感覚",
+          "zh": "感觉生命力正在被缓慢抽离"
+        },
+        {
+          "pt": "uma náusea sutil provocada pelo ar carregado e pesado",
+          "en": "a subtle nausea caused by the heavy, thick air",
+          "es": "una náusea sutil provocada por el aire cargado y pesado",
+          "ru": "легкая тошнота, вызванная тяжелым и густым воздухом",
+          "ja": "重く淀んだ空気による、かすかな吐き気",
+          "zh": "沉重浑浊的空气引发的隐约恶心感"
+        }
+      ]
+    }
+    },
+    "blightgrass_fields_east": {
+      "id": 16,
+      "danger": 1.4,
+      "group": "plains",
+      "pt": "nos campos de grama definhada (leste)",
+      "en": "in the blightgrass fields (east)",
+      "es": "en los campos de herbazal marchito (este)",
+      "zh": "在枯萎草地（东部）",
+      "ja": "枯れ草の原（東）にて",
+      "ru": "в полях губительной травы (восток)",
+      "context": {
+      "landmark": [
+        {
+          "pt": "vastidões de grama cinzenta que quebram como vidro ao serem pisadas",
+          "en": "expanses of grey grass that break like glass when stepped on",
+          "es": "vastedades de hierba gris que se rompen como vidrio ao ser pisadas",
+          "ru": "просторы серой травы, ломающейся как стекло при каждом шаге",
+          "ja": "踏むとガラスのように砕ける灰色の草地",
+          "zh": "踩上去像玻璃一样碎裂的灰色草场"
+        },
+        {
+          "pt": "redemoinhos de poeira seca que carregam o cheiro de palha queimada",
+          "en": "swirls of dry dust carrying the scent of burnt straw",
+          "es": "remolinos de polvo seco que traen el olor a paja quemada",
+          "ru": "вихри сухой пыли, несущие запах горелой соломы",
+          "ja": "焼けた藁の匂いを運ぶ乾燥した砂埃の渦",
+          "zh": "带着焦灼稻草味的干粉尘旋风"
+        },
+        {
+          "pt": "pequenos montes de terra estéril onde nada consegue brotar",
+          "en": "small mounds of barren earth where nothing can sprout",
+          "es": "pequeños montículos de tierra estéril onde nada consegue brotar",
+          "ru": "небольшие холмики бесплодной земли, на которой ничего não может вырасти",
+          "ja": "何も芽吹くことのない不毛な土の盛り上がり",
+          "zh": "寸草不生的荒芜小土丘"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "uma coceira irritante na garganta causada pelo pólen seco",
+          "en": "an irritating itch in the throat caused by dry pollen",
+          "es": "un picor irritante en la garganta causado por el polen seco",
+          "ru": "раздражающий зуд в горле, вызванный сухой пыльцой",
+          "ja": "乾燥した花粉による喉のイライラ感",
+          "zh": "干燥花粉引起的发痒咽喉感"
+        },
+        {
+          "pt": "a sensação de que o solo está quente e febril sob as botas",
+          "en": "the feeling that the ground is hot and feverish beneath your boots",
+          "es": "la sensación de que el suelo está caliente y febril bajo las botas",
+          "ru": "ощущение, что земля под сапогами горячая и лихорадочная",
+          "ja": "ブーツの下の地面が熱っぽく、熱を帯びているような感覚",
+          "zh": "感觉靴子下的土地发烫且带着病态的热感"
+        },
+        {
+          "pt": "uma sede súbita que nenhuma água parece ser capaz de saciar",
+          "en": "a sudden thirst that no water seems able to quench",
+          "es": "una sed súbita que ningún agua parece capaz de saciar",
+          "ru": "внезапная жажда, которую não может утолить никакая вода",
+          "ja": "どんなに水を飲んでも癒えないような突然の渇き",
+          "zh": "一种任何水源都无法解渴的突然渴求"
+        }
+      ]
+    }
+    },
+    "blightgrass_fields_west": {
+      "id": 16,
+      "danger": 1.4,
+      "group": "plains",
+      "pt": "nos campos de grama definhada (oeste)",
+      "en": "in the blightgrass fields (west)",
+      "es": "en los campos de herbazal marchito (oeste)",
+      "zh": "在枯萎草地（西部）",
+      "ja": "枯れ草の原（西）にて",
+      "ru": "в полях губительной травы (запад)",
+      "context": {
+       "landmark": [
+        {
+          "pt": "campos de grama escura que se dobram todos na mesma direção, mesmo sem vento",
+          "en": "fields of dark grass bending in the same direction, even without wind",
+          "es": "campos de hierba oscura inclinados en la misma dirección, incluso sin viento",
+          "ru": "поля темной травы, склоняющейся в одну сторону даже без ветра",
+          "ja": "風もないのに同じ方向へ傾く黒い草原",
+          "zh": "即使无风也朝同一方向倾斜的黑色草地"
+        },
+        {
+          "pt": "flores fechadas com pétalas rígidas, como se nunca devessem se abrir",
+          "en": "closed flowers with rigid petals, as if never meant to bloom",
+          "es": "flores cerradas con pétalos rígidos, como si nunca debieran abrirse",
+          "ru": "закрытые цветы с жесткими лепестками, будто не предназначенные для раскрытия",
+          "ja": "決して咲かないかのような硬い花弁の閉じた花",
+          "zh": "仿佛从未打算开放的坚硬花朵"
+        },
+        {
+          "pt": "manchas no solo onde a vegetação cresce mais alta e densa, formando padrões irregulares",
+          "en": "patches where vegetation grows taller and denser, forming irregular patterns",
+          "es": "zonas donde la vegetación crece más alta y densa formando patrones irregulares",
+          "ru": "участки, где трава растет гуще и выше, образуя неровные узоры",
+          "ja": "不規則な模様を描くように密集して伸びる草の塊",
+          "zh": "形成不规则图案的高密度植被区域"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "a sensação de que o chão está vivo, mas não deveria estar",
+          "en": "the feeling that the ground is alive, but shouldn't be",
+          "es": "la sensación de que el suelo está vivo, pero no debería",
+          "ru": "ощущение, что земля жива, хотя не должна",
+          "ja": "本来生きているはずのない大地が生きている感覚",
+          "zh": "地面本不该有生命却仿佛活着的感觉"
+        },
+        {
+          "pt": "um desconforto crescente, como se algo estivesse observando de baixo da vegetação",
+          "en": "a growing unease, as if something watches from beneath the grass",
+          "es": "una incomodidad creciente, como si algo observara desde debajo de la hierba",
+          "ru": "нарастающее беспокойство, будто кто-то наблюдает из-под травы",
+          "ja": "草の下から何かに見られているような不安",
+          "zh": "仿佛有什么从草下窥视的渐增不安"
+        },
+        {
+          "pt": "a estranha impressão de que permanecer ali por muito tempo pode mudar algo em você",
+          "en": "the strange impression that staying too long might change something in you",
+          "es": "la extraña impresión de que quedarse demasiado tiempo podría cambiarte",
+          "ru": "странное ощущение, что если задержаться, что-то в тебе изменится",
+          "ja": "長く留まれば自分が変わってしまうという奇妙な感覚",
+          "zh": "一种久留会改变自身的诡异预感"
+        }
+      ]
+    }
+    }
+  },
+  "forest": {
+    "evergreen_kokiri": {
+      "id": 20,
+      "group": "forest",
+      "danger": 0.8,
+      "pt": "na Floresta Eterna de Kokir",
+      "en": "in the Eternal Kokir Forest",
+      "es": "en el Bosque Eterno de Kokir",
+      "zh": "在 柯基尔永恒森林",
+      "ja": "コキールの永遠の森で",
+      "ru": "в Вечном лесу Кокир",
+      "context": {
+  "landmark": [
+    {
+      "pt": "árvores altas com troncos perfeitamente retos, como se tivessem sido cultivadas com propósito",
+      "en": "tall trees with perfectly straight trunks, as if grown with intention",
+      "es": "árboles altos con troncos perfectamente rectos, como si hubieran sido cultivados con propósito",
+      "ru": "высокие деревья с идеально ровными стволами, будто выращенные с умыслом",
+      "ja": "意図を持って育てられたかのように真っ直ぐな幹の高木",
+      "zh": "仿佛被刻意培育般笔直生长的高大树木"
+    },
+    {
+      "pt": "pequenos caminhos que surgem entre as raízes e desaparecem ao olhar de novo",
+      "en": "small paths that appear between roots and vanish when looked at again",
+      "es": "pequeños senderos que aparecen entre las raíces y desaparecen al mirar de nuevo",
+      "ru": "узкие тропы между корнями, исчезающие, если взглянуть снова",
+      "ja": "見直すと消えてしまう根の間の小道",
+      "zh": "在树根间出现又消失的小径"
+    },
+    {
+      "pt": "luzes suaves flutuando entre as folhas, movendo-se como se observassem quem passa",
+      "en": "soft lights drifting between leaves, moving as if watching passersby",
+      "es": "luces suaves flotando entre las hojas, moviéndose como si observaran a quien pasa",
+      "ru": "мягкие огоньки между листьями, будто наблюдающие за проходящими",
+      "ja": "通り過ぎる者を見ているかのように漂う柔らかな光",
+      "zh": "仿佛在观察行人的柔光在树叶间漂浮"
+    }
+  ],
+  "feeling": [
+    {
+      "pt": "uma calma profunda que parece acolher, mas nunca completamente confiar",
+      "en": "a deep calm that feels welcoming, but never fully trusting",
+      "es": "una calma profunda que acoge, pero nunca confía del todo",
+      "ru": "глубокое спокойствие, которое принимает, но не доверяет полностью",
+      "ja": "受け入れているが完全には信用していない静けさ",
+      "zh": "一种接纳却不完全信任的深沉宁静"
+    },
+    {
+      "pt": "a sensação de estar sendo guiado sem perceber por onde",
+      "en": "the feeling of being guided without knowing how",
+      "es": "la sensación de ser guiado sin saber cómo",
+      "ru": "ощущение, будто тебя ведут, но ты не понимаешь как",
+      "ja": "どこからともなく導かれている感覚",
+      "zh": "仿佛被引导却不知路径的感觉"
+    },
+    {
+      "pt": "um leve desconforto ao perceber que sair pode não ser tão simples quanto entrar",
+      "en": "a slight unease at realizing leaving may not be as simple as entering",
+      "es": "una leve inquietud al notar que salir no será tan fácil como entrar",
+      "ru": "легкое беспокойство от мысли, что выйти сложнее, чем войти",
+      "ja": "入るよりも出る方が難しいかもしれないという不安",
+      "zh": "意识到离开或许没有进入那么简单的隐约不安"
+    }
+  ]
+}
+    },
+    "whispering_elwyn": {
+      "id": 21,
+      "group": "forest",
+      "danger": 1.0,
+      "pt": "na Floresta dos Sussurros de Elwin",
+      "en": "in the Whispering Elwin Forest",
+      "es": "en el Bosque Susurrante de Elwin",
+      "zh": "在 埃尔温低语森林",
+      "ja": "エルウィンの囁きの森で",
+      "ru": "в Шепчущем лесу Элвин",
+      "context": {
+      "landmark": [
+        {
+          "pt": "árvores de folhas prateadas que tremem mesmo sem vento",
+          "en": "silver-leaved trees that shiver even without wind",
+          "es": "árboles de hojas plateadas que tiemblan incluso sin viento",
+          "ru": "деревья с серебристыми листьями, которые дрожат даже без ветра",
+          "ja": "風がなくても震える銀色の葉を持つ木々",
+          "zh": "银色叶子的树木，即使无风也在颤抖"
+        },
+        {
+          "pt": "pequenos riachos cujas águas emitem um tilintar musical",
+          "en": "small streams whose waters emit a musical tinkling",
+          "es": "pequeños arroyos cuyas aguas emiten un tintineo musical",
+          "ru": "небольшие ручьи, воды которых издают музыкальный звон",
+          "ja": "音楽のような音色を奏でる小さな小川",
+          "zh": "水声宛如乐声般清脆的小溪"
+        },
+        {
+          "pt": "clareiras onde a luz do sol forma desenhos geométricos no musgo",
+          "en": "clearings where sunlight forms geometric patterns on the moss",
+          "es": "claros donde la luz del sol forma patrones geométricos en el musgo",
+          "ru": "поляны, где солнечный свет образует геометрические узоры на мху",
+          "ja": "日光が苔の上に幾何学模様を描き出す開けた場所",
+          "zh": "阳光在苔藓上形成几何图案的林间空地"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "a estranha certeza de que as árvores estão trocando segredos",
+          "en": "the strange certainty that the trees are exchanging secrets",
+          "es": "la extraña certeza de que los árboles están intercambiando secretos",
+          "ru": "странная уверенность в том, что деревья обмениваются секретами",
+          "ja": "木々が秘密を分かち合っているという奇妙な確信",
+          "zh": "一种奇怪的直觉，认为树木正在交换秘密"
+        },
+        {
+          "pt": "uma calma profunda que desacelera os batimentos cardíacos",
+          "en": "a profound calm that slows the heart rate",
+          "es": "una calma profunda que ralentiza los latidos del corazón",
+          "ru": "глубокое спокойствие, замедляющее сердцебиение",
+          "ja": "鼓動を穏やかにさせる深い静寂",
+          "zh": "一种让心跳放缓的深沉宁静"
+        },
+        {
+          "pt": "a sensação de formigamento na pele como se o ar estivesse carregado de magia",
+          "en": "a tingling sensation on the skin as if the air were charged with magic",
+          "es": "una sensación de hormigueo en la piel como si el aire estuviera cargado de magia",
+          "ru": "ощущение покалывания на коже, словно воздух заряжен магией",
+          "ja": "空気が魔力を帯びているかのような、肌がピリつく感覚",
+          "zh": "皮肤感到一阵刺痛，仿佛空气中充满了魔力"
+        }
+      ]
+    }
+    },
+    "great_jura_wilds": {
+      "id": 22,
+      "group": "forest",
+      "danger": 1.3,
+      "pt": "nas Selvas de Jurah",
+      "en": "in the Jurah Wilds",
+      "es": "en las Selvas de Jurah",
+      "zh": "在 侏拉大原野",
+      "ja": "ジュラの原生林で",
+      "ru": "в Диких землях Джуры",
+      "context": {
+      "landmark": [
+        {
+          "pt": "árvores de troncos colossais cujas copas escondem o céu",
+          "en": "colossal trunked trees whose canopies hide the sky",
+          "es": "árboles de troncos colosales cuyas copas esconden el cielo",
+          "ru": "деревья с колоссальными стволами, кроны которых скрывают небо",
+          "ja": "空を覆い隠すほど巨大な幹を持つ樹木",
+          "zh": "巨大树干的树木，其树冠遮天蔽日"
+        },
+        {
+          "pt": "samambaias gigantes que retêm gotas de orvalho do tamanho de punhos",
+          "en": "giant ferns holding dew drops the size of fists",
+          "es": "helechos gigantes que retienen gotas de rocío del tamaño de puños",
+          "ru": "гигантские папоротники, удерживающие капли росы размером с кулак",
+          "ja": "拳ほどの大きさの露をたたえる巨大なシダ",
+          "zh": "巨大的蕨类植物，上面挂着拳头大小的露珠"
+        },
+        {
+          "pt": "paredes de cipós entrelaçados que formam túneis naturais",
+          "en": "walls of intertwined vines forming natural tunnels",
+          "es": "paredes de lianas entrelazadas que forman túneles naturales",
+          "ru": "стены из переплетенных лиан, образующие природные туннели",
+          "ja": "自然のトンネルを形作る、絡み合った蔦の壁",
+          "zh": "交错藤蔓形成的天然隧道墙"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "o cheiro constante de terra molhada e vegetação exuberante",
+          "en": "the constant smell of wet earth and lush vegetation",
+          "es": "el olor constante a tierra mojada y vegetación exuberante",
+          "ru": "постоянный запах влажной земли и пышной растительности",
+          "ja": "湿った土と青々とした植物の絶え間ない香り",
+          "zh": "空气中弥漫着湿土和茂盛植被的味道"
+        },
+        {
+          "pt": "a sensação de ser minúsculo diante da grandiosidade da natureza",
+          "en": "the feeling of being tiny before the grandeur of nature",
+          "es": "la sensación de ser minúsculo ante la grandiosidad de la naturaleza",
+          "ru": "ощущение собственной ничтожности перед величием природы",
+          "ja": "大自然の雄大さを前に、自分がちっぽけに思える感覚",
+          "zh": "在大自然的壮丽面前感到自己渺小的觉知"
+        },
+        {
+          "pt": "uma umidade pesada que faz as roupas grudarem ao corpo",
+          "en": "a heavy humidity that makes clothes cling to the body",
+          "es": "una humedad pesada que faz as roupas grudarem ao corpo",
+          "ru": "тяжелая влажность, из-за которой одежда липнет к телу",
+          "ja": "服が肌にまとわりつくような、重苦しい湿気",
+          "zh": "沉重的湿气让衣服紧贴在身上"
+        }
+      ]
+    }
+    },
+    "shadowed_limgrave": {
+      "id": 23,
+      "group": "forest",
+      "danger": 1.5,
+      "pt": "na Floresta Sombria de Limgrave",
+      "en": "in the Shadowed Limgrave Forest",
+      "es": "en el Bosque Sombrío de Limgrave",
+      "zh": "在 宁姆格福幽影森林",
+      "ja": "リムグレイブの影の森で",
+      "ru": "в Тенистом лесу Лимгрейв",
+      "context": {
+      "landmark": [
+        {
+          "pt": "galhos retorcidos que se entrelaçam formando um teto impenetrável",
+          "en": "twisted branches that intertwine to form an impenetrable ceiling",
+          "es": "ramas retorcidas que se entrelazan formando un techo impenetrable",
+          "ru": "скрюченные ветви, переплетающиеся e образующие непроницаемый свод",
+          "ja": "侵入を拒む天井のように絡み合ったねじれた枝",
+          "zh": "扭曲的树枝交织在一起，形成了一层无法穿透的天花板"
+        },
+        {
+          "pt": "fungos luminescentes que emitem um brilho pálido e doentio",
+          "en": "luminescent fungi emitting a pale and sickly glow",
+          "es": "hongos luminiscentes que emiten un brillo pálido y enfermizo",
+          "ru": "люминесцентные грибы, излучающие бледное и болезненное сияние",
+          "ja": "青白く病的な光を放つ発光キノコ",
+          "zh": "发出苍白而病态光芒的发光真菌"
+        },
+        {
+          "pt": "raízes negras que emergem do solo como garras estáticas",
+          "en": "black roots emerging from the ground like static claws",
+          "es": "raíces negras que emergen del suelo como garras estáticas",
+          "ru": "черные корни, выступающие из земли, как застывшие когти",
+          "ja": "静止した爪のように地面から突き出た黒い根",
+          "zh": "像静止的爪子一样从地里钻出来的黑色树根"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "a sensação de que o tempo passa mais devagar sob a sombra das árvores",
+          "en": "the feeling that time passes slower under the shadow of the trees",
+          "es": "la sensación de que el tiempo pasa más lento bajo la sombra de los árboles",
+          "ru": "ощущение, что под тенью деревьев время течет медленнее",
+          "ja": "木々の影の下では時間がゆっくりと流れているような感覚",
+          "zh": "感觉在树荫下时间流逝得更慢"
+        },
+        {
+          "pt": "um frio súbito que arrepia a nuca sem qualquer corrente de ar",
+          "en": "a sudden chill that pricks the back of the neck without any draft",
+          "es": "un frío súbito que eriza la nuca sin ninguna corriente de aire",
+          "ru": "внезапный холод, от которого бегут мурашки по шее без всякого сквозняка",
+          "ja": "風もないのに首筋がゾクッとするような突然の冷気",
+          "zh": "在没有任何气流的情况下，颈后突然感到一阵寒意"
+        },
+        {
+          "pt": "a percepção de que cada estalo de galho está sendo monitorado",
+          "en": "the perception that every twig snap is being monitored",
+          "es": "la percepción de que cada crujido de rama está siendo monitoreado",
+          "ru": "ощущение, что за каждым хрустом ветки кто-то следит",
+          "ja": "枝の折れる音がひとつひとつ監視されているような感覚",
+          "zh": "感觉到每一声树枝折断的声音都被监视着"
+        }
+      ]
+    }
+    },
+    "fungal_zangarmarsh": {
+      "id": 24,
+      "group": "forest",
+      "danger": 1.2,
+      "pt": "no Bosque Fúngico de Zangaria",
+      "en": "in the Fungal Zangarian Grove",
+      "es": "en el Bosque Fúngico de Zangaria",
+      "zh": "在 赞加沼泽菌林",
+      "ja": "ザンガリアのキノコの森で",
+      "ru": "в Грибной роще Зангарии",
+      "context": {
+      "landmark": [
+        {
+          "pt": "cogumelos colossais que servem como abrigo contra a chuva de esporos",
+          "en": "colossal mushrooms that serve as shelter from the spore rain",
+          "es": "setas colosales que sirven como refugio contra la lluvia de esporas",
+          "ru": "колоссальные грибы, служащие укрытием от дождя из спор",
+          "ja": "胞子の雨を凌ぐ隠れ家となる巨大なキノコ",
+          "zh": "巨大的真菌，可作为避开孢子雨的避难所"
+        },
+        {
+          "pt": "veios de micélio que brilham em tons de azul e violeta pelo solo",
+          "en": "mycelium veins glowing in shades of blue and violet across the ground",
+          "es": "vetas de micelio que brillan en tonos de azul y violeta por el suelo",
+          "ru": "жилы мицелия, светящиеся синими и фиолетовыми оттенками на земле",
+          "ja": "地面を這う、青や紫に光る菌糸の脈",
+          "zh": "在大地上闪烁着蓝色和紫色光芒的菌丝脉络"
+        },
+        {
+          "pt": "pântanos rasos de fluidos bioluminescentes e viscosos",
+          "en": "shallow swamps of bioluminescent and viscous fluids",
+          "es": "pantanos poco profundos de fluidos bioluminiscentes y viscosos",
+          "ru": "мелкие болота с биолюминесцентными и вязкими жидкостями",
+          "ja": "生物発光する粘り気のある液体が溜まった浅い沼",
+          "zh": "充满生物发光粘性液体的浅沼"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "um cheiro adocicado e inebriante de decomposição fúngica",
+          "en": "a sweet and intoxicating scent of fungal decomposition",
+          "es": "un olor dulce e inebriante de descomposición fúngica",
+          "ru": "сладкий и пьянящий запах грибного разложения",
+          "ja": "キノコの分解による、甘く酔いしれるような香り",
+          "zh": "一种甜美而令人陶醉的真菌腐烂味"
+        },
+        {
+          "pt": "a sensação de que o ar é espesso e difícil de filtrar nos pulmões",
+          "en": "the feeling that the air is thick and hard to filter in the lungs",
+          "es": "la sensación de que el aire é espeso e difícil de filtrar en los pulmones",
+          "ru": "ощущение, что воздух густой и его трудно вдыхать",
+          "ja": "空気が重く、肺に吸い込むのが難しいような感覚",
+          "zh": "感觉空气粘稠，难以在肺部过滤"
+        },
+        {
+          "pt": "vibrações baixas que parecem vir do crescimento acelerado dos fungos",
+          "en": "low vibrations that seem to come from the accelerated growth of fungi",
+          "es": "vibraciones bajas que parecen venir del crecimiento acelerado de los hongos",
+          "ru": "низкие вибрации, которые, кажется, исходят от ускоренного роста грибов",
+          "ja": "キノコの急成長から生じているかのような低い振動",
+          "zh": "一种低频振动，仿佛来自真菌的急速生长"
+        }
+      ]
+    }
+    },
+    "petrified_caelum": {
+      "id": 25,
+      "group": "forest",
+      "danger": 1.4,
+      "pt": "na Mata Petrificada de Caelum",
+      "en": "in the Petrified Caelum Woods",
+      "es": "en el Bosque Petrificado de Caelum",
+      "zh": "在 盖利德石化森林",
+      "ja": "ケイラムの石化の森で",
+      "ru": "в Окаменелом лесу Кайлума",
+    "context": {
+      "landmark": [
+        {
+          "pt": "árvores de pedra com galhos afiados que nunca balançam",
+          "en": "stone trees with sharp branches that never sway",
+          "es": "árboles de piedra con ramas afiladas que nunca se balancean",
+          "ru": "каменные деревья с острыми ветвями, которые никогда не колышутся",
+          "ja": "決して揺れることのない、鋭い枝を持つ石の木々",
+          "zh": "永不摇摆、枝干锋利的石树"
+        },
+        {
+          "pt": "folhas de cristal quebradiças que cobrem o solo como estilhaços",
+          "en": "brittle crystal leaves covering the ground like shards",
+          "es": "hojas de cristal quebradizas que cubrem el suelo como astillas",
+          "ru": "хрупкие хрустальные листья, покрывающие землю, словно осколки",
+          "ja": "破片のように地面を覆う、脆い水晶の葉",
+          "zh": "如碎片般铺满地面的脆亮晶体叶子"
+        },
+        {
+          "pt": "silhuetas de animais petrificados em poses de fuga eterna",
+          "en": "silhouettes of petrified animals in poses of eternal flight",
+          "es": "siluetas de animales petrificados en poses de huida eterna",
+          "ru": "силуэты окаменевших животных в позах вечного бегства",
+          "ja": "永遠の逃走のポーズで固まった、石化した動物たちのシルエット",
+          "zh": "保持着永恒逃跑姿态的石化动物轮廓"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "um silêncio absoluto onde até a sua respiração soa ruidosa",
+          "en": "an absolute silence where even your breathing sounds loud",
+          "es": "un silencio absoluto donde incluso tu respiración suena ruidosa",
+          "ru": "абсолютная тишина, в которой даже твое дыхание кажется громким",
+          "ja": "自分の呼吸音さえも大きく聞こえるほどの絶対的な静寂",
+          "zh": "连呼吸声都显得刺耳的绝对宁静"
+        },
+        {
+          "pt": "a sensação de que a sua própria pele está se tornando rígida e fria",
+          "en": "the feeling that your own skin is becoming stiff and cold",
+          "es": "la sensación de que tu propia piel se está volviendo rígida y fría",
+          "ru": "ощущение, что твоя собственная кожа становится жесткой и холодной",
+          "ja": "自分の肌が硬く、冷たくなっていくような感覚",
+          "zh": "感觉自己的皮肤正变得僵硬且冰冷"
+        },
+        {
+          "pt": "um ar seco e empoeirado que parece desgastar o equipamento",
+          "en": "a dry, dusty air that seems to wear down your equipment",
+          "es": "un aire seco y polvoriento que parece desgastar el equipo",
+          "ru": "сухой, пыльный воздух, который словно изнашивает снаряжение",
+          "ja": "装備を摩耗させるかのような、乾燥した埃っぽい空気",
+          "zh": "仿佛会磨损装备的干燥且充满粉尘的空气"
+        }
+      ]
+    }
+    }
+  },
+  "mountain": {
+    "olympos_peak_base": {
+      "id": 40,
+      "group": "mountain",
+      "danger": 1.3,
+      "pt": "no Sopé de Olympos",
+      "en": "at the Foot of Olympos",
+      "es": "en el Pie de Olympos",
+      "zh": "在 奥林波斯山脚",
+      "ja": "オリンポスの麓で",
+      "ru": "у Подножия Олимпос",
+      "context": {
+        "landmark": [
+          {
+            "pt": "trilhas de pedra antiga parcialmente engolidas pela terra",
+            "en": "ancient stone trails partially swallowed by the earth",
+            "es": "senderos de piedra antiguos parcialmente tragados por la tierra",
+            "ru": "древние каменные тропы, частично поглощённые землёй",
+            "ja": "大地に飲み込まれかけた古い石の道",
+            "zh": "被大地吞噬的古老石路"
+          },
+          {
+            "pt": "fragmentos de colunas quebradas espalhados como ossos",
+            "en": "fragments of broken columns scattered like bones",
+            "es": "fragmentos de columnas rotas esparcidos como huesos",
+            "ru": "обломки колонн, разбросанные как кости",
+            "ja": "骨のように散らばる壊れた柱の残骸",
+            "zh": "如同骨骸般散落的断裂石柱"
+          },
+          {
+            "pt": "uma trilha principal que leva diretamente à estátua da valquíria",
+            "en": "a main path leading directly to the valkyrie statue",
+            "es": "un camino principal que lleva directamente a la estatua de la valquiria",
+            "ru": "главная тропа, ведущая прямо к статуе валькирии",
+            "ja": "ヴァルキリー像へと続く主な道",
+            "zh": "通往女武神雕像的主路"
+          }
+        ],
+        "feeling": [
+          {
+            "pt": "a sensação de estar entrando em território que não pertence mais aos vivos",
+            "en": "the feeling of entering a place that no longer belongs to the living",
+            "es": "la sensación de entrar en un lugar que ya no pertenece a los vivos",
+            "ru": "ощущение, что входишь в место, больше не принадлежащее живым",
+            "ja": "もはや生者のものではない場所に足を踏み入れる感覚",
+            "zh": "踏入不再属于生者之地的感觉"
+          },
+          {
+            "pt": "um desconforto silencioso, como se a montanha observasse cada passo",
+            "en": "a silent unease, as if the mountain watches every step",
+            "es": "una incomodidad silenciosa, como si la montaña observara cada paso",
+            "ru": "тихое беспокойство, будто гора следит за каждым шагом",
+            "ja": "山に見られているような静かな不安",
+            "zh": "仿佛被山注视的无声不安"
+          },
+          {
+            "pt": "uma leve hesitação que faz qualquer viajante olhar para trás uma última vez",
+            "en": "a slight hesitation that makes any traveler look back one last time",
+            "es": "una leve vacilación que hace a cualquier viajero mirar atrás una última vez",
+            "ru": "лёгкое колебание, заставляющее оглянуться в последний раз",
+            "ja": "思わず振り返らせるかすかなためらい",
+            "zh": "让人忍不住回头的轻微迟疑"
+          }
+        ]
+      }
+    },
+    "olympos_peak_plateau": {
+      "id": 41,
+      "group": "mountain",
+      "danger": 2.1,
+      "pt": "no Platô de Olympos",
+      "en": "on the Olympos Plateau",
+      "es": "en la Meseta de Olympos",
+      "zh": "在 奥林波斯高原",
+      "ja": "オリンポスの台地で",
+      "ru": "на Плато Олимпос",
+      "context": {
+        "landmark": [
+          {
+            "pt": "um vasto campo de mármore branco suspenso acima das nuvens",
+            "en": "a vast field of white marble suspended above the clouds",
+            "es": "un vasto campo de mármol blanco suspendido sobre las nubes",
+            "ru": "огромное поле белого мрамора, возвышающееся над облаками",
+            "ja": "雲の上に広がる白い大理石の大地",
+            "zh": "悬浮于云海之上的广阔白色大理石平原"
+          },
+          {
+            "pt": "colunas gigantescas alinhadas como se sustentassem o próprio céu",
+            "en": "gigantic columns aligned as if holding up the sky itself",
+            "es": "columnas gigantes alineadas como si sostuvieran el cielo",
+            "ru": "гигантские колонны, словно поддерживающие само небо",
+            "ja": "空そのものを支えるかのように並ぶ巨大な柱",
+            "zh": "仿佛支撑天空的巨型石柱"
+          },
+          {
+            "pt": "escadarias que não levam a lugar algum visível",
+            "en": "stairways that lead to no visible destination",
+            "es": "escaleras que no llevan a ningún destino visible",
+            "ru": "лестницы, ведущие в никуда",
+            "ja": "どこにも繋がっていない階段",
+            "zh": "通往虚无的阶梯"
+          }
+        ],
+        "feeling": [
+          {
+            "pt": "a sensação de estar sendo julgado por algo antigo e silencioso",
+            "en": "the feeling of being judged by something ancient and silent",
+            "es": "la sensación de ser juzgado por algo antiguo y silencioso",
+            "ru": "ощущение, что тебя судит нечто древнее и безмолвное",
+            "ja": "古く静かな何かに見定められている感覚",
+            "zh": "仿佛被某种古老而沉默的存在审视"
+          },
+          {
+            "pt": "um respeito involuntário que impede passos descuidados",
+            "en": "an involuntary respect that prevents careless steps",
+            "es": "un respeto involuntario que impide pasos descuidados",
+            "ru": "невольное благоговение, не позволяющее идти небрежно",
+            "ja": "軽率な一歩を踏ませない無意識の畏敬",
+            "zh": "让人不敢轻举妄动的本能敬畏"
+          },
+          {
+            "pt": "a estranha certeza de que dali não se sai o mesmo",
+            "en": "the strange certainty that no one leaves the same",
+            "es": "la extraña certeza de que nadie sale igual",
+            "ru": "странная уверенность, что никто не уходит прежним",
+            "ja": "ここを去る時、同じ自分ではいられないという確信",
+            "zh": "一种离开后再也不会相同的预感"
+          }
+        ]
+      }
+    },
+    "mount_chillyard_passage": {
+      "id": 42,
+      "group": "mountain",
+      "danger": 2.1,
+      "pt": "na Passagem do Monte Chillyard",
+      "en": "at the Pass of Mount Chillyard",
+      "es": "en el Pasaje del Monte Chillyard",
+      "zh": "在 奇利亚德山通道",
+      "ja": "チリヤード山の通路で",
+      "ru": "в Проходе горы Чиллиард",
+      "context": {
+        "landmark": [
+          {
+            "pt": "um portal de pedra maciço adornado com runas que brilham em dourado",
+            "en": "a massive stone portal adorned with runes that glow golden",
+            "es": "un portal de piedra macizo adornado con runas que brillan en dorado",
+            "ru": "массивный каменный портал, украшенный рунами, которые светятся золотом",
+            "ja": "金色に輝くルーンが刻まれた巨大な石の門",
+            "zh": "装饰着金色发光符文的巨大石门"
+          },
+          {
+            "pt": "o rastro de algo colossal que parece ter serpentado entre os picos",
+            "en": "the trail of something colossal that seems to have slithered between the peaks",
+            "es": "el rastro de algo colosal que parece haber serpenteado entre los picos",
+            "ru": "след чего-то колоссального, что, кажется, извивалось между вершинами",
+            "ja": "峰の間を這い回ったような巨大な何かの痕跡",
+            "zh": "仿佛在峰间盘旋的巨大生物留下的痕迹"
+          },
+          {
+            "pt": "uma árvore solitária de folhas brancas onde um machado pesado repousa",
+            "en": "a lone white-leaved tree where a heavy axe rests",
+            "es": "un árbol solitario de hojas blancas donde descansa un hacha pesada",
+            "ru": "одинокое дерево с белыми листьями, на котором покоится тяжёлый топор",
+            "ja": "重い斧が休む、白い葉の孤独な木",
+            "zh": "一棵孤独的白叶树，沉重的斧头安放在树下"
+          }
+        ],
+        "feeling": [
+          {
+            "pt": "o peso de um passado que não pode ser deixado para trás",
+            "en": "the weight of a past that cannot be left behind",
+            "es": "el peso de un pasado que no se puede dejar atrás",
+            "ru": "тяжесть прошлого, от которого нельзя избавиться",
+            "ja": "背負うことのできない過去の重み",
+            "zh": "无法抛弃的过去的重压"
+          },
+          {
+            "pt": "a sensação de que deuses antigos estão observando cada erro seu",
+            "en": "the feeling that ancient gods are watching your every mistake",
+            "es": "la sensación de que dioses antiguos observan cada uno de tus errores",
+            "ru": "ощущение, что древние боги наблюдают за каждым твоим промахом",
+            "ja": "古代の神々があなたのすべての過ちを見ているという感覚",
+            "zh": "仿佛古老的神明在注视着你的每一个错误"
+          },
+          {
+            "pt": "uma determinação silenciosa que surge da necessidade de sobreviver",
+            "en": "a silent determination born from the necessity to survive",
+            "es": "una determinación silenciosa que nace de la necesidad de sobrevivir",
+            "ru": "тихая решимость, рожденная необходимостью выжить",
+            "ja": "生き残るための必要性から生まれる静かな決意",
+            "zh": "生存的必要性孕育出的无声决心"
+          }
+        ]
+      }
+    },
+    "mount_chillyard_summit": {
+      "id": 43,
+      "group": "mountain",
+      "danger": 2.5,
+      "pt": "no Cume do Monte Chillyard",
+      "en": "at the Summit of Mount Chillyard",
+      "es": "en la Cumbre del Monte Chillyard",
+      "zh": "在 奇利亚德山顶",
+      "ja": "チリヤード山の頂で",
+      "ru": "на вершине горе Чиллиард",
+      "context": {
+        "landmark": [
+          {
+            "pt": "um trono de obsidiana gelada que parece absorver a luz ao redor",
+            "en": "a throne of frozen obsidian that seems to absorb the surrounding light",
+            "es": "un trono de obsidiana helada que parece absorber la luz circundante",
+            "ru": "трон из замороженной обсидиана, который кажется поглощающим окружающий свет",
+            "ja": "周囲の光を吸い込むような凍った黒曜石の玉座",
+            "zh": "仿佛吸收周围光线的冰封黑曜石王座"
+          },
+          {
+            "pt": "estátuas colossais de pedra com sorrisos macabros esculpidos no rosto",
+            "en": "colossal stone statues with macabre smiles carved onto their faces",
+            "es": "estatuas colosales de piedra con sonrisas macabras talladas en sus rostros",
+            "ru": "колоссальные каменные статуи с мрачными улыбками, высеченные на их лицах",
+            "ja": "顔に彫られた恐ろしい微笑みを持つ巨体の石像",
+            "zh": "面部雕刻着恐怖微笑的巨石雕像"
+          },
+          {
+            "pt": "algo que parece uma fenda dimensional azulada que pulsa como um coração batendo",
+            "en": "something that looks like a blue dimensional rift that pulses like a beating heart",
+            "es": "algo que parece una grieta dimensional azulada que pulsa como un corazón latiente",
+            "ru": "что-то, что выглядит как синевающая размерная трещина, которая пульсирует, как бьющееся сердце",
+            "ja": "鼓動するような青い次元の亀裂",
+            "zh": "如同心跳般脉动的蓝色维度裂痕"
+          }
+        ],
+        "feeling": [
+          {
+            "pt": "a sensação opressora de que você deve se ajoelhar para sobreviver",
+            "en": "the overwhelming feeling that you must kneel to survive",
+            "es": "la sensación abrumadora de que debes arrodillarte para sobrevivir",
+            "ru": "подавляющее ощущение, что нужно преклониться, чтобы выжить",
+            "ja": "生き残るためにはひざまずかなければならないという圧倒的な感覚",
+            "zh": "必须跪下才能生存的压迫感"
+          },
+          {
+            "pt": "um arrepio na espinha, como se sombras estivessem subindo pelos seus pés",
+            "en": "a chill down the spine, as if shadows were crawling up your feet",
+            "es": "un escalofrío por la espalda, como si las sombras subieran por tus pies",
+            "ru": "головокружение по спине, как если бы тени ползли по твоим ногам",
+            "ja": "影が足元を這うような冷たい感覚",
+            "zh": "脊背上的寒意，仿佛阴影正在沿着你的脚爬行"
+          },
+          {
+            "pt": "a percepção de que, neste lugar, você deve 'erguer-se' ou perecer",
+            "en": "the realization that in this place, you must 'arise' or perish",
+            "es": "la comprensión de que en este lugar, debes 'despertar' o perecer",
+            "ru": "осознание, что в этом месте ты должен 'восстать' или погибнуть",
+            "ja": "この場所では「立ち上がる」か、さもなくば滅びるという認識",
+            "zh": "在这个地方，你必须“崛起”或灭亡的认识"
+          }
+        ]
+      }
+    },
+    "mount_chillyard_gorge": {
+      "id": 44,
+      "group": "mountain",
+      "danger": 1.8,
+      "pt": "no Desfiladeiro do Monte Chillyard",
+      "en": "in the Gorge of Mount Chillyard",
+      "es": "en la Garganta del Monte Chillyard",
+      "zh": "在 奇利亚德山峡谷",
+      "ja": "チリヤード山の峡谷で",
+      "ru": "в горах Чиллиарда",
+      "context": {
+        "landmark": [
+          {
+            "pt": "uma imensa barreira de gelo natural que bloqueia o horizonte ao norte",
+            "en": "a massive natural ice barrier blocking the northern horizon",
+            "es": "una inmensa barrera de hielo natural que bloquea el horizonte al norte",
+            "ru": "огромная естественная ледяная преграда, блокирующая северный горизонт",
+            "ja": "北の地平線を遮る巨大な自然の氷の壁",
+            "zh": "阻挡北方地平线的巨大自然冰壁"
+          },
+          {
+            "pt": "um berrante de guerra antigo, rachado pelo frio e preso a um altar",
+            "en": "an ancient war horn, cracked by the cold and tethered to an altar",
+            "es": "un antiguo cuerno de guerra, agrietado por el frío y atado a un altar",
+            "ru": "древний боевой рог, треснувший от холода и привязанный к алтарю",
+            "ja": "古代の戦の角笛、寒さでひび割れ、祭壇に縛られている",
+            "zh": "被寒冷裂开的古老战争号角，系在祭坛上"
+          },
+          {
+            "pt": "árvores pálidas com rostos melancólicos esculpidos na casca",
+            "en": "pale trees with melancholy faces carved into the bark",
+            "es": "árboles pálidos con rostos melancólicos tallados en la corteza",
+            "ru": "бледные деревья с меланхолическими лицами, вырезанными в коре",
+            "ja": "樹皮に彫られた憂鬱な顔を持つ淡い木々",
+            "zh": "树皮上雕刻着忧郁面孔的苍白树木"
+          }
+        ],
+        "feeling": [
+          {
+            "pt": "um frio cortante que parece vir de além deste mundo",
+            "en": "a biting cold that seems to come from beyond this world",
+            "es": "un frío cortante que parece venir de más allá de este mundo",
+            "ru": "резкий холод, который кажется исходящим из-за пределов этого мира",
+            "ja": "この世界の向こうから来るような刺すような寒さ",
+            "zh": "仿佛来自这个世界之外的刺骨寒意"
+          },
+          {
+            "pt": "a sensação de que olhos azuis e gélidos observam através da neblina",
+            "en": "the feeling of icy blue eyes watching through the mist",
+            "es": "la sensación de que ojos azules y gélidos observan a través de la niebla",
+            "ru": "ощущение, что ледяные голубые глаза наблюдают сквозь туман",
+            "ja": "霧の向こうから氷のような青い目が見ている感覚",
+            "zh": "仿佛冰冷的蓝眼睛透过迷雾注视着你的感觉"
+          },
+          {
+            "pt": "um silêncio pesado, como se o próprio inverno estivesse prendendo o fôlego",
+            "en": "a heavy silence, as if winter itself were holding its breath",
+            "es": "un silencio pesado, como si el mismísimo invierno estuviera conteniendo el aliento",
+            "ru": "тяжёлое молчание, словно сама зима затаила дыхание",
+            "ja": "冬そのものが息を潜めているかのような重い静寂",
+            "zh": "仿佛冬天本身屏住呼吸的沉重寂静"
+          }
+        ]
+      }
+    },
+    "throat_of_rotghar": {
+      "id": 45,
+      "group": "mountain",
+      "danger": 1.8,
+      "pt": "na Garganta de Rothgar",
+      "en": "in the Throat of Rothgar",
+      "es": "en la Garganta de Rothgar",
+      "zh": "在 罗斯加之喉",
+      "ja": "ロスガーの喉で",
+      "ru": "в Глотке Ротгара",
+      "context": {
+        "landmark": [
+          {
+            "pt": "uma formação rochosa que lembra uma bocarra aberta voltada para o céu",
+            "en": "a rock formation resembling an open maw facing the sky",
+            "ja": "天を仰ぐ開いた大口のような岩の形成",
+            "zh": "像是一个面向天空张开的大嘴的岩层",
+            "ru": "скальное образование, напоминающее открытую пасть, обращённую к небу",
+            "es": "una formación rocosa que se asemeja a una boca abierta mirando al cielo"
+          },
+          {
+            "pt": "setecentos degraus de pedra cobertos de musgo e gelo",
+            "en": "seven hundred stone steps covered in moss and ice",
+            "ja": "苔と氷に覆われた七百の石段",
+            "zh": "覆盖着苔藓和冰雪的七百级石阶",
+            "ru": "семьсот каменных ступеней, покрытых мхом и льдом",
+            "es": "setecientos escalones de piedra cubiertos de musgo y hielo"
+          },
+          {
+            "pt": "um altar solitário onde o vento produz um som de cântico baixo",
+            "en": "a lonely altar where the wind produces a low chanting sound",
+            "ja": "風が低い詠唱のような音を奏でる孤独な祭壇",
+            "zh": "一个孤独的祭坛，风在那里发出低沉的咏唱声",
+            "ru": "одинокий алтарь, где ветер издает низкий звук молитвы",
+            "es": "un altar solitario donde el viento produce un sonido de canto bajo"
+          }
+        ],
+        "feeling": [
+          {
+            "pt": "a sensação de que a própria montanha está tentando recuperar o fôlego",
+            "en": "the feeling that the mountain itself is trying to catch its breath",
+            "ja": "山そのものが息を整えようとしているような感覚",
+            "zh": "感觉大山本身也在试图喘口气",
+            "ru": "ощущение, что сама гора пытается перевести дух",
+            "es": "la sensación de que la propia montaña está tratando de recuperar el aliento"
+          },
+          {
+            "pt": "um isolamento pacífico, mas carregado de uma tensão antiga",
+            "en": "a peaceful isolation, yet charged with an ancient tension",
+            "ja": "平和な孤立感、しかし古の緊張感に満ちている",
+            "zh": "一种平静的孤独感，却充满了古老的紧张气氛",
+            "ru": "мирная изоляция, но наполненная древним напряжением",
+            "es": "un aislamiento pacífico, pero cargado de una tensión antigua"
+          },
+          {
+            "pt": "a percepção de que cada palavra dita aqui ecoa por quilômetros",
+            "en": "the realization that every word spoken here echoes for miles",
+            "ja": "ここで発した言葉が何マイルも先まで響き渡るという実感",
+            "zh": "意识到在这里说的每一句话都会在数英里外回荡",
+            "ru": "осознание, что каждое слово, произнесённое здесь, эхом разносится на мили",
+            "es": "la percepción de que cada palabra dicha aquí resuena por kilómetros"
+          }
+        ]
+      }
+    },
+    "spine_of_the_worldshard": {
+      "id": 46,
+      "danger": 2.0,
+      "group": "mountain",
+      "pt": "na espinha do fragmento mundial",
+      "en": "in the spine of the worldshard",
+      "es": "en la columna del fragmento del mundo",
+      "zh": "在世界碎片的脊柱",
+      "ja": "世界の欠片の背骨にて",
+      "ru": "на хребте осколка мира",
+      "context": {
+      "landmark": [
+        {
+          "pt": "penhascos flutuantes que orbitam o pico principal em silêncio",
+          "en": "floating cliffs that silently orbit the main peak",
+          "es": "acantilados flotantes que orbitan el pico principal en silencio",
+          "ru": "плавучие скалы, бесшумно вращающиеся вокруг главной вершины",
+          "ja": "本峰の周囲を静かに公転する浮遊断崖",
+          "zh": "在主峰周围静静环绕的浮空峭壁"
+        },
+        {
+          "pt": "fendas na rocha que revelam o vazio estelar em vez do interior da montanha",
+          "en": "fissures in the rock revealing the stellar void instead of the mountain interior",
+          "es": "grietas en la roca que revelan el vacío estelar en lugar del interior de la montaña",
+          "ru": "трещины в скале, открывающие звездную пустоту вместо недр горы",
+          "ja": "山の内部ではなく星々の虚空を覗かせる岩の裂け目",
+          "zh": "岩石缝隙显露出的并非山体内部，而是星际虚空"
+        },
+        {
+          "pt": "cascatas de poeira cósmica que escorrem pelas encostas como neve brilhante",
+          "en": "cascades of cosmic dust flowing down the slopes like glowing snow",
+          "es": "cascadas de polvo cósmico que fluyen por las laderas como nieve brillante",
+          "ru": "каскады космической пыли, стекающие по склонам, словно светящийся снег",
+          "ja": "光り輝く雪のように斜面を流れ落ちる宇宙塵の滝",
+          "zh": "如发光积雪般沿山坡流下的星际尘埃瀑布"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "uma vertigem constante causada pela proximidade com o espaço aberto",
+          "en": "a constant vertigo caused by the proximity to open space",
+          "es": "un vértigo constante causado por la proximidad al espacio abierto",
+          "ru": "постоянное головокружение, вызванное близостью к открытому космосу",
+          "ja": "開かれた宇宙空間に近いことによる絶え間ないめまい",
+          "zh": "由于极度接近外层空间而产生的持续眩晕感"
+        },
+        {
+          "pt": "a sensação de que a gravidade é incerta e pode falhar a qualquer momento",
+          "en": "the feeling that gravity is uncertain and could fail at any moment",
+          "es": "la sensación de que la gravedad es incierta y podría fallar en cualquier momento",
+          "ru": "ощущение, что гравитация нестабильна и может исчезнуть в любой момент",
+          "ja": "重力が不安定で、いつ消滅してもおかしくないという感覚",
+          "zh": "感觉重力极不稳定，随时可能消失"
+        },
+        {
+          "pt": "um zumbido de baixa frequência que ressoa diretamente nos dentes",
+          "en": "a low-frequency hum that resonates directly in the teeth",
+          "es": "un zumbido de baja frecuencia que resuena directamente en los dientes",
+          "ru": "низкочастотный гул, резонирующий прямо в зубах",
+          "ja": "歯の奥に直接響くような低周波のうなり",
+          "zh": "直接在牙齿间产生共振的低频嗡嗡声"
+        }
+      ]
+    }
+    },
+    "ashen_summit_of_khar": {
+      "id": 47,
+      "danger": 1.8,
+      "group": "mountain",
+      "pt": "no cume cinzento de khar",
+      "en": "in the ashen summit of khar",
+      "es": "en la cumbre de ceniza de khar",
+      "zh": "在卡尔之灰峰",
+      "ja": "カーの灰の頂にて",
+      "ru": "на пепельной вершине Кхара",
+      "context": {
+      "landmark": [
+        {
+          "pt": "uma chuva perpétua de cinzas finas que cobre o solo rochoso",
+          "en": "a perpetual rain of fine ash covering the rocky ground",
+          "es": "una lluvia perpetua de ceniza fina que cubre el suelo rocoso",
+          "ru": "вечный дождь из мелкого пепла, покрывающий каменистую землю",
+          "ja": "岩場を覆い尽くす絶え間ない微細な灰の雨",
+          "zh": "覆盖在岩石地面上永无止境的细灰雨"
+        },
+        {
+          "pt": "fendas no solo que emitem um brilho alaranjado e fumaça tóxica",
+          "en": "fissures in the ground emitting an orange glow and toxic smoke",
+          "es": "grietas en el suelo que emiten un brillo naranja y humo tóxico",
+          "ru": "трещины в земле, излучающие оранжевое сияние и токсичный дым",
+          "ja": "オレンジ色の輝きと有毒な煙を放つ地面の割れ目",
+          "zh": "散发着橘色光芒和有毒烟雾的地表裂缝"
+        },
+        {
+          "pt": "picos afiados de obsidiana que rasgam as nuvens negras",
+          "en": "sharp obsidian peaks tearing through the black clouds",
+          "es": "picos afilados de obsidiana que desgarran las nubes negras",
+          "ru": "острые обсидиановые пики, прорезающие черные облака",
+          "ja": "黒い雲を切り裂く鋭い黒曜石の頂",
+          "zh": "刺破黑云的锋利黑曜石尖峰"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "um calor seco que queima as narinas a cada respiração",
+          "en": "a dry heat that burns the nostrils with every breath",
+          "es": "un calor seco que quema as fosas nasales con cada respiración",
+          "ru": "сухой жар, обжигающий ноздри при каждом вдохе",
+          "ja": "息をするたびに鼻腔を焼くような乾燥した熱気",
+          "zh": "每一次呼吸都灼烧着鼻腔的干热感"
+        },
+        {
+          "pt": "a vibração profunda e rítmica que parece vir das entranhas da montanha",
+          "en": "the deep and rhythmic vibration that seems to come from the mountain's bowels",
+          "es": "la vibración profunda y rítmica que parece venir das entrañas da montaña",
+          "ru": "глубокая и ритмичная вибрация, исходящая словно из недр горы",
+          "ja": "山の奥深くから伝わってくるような深くリズムを刻む振動",
+          "zh": "一种仿佛来自山脉深处的低沉且有节奏的震动"
+        },
+        {
+          "pt": "a sensação de desolação sob um céu que nunca conhece a luz do dia",
+          "en": "the sense of desolation under a sky that never knows daylight",
+          "es": "la sensación de desolación bajo un cielo que nunca conoce la luz del día",
+          "ru": "чувство запустения под небом, которое никогда не знает дневного света",
+          "ja": "日の光を知らぬ空の下に広がる荒廃した感覚",
+          "zh": "在永不见天日的天空下的荒凉感"
+        }
+      ]
+    }
+    },
+    "howling_crown_range": {
+      "id": 48,
+      "danger": 1.5,
+      "group": "mountain",
+      "pt": "nas cordilheiras da coroa uivante",
+      "en": "in the howling crown range",
+      "es": "en las cordilleras de la corona aullante",
+      "zh": "在号哭王冠山脉",
+      "ja": "咆哮する冠の連峰にて",
+      "ru": "в горах воющей короны",
+      "context": {
+        "landmark": [
+          {
+            "pt": "agulhas de pedra negra que perfuram as nuvens como dentes de uma coroa",
+            "en": "black stone needles piercing the clouds like the teeth of a crown",
+            "es": "agujas de piedra negra que perforan las nubes como dientes de una corona",
+            "ru": "иглы из черного камня, пронзающие облака, словно зубцы короны",
+            "ja": "王冠の歯のように雲を貫く黒石の針",
+            "zh": "像皇冠齿一样刺穿云层的黑石针"
+          },
+          {
+            "pt": "correntes colossais que tentam manter os picos unidos contra o vento",
+            "en": "colossal chains trying to hold the peaks together against the wind",
+            "es": "cadenas colosales que intentan mantener los picos unidos contra el viento",
+            "ru": "колоссальные цепи, пытающиеся удержать пики вместе под напором ветра",
+            "ja": "強風に抗い、峰々を繋ぎ止めようとする巨大な鎖",
+            "zh": "巨大的锁链试图将山峰连接在一起以对抗强风"
+          },
+          {
+            "pt": "o Trono Congelado de um antigo lorde, agora vazio e coberto de gelo",
+            "en": "the Frozen Throne of an ancient lord, now empty and covered in ice",
+            "es": "el Trono Helado de un antiguo lord, ahora vacío y cubierto de hielo",
+            "ru": "Ледяной Трон древнего лорда, ныne пустой и покрытый льдом",
+            "ja": "今は空席となり氷に覆われた、古の君主の凍てついた玉座",
+            "zh": "古老领主的冰封王座，如今已空空如也并覆满冰雪"
+          }
+        ],
+        "feeling": [
+          {
+            "pt": "um uivo constante que parece sussurrar segredos de mortos esquecidos",
+            "en": "a constant howl that seems to whisper secrets of forgotten dead",
+            "es": "un aullido constante que parece susurrar secretos de muertos olvidados",
+            "ru": "постоянный вой, словно шепчущий секреты забытых мертвецов",
+            "ja": "忘れ去られた死者の秘密を囁くような、絶え間ない咆哮",
+            "zh": "不断的呼啸声仿佛在低语着被遗忘的死者的秘密"
+          },
+          {
+            "pt": "a sensação de que o próprio ar está tentando cortar sua pele",
+            "en": "the feeling that the air itself is trying to cut your skin",
+            "es": "la sensación de que el aire mismo está intentando cortar tu piel",
+            "ru": "ощущение, что сам воздух пытается порезать вашу кожу",
+            "ja": "空気そのものが肌を切り裂こうとしているような感覚",
+            "zh": "感觉空气本身都在试图割破你的皮肤"
+          },
+          {
+            "pt": "um vazio existencial, como se você estivesse no fim do mundo conhecido",
+            "en": "an existential void, as if you were at the end of the known world",
+            "es": "un vacío existencial, como si estuvieras en el fin del mundo conocido",
+            "ru": "экзистенциальная пустота, будто вы на краю известного мира",
+            "ja": "既知の世界の果てにいるかのような、実存的な虚無感",
+            "zh": "一种存在主义的虚无，仿佛置身于已知世界的尽头"
+          }
+        ]
+      }
+    }
+  },
+  "swamp": {
+    "marshes_of_the_fallen": {
+      "id": 30,
+      "group": "swamp",
+      "danger": 1.7,
+      "pt": "no pântano dos caídos",
+      "en": "in the fallen marshes",
+      "es": "en las marismas de los caídos",
+      "zh": "在落难者沼泽",
+      "ja": "倒れし者の湿地にて",
+      "ru": "в болотах павших",
+      "context": {
+      "landmark": [
+        {
+          "pt": "bolhas de gás que estouram na superfície revelando restos de metal",
+          "en": "gas bubbles bursting on the surface revealing metal remains",
+          "es": "burbujas de gas que estallan en la superficie revelando restos de metal",
+          "ru": "пузырьки газа, лопающиеся на поверхности и обнажающие остатки металла",
+          "ja": "水面で弾けるガス球が金属の残骸を露わにする",
+          "zh": "地表破裂的气泡显露出金属残骸"
+        },
+        {
+          "pt": "salgueiros de galhos pendentes que tocam o lodo como dedos",
+          "en": "weeping willows with drooping branches that touch the sludge like fingers",
+          "es": "sauces de ramas colgantes que tocan el lodo como dedos",
+          "ru": "плакучие ивы с поникшими ветвями, касающимися ила, словно пальцы",
+          "ja": "泥に指のように触れる垂れ下がった柳の枝",
+          "zh": "垂下的柳树枝条如手指般触碰着淤泥"
+        },
+        {
+          "pt": "focos de fogo-fátuo que dançam sobre as águas paradas",
+          "en": "flickers of will-o'-the-wisp dancing over the still waters",
+          "es": "fuegos fatuos que bailan sobre las aguas estancadas",
+          "ru": "блуждающие огни, танцующие над стоячими водами",
+          "ja": "静かな水面の上で踊るウィル・オー・ウィスプの灯火",
+          "zh": "在静止水面上跳跃的鬼火"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "um frio úmido que parece atravessar a armadura e os ossos",
+          "en": "a damp cold that seems to pierce through armor and bones",
+          "es": "un frío húmedo que parece atravesar la armadura y los huesos",
+          "ru": "сырой холод, который, кажется, пробирает сквозь доспехи и кости",
+          "ja": "鎧や骨まで突き抜けるような湿った冷気",
+          "zh": "一种仿佛能穿透盔甲和骨头的阴冷潮湿感"
+        },
+        {
+          "pt": "a sensação de que o chão pode ceder a qualquer momento sob seus pés",
+          "en": "the feeling that the ground could give way at any moment beneath your feet",
+          "es": "la sensación de que el suelo puede ceder en cualquier momento bajo tus pies",
+          "ru": "ощущение, что земля под ногами может провалиться в любой момент",
+          "ja": "足元の地面が今にも崩れ落ちそうな感覚",
+          "zh": "感觉脚下的地面随时可能塌陷"
+        },
+        {
+          "pt": "um luto persistente que emana das profundezas da lama",
+          "en": "a lingering mourning that emanates from the depths of the mud",
+          "es": "un luto persistente que emana de las profundidades del lodo",
+          "ru": "непреходящая скорбь, исходящая из глубин грязи",
+          "ja": "泥の底から漂ってくる、いつまでも消えない哀悼の気配",
+          "zh": "从泥潭深处散发出的持久哀伤"
+        }
+      ]
+    }
+    },
+    "misty_swamp_planet": {
+      "id": 31,
+      "group": "swamp",
+      "danger": 1.2,
+      "pt": "no pântano das brumas",
+      "en": "in the misty swamp",
+      "es": "en el pantano de las brumas",
+      "zh": "在迷雾沼泽",
+      "ja": "霧の沼にて",
+      "ru": "в туманном болоте",
+    "context": {
+      "landmark": [
+        {
+          "pt": "uma névoa densa e esbranquiçada que apaga o horizonte",
+          "en": "a dense, whitish mist that erases the horizon",
+          "es": "una niebla densa y blanquecina que borra el horizonte",
+          "ru": "густой белесый туман, стирающий горизонт",
+          "ja": "地平線を消し去るような白く濃い霧",
+          "zh": "抹去地平线的浓稠洁白迷雾"
+        },
+        {
+          "pt": "silhuetas de árvores mortas que surgem subitamente no caminho",
+          "en": "silhouettes of dead trees that suddenly emerge in the path",
+          "es": "siluetas de árboles muertos que surgen súbitamente no camino",
+          "ru": "силуэты мертвых деревьев, внезапно возникающие на пути",
+          "ja": "道中に突如として現れる枯れ木のシルエット",
+          "zh": "道路中突然浮现的枯树影"
+        },
+        {
+          "pt": "flores pálidas que se abrem apenas sob a luz difusa da neblina",
+          "en": "pale flowers that open only under the diffuse light of the mist",
+          "es": "flores pálidas que se abren solo bajo la luz difusa de la neblina",
+          "ru": "бледные цветы, раскрывающиеся только в рассеянном свете тумана",
+          "ja": "霧の散乱光の下でのみ開く青白い花",
+          "zh": "仅在迷雾散射的光线下绽放的苍白花朵"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "a sensação de estar caminhando em círculos sem referências",
+          "en": "the feeling of walking in circles without references",
+          "es": "la sensación de estar caminando en círculos sin referencias",
+          "ru": "ощущение, что ходишь кругами без каких-либо ориентиров",
+          "ja": "目印もなく同じ場所をぐるぐると回っているような感覚",
+          "zh": "在没有参照物的情况下原地打转的感觉"
+        },
+        {
+          "pt": "sons abafados que parecem vir de todas as direções ao mesmo tempo",
+          "en": "muffled sounds that seem to come from all directions at once",
+          "es": "sonidos apagados que parecen venir de todas las direcciones a la vez",
+          "ru": "приглушенные звуки, которые, кажется, доносятся со всех сторон одновременно",
+          "ja": "あらゆる方向から同時に聞こえてくるようなこもった音",
+          "zh": "仿佛同时从四面八方传来的沉闷声响"
+        },
+        {
+          "pt": "uma desorientação leve que faz o mundo parecer um sonho",
+          "en": "a slight disorientation that makes the world feel like a dream",
+          "es": "una desorientación leve que hace que el mundo parezca un sueño",
+          "ru": "легкая дезориентация, из-за которой мир кажется сном",
+          "ja": "世界が夢のように感じられる、かすかな喪失感",
+          "zh": "一种让世界显得如梦似幻的轻微迷失感"
+        }
+      ]
+    }
+      },
+    "quagmire_of_despair": {
+      "id": 32,
+      "group": "swamp",
+      "danger": 1.4,
+      "pt": "no lamaçal do desespero",
+      "en": "in the quagmire of despair",
+      "es": "en el tremedal de la desesperación",
+      "zh": "在绝望泥潭",
+      "ja": "絶望の泥沼にて",
+      "ru": "в трясине отчаяния",
+      "context": {
+      "landmark": [
+        {
+          "pt": "bolhas de gás metano que estouram com um som viscoso",
+          "en": "methane gas bubbles bursting with a viscous sound",
+          "es": "burbujas de gas metano que estallan con un sonido viscoso",
+          "ru": "пузырьки метана, лопающиеся с вязким звуком",
+          "ja": "粘り気のある音を立てて弾けるメタンガスの泡",
+          "zh": "伴随着粘稠声响破裂的甲烷气泡"
+        },
+        {
+          "pt": "troncos apodrecidos que se assemelham a braços implorando por ajuda",
+          "en": "rotting logs that resemble arms pleading for help",
+          "es": "troncos podridos que se asemejan a brazos suplicando ayuda",
+          "ru": "гнилые бревна, напоминающие молящие о помощи руки",
+          "ja": "助けを求める腕のように見える朽ちた丸太",
+          "zh": "像是在求救的手臂般的腐烂原木"
+        },
+        {
+          "pt": "uma camada de lodo espesso que consome qualquer objeto deixado no solo",
+          "en": "a layer of thick sludge that consumes any object left on the ground",
+          "es": "una capa de lodo espeso que consume cualquier objeto dejado en el suelo",
+          "ru": "слой густой жижи, поглощающий любой предмет, оставленный на земле",
+          "ja": "地面に置かれたあらゆる物を飲み込む厚い泥の層",
+          "zh": "一层会吞噬地面上任何物品的厚重淤泥"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "uma apatia avassaladora que rouba a vontade de lutar",
+          "en": "an overwhelming apathy that steals the will to fight",
+          "es": "una apatía abrumadora que roba la voluntad de luchar",
+          "ru": "подавляющая апатия, лишающая воли к борьбе",
+          "ja": "戦う意欲を奪い去るような圧倒的な無力感",
+          "zh": "一种夺走战斗意志的压倒性冷漠感"
+        },
+        {
+          "pt": "a sensação de que o pântano está puxando seus pés para baixo",
+          "en": "the feeling that the swamp is pulling your feet downward",
+          "es": "la sensación de que el pantano está tirando de tus pies hacia abajo",
+          "ru": "ощущение, что болото тянет твои ноги вниз",
+          "ja": "沼が足を下へ下へと引きずり込んでいるような感覚",
+          "zh": "感觉沼泽正将你的双脚向下拖拽"
+        },
+        {
+          "pt": "um cansaço mental que faz cada decisão parecer impossível",
+          "en": "a mental fatigue that makes every decision feel impossible",
+          "es": "un cansancio mental que hace que cada decisión parezca imposible",
+          "ru": "умственная усталость, из-за которой каждое решение кажется невозможным",
+          "ja": "あらゆる決断を不可能に思わせる精神的な疲弊",
+          "zh": "一种让任何决定都变得极其艰难的精神疲劳"
+        }
+      ]
+    }
+    },
+    "stagnant_fens": {
+      "id": 33,
+      "danger": 1.1,
+      "group": "swamp",
+      "pt": "nos banhados estagnados",
+      "en": "in the stagnant fens",
+      "es": "en las ciénagas estancadas",
+      "zh": "在停滞泽地",
+      "ja": "停滞した沼地にて",
+      "ru": "в застойных топях",
+      "context": {
+      "landmark": [
+        {
+          "pt": "espelhos d'água negra cobertos por uma camada de algas oleosas",
+          "en": "black water mirrors covered by a layer of oily algae",
+          "es": "espejos de agua negra cubiertos por una capa de algas oleosas",
+          "ru": "зеркала черной воды, покрытые слоем маслянистых водорослей",
+          "ja": "油っぽい藻の層に覆われた黒い水面",
+          "zh": "覆盖着一层油性藻类的黑水镜面"
+        },
+        {
+          "pt": "juncos amarelados que permanecem perfeitamente imóveis",
+          "en": "yellowish reeds that remain perfectly still",
+          "es": "juncos amarillentos que permanecen perfectamente inmóviles",
+          "ru": "пожелтевший камыш, застывший в полном неподвижности",
+          "ja": "完全に静止したままの黄色がかった葦",
+          "zh": "完全静止不动的枯黄芦苇"
+        },
+        {
+          "pt": "troncos submersos que parecem carcaças de criaturas ancestrais",
+          "en": "submerged logs that look like carcasses of ancient creatures",
+          "es": "troncos sumergidos que parecen carcasas de criaturas ancestrales",
+          "ru": "затопленные бревна, похожие на туши древних существ",
+          "ja": "古代生物の死骸のように見える水没した丸太",
+          "zh": "看起来像古代生物残骸的沉没原木"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "uma opressão causada pelo ar parado e sem vento",
+          "en": "an oppression caused by the still and windless air",
+          "es": "una opresión causada por el aire quieto y sin viento",
+          "ru": "стеснение, вызванное неподвижным и безветренным воздухом",
+          "ja": "風のない静止した空気による圧迫感",
+          "zh": "由于空气静止无风而产生的压抑感"
+        },
+        {
+          "pt": "o cheiro pungente de matéria orgânica em decomposição lenta",
+          "en": "the pungent smell of slowly decomposing organic matter",
+          "es": "el olor pungente de materia orgánica en descomposición lenta",
+          "ru": "едкий запах медленно разлагающейся органики",
+          "ja": "ゆっくりと分解される有機物の刺激的な臭い",
+          "zh": "缓慢分解的有机物散发出的刺鼻气味"
+        },
+        {
+          "pt": "a estranha sensação de que o som não consegue viajar para longe",
+          "en": "the strange feeling that sound cannot travel far",
+          "es": "la extraña sensación de que el sonido no puede viajar lejos",
+          "ru": "странное ощущение, что звук не может распространяться далеко",
+          "ja": "音が遠くまで届かないような奇妙な感覚",
+          "zh": "一种声音无法传向远方的怪异感"
+        }
+      ]
+    }
+    },
+    "toxic_bayou": {
+      "id": 34,
+      "danger": 1.5,
+      "group": "swamp",
+      "pt": "no bayou tóxico",
+      "en": "in the toxic bayou",
+      "es": "en el bayou tóxico",
+      "zh": "在有毒河口",
+      "ja": "有毒なバイユーにて",
+      "ru": "в токсичном протоке",
+      "context": {
+      "landmark": [
+        {
+          "pt": "fluxos de água verde-neon que brilham com uma radiatividade sutil",
+          "en": "neon-green water streams that glow with a subtle radioactivity",
+          "es": "corrientes de agua verde neón que brillan con una sutil radiactividad",
+          "ru": "потоки неоново-зеленой воды, светящиеся слабой радиоактивностью",
+          "ja": "かすかな放射能で光るネオングリーンの水流",
+          "zh": "闪烁着隐约放射性光芒的霓虹绿水流"
+        },
+        {
+          "pt": "névoas púrpuras que corroem lentamente a casca das árvores",
+          "en": "purple mists that slowly corrode the bark of the trees",
+          "es": "nieblas púrpuras que corroen lentamente la corteza de los árboles",
+          "ru": "пурпурные туманы, медленно разъедающие кору деревьев",
+          "ja": "樹皮をゆっくりと腐食させる紫色の霧",
+          "zh": "缓慢腐蚀树皮的紫色浓雾"
+        },
+        {
+          "pt": "bolhas de sabão iridescentes que flutuam no ar carregado",
+          "en": "iridescent soap-like bubbles floating in the heavy air",
+          "es": "burbujas iridiscentes similares al jabón que flotan en el aire pesado",
+          "ru": "радужные пузырьos, похожие на мыльные, парящие в тяжелом воздухе",
+          "ja": "重苦しい空気の中に浮かぶ虹色の石鹸のような泡",
+          "zh": "在沉重空气中飘浮的绚丽如肥皂泡的气泡"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "uma queimação persistente nos olhos e na garganta",
+          "en": "a persistent burning in the eyes and throat",
+          "es": "un ardor persistente en los ojos y la garganta",
+          "ru": "стойкое жжение в глазах и горле",
+          "ja": "目と喉に残る持続的な焼けるような痛み",
+          "zh": "眼中和喉咙里持续的灼烧感"
+        },
+        {
+          "pt": "o cheiro químico e acre que penetra através de qualquer máscara",
+          "en": "the acrid chemical smell that penetrates through any mask",
+          "es": "el olor químico e acre que penetra a través de cualquier máscara",
+          "ru": "едкий химический запах, проникающий сквозь любую маску",
+          "ja": "どんなマスクも通り抜けてくる刺激的な化学臭",
+          "zh": "穿透任何面具的刺鼻化学气味"
+        },
+        {
+          "pt": "a sensação de que o metal do seu equipamento está começando a manchar",
+          "en": "the feeling that your equipment's metal is starting to tarnish",
+          "es": "la sensación de que el metal de tu equipo está empezando a mancharse",
+          "ru": "ощущение, что металл вашего снаряжения начинает тускнеть",
+          "ja": "装備の金属が変色し始めているような感覚",
+          "zh": "感觉装备上的金属开始褪色变质"
+        }
+      ]
+    }
+    },
+    "sunken_wilderness": {
+      "id": 35,
+      "danger": 1.3,
+      "group": "swamp",
+      "pt": "na selva submersa",
+      "en": "in the sunken wilderness",
+      "es": "en la selva sumergida",
+      "zh": "在沉没荒野",
+      "ja": "沈んだ荒野にて",
+      "ru": "в затопленной глуши",
+      "context": {
+      "landmark": [
+        {
+          "pt": "copas de árvores antigas que emergem como ilhas de vegetação",
+          "en": "canopies of ancient trees emerging like islands of vegetation",
+          "es": "copas de árboles antiguos que emergen como islas de vegetación",
+          "ru": "кроны древних деревьев, выступающие подобно островкам зелени",
+          "ja": "植物の島のように浮かび上がる古代の樹冠",
+          "zh": "像植被岛屿般冒出的古树冠部"
+        },
+        {
+          "pt": "ruínas de pontes de madeira que se perdem na água escura",
+          "en": "ruins of wooden bridges that disappear into the dark water",
+          "es": "ruinas de puentes de madera que se pierden en el agua oscura",
+          "ru": "руины деревянных мостов, исчезающие в темной воде",
+          "ja": "暗い水の中に消えていく木造の橋の廃墟",
+          "zh": "消失在深色水域中的木桥废墟"
+        },
+        {
+          "pt": "trepadeiras aquáticas que formam redes densas entre os troncos",
+          "en": "aquatic vines forming dense nets between the trunks",
+          "es": "trepadoras acuáticas que forman densas redes entre los troncos",
+          "ru": "водные лианы, образующие густые сети между стволами",
+          "ja": "幹の間に密な網を形成する水生植物の蔦",
+          "zh": "在树干之间形成密网的水生藤蔓"
+        }
+      ],
+      "feeling": [
+        {
+          "pt": "a sensação de que algo gigante se move silenciosamente sob seus pés",
+          "en": "the feeling that something giant moves silently beneath your feet",
+          "es": "la sensación de que algo gigante se mueve silenciosamente bajo tus pies",
+          "ru": "ощущение, что под вашими ногами бесшумно движется что-то гигантское",
+          "ja": "足元で巨大な何かが静かに動いているような感覚",
+          "zh": "感觉巨大的生物在脚下无声地移动"
+        },
+        {
+          "pt": "um isolamento profundo onde o som da água abafa todo o resto",
+          "en": "a deep isolation where the sound of water drowns out everything else",
+          "es": "un aislamiento profundo donde el sonido del agua ahoga todo lo demás",
+          "ru": "глубокая изоляция, где шум воды заглушает всё остальное",
+          "ja": "水の音が他のすべてをかき消す、深い孤独感",
+          "zh": "一种深沉的隔绝感，水声淹没了其他一切声音"
+        },
+        {
+          "pt": "a percepção de que a natureza está retomando o que um dia foi terra firme",
+          "en": "the perception that nature is reclaiming what was once dry land",
+          "es": "la percepción de que la naturaleza está reclamando lo que un día fue tierra firme",
+          "ru": "ощущение, что природа возвращает себе то, что когда-то было сушей",
+          "ja": "かつて陸地だった場所を自然が取り戻しているという実感",
+          "zh": "意识到自然正重新夺回曾经是陆地的领土"
+        }
+      ]
+    }
+    }
+  }
+}

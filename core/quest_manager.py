@@ -19,6 +19,7 @@ from core.quest_requirements import (
     process_expired_quests,
 )
 from core.quest_gen import ProceduralQuestSystem
+from core.map_graph import MapGraph
 
 class QuestManager:
     def __init__(self, save_file="auto_save.json"):
@@ -353,7 +354,7 @@ class QuestManager:
         if not location_key:
             return
 
-        map_graph = self.proc_gen.map_graph
+        map_graph = MapGraph()
 
         # 1. distância original
         original_distance = map_graph.get_distance_to(location_key)
@@ -364,8 +365,6 @@ class QuestManager:
 
         # 3. nova distância
         new_distance = map_graph.get_distance_to(location_key)
-
-        print(f"📍 {location_key}: {original_distance} → {new_distance}")
 
         # 4. calcula desvio REAL
         if original_distance > 0 and new_distance > 0:
@@ -428,24 +427,41 @@ class QuestManager:
         for quest in self.quests:
             quest.available_since_turn = None
 
-    def _get_latest_quest_in_location(self, sub_location_key):
+    def _get_latest_quest_in_location(self, quest):
         latest_turn = -1
         latest_quest = None
 
-        for quest in self.quest_registry.values():
-            if quest.id in self.completed_quests or quest.id in self.failed_quests:
+        is_bridge = quest.context.get("location_type") == "bridge"
+
+        if is_bridge:
+            key_to_compare = quest.context.get("location_key")
+        else:
+            key_to_compare = quest.context.get("sub_location_key")
+
+        for other in self.quest_registry.values():
+            if other.id in self.completed_quests or other.id in self.failed_quests:
                 continue
 
-            if quest.context.get("sub_location_key", "") != sub_location_key:
+            other_is_bridge = other.context.get("location_type") == "bridge"
+
+            if is_bridge != other_is_bridge:
                 continue
 
-            start = getattr(quest, "available_since_turn", 0)
-            duration = getattr(quest, "duration", 1)
+            if is_bridge:
+                other_key = other.context.get("location_key")
+            else:
+                other_key = other.context.get("sub_location_key")
+
+            if other_key != key_to_compare:
+                continue
+
+            start = getattr(other, "available_since_turn", 0)
+            duration = getattr(other, "duration", 1)
             end = start + duration
 
             if end > latest_turn:
                 latest_turn = end
-                latest_quest = quest
+                latest_quest = other
 
         return latest_quest, latest_turn
 
@@ -455,7 +471,7 @@ class QuestManager:
 
         location = quest.context.get("sub_location_key", "")
 
-        latest_quest, latest_end = self._get_latest_quest_in_location(location)
+        latest_quest, latest_end = self._get_latest_quest_in_location(quest)
 
         if latest_quest:
             buffer = random.randint(2, 3)

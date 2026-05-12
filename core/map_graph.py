@@ -2,62 +2,78 @@ from typing import Dict, List, Optional, Tuple, Set
 from collections import deque
 import heapq
 
-# Estrutura de MAP_EDGES Revisada
-# Formato: (location_a, location_b, sub_location_key, cost)
 MAP_EDGES: List[Tuple[str, str, Optional[str], int]] = [
+ 
+    # ── Goldenreach Plains — hub central ─────────────────────────────────────
+    # Livre — adjacentes geográficos
+    ("goldenreach_plains",              "olympos_peak_base",                None,                       1),
+    ("goldenreach_plains",              "whispering_elwyn",                 None,                       1),
+    # Pontes permanentes
+    ("goldenreach_plains",              "evergreen_kokiri",                 "golden_block_span",        2),
+    ("goldenreach_plains",              "azurewind_prairie",                "golden_wind_bridge",       2),
+    ("goldenreach_plains",              "fields_of_endless_strife_west",    "three_battles_bridge",     2),
+    ("goldenreach_plains",              "blightgrass_fields_west",          "dead_harvest_bridge",      2),
+ 
+    # ── Whispering Elwyn ─────────────────────────────────────────────────────
+    ("whispering_elwyn",                "evergreen_kokiri",                 "kokiri_root_bridge",       1),
+ 
+    # ── Blightgrass Fields ───────────────────────────────────────────────────
+    # Passagem interna — scarecrow_passage divide blightgrass em oeste/leste
+    ("blightgrass_fields_west",         "blightgrass_fields_east",          "scarecrow_passage",        1),
+    # Pontes e conexões
+    ("blightgrass_fields_west",         "fields_of_endless_strife_west",    "dry_canal_crossing",       2),
+    ("blightgrass_fields_east",         "howling_crown_range",              "blightcrown_ascent",       2),
+    ("blightgrass_fields_east",         "spine_of_the_worldshard",          "blight_worldshard_climb",  2),
+    ("blightgrass_fields_east",         "the_tarnished_expanse",            None,                       1),
+    ("blightgrass_fields_east",         "stagnant_fens",                    None,                       1),
+ 
+    # ── Fields of Endless Strife ─────────────────────────────────────────────
+    # Passagem interna — broken_promise_bridge divide endless strife em oeste/leste
+    ("fields_of_endless_strife_west",   "fields_of_endless_strife_east",    "broken_promise_bridge",    1),
+    # Livre — adjacentes ao sul
+    ("fields_of_endless_strife_west",   "fields_of_broken_grace",           None,                       1),
+    ("fields_of_endless_strife_west",   "fungal_zangarmarsh",               None,                       1),
+    ("fields_of_endless_strife_west",   "shadowed_limgrave",                None,                       1),
+    ("fields_of_endless_strife_east",   "misty_swamp_planet",               None,                       1),
+    ("fields_of_endless_strife_east",   "stagnant_fens",                    None,                       1),
 
-    # ── Região Norte: Planícies e Florestas ──────────────────────────────────────
-    ("goldenreach_plains", "whispering_elwyn", None, 1),
-    ("goldenreach_plains", "evergreen_kokiri", "golden_block_span", 2),
-    ("goldenreach_plains", "olympos_peak_base", None, 1),
-    ("goldenreach_plains", "azurewind_prairie", "golden_wind_bridge", 2),
-    ("goldenreach_plains", "fields_of_endless_strife", "three_battles_bridge", 2),
-    ("goldenreach_plains", "blightgrass_fields", "dead_harvest_bridge", 2),
-    
-    ("whispering_elwyn", "evergreen_kokiri", "kokiri_root_bridge", 2),
-    ("azurewind_prairie", "evergreen_kokiri", None, 1),
-    ("azurewind_prairie", "fields_of_broken_grace", None, 1),
-    ("fields_of_broken_grace", "fields_of_endless_strife", None, 1),
-    ("fields_of_broken_grace", "shadowed_limgrave", None, 1),
 
-    # ── Cadeia Montanhosa (Nordeste) ──────────────────────────────────────────────
-    ("olympos_peak_base", "olympos_peak_plateau", None, 3),
-    ("olympos_peak_plateau", "mount_chillyard", None, 3),
-    ("olympos_peak", "mount_chillyard", None, 1),
-    ("mount_chillyard", "howling_crown_range", None, 1),
-    ("mount_chillyard", "jurah_wilds", None, 1),
-    ("howling_crown_range", "throat_of_rotghar", None, 1),
-    ("throat_of_rotghar", "spine_of_the_worldshard", None, 1),
-    ("throat_of_rotghar", "jurah_wilds", None, 1),
-    ("jurah_wilds", "petrified_caelum", None, 1),
-    ("spine_of_the_worldshard", "petrified_caelum", None, 1),
-    ("spine_of_the_worldshard", "blightgrass_fields", None, 1),
-
-    # ── Região Central e Pântanos (Sul) ──────────────────────────────────────────
-    ("blightgrass_fields", "fields_of_endless_strife", "dry_canal_crossing", 2),
-    ("blightgrass_fields", "tarnished_expanse", None, 1),
-    ("blightgrass_fields", "stagnant_fens", None, 1),
-    ("blightgrass_fields", "howling_crown_range", None, 2),
-
-    ("fields_of_endless_strife", "fungal_zangarian_grove", None, 2),
-    ("fields_of_endless_strife", "shadowed_limgrave", None, 2),
-    ("fungal_zangarian_grove", "fallen_marshes", None, 4),
-    ("fungal_zangarian_grove", "misty_swamp", None, 4),
-
-    ("tarnished_expanse", "stagnant_fens", None, 5),
-    ("tarnished_expanse", "ashing_summit_of_khar", None, 1),
-    ("tarnished_expanse", "quagmire_of_despair", "slow_drowning_bridge", 4),
-
-    ("stagnant_fens", "misty_swamp", None, 5),
-    ("misty_swamp", "quagmire_of_despair", None, 5),
-
-    # ── Litoral e Áreas Remotas (Sudeste) ─────────────────────────────────────────
-    ("ashing_summit_of_khar", "toxic_bayou", None, 6),
-    ("toxic_bayou", "sunken_wilderness", None, 4),
-    ("quagmire_of_despair", "sunken_wilderness", None, 4),
+    # ── Fields of Broken Grace ───────────────────────────────────────────────
+    ("fields_of_broken_grace",          "shadowed_limgrave",                None,                       1),
+ 
+    # ── Montanhas — Olympos Peak ─────────────────────────────────────────────
+    ("olympos_peak_base",               "olympos_peak_plateau",             "olympos_ascent_stairway",  3),
+    ("olympos_peak_plateau",            "mount_chillyard_passage",          "olympos_chillyard_trail",  3),
+ 
+    # ── Montanhas — Mount Chillyard ──────────────────────────────────────────
+    ("mount_chillyard_passage",         "mount_chillyard_gorge",            None,                       1),
+    ("mount_chillyard_gorge",           "mount_chillyard_summit",           "chillyard_frost_span",     3),
+    ("mount_chillyard_gorge",           "great_jura_wilds",                 "chillyard_border_pass",    2),
+    ("mount_chillyard_summit",          "howling_crown_range",              "monarch_crown_link",       3),
+ 
+    # ── Montanhas — Howling Crown / Throat of Rotghar ────────────────────────
+    ("howling_crown_range",             "throat_of_rotghar",                "rotghar_throat_path",      3),
+    ("throat_of_rotghar",               "great_jura_wilds",                 "rothgar_jurah_descent",    3),
+    ("throat_of_rotghar",               "spine_of_the_worldshard",          None,                       1),
+ 
+    # ── Spine of the Worldshard ──────────────────────────────────────────────
+    ("spine_of_the_worldshard",         "petrified_caelum",                 "worldshard_caelum_gate",   2),
+    ("spine_of_the_worldshard",         "ashen_summit_of_khar",             None,                       1),
+ 
+    # ── Great Jura Wilds ─────────────────────────────────────────────────────
+    ("great_jura_wilds",                "petrified_caelum",                 None,                       1),
+ 
+    # ── Sul — Tarnished / Fens / Swamps ──────────────────────────────────────
+    ("the_tarnished_expanse",           "stagnant_fens",                    None,                       3),
+    ("the_tarnished_expanse",           "quagmire_of_despair",              "slow_drowning_bridge",     2),
+    ("stagnant_fens",                   "misty_swamp_planet",               None,                       3),
+    ("fungal_zangarmarsh",              "marshes_of_the_fallen",            None,                       3),
+    ("fungal_zangarmarsh",              "misty_swamp_planet",               None,                       1),
+    ("misty_swamp_planet",              "quagmire_of_despair",              None,                       3),
+    ("toxic_bayou",                     "sunken_wilderness",                None,                       1),
+    ("quagmire_of_despair",             "sunken_wilderness",                None,                       1),
 ]
-
-
+ 
 class MapGraph:
     STARTING_LOCATION = "goldenreach_plains"
 
@@ -229,6 +245,38 @@ class MapGraph:
         # Retorna -1 se o alvo for inalcançável (não 0, para não confundir com o ponto de partida)
         return int(min_dist_to_target) if min_dist_to_target != float('inf') else -1
    
+    def get_distance_between(self, origin: str, target: str) -> int:
+        if origin == target:
+            return 0
+
+        if not self.is_location_accessible(origin) or not self.is_location_accessible(target):
+            return -1
+
+        distances = {origin: 0}
+        pq = [(0, origin)]  # (custo, nó)
+
+        while pq:
+            current_cost, current = heapq.heappop(pq)
+
+            if current_cost > distances.get(current, float("inf")):
+                continue
+
+            if current == target:
+                return current_cost  # pode retornar cedo 👍
+
+            for conn in self.graph.get(current, {}).get("connections", []):
+                if not self._can_cross(conn):
+                    continue
+
+                dest = conn["destination"]
+                new_cost = current_cost + conn.get("distance", 1)
+
+                if new_cost < distances.get(dest, float("inf")):
+                    distances[dest] = new_cost
+                    heapq.heappush(pq, (new_cost, dest))
+
+        return -1
+   
     # ── Impacto de bloqueio ───────────────────────────────────────────────────
 
     def get_locations_blocked_by(self, edge_key: str) -> List[str]:
@@ -306,3 +354,5 @@ if __name__ == "__main__":
     print("\n=== get_next_bridges com dead_harvest bloqueada ===")
     g.block_bridge("dead_harvest_bridge")
     print([b["bridge"] for b in g.get_next_bridges()])
+    
+    print(g.get_distance_between("evergreen_kokiri", "quagmire_of_despair"))

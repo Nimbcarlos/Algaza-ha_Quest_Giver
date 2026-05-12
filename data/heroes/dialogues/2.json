@@ -283,151 +283,152 @@
       "action": {
         "fight": {
           "alone": {
+            
             "pt": [
-              "Ergui meu escudo contra o avanço d{enemy}. Não houve luz ou glória n{location}, apenas o som seco do metal contra a carne.",
-              "Bati com o pomo da maça no n{enemy}. Dizem que a justiça é cega, mas eu senti cada osso quebrado sob minhas mãos.",
-              "Pisei firme no solo d{location} e forcei o bloqueio contra {enemy}. Pela luz? Não, foi pela minha própria sobrevivência.",
-              "Encarei {enemy} nos olhos enquanto o impacto vibrou no meu braço. Eu podia ter feito isso o dia todo, mas minha paciência acabou no primeiro golpe.",
-              "Desviei do golpe d{enemy} e preparei o contra-ataque. Fiz de {location} o meu próprio julgamento, sem esperar por martelos divinos.",
-              "Girei minha maça e quebrei a postura d{enemy}. N{location}, não houve coros celestiais, apenas o som da minha respiração pesada.",
-              "Recebi o golpe d{enemy} em cheio no peito. O impacto teria matado um fiel comum, mas eu sou feita de metal e teimosia.",
-              "Avancei através {location} e colidi meu escudo contra {enemy}. Não precisei de orações para sentir o crânio deles cedendo.",
-              "Cortei o ar com um movimento brusco enquanto {enemy} recuava. Eles vieram buscar glória, mas eu só entreguei cansaço e aço.",
-              "Arrastei meu pé no chão d{location} e me preparei para o próximo choque com {enemy}. Jurei proteger este lugar, mesmo que o mundo se esqueça de mim."
+              "Invoquei o Martelo giratório sagrado contra {o_enemy} e encerrei o assunto logo.",
+              "Vi o meu Escudo ricocheteando {o_enemy} enquanto eu já pensava no jantar.",
+              "Uma Coluna de luz divina atingiu {o_enemy}. Menos um estorvo no caminho.",
+              "Assisti à Espada caindo do céu sobre {o_enemy}. Doutrina pura e barulhenta.",
+              "Uma Explosão sagrada em área limpou tudo {o_enemy}. Finalmente, um pouco de paz.",
+              "Minha Aura radiante fritou cada parte {do_enemy} que ousou chegar perto.",
+              "A Investida com escudo esmagou {o_enemy}. Alguém precisava fazer o trabalho sujo.",
+              "Sentenciei cada um {do_enemy} com um Julgamento divino. Justiça dá um trabalho danado.",
+              "Minha Falange espectral atropelou {o_enemy}. Nem precisei me esforçar muito.",
+              "O Bombardeio celestial obliterou {o_enemy}. Exagerado, mas eficiente."
             ],
             "en": [
-              "I raised my shield against {enemy}'s advance. There was no light or glory in {location}, just the dull sound of metal against flesh.",
-              "I struck {enemy} with the pommel of my mace. They say justice is blind, but I felt every bone break under my hands.",
-              "I planted my feet on the ground of {location} and forced the block against {enemy}. For the light? No, it was for my own survival.",
-              "I stared {enemy} in the eyes as the impact vibrated through my arm. I could have done this all day, but my patience ran out on the first hit.",
-              "I dodged {enemy}'s strike and prepared to counterattack. I made {location} my own judgment, without waiting for divine hammers.",
-              "I swung my mace and broke {enemy}'s posture. In {location}, there were no heavenly choirs, just the sound of my heavy breathing.",
-              "I took {enemy}'s blow squarely on the chest. The impact would have killed a common faithful, but I'm made of metal and stubbornness.",
-              "I advanced through {location} and collided my shield against {enemy}. I didn't need prayers to feel their skull giving way.",
-              "I cut through the air with a sharp movement as {enemy} retreated. They came seeking glory, but I only delivered exhaustion and steel.",
-              "I dragged my foot on the ground of {location} and braced for the next clash with {enemy}. I vowed to protect this place, even if the world forgets about me."
+              "I summoned the sacred Spinning Hammer against {enemy} and ended the matter quickly.",
+              "I saw my Shield ricochet off {enemy} while I was already thinking about dinner.",
+              "A Column of divine light struck {enemy}. One less nuisance in the way.",
+              "I watched a Sword fall from the sky onto {enemy}. Pure and noisy doctrine.",
+              "A sacred Area Explosion cleared everything {enemy}. Finally, some peace.",
+              "My Radiant Aura fried every part of {enemy} that dared to get close.",
+              "The Shield Charge smashed into {enemy}. Someone had to do the dirty work.",
+              "I sentenced each of {enemy} with a divine Judgment. Justice is a damn chore.",
+              "My spectral Phalanx trampled over {enemy}. Didn't even have to try hard.",
+              "The celestial Bombardment obliterated {enemy}. Overkill, but effective."
             ],
             "es": [
-              "Levanté mi escudo contra el avance de {enemy}. No hubo luz ni gloria en {location}, solo el sonido sordo del metal contra la carne.",
-              "Golpeé a {enemy} con el pomo de mi maza. Dicen que la justicia es ciega, pero sentí cada hueso romperse bajo mis manos.",
-              "Planté mis pies en el suelo de {location} y forcé el bloqueo contra {enemy}. ¿Por la luz? No, fue por mi propia supervivencia.",
-              "Miré a {enemy} a los ojos mientras el impacto vibraba a través de mi brazo. Podría haber hecho esto todo el día, pero mi paciencia se agotó en el primer golpe.",
-              "Esquivé el golpe de {enemy} y me preparé para contraatacar. Hice de {location} mi propio juicio, sin esperar por martillos divinos.",
-              "Gire mi maza y rompí la postura de {enemy}. En {location}, no hubo coros celestiales, solo el sonido de mi respiración pesada.",
-              "Recibí el golpe de {enemy} directamente en el pecho. El impacto habría matado a un fiel común, pero estoy hecha de metal y terquedad.",
-              "Avancé a través de {location} y colisioné mi escudo contra {enemy}. No necesité oraciones para sentir su cráneo ceder.",
-              "Corté el aire con un movimiento brusco mientras {enemy} retrocedía. Vinieron buscando gloria, pero solo entregué cansancio y acero.",
-              "Arrastré mi pie en el suelo de {location} y me preparé para el próximo choque con {enemy}. Juré proteger este lugar, incluso si el mundo se olvida de mí."
-            ],
-            "ru": [
-              "Я подняла щит против наступления {enemy}. В {location} не было ни света, ни славы, только глухой звук металла о плоть.",
-              "Я ударила {enemy} рукояткой своей булавы. Говорят, что справедливость слепа, но я чувствовала, как каждая кость ломается под моими руками.",
-              "Я встала на землю {location} и заставила блокировать {enemy}. Ради света? Нет, это было ради моего собственного выживания.",
-              "Я уставилась {enemy} в глаза, когда удар вибрировал по моей руке. Я могла бы делать это весь день, но мое терпение закончилось на первом ударе.",
-              "Я уклонилась от удара {enemy} и приготовилась к контратаке. Я сделала {location} своим собственным судом, не ожидая божественных молотов.",
-              "Я замахнулась булавой и сломала позу {enemy}. В {location} не было небесных хоров, только звук моего тяжелого дыхания.",
-              "Я приняла удар {enemy} прямо в грудь. Удар убил бы обычного верующего, но я сделана из металла и упрямства.",
-              "Я продвинулась через {location} и столкнула свой щит с {enemy}. Мне не нужны были молитвы, чтобы почувствовать их череп поддающимся.",
-              "Я прорезала воздух резким движением, когда {enemy} отступал. Они пришли за славой, но я только доставила усталость и сталь.",
-              "Я волочила ногу по земле {location} и готовилась к следующему столкновению с {enemy}. Я поклялась защищать это место, даже если мир забудет обо мне."
-            ],
-            "zh": [
-              "我举起盾牌抵挡{enemy}的进攻。在{location}没有光明或荣耀，只有金属与肉体碰撞的沉闷声音。",
-              "我用我的锤柄击打{enemy}。他们说正义是盲目的，但我感觉到每一块骨头在我的手下断裂。",
-              "我在{location}的地面上站稳脚跟，强行阻挡{enemy}。为了光明？不，这是为了我自己的生存。",
-              "当冲击震动我的手臂时，我直视{enemy}的眼睛。我可以整天这样做，但我的耐心在第一击就耗尽了。",
-              "我躲开了{enemy}的攻击，准备反击。我让{location}成为我自己的审判，不等待神圣的锤子。",
-              "我挥舞着我的锤子，打破了{enemy}的姿态。在{location}，没有天上的合唱，只有我沉重呼吸的声音。",
-              "我直接接受了{enemy}的攻击。这个冲击会杀死一个普通的信徒，但我是由金属和固执制成的。",
-              "我穿过{location}前进，与{enemy}的盾牌碰撞。我不需要祈祷就能感觉到他们的头骨在让步。",
-              "当{enemy}撤退时，我用一个锐利的动作切开空气。他们来寻求荣耀，但我只带来了疲惫和钢铁。",
-              "我在{location}的地面上拖着脚，准备迎接与{enemy}的下一次冲突。我发誓要保护这个地方，即使世界忘记了我。"
-            ],
-            "ja": [
-              "{enemy}の進撃に対して盾を上げた。{location}には光も栄光もなく、ただ金属が肉に当たる鈍い音だけだった。",
-              "メイスの柄で{enemy}を打った。正義は盲目だと言われているが、私は手の下で骨が折れるのを感じた。",
-              "{location}の地面に足を踏みしめ、{enemy}に対してブロックを強制した。光のため？いいえ、それは自分の生存のためだった。",
-              "衝撃が腕を震わせる中、{enemy}の目を見つめた。これを一日中できたかもしれないが、最初の一撃で我慢が尽きた。",
-              "{enemy}の攻撃をかわし、反撃の準備をした。{location}を自分自身の裁きとし、神聖なハンマーを待たなかった。",
-              "メイスを振り回し、{enemy}の姿勢を崩した。{location}では天国の合唱はなく、ただ私の重い呼吸の音だけだった。",
-              "{enemy}の攻撃を胸にまともに受けた。その衝撃は普通の信者なら死んでいただろうが、私は金属と頑固さでできている。",
-              "{location}を進みながら{enemy}と盾で衝突した。祈りは必要なかった。彼らの頭蓋骨が崩れるのを感じることができたからだ。",
-              "{enemy}が退くとき、鋭い動きで空気を切った。彼らは栄光を求めて来たが、私は疲労と鋼鉄しか届けなかった。",
-              "{location}の地面に足を引きずりながら、次の{enemy}との衝突に備えた。この場所を守ると誓った。世界が私を忘れても。"
-            ]
-          },
-          "group": {
-            "pt": [
-              "Avancei e segurei o impacto d{enemy}. Gritei para que não esperassem por milagres, pois eu era o único muro entre eles e a morte.",
-              "Golpeei o flanco d{enemy} para abrir espaço. Mantiveram a maldita linha ou eu mesma iria garantirir que ninguém saisse d{location} vivo!",
-              "Bloqueei a investida d{enemy} e senti o peso de todos vocês no meu braço. É por isso que eu carrego o escudo e vocês as dúvidas.",
-              "Gritei ordens enquanto empurrei {enemy} para trás. Disse para olharem para mim e não para os céus; a ajuda estava aqui embaixo, sangrando.",
-              "Interpus meu corpo entre o grupo e o ataque d{enemy}. Deixei que os deuses julgassem depois; eu apenas segurei a porta.",
-              "Rosnei para o grupo enquanto bloqueava a fúria d{enemy}. Gritei que eu era o sol deles agora, e que era melhor não desviarem o olhar.",
-              "Forcei meu caminho entre as lâminas d{enemy} e os idiotas que eu protejo. Fiz o que tinha que ser feito, sem esperar gratidão.",
-              "Segurei a investida d{enemy} até meus dedos sangrarem sob as manoplas. Avisei que, enquanto eu estivesse de pé, ninguém passaria por mim.",
-              "Lancei um olhar de desprezo para o grupo e avancei contra {enemy}. Limpei o caminho n{location} porque nenhum de vocês teve coragem.",
-              "Bati no escudo, chamando a atenção d{enemy} para longe dos meus aliados. Disse que eles estavam lutando contra uma montanha, e montanhas não caem."
-            ],
-            "en": [
-              "I advanced and held {enemy}'s impact. I shouted for them not to wait for miracles, as I was the only wall between them and death.",
-              "I struck {enemy}'s flank to open space. Keep the damn line or I'll make sure no one leaves {location} alive!",
-              "I blocked {enemy}'s charge and felt the weight of all of you on my arm. That's why I carry the shield and you carry doubts.",
-              "I shouted orders as I pushed {enemy} back. I told them to look at me and not the skies; help was down here, bleeding.",
-              "I interposed my body between the group and {enemy}'s attack. Let the gods judge later; I just held the door.",
-              "I snarled at the group as I blocked {enemy}'s fury. I shouted that I was their sun now, and it was better not to look away.",
-              "I forced my way between {enemy}'s blades and the idiots I protect. I did what had to be done, without expecting gratitude.",
-              "I held {enemy}'s charge until my fingers bled under the gauntlets. I warned that as long as I stood, no one would pass me.",
-              "I cast a look of disdain at the group and advanced against {enemy}. I cleared the way in {location} because none of you had the guts.",
-              "I struck my shield, drawing {enemy}'s attention away from my allies. I said they were fighting a mountain, and mountains don't fall."
+              "Invocé el sagrado Martillo giratorio contra {do_enemy} y terminé el asunto rápidamente.",
+              "Vi mi Escudo rebotar en {no_enemy} mientras ya pensaba en la cena.",
+              "Una Columna de luz divina golpeó a {ao_enemy}. Un estorbo menos en el camino.",
+              "Vi una Espada caer del cielo sobre {do_enemy}. Doctrina pura y ruidosa.",
+              "Una Explosión sagrada en área limpió todo {no_enemy}. Finalmente, algo de paz.",
+              "Mi Aura radiante frió cada parte de {do_enemy} que se atrevió a acercarse.",
+              "La Investida con escudo aplastó a {ao_enemy}. Alguien tenía que hacer el trabajo sucio.",
+              "Sentencié a cada uno de {do_enemy} con un Juicio divino. La justicia es una maldita tarea.",
+              "Mi Falange espectral atropelló a {ao_enemy}. Ni siquiera tuve que esforzarme mucho.",
+              "El Bombardeo celestial obliteró a {do_enemy}. Exagerado, pero efectivo."
              ],
-             "es": [
-              "Avancé y sostuve el impacto de {enemy}. Grité para que no esperaran milagros, ya que yo era la única pared entre ellos y la muerte.",
-              "Golpeé el flanco de {enemy} para abrir espacio. ¡Mantengan la maldita línea o me aseguraré de que nadie salga vivo de {location}!",
-              "Bloqueé la carga de {enemy} y sentí el peso de todos ustedes en mi brazo. Por eso llevo el escudo y ustedes llevan dudas.",
-              "Grité órdenes mientras empujaba a {enemy} hacia atrás. Les dije que me miraran a mí y no a los cielos; la ayuda estaba aquí abajo, sangrando.",
-              "Interpuse mi cuerpo entre el grupo y el ataque de {enemy}. Que los dioses juzguen después; yo solo sostuve la puerta.",
-              "Gruñí al grupo mientras bloqueaba la furia de {enemy}. Grité que ahora era su sol, y que era mejor no desviar la mirada.",
-              "Me abrí paso entre las hojas de {enemy} y los idiotas que protejo. Hice lo que tenía que hacer, sin esperar gratitud.",
-              "Sostuve la carga de {enemy} hasta que mis dedos sangraron bajo las manoplas. Advertí que mientras yo estuviera de pie, nadie me pasaría.",
-              "Eché una mirada de desprecio al grupo y avancé contra {enemy}. Limpié el camino en {location} porque ninguno de ustedes tuvo el valor.",
-              "Golpeé mi escudo, atrayendo la atención de {enemy} lejos de mis aliados. Dije que estaban luchando contra una montaña, y las montañas no caen."
+             "ru": [
+               "{enemy} я призвала священный Вращающийся Молот и быстро закончила дело.",
+               "{enemy} я увидела, как мой Щит отскакивает, в то время как я уже думала о ужине.",
+               "{enemy} поразила Колонна божественного света. На пути стало на одного неприятного человека меньше.",
+               "{enemy} я наблюдала, как Меч падает с неба. Чистая и шумная доктрина.",
+               "{enemy} священная Взрывная волна очистила все. Наконец-то, немного покоя.",
+               "{enemy} моя Сияющая Аура прожарила каждую часть, которая осмелилась приблизиться.",
+               "{enemy} Щитовой Удар сокрушил. Кто-то должен был сделать грязную работу.",
+               "{enemy} я приговорила к божественному Суду. Справедливость — чертовски утомительное занятие.",
+               "{enemy} моя спектральная Фаланга затоптала. Даже не пришлось сильно стараться.",
+               "{enemy} небесный Бомбардировщик уничтожил. Чрезмерно, но эффективно."
              ],
-              "ru": [
-                "Я продвинулась и выдержала удар {enemy}. Я кричала, чтобы они не ждали чудес, так как я была единственной стеной между ними и смертью.",
-                "Я ударила по флангу {enemy}, чтобы открыть пространство. Держите чертову линию, или я позабочусь о том, чтобы никто не покинул {location} живым!",
-                "Я блокировала атаку {enemy} и чувствовала вес всех вас на своей руке. Вот почему я ношу щит, а вы носите сомнения.",
-                "Я кричала приказы, отталкивая {enemy} назад. Я сказала им смотреть на меня, а не в небо; помощь была здесь внизу, кровоточащая.",
-                "Я поставила свое тело между группой и атакой {enemy}. Пусть боги судят позже; я просто держала дверь.",
-                "Я рычала на группу, блокируя ярость {enemy}. Я кричала, что я их солнце сейчас, и лучше не отводить взгляд.",
-                "Я пробивалась между лезвиями {enemy} и идиотами, которых я защищаю. Я делала то, что должна была делать, не ожидая благодарности.",
-                "Я держала атаку {enemy}, пока мои пальцы не запеклись кровью под рукавицами. Я предупредила, что пока я стою, никто не пройдет мимо меня.",
-                "Я бросила презрительный взгляд на группу и продвинулась против {enemy}. Я очистила путь в {location}, потому что ни у кого из вас не хватило смелости.",
-                "Я ударила по своему щиту, отвлекая внимание {enemy} от моих союзников. Я сказала, что они сражаются с горой, а горы не падают."
-              ],
               "zh": [
-                "我前进并承受了{enemy}的冲击。我大喊着让他们不要等待奇迹，因为我是他们和死亡之间的唯一屏障。",
-                "我打击了{enemy}的侧翼以打开空间。保持该死的阵线，否则我会确保没有人活着离开{location}！",
-                "我阻挡了{enemy}的冲锋，感觉到你们所有人的重量在我的手臂上。这就是为什么我携带盾牌，而你们携带疑虑。",
-                "当我把{enemy}推回去时，我大喊着命令。我告诉他们看着我而不是天空；帮助就在这里，在下面，流血了。",
-                "我把身体放在团队和{enemy}的攻击之间。让神明之后评判；我只是守住了门。",
-                "当我阻挡{enemy}的愤怒时，我对团队咆哮。我大喊着说我现在是他们的太阳，最好不要移开视线。",
-                "我强行穿过{enemy}的刀刃和我保护的傻瓜之间。我做了必须做的事，不期待感激。",
-                "我一直承受着{enemy}的攻击，直到我的手指在护手下流血。我警告说，只要我站着，就没有人能通过我。",
-                "我对团队投以鄙视的目光，并向{enemy}前进。我清理了{location}中的道路，因为你们没有一个人有勇气。",
-                "我敲击我的盾牌，吸引了{enemy}远离我的盟友。我说他们正在与一座山作战，而山不会倒下。"
+                "我召唤了神圣的旋转锤对付{enemy}，很快就结束了这件事。",
+                "我看到我的盾牌在{enemy}上弹跳，而我已经在想着晚餐了。",
+                "一柱神圣的光击中了{enemy}。路上又少了一个麻烦。",
+                "我看着一把剑从天而降砸向{enemy}。纯粹而吵闹的教义。",
+                "一场神圣的范围爆炸清除了所有{enemy}。终于，安宁了一些。",
+                "我的光辉气场炸掉了每个敢于靠近的{enemy}部分。",
+                "盾牌冲锋猛撞了{enemy}。有人必须做肮脏的工作。",
+                "我用神圣的审判宣判了每个{enemy}。正义是该死的苦差事。",
+                "我的幽灵方阵践踏了{enemy}。甚至不需要努力。",
+                "天上的轰炸摧毁了{enemy}。过度，但有效。"
               ],
               "ja": [
-                "{enemy}の衝撃を受け止めて前進した。奇跡を待たないように叫んだ。私は彼らと死の間の唯一の壁だったからだ。",
-                "{enemy}の側面を攻撃してスペースを開けた。くそったれなラインを保て、さもないと{location}から誰も生きて出られなくなるぞ！",
-                "{enemy}の突撃をブロックして、あなたたち全員の重みを腕で感じた。だからこそ私は盾を持ち、あなたたちは疑念を持っているんだ。",
-                "{enemy}を押し返しながら命令を叫んだ。空ではなく私を見るように言った。助けはここにあって、血を流しているんだ。",
-                "グループと{enemy}の攻撃の間に体を置いた。後で神々が裁くことになるだろうが、私はただドアを守っただけだ。",
-                "{enemy}の怒りをブロックしながらグループに向かって唸った。今や私は彼らの太陽だと言い、目をそらさない方がいいと叫んだ。",
-                "{enemy}の刃と私が守る馬鹿どもの間に強引に道を開いた。感謝されることなく、やるべきことをやった。",
-                "{enemy}の突撃をガントレットの下で指が血まみれになるまで耐えた。私が立っている限り誰も私を通過できないと警告した。",
-                "グループに軽蔑の目を投げかけて{enemy}に前進した。{location}で道を掃除した。なぜならあなたたちには勇気がなかったからだ。",
-                "盾を叩いて{enemy}の注意を味方からそらした。彼らは山と戦っていると言い、山は倒れないと言った。"
+                "{enemy}に対して神聖なスピニングハンマーを召喚し、すぐに事を終わらせた。",
+                "{enemy}に私のシールドが跳ね返るのを見たとき、私はすでに夕食のことを考えていた。",
+                "神聖な光の柱が{enemy}を打ちました。道の邪魔者が一人減りました。",
+                "空から落ちてきた剣が{enemy}に当たるのを見ました。純粋で騒々しい教義です。",
+                "神聖なエリア爆発がすべての{enemy}をクリアしました。やっと、少し平和になりました。",
+                "私の輝くオーラは、近づく勇気のある{enemy}のすべての部分を焼きました。",
+                "シールドチャージが{enemy}に衝突しました。誰かが汚い仕事をする必要がありました。",
+                "{enemy}のそれぞれに神聖な審判で宣告しました。正義は厄介な仕事です。",
+                "私のスペクトルファランクスは{enemy}を踏みつけました。あまり努力する必要もありませんでした。",
+                "天体爆撃が{enemy}を消滅させました。過剰ですが効果的です。"
+              ]
+        },
+          "group": {
+            "pt": [
+              "Uma Onda de choque sagrada derrubou tudo {no_enemy} e me poupou tempo.",
+              "Coloquei a Marca de condenação {no_enemy}. O destino já estava selado.",
+              "Usei o Escudo luminoso cegante {ao_enemy}. Nem viu o golpe final chegar.",
+              "Meu Martelo espectral orbital pulverizou {do_enemy} sem que eu parasse de andar.",
+              "O Escudo giratório perfurante atravessou {no_enemy}. Que bagunça desnecessária.",
+              "O Impacto consagrado destruiu cada pedaço {do_enemy}. Outra obrigação cumprida.",
+              "Minha Lâmina de luz colossal cortou {ao_enemy} ao meio. Sem dramas.",
+              "Uma Descarga celestial fritou {do_enemy} instantaneamente. Pragmático.",
+              "A Chuva de lanças sagradas caiu {no_enemy}. Um espetáculo que eu não pedi.",
+              "Meus Avatares angelicais lidaram com {do_enemy}. Eu só queria ir embora."
+            ],
+            "en": [
+              "A sacred Shockwave knocked down everything {enemy} and saved me time.",
+              "I placed the Mark of condemnation on {enemy}. The fate was already sealed.",
+              "I used the Blinding luminous Shield on {enemy}. They didn't even see the final blow coming.",
+              "My orbital spectral Hammer pulverized {enemy} without me stopping walking.",
+              "The piercing Spinning Shield went through {enemy}. What an unnecessary mess.",
+              "The consecrated Impact destroyed every piece of {enemy}. Another obligation fulfilled.",
+              "My colossal Blade of light cut {enemy} in half. No drama.",
+              "A celestial Discharge fried {enemy} instantly. Pragmatic.",
+              "The Rain of sacred spears fell on {enemy}. A spectacle I didn't ask for.",
+              "My angelic Avatars dealt with {enemy}. I just wanted to go home."
+             ],
+             "es": [
+              "Una Onda de choque sagrada derribó todo {no_enemy} y me ahorró tiempo.",
+              "Coloqué la Marca de condenación en {no_enemy}. El destino ya estaba sellado.",
+              "Usé el Escudo luminoso cegador en {ao_enemy}. Ni siquiera vieron venir el golpe final.",
+              "Mi Martillo espectral orbital pulverizó a {do_enemy} sin que yo dejara de caminar.",
+              "El Escudo giratorio perforante atravesó a {no_enemy}. Qué desastre innecesario.",
+              "El Impacto consagrado destruyó cada pieza de {do_enemy}. Otra obligación cumplida.",
+              "Mi Lâmina de luz colosal cortó a {ao_enemy} por la mitad. Sin dramas.",
+              "Una Descarga celestial frió a {do_enemy} al instante. Pragmático.",
+              "La Lluvia de lanzas sagradas cayó sobre {no_enemy}. Un espectáculo que no pedí.",
+              "Mis Avatares angelicales lidiaron con {do_enemy}. Solo quería irme a casa."
+             ],
+              "ru": [
+               "{enemy} священная Ударная волна сбила с ног все и сэкономила мне время.",
+               "{enemy} я наложила Метку осуждения. Судьба уже была предрешена.",
+               "{enemy} я использовала Ослепляющий светящийся Щит. Они даже не увидели, как приближается последний удар.",
+               "{enemy} мой орбитальный спектральный Молот измельчил, не останавливаясь.",
+               "{enemy} пронизующий Вращающийся Щит прошел сквозь. Какая ненужная грязь.",
+               "{enemy} освященный Удар уничтожил каждую часть. Еще одно выполненное обязательство.",
+               "{enemy} мой колоссальный Лезвие света разрубил пополам. Без драмы.",
+               "{enemy} небесная Разрядка прожарила мгновенно. Прагматично.",
+               "{enemy} Дождь священных копий упал. Зрелище, о котором я не просила.",
+               "{enemy} мои ангельские Аватары справились. Я просто хотела домой."
+              ],
+              "zh": [
+                "一股神圣的冲击波击倒了所有{enemy}，节省了我的时间。",
+                "我在{enemy}上放置了谴责标记。命运已经注定了。",
+                "我用致盲的发光盾牌对付了{enemy}。他们甚至没有看到最后一击的到来。",
+                "我的轨道幽灵锤粉碎了{enemy}，而我没有停下来走路。",
+                "{enemy}被穿透的旋转盾牌穿过了。多么不必要的混乱。",
+                "{enemy}被奉献的冲击摧毁了。又一个完成的义务。",
+                "{enemy}被我的巨大光之刃切成两半。没有戏剧性。",
+                "{enemy}被天上的放电瞬间炸掉了。务实。",
+                "{enemy}被神圣长矛雨落下。我不要求的壮观场面。",
+                "{enemy}被我的天使化身处理掉了。我只想回家。"
+              ],
+              "ja": [
+                "神聖な衝撃波がすべての{enemy}を倒し、時間を節約しました。",
+                "{enemy}に呪いのマークを置きました。運命はすでに決まっていました。",
+                "{enemy}に眩しい光るシールドを使いました。彼らは最後の一撃が来るのも見ませんでした。",
+                "私の軌道スペクトルハンマーは、歩くのを止めずに{enemy}を粉砕しました。",
+                "{enemy}を貫通するスピニングシールドが通り抜けました。なんて不必要な混乱でしょう。",
+                "{enemy}は奉献されたインパクトによってすべての部分が破壊されました。もう一つの義務が果たされました。",
+                "{enemy}に私の巨大な光の刃が半分に切りました。ドラマなしです。",
+                "{enemy}は天体放電で瞬時に焼かれました。実用的です。",
+                "{enemy}に神聖な槍の雨が降りました。私が頼んでいないスペクタクルです。",
+                "{enemy}は私の天使のアバターで対処されました。私はただ家に帰りたかっただけです。"
               ]
           }
         },
@@ -1011,6 +1012,459 @@
                ]
           }
         }
+      },
+
+    "narrative": {
+      "place": {
+        "landmark": {
+          "pt": [
+            "{fragment}. Claro. Porque aparentemente ainda não estava ruim o suficiente.",
+            "Lá estava {fragment}. Exatamente o tipo de coisa que ninguém precisa ver duas vezes.",
+            "{fragment}. Ignorei o impulso de reclamar — não mudaria nada.",
+            "{fragment}. Mais um detalhe inútil... até deixar de ser.",
+            "Eu vi {fragment}. E já esperei que aquilo fosse dar problema.",
+            "{fragment}. Não importava o que era — só significava mais um problema para resolver.",
+            "Eu vi {fragment}. Não me impressionou. Só complicava o que já não era simples.",
+            "{fragment}. Como se o lugar precisasse de mais um motivo para ser desagradável.",
+            "{fragment}. Anotei mentalmente... porque ignorar costuma custar caro.",
+            "{fragment}. Nada ali parecia fora do padrão — o padrão sendo sempre ruim."
+          ],
+          "en": [
+            "{fragment}. Of course. Because apparently it wasn't bad enough yet.",
+            "There was {fragment}. Exactly the kind of thing nobody needs to see twice.",
+            "{fragment}. I ignored the urge to complain — it wouldn't change anything.",
+            "{fragment}. Just another useless detail... until it isn't.",
+            "I saw {fragment}. And I already expected that to cause trouble.",
+            "{fragment}. It didn't matter what it was — it just meant one more problem to solve.",
+            "I saw {fragment}. It didn't impress me. It just complicated what wasn't simple to begin with.",
+            "{fragment}. As if the place needed one more reason to be unpleasant.",
+            "{fragment}. I noted it mentally... because ignoring it usually costs dearly.",
+            "{fragment}. Nothing there seemed out of the ordinary — the ordinary being always bad."
+          ],
+          "es": [
+            "{fragment}. Por supuesto. Porque aparentemente no era lo suficientemente malo todavía.",
+            "Ahí estaba {fragment}. Exactamente el tipo de cosa que nadie necesita ver dos veces.",
+            "{fragment}. Ignoré el impulso de quejarme, no cambiaría nada.",
+            "{fragment}. Solo otro detalle inútil... hasta que no lo sea.",
+            "Vi {fragment}. Y ya esperaba que eso causara problemas.",
+            "{fragment}. No importaba lo que fuera, solo significaba un problema más para resolver.",
+            "Vi {fragment}. No me impresionó. Solo complicaba lo que no era simple para empezar.",
+            "{fragment}. Como si el lugar necesitara una razón más para ser desagradable.",
+            "{fragment}. Lo anoté mentalmente... porque ignorarlo suele costar caro.",
+            "{fragment}. Nada allí parecía fuera de lo común, lo común siendo siempre malo."
+          ],
+          "ru": [
+            "{fragment}. Конечно. Потому что, видимо, это еще не было достаточно плохо.",
+            "Там был {fragment}. Именно тот тип вещей, который никому не нужно видеть дважды.",
+            "{fragment}. Я проигнорировал желание пожаловаться — это ничего не изменило бы.",
+            "{fragment}. Просто еще одна бесполезная деталь... пока она не перестанет быть таковой.",
+            "Я увидел {fragment}. И уже ожидал, что это вызовет проблемы.",
+            "{fragment}. Неважно, что это было — это просто означало еще одну проблему для решения.",
+            "{fragment}. Я увидел {fragment}. Это не впечатлило меня. Это просто усложнило то, что изначально не было простым.",
+            "{fragment}. Как будто этому месту нужна была еще одна причина быть неприятным.",
+            "{fragment}. Я отметил это мысленно... потому что игнорирование обычно дорого обходится.",
+            "{fragment}. Ничто там не казалось необычным — обычное всегда плохое."
+          ],
+          "zh": [
+            "{fragment}. 当然。因为显然还不够糟糕。",
+            "那里有{fragment}。正是那种没人需要看两次的东西。",
+            "{fragment}. 我忽略了抱怨的冲动——这不会改变任何事情。",
+            "{fragment}. 只是另一个无用的细节……直到它不再是无用的。",
+            "我看到了{fragment}。我已经预料到这会引起麻烦。",
+            "{fragment}. 不管它是什么——它只是意味着又一个问题需要解决。",
+            "{fragment}. 我看到了{fragment}。它没有给我留下深刻印象。它只是让本来就不简单的事情变得更复杂了。",
+            "{fragment}. 好像这个地方还需要一个理由来变得不愉快一样。",
+            "{fragment}. 我在心里记下了它……因为忽略它通常会付出昂贵的代价。",
+            "{fragment}. 那里没有什么看起来不寻常的东西——普通的东西总是坏的。"
+          ],
+          "ja": [
+            "{fragment}. もちろん。なぜなら、まだ十分に悪くなかったからです。",
+            "そこには{fragment}がありました。誰も二度と見たくないようなものです。",
+            "{fragment}. 不満を言いたい衝動を無視しました—何も変わらないでしょう。",
+            "{fragment}. ただのもう一つの無駄な詳細...それがそうでなくなるまでは。",
+            "{fragment}. {fragment}を見ました。そして、それが問題を引き起こすことをすでに予想していました。",
+            "{fragment}. それが何であれ関係ありません—それは解決するためのもう一つの問題を意味するだけです。",
+            "{fragment}. {fragment}を見ました。それは私に印象を与えませんでした。それは最初から単純ではなかったものをさらに複雑にしました。",
+            "{fragment}. まるでその場所が不快になるためのもう一つの理由を必要としているかのようでした。",
+            "{fragment}. 心の中でそれをメモしました...なぜなら、それを無視すると通常は高くつくからです。",
+            "{fragment}. そこには異常に見えるものは何もありませんでした—普通のものは常に悪いものです。"
+          ]
+        },
+        "feeling": {
+          "pt": [
+            "{fragment}. Não ajudava em nada — só tornava tudo mais difícil de ignorar.",
+            "{fragment}. Eu não precisava disso agora, mas precisava lidar mesmo assim.",
+            "{fragment}. Ignorei o quanto pude. Nem sempre funciona.",
+            "{fragment}. Já senti coisa pior... isso não tornava melhor.",
+            "{fragment}. Só mais um detalhe tentando atrapalhar o que realmente importa.",
+            "{fragment}. Como se o lugar ainda precisasse de mais um problema.",
+            "{fragment}. Não confiei nisso nem por um segundo.",
+            "{fragment}. Só confirmei que ficar ali era uma péssima ideia.",
+            "{fragment}. Típico. Nada nunca é só o que parece.",
+            "{fragment}. Anotei mentalmente... porque ignorar isso costuma cobrar depois."
+          ],
+          "en": [
+            "{fragment}. It didn't help with anything — it just made everything harder to ignore.",
+            "{fragment}. I didn't need that right now, but I needed to deal with it anyway.",
+            "{fragment}. I ignored it as much as I could. It doesn't always work.",
+            "{fragment}. I've felt worse... this didn't make it better.",
+            "{fragment}. Just another detail trying to get in the way of what really matters.",
+            "{fragment}. As if the place still needed one more problem.",
+            "{fragment}. I didn't trust that for a second.",
+            "{fragment}. I just confirmed that staying there was a bad idea.",
+            "{fragment}. Typical. Nothing is ever just what it seems.",
+            "{fragment}. I noted it mentally... because ignoring it usually comes back to bite you."
+          ],
+          "es": [
+            "{fragment}. No ayudaba en nada, solo hacía que todo fuera más difícil de ignorar.",
+            "{fragment}. No necesitaba eso en este momento, pero necesitaba lidiar con ello de todos modos.",
+            "{fragment}. Lo ignoré tanto como pude. No siempre funciona.",
+            "{fragment}. He sentido cosas peores... esto no lo hizo mejor.",
+            "{fragment}. Solo otro detalle tratando de interponerse en el camino de lo que realmente importa.",
+            "{fragment}. Como si el lugar aún necesitara un problema más.",
+            "{fragment}. No confié en eso ni por un segundo.",
+            "{fragment}. Solo confirmé que quedarse allí era una mala idea.",
+            "{fragment}. Típico. Nada es nunca solo lo que parece.",
+            "{fragment}. Lo anoté mentalmente... porque ignorarlo suele volver a morderte."
+          ],
+          "ru": [
+            "{fragment}. Это не помогало ни с чем — это просто делало все сложнее игнорировать.",
+            "{fragment}. Мне это сейчас не нужно, но мне нужно было с этим справиться в любом случае.",
+            "{fragment}. Я игнорировал это столько, сколько мог. Это не всегда работает.",
+            "{fragment}. Я чувствовал себя хуже... это не сделало его лучше.",
+            "{fragment}. Просто еще одна деталь, пытающаяся помешать тому, что действительно важно.",
+            "{fragment}. Как будто этому месту все еще нужна была еще одна проблема.",
+            "{fragment}. Я не доверял этому ни секунды.",
+            "{fragment}. Я просто подтвердил, что оставаться там было плохой идеей.",
+            "{fragment}. Типично. Ничто никогда не бывает просто тем, чем кажется.",
+            "{fragment}. Я отметил это мысленно... потому что игнорирование обычно возвращается, чтобы укусить вас."
+          ],
+          "zh": [
+            "{fragment}. 这没有帮助任何事情——它只是让一切更难以忽视。",
+            "{fragment}. 我现在不需要那个，但我无论如何都需要处理它。",
+            "{fragment}. 我尽可能地忽略了它。这并不总是有效。",
+            "{fragment}. 我感觉更糟了...这并没有让它变得更好。",
+            "{fragment}. 只是另一个试图妨碍真正重要的事情的细节。",
+            "{fragment}. 好像这个地方还需要一个问题一样。",
+            "{fragment}. 我一秒钟都不相信那个。",
+            "{fragment}. 我只是确认留在那里是个坏主意。",
+            "{fragment}. 典型。没有什么永远只是表面上的样子。",
+            "{fragment}. 我在心里记下了它...因为忽略它通常会反过来咬你。"
+          ],
+          "ja": [
+            "{fragment}. それは何の役にも立たなかった—それはすべてを無視するのをさらに難しくしました。",
+            "{fragment}. 今はそれが必要ではありませんでしたが、とにかく対処する必要がありました。",
+            "{fragment}. できるだけ無視しました。必ずしも効果があるわけではありません。",
+            "{fragment}. もっと悪いことを感じたことがあります...これで良くなるわけではありませんでした。",
+            "{fragment}. 本当に重要なことの邪魔をしようとするもう一つの詳細です。",
+            "{fragment}. まるでその場所がまだもう一つの問題を必要としているかのようでした。",
+            "{fragment}. それを一秒たりとも信用しませんでした。",
+            "{fragment}. そこにいることが悪い考えだと確認しただけです。",
+            "{fragment}. 典型的です。何も永遠に見た目通りではありません。",
+            "{fragment}. 心の中でそれをメモしました...なぜなら、それを無視すると通常はあなたを噛み返すからです。"
+          ]
+        },
+        "details": {
+          "pt": [
+            "{fragment}. Só mais uma coisa para prestar atenção enquanto eu resolvia o resto.",
+            "Notei {fragment}. Não era importante... até ser.",
+            "{fragment}. Ignorei no início. Depois parei de ignorar.",
+            "{fragment}. Nada ali ajudava — só aumentava as chances de erro.",
+            "Tinha também {fragment}. Guardei isso, por precaução.",
+            "{fragment}. Como se já não tivesse coisa suficiente para dar errado.",
+            "Vi {fragment}. Não gostei — o que já era esperado.",
+            "{fragment}. Mais um detalhe inútil... até complicar tudo.",
+            "{fragment}. Nada ali parecia confiável, então tratei como problema.",
+            "{fragment}. Só confirmei que aquele lugar não valia o esforço."          
+          ],
+          "en": [
+            "{fragment}. Just one more thing to pay attention to while I dealt with the rest.",
+            "I noticed {fragment}. It wasn't important... until it was.",
+            "{fragment}. I ignored it at first. Then I stopped ignoring it.",
+            "{fragment}. Nothing there was helpful — it just increased the chances of mistakes.",
+            "There was also {fragment}. I kept that in mind, just in case.",
+            "{fragment}. As if there weren't already enough things that could go wrong.",
+            "I saw {fragment}. I didn't like it — which was expected anyway.",
+            "{fragment}. Just another useless detail... until it complicates everything.",
+            "{fragment}. Nothing there seemed trustworthy, so I treated it as a problem.",
+            "{fragment}. I just confirmed that place wasn't worth the effort."
+          ],
+          "es": [
+            "{fragment}. Solo una cosa más a la que prestar atención mientras lidiaba con el resto.",
+            "Noté {fragment}. No era importante... hasta que lo fue.",
+            "{fragment}. Lo ignoré al principio. Luego dejé de ignorarlo.",
+            "{fragment}. Nada allí era útil, solo aumentaba las posibilidades de errores.",
+            "También había {fragment}. Lo tuve en cuenta, por si acaso.",
+            "{fragment}. Como si no hubiera ya suficientes cosas que podrían salir mal.",
+            "Vi {fragment}. No me gustó, lo cual era de esperar de todos modos.",
+            "{fragment}. Solo otro detalle inútil... hasta que complica todo.",
+            "{fragment}. Nada allí parecía confiable, así que lo traté como un problema.",
+            "{fragment}. Solo confirmé que ese lugar no valía el esfuerzo."
+          ],
+          "ru": [
+            "{fragment}. Просто еще одна вещь, на которую нужно обратить внимание, пока я разбирался с остальным.",
+            "Я заметил {fragment}. Это не было важно... пока не стало.",
+            "{fragment}. Я сначала игнорировал это. Потом перестал игнорировать.",
+            "{fragment}. Там ничего не было полезного — это просто увеличивало шансы на ошибки.",
+            "Там также был {fragment}. Я держал это в уме, на всякий случай.",
+            "{fragment}. Как будто там уже не было достаточно вещей, которые могли пойти не так.",
+            "Я увидел {fragment}. Мне это не понравилось — что было ожидаемо в любом случае.",
+            "{fragment}. Просто еще одна бесполезная деталь... пока она не усложняет все.",
+            "{fragment}. Там ничего не казалось надежным, поэтому я отнесся к этому как к проблеме.",
+            "{fragment}. Я просто подтвердил, что это место не стоит усилий."
+          ],
+          "zh": [
+            "{fragment}. 在我处理其他事情的时候又多了一件需要注意的事情。",
+            "我注意到了{fragment}。它并不重要...直到它变得重要了。",
+            "{fragment}. 我一开始忽略了它。然后我停止了忽略它。",
+            "{fragment}. 那里没有什么有用的东西——它只是增加了犯错误的机会。",
+            "那里还有{fragment}。我记住了这个，以防万一。",
+            "{fragment}. 好像那里已经有足够多可能出错的东西了。",
+            "我看到了{fragment}。我不喜欢它——无论如何这是预料之中的。",
+            "{fragment}. 只是另一个无用的细节...直到它让一切变得复杂。",
+            "{fragment}. 那里没有什么看起来可靠的东西，所以我把它当成了一个问题来对待。",
+            "{fragment}. 我只是确认那个地方不值得努力。"
+          ],
+          "ja": [
+            "{fragment}. 他のことを処理している間に注意を払うべきもう一つのことです。",
+            "{fragment}に気づきました。それは重要ではありませんでした...それが重要になるまでは。",
+            "{fragment}. 最初は無視しました。次に無視するのをやめました。",
+            "{fragment}. そこには役立つものは何もありませんでした—それはただミスの可能性を高めるだけでした。",
+            "そこには{fragment}もありました。念のために覚えておきました。",
+            "{fragment}. すでに十分なほど問題があるかのようでした。",
+            "{fragment}を見ました。私はそれが好きではありませんでした—どちらにしても予想されていました。",
+            "{fragment}. ただのもう一つの無駄な詳細...それがすべてを複雑にするまでは。",
+            "{fragment}. そこには信頼できるものは何もないようでしたので、私はそれを問題として扱いました。",
+            "{fragment}. 私はただその場所が努力する価値がないことを確認しました。"
+          ]
+        },
+        "history": {
+          "pt": [
+            "{fragment}. Pode ser exagero… mas não costumo apostar contra esse tipo de história.",
+            "Ouvi sobre {fragment}. Verdade ou não, tratei como aviso.",
+            "{fragment}. Já escutei variações disso antes — raramente termina bem.",
+            "{fragment}. Não importa se é lenda… alguém acreditou o suficiente para deixar marcas.",
+            "{fragment}. Guardei isso. Histórias assim costumam ter um fundo inconveniente de verdade.",
+            "{fragment}. Claro. Porque sempre tem uma história piorando o lugar.",
+            "Falaram de {fragment}. Não confiei — mas também não ignorei.",
+            "{fragment}. Mais uma história que ninguém consegue provar… e ninguém quer testar.",
+            "{fragment}. Se metade disso for verdade, já é problema suficiente.",
+            "{fragment}. Não gosto de lendas. Normalmente existem por um motivo ruim."          
+          ],
+          "en": [
+            "{fragment}. It might be an exaggeration... but I don't usually bet against this kind of story.",
+            "I heard about {fragment}. True or not, I treated it as a warning.",
+            "{fragment}. I've heard variations of this before — it rarely ends well.",
+            "{fragment}. It doesn't matter if it's a legend... someone believed it enough to leave marks.",
+            "{fragment}. I kept that in mind. Stories like that usually have an inconvenient truth behind them.",
+            "{fragment}. Of course. Because there's always a story making the place worse.",
+            "They talked about {fragment}. I didn't trust it — but I also didn't ignore it.",
+            "{fragment}. Another story that no one can prove... and no one wants to test.",
+            "{fragment}. If half of it is true, it's already enough of a problem.",
+            "{fragment}. I don't like legends. They usually exist for a bad reason."
+           ],
+          "es": [
+            "{fragment}. Podría ser una exageración... pero no suelo apostar en contra de este tipo de historias.",
+            "Escuché sobre {fragment}. Verdadero o no, lo traté como una advertencia.",
+            "{fragment}. He escuchado variaciones de esto antes, rara vez termina bien.",
+            "{fragment}. No importa si es una leyenda... alguien lo creyó lo suficiente comora dejar marcas.",
+            "{fragment}. Lo tuve en cuenta. Las historias como esa suelen tener una verdad inconveniente detrás de ellas.",
+            "{fragment}. Por supuesto. Porque siempre hay una historia que empeora el lugar.",
+            "Hablaron de {fragment}. No confié en eso, pero tampoco lo ignoré.",
+            "{fragment}. Otra historia que nadie puede probar... y nadie quiere probar.",
+            "{fragment}. Si la mitad de eso es verdad, ya es suficiente problema.",
+            "{fragment}. No me gustan las leyendas. Usualmente existen por una mala razón."
+            ],
+          "ru": [
+            "{fragment}. Это может быть преувеличением... но я обычно не ставлю против такого рода историй.",
+            "Я слышал о {fragment}. Правда это или нет, я отнесся к этому как к предупреждению.",
+            "{fragment}. Я слышал вариации этого раньше — это редко заканчивается хорошо.",
+            "{fragment}. Неважно, легенда это или нет... кто-то верил в это достаточно, чтобы оставить следы.",
+            "{fragment}. Я держал это в уме. Такие истории обычно имеют неудобную правду за ними.",
+            "{fragment}. Конечно. Потому что всегда есть история, которая делает место хуже.",
+            "Они говорили о {fragment}. Я не доверял этому — но я также не игнорировал это.",
+            "{fragment}. Еще одна история, которую никто не может доказать... и никто не хочет проверять.",
+            "{fragment}. Если половина этого правда, это уже достаточно проблем.",
+            "{fragment}. Я не люблю легенды. Они обычно существуют по плохой причине."
+            ],
+          "zh": [
+            "{fragment}. 这可能是夸张了...但我通常不会对这种故事下注。",
+            "我听说过{fragment}。无论真假，我都把它当作警告来对待。",
+            "{fragment}. 我以前听过这个的变体——它很少有好结果。",
+            "{fragment}. 不管它是不是传说...有人相信它到足以留下痕迹的程度。",
+            "{fragment}. 我记住了这个。这样的故事通常背后都有一个不方便的真相。",
+            "{fragment}. 当然。因为总有一个故事让这个地方变得更糟。",
+            "他们谈论了{fragment}。我不相信它——但我也没有忽视它。",
+            "{fragment}. 另一个没有人能证明的故事...而且没有人想去验证。",
+            "{fragment}. 如果其中一半是真的，那已经是足够的问题了。",
+            "{fragment}. 我不喜欢传说。它们通常存在于一个糟糕的理由。"
+            ],
+          "ja": [
+            "{fragment}. それは誇張かもしれませんが...私はこの種の話に賭けることはあまりありません。",
+            "私は{fragment}について聞きました。真実であろうとなかろうと、私はそれを警告として扱いました。",
+            "{fragment}. 私はこれのバリエーションを以前に聞いたことがあります—それはめったにうまく終わりません。",
+            "{fragment}. それが伝説であろうとなかろうと関係ありません...誰かがそれを信じて十分な痕跡を残しました。",
+            "{fragment}. 私はそれを心に留めておきました。そのような話には通常、面倒な真実が隠されています。",
+            "{fragment}. もちろん。なぜなら、常にその場所をさらに悪くする話があるからです。",
+            "彼らは{fragment}について話しました。私はそれを信用しませんでしたが、無視もしませんでした。",
+            "{fragment}. 誰も証明できないもう一つの話...そして誰も試したくない話。",
+            "{fragment}. それの半分が本当なら、すでに十分な問題です。",
+            "{fragment}. 私は伝説が好きではありません。通常、悪い理由で存在しています。"
+          ]
+        }
+      },
+      "enemy": {
+        "details": {
+          "pt": [
+            "{fragment}. Lembrei de  — não pelo que foi, mas pelo que acontece quando se hesita.",
+            "{fragment}. Respirei fundo. Já vi coisa pior em histórias de … isso aqui ainda sangra.",
+            "{fragment}. Pensei em . Não pela fé… pela disciplina.",
+            "{fragment}. Se  conseguiu enfrentar horrores piores, eu consigo lidar com isso.",
+            "{fragment}. Fé ou não,  tinha razão — ficar de pé já resolve metade do problema.",
+            "{fragment}. Ótimo. Mais um motivo para fingir que acredito em algo.",
+            "{fragment}. Se esses tais 'heróis da luz' existem mesmo… agora seria uma boa hora.",
+            "{fragment}. Não preciso de fé. Só preciso que isso morra antes de mim.",
+            "{fragment}. Histórias dizem que isso é superável. Vou cobrar isso agora.",
+            "{fragment}. Inspirei, ajustei a postura. Não é devoção — é hábito."
+          ],
+          "en": [
+            "{fragment}. I remembered — not for what it was, but for what happens when you hesitate.",
+            "{fragment}. I took a deep breath. I've seen worse in stories about... this still bleeds.",
+            "{fragment}. I thought of . Not for faith... for discipline.",
+            "{fragment}. If  managed to face worse horrors, I can deal with this.",
+            "{fragment}. Faith or not,  was right — standing up already solves half the problem.",
+            "{fragment}. Great. One more reason to pretend I believe in something.",
+            "{fragment}. If those so-called 'heroes of light' really exist... now would be a good time.",
+            "{fragment}. I don't need faith. I just need this to die before me.",
+            "{fragment}. Stories say this is overcomeable. I'll hold that to account now.",
+            "{fragment}. I inhaled, adjusted my posture. It's not devotion — it's habit."
+          ],
+          "es": [
+            "{fragment}. Recordé — no por lo que era, sino por lo que sucede cuando dudas.",
+            "{fragment}. Tomé una respiración profunda. He visto cosas peores en historias sobre... esto todavía sangra.",
+            "{fragment}. Pensé en . No por fe... por disciplina.",
+            "{fragment}. Si  logró enfrentar horrores peores, puedo lidiar con esto.",
+            "{fragment}. Fe o no,  tenía razón — mantenerse de pie ya resuelve la mitad del problema.",
+            "{fragment}. Genial. Una razón más para fingir que creo en algo.",
+            "{fragment}. Si esos llamados 'héroes de la luz' realmente existen... ahora sería un buen momento.",
+            "{fragment}. No necesito fe. Solo necesito que esto muera antes que yo.",
+            "{fragment}. Las historias dicen que esto es superable. Lo tendré en cuenta ahora.",
+            "{fragment}. Inhalé, ajusté mi postura. No es devoción, es hábito."
+          ],
+          "ru": [
+            "{fragment}. Я вспомнил — не за то, что это было, а за то, что происходит, когда ты колеблешься.",
+            "{fragment}. Я глубоко вдохнул. Я видел худшее в историях о... это все еще кровоточит.",
+            "{fragment}. Я подумал о . Не из-за веры... из-за дисциплины.",
+            "{fragment}. Если  смогла столкнуться с худшими ужасами, я могу справиться с этим.",
+            "{fragment}. Вера или нет,  была права — стоять уже решает половину проблемы.",
+            "{fragment}. Отлично. Еще одна причина притворяться, что я во что-то верю.",
+            "{fragment}. Если эти так называемые 'герои света' действительно существуют... сейчас было бы хорошее время.",
+            "{fragment}. Мне не нужна вера. Мне просто нужно, чтобы это умерло до меня.",
+            "{fragment}. Истории говорят, что это преодолимо. Я буду держать это в уме сейчас.",
+            "{fragment}. Я вдохнул, поправил свою позу. Это не преданность — это привычка."
+          ],
+          "zh": [
+            "{fragment}. 我记得——不是因为它是什么，而是因为当你犹豫时会发生什么。",
+            "{fragment}. 我深吸了一口气。我在关于...的故事中见过更糟糕的东西，这个还在流血。",
+            "{fragment}. 我想到了。不是因为信仰...而是因为纪律。",
+            "{fragment}. 如果能面对更可怕的恐怖，我也能应付这个。",
+            "{fragment}. 无论信仰与否，都是对的——站起来已经解决了问题的一半。",
+            "{fragment}. 太好了。又一个理由让我假装相信某些东西。",
+            "{fragment}. 如果那些所谓的“光之英雄”真的存在...现在会是个好时机。",
+            "{fragment}. 我不需要信仰。我只需要这个在我之前死去。",
+            "{fragment}. 故事说这是可以克服的。我现在就会把它记在心里。",
+            "{fragment}. 我吸了一口气，调整了我的姿势。这不是虔诚——这是习惯。"
+          ],
+          "ja": [
+            "{fragment}. 私は思い出しました—それが何であったかではなく、ためらうと何が起こるかのために。",
+            "{fragment}. 深呼吸をしました。私は...の話でより悪いものを見たことがあります、これはまだ血を流しています。",
+            "{fragment}. 私はについて考えました。信仰のためではなく...規律のためです。",
+            "{fragment}. もしがより悪い恐怖に立ち向かうことができたなら、私はこれに対処できます。",
+            "{fragment}. 信仰の有無にかかわらず、は正しかった—立ち上がることはすでに問題の半分を解決します。",
+            "{fragment}. 素晴らしい。何かを信じているふりをするもう一つの理由です。",
+            "{fragment}. もしあのいわゆる「光の英雄」が本当に存在するなら...今がいい時でしょう。",
+            "{fragment}. 私は信仰を必要としません。私はただこれが私より先に死ぬことを必要としています。",
+            "{fragment}. 物語はこれが克服できると言っています。私は今それを心に留めておきます。",
+            "{fragment}. 私は息を吸い、姿勢を調整しました。これは献身ではなく、習慣です。"
+          ]
+        },
+        "attack": {
+          
+          "pt": [
+            "Invoquei minha Égide Sagrada para anular {fragment}. Que perda de tempo.",
+            "Ergui uma Muralha Consagrada e vi {fragment} estalar inofensivamente nela.",
+            "Minha Aura de Proteção suportou {fragment} enquanto eu bocejava.",
+            "Usei a Guarda do Mártir para deter {fragment}. Outro estorvo no caminho.",
+            "O Bastião Radiante brilhou enquanto {fragment} tentava, inutilmente, me atingir.",
+            "Minha Vontade de Aço foi o suficiente para ignorar {fragment} por completo.",
+            "O Escudo de Khalmyr pulverizou {fragment} antes mesmo do impacto. Justiça dá trabalho.",
+            "Minha Guarda Celestial silenciou {fragment}. Alguém precisava fazer o serviço.",
+            "Fiz uma Deflexão Sagrada em {fragment} sem nem ao menos piscar.",
+            "A Resiliência do Guardião me manteve de pé, apesar de {fragment} ser irritante."
+          ],
+          "en": [
+            "I summoned my Holy Aegis to nullify {fragment}. What a waste of time.",
+            "I raised a Consecrated Wall and saw {fragment} crack harmlessly against it.",
+            "My Devotion Aura withstood {fragment} while I yawned.",
+            "I used the Martyr's Guard to stop {fragment}. Another nuisance in the way.",
+            "The Radiant Bastion shined while {fragment} tried, uselessly, to hit me.",
+            "My Will of Steel was enough to ignore {fragment} completely.",
+            "Khalmyr's Shield pulverized {fragment} even before the impact. Justice is exhausting.",
+            "My Celestial Guard silenced {fragment}. Someone had to do the job.",
+            "I performed a Holy Deflection on {fragment} without even blinking.",
+            "The Guardian's Resilience kept me standing, despite {fragment} being annoying."
+          ],
+          "es": [
+            "Invoqué mi Égida Sagrada para anular {fragment}. Qué pérdida de tiempo.",
+            "Levanté una Muralla Consagrada y vi cómo {fragment} se estrellaba inútilmente.",
+            "Mi Aura de Protección soportó {fragment} mientras yo bostezaba.",
+            "Usé la Guardia del Mártir para detener {fragment}. Otro estorbo en el camino.",
+            "El Bastión Radiante brilló mientras {fragment} intentaba, en vano, golpearme.",
+            "Mi Voluntad de Hierro fue suficiente para ignorar {fragment} por completo.",
+            "El Escudo de Khalmyr pulverizó {fragment} incluso antes del impacto. La justicia es agotadora.",
+            "Mi Guardia Celestial silenció {fragment}. Alguien tenía que hacer el trabajo.",
+            "Hice una Deflexión Sagrada en {fragment} sin siquiera parpadear.",
+            "La Resiliencia del Guardián me mantuvo en pie, a pesar de que {fragment} era irritante."
+          ],
+          "ru": [
+            "Я призвал Святую Эгиду, чтобы аннулировать {fragment}. Какая трата времени.",
+            "Я воздвиг Освященную Стену и увидел, как {fragment} бесполезно разбивается о нее.",
+            "Моя Аура Преданности выдержала {fragment}, пока я зевал.",
+            "Я использовал Стражу Мученика, чтобы остановить {fragment}. Еще одна помеха на пути.",
+            "Сияющий Бастион светился, пока {fragment} тщетно пытался меня задеть.",
+            "Моей Стальной Воли было достаточно, чтобы полностью проигнорировать {fragment}.",
+            "Щит Халмира испепелил {fragment} еще до удара. Справедливость — это утомительно.",
+            "Моя Небесная Стража заставила {fragment} замолчать. Кто-то же должен был это сделать.",
+            "Я совершил Святое Отражение {fragment}, даже не моргнув.",
+            "Стойкость Хранителя помогла мне устоять, несмотря на то, что {fragment} раздражал."
+          ],
+          "zh": [
+            "我召唤了神圣宙斯盾来抵消{fragment}。真是浪费时间。",
+            "我筑起了神圣之墙，眼睁睁看着{fragment}徒劳地撞在上面。",
+            "我的虔诚光环挡住了{fragment}，而我还在打哈欠。",
+            "我用殉道者之卫挡下了{fragment}。路上的又一个麻烦。",
+            "当{fragment}徒劳地企图攻击我时，光辉壁垒闪耀着光芒。",
+            "我的钢铁意志足以完全忽略{fragment}。",
+            "哈尔米尔之盾在撞击前就粉碎了{fragment}。正义真让人疲惫。",
+            "我的天界守卫终结了{fragment}。总得有人来干这活。",
+            "我对{fragment}进行了神圣偏转，眼皮都没抬一下。",
+            "尽管{fragment}很烦人，但守护者的韧性让我屹立不倒。"
+          ],
+          "ja": [
+            "聖なるエギスを召喚して{fragment}を無効化した。時間の無駄だ。",
+            "神聖なる壁を築き、{fragment}が空しく砕け散るのを見た。",
+            "あくびをしながら、私の献身のオーラで{fragment}に耐えた。",
+            "殉教者の守りを使って{fragment}を阻止した。また一つ厄介事が増えたな。",
+            "{fragment}が虚しく私を打とうとする間、光輝の要塞が輝いていた。",
+            "鋼の意志があれば、{fragment}など完全に無視できた。",
+            "ハルミルの盾が衝撃の前に{fragment}を粉砕した。正义とは骨の折れるものだ。",
+            "私の天界の守りが{fragment}を黙らせた。誰かがやらねばならなかったからな。",
+            "まばたき一つせずに、{fragment}を神聖なる偏向で受け流した。",
+            "{fragment}は苛立たしかったが、守護者の弾力性が私を支えてくれた。"
+          ]
+
+        }
       }
     }
   }
+}

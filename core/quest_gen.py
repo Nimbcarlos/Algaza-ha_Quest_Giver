@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Dict, List, Literal, Optional, TypedDict
 
 from core.quest import Quest
-from core.map_graph import MapGraph
+
 
 QuestType = Literal[
     "fight",
@@ -48,9 +48,21 @@ class ProceduralQuestSystem:
 
     SUPPORTED_LANGUAGES = {"pt", "en", "es", "zh", "ja", "ru"}
 
-    def __init__(self, language: str = "pt", data_file: str = "data/quest_data.json"):
+    def __init__(self, language: str = "pt", data_file: str = "data/quest_data"):
         self.language = language if language in self.SUPPORTED_LANGUAGES else "pt"
-        self.data_file = Path(data_file)
+
+        try:
+            from core.language_manager import LanguageManager
+            self.lm = LanguageManager()
+            self.lm.set_language(self.language)
+        except ImportError:
+            self.lm = None
+
+        path = Path(data_file)
+        if path.suffix == ".json":
+            self.data_dir = path.parent / path.stem
+        else:
+            self.data_dir = path
 
         self.actions: Dict = {}
         self.subjects: Dict = {}
@@ -88,51 +100,65 @@ class ProceduralQuestSystem:
     # LOAD / INDEX
     # ============================================================
 
+    def _load_file(self, filename: str) -> Dict:
+        """
+        Carrega um arquivo JSON da pasta de dados.
+        Lança ValueError com nome do arquivo se falhar — facilita debug
+        quando um dos arquivos está corrompido ou ausente.
+        """
+        path = self.data_dir / filename
+        try:
+            with path.open("r", encoding="utf-8") as f:
+                return json.load(f)
+        except FileNotFoundError:
+            print(f"[ProcSystem] ❌ Arquivo não encontrado: {path}")
+            return {}
+        except json.JSONDecodeError as e:
+            raise json.JSONDecodeError(
+                f"Erro ao ler {filename}: {e.msg}", e.doc, e.pos
+            )
+
     def _load_data(self) -> None:
         try:
-            with self.data_file.open("r", encoding="utf-8") as f:
-                data = json.load(f)
+            actions_data        = self._load_file("actions.json")
+            subjects_data       = self._load_file("subjects.json")
+            locations_data      = self._load_file("locations.json")
+            sub_locations_data  = self._load_file("sub_locations.json")
+            modifiers_data      = self._load_file("modifiers.json")
+            text_fragments_data = self._load_file("text_fragments.json")
+            weights_data        = self._load_file("weights.json")
 
-            self.actions = data.get("actions", {})
-            self.subjects = data.get("subjects", {})
-            self.modifiers = data.get("modifiers", {})
-            self.incompatible_modes = data.get("incompatible_modes", {})
-            self.text_fragments = data.get("text_fragments", {})
-            self.action_subject_rules = data.get("action_subject_rules", {})
-            self.modifier_subject_rules = data.get("modifier_subject_rules", {})
-            self.modifier_chance_by_action = data.get("modifier_chance_by_action", {})
-            self.max_heroes_weights = data.get("max_heroes_weights", {})
+            self.actions               = actions_data
+            self.subjects              = subjects_data
+            self.modifiers             = modifiers_data
+            self.incompatible_modes    = weights_data.get("incompatible_modes", {})
+            self.text_fragments        = text_fragments_data
+            self.action_subject_rules      = weights_data.get("action_subject_rules", {})
+            self.modifier_subject_rules    = weights_data.get("modifier_subject_rules", {})
+            self.modifier_chance_by_action = weights_data.get("modifier_chance_by_action", {})
+            self.max_heroes_weights        = weights_data.get("max_heroes_weights", {})
 
-            self.location_groups_raw = data.get("locations", {})
-            self.sub_location_groups_raw = data.get("sub_locations", {})
+            location_groups_data = self._load_file("location_groups.json")
 
-            self.locations = self._flatten_grouped_entries(self.location_groups_raw, mode="location")
+            self.location_groups_raw     = locations_data
+            self.sub_location_groups_raw = sub_locations_data
+            self.location_groups         = location_groups_data  # biomas: mountain, forest, swamp...
+
+            self.locations     = self._flatten_grouped_entries(self.location_groups_raw,     mode="location")
             self.sub_locations = self._flatten_grouped_entries(self.sub_location_groups_raw, mode="sub_location")
 
             self._validate_loaded_data()
 
-            bridges_data = {}
-            
-            if "sub_locations" in data:
-                # Procura grupo "bridge"
-                bridge_group = data["sub_locations"].get("bridge", {})
-                
-                for bridge_key, bridge_data in bridge_group.items():
-                    # Só pontes (ignora "context" e outras coisas)
-                    if isinstance(bridge_data, dict) and "locations" in bridge_data:
-                        bridges_data[bridge_key] = bridge_data
-            
-            # ✅ CONSTRÓI MAPA AUTOMATICAMENTE
-            self.map_graph = MapGraph(bridges_data)
-            
-            print(f"🗺️  Mapa construído: {len(self.map_graph.graph)} locations")
-            print(f"🌉 {len(bridges_data)} pontes encontradas")
+            total = sum(len(v) for v in [
+                self.actions, self.subjects, self.locations,
+                self.sub_locations, self.modifiers
+            ])
+            files = ["actions", "subjects", "locations", "location_groups",
+                     "sub_locations", "modifiers", "text_fragments", "weights"]
+            print(f"📦 quest_data carregado: {total} entradas / {len(files)} arquivos em {self.data_dir.name}/")
 
-        except FileNotFoundError:
-            print(f"[ProcSystem] ❌ Arquivo não encontrado: {self.data_file}")
-            self._create_default_data()
         except json.JSONDecodeError as e:
-            print(f"[ProcSystem] ❌ Erro ao ler JSON: {e}")
+            print(f"[ProcSystem] ❌ JSON inválido: {e}")
             raise
         except ValueError as e:
             print(f"[ProcSystem] ❌ Dados inválidos: {e}")
@@ -431,10 +457,12 @@ class ProceduralQuestSystem:
             "sub_location_key": sub_location.get("key", ""),
             "location_type": sub_location.get("type", ""),   # ← "bridge", "forest", etc
             "enemy": self._compose_subject_phrase(quest_type, subject, modifier, self.language),
+            "enemy_data": subject,
             "enemy_type": self._get_modifier_form(modifier, subject, self.language),
             "subject_category": subject.get("category", "unknown"),
             "action_type": quest_type,
             "narrative": narrative_context[self.language],
+            "sub_location_data": sub_location,
         }
 
         sub_loc_text_pt = self._get_location_with_preposition(sub_location, "em", "pt")
@@ -764,35 +792,37 @@ class ProceduralQuestSystem:
 
     def _get_sub_location_for_subject(self, subject: Dict, sub_location_key: Optional[str] = None) -> Dict:
         subject_key = subject.get("key", "?")
-        sub_location_group_keys = subject.get("locations", [])
+        # Grupos permitidos pelo sujeito, ex: ["cave", "mine", "fields", "camp"]
+        allowed_group_keys = subject.get("locations", [])
 
-        if not sub_location_group_keys:
+        if not allowed_group_keys:
             raise ValueError(f"Subject '{subject_key}' sem grupos de sub_location definidos")
 
         valid_sub_locations = []
-        for group_key in sub_location_group_keys:
+        
+        # Percorre apenas os grupos que o sujeito permite
+        for group_key in allowed_group_keys:
             sub_location_group = self.sub_location_groups_raw.get(group_key, {})
+            
             for key, sub_location_data in sub_location_group.items():
-                sub_location = dict(sub_location_data)
-                sub_location["key"] = key
-                sub_location["type"] = group_key
-                valid_sub_locations.append(sub_location)
-
-        unique_sub_locations = {}
-        for sub_location in valid_sub_locations:
-            unique_sub_locations[sub_location["key"]] = sub_location
-        valid_sub_locations = list(unique_sub_locations.values())
+                # Criamos o objeto completo da sub-localização
+                sub_loc = dict(sub_location_data)
+                sub_loc["key"] = key
+                sub_loc["type"] = group_key # Aqui salvamos se é 'mine', 'farm', etc.
+                valid_sub_locations.append(sub_loc)
 
         if not valid_sub_locations:
-            raise ValueError(f"Subject '{subject_key}' não possui sub_locations válidas")
+            raise ValueError(f"Nenhuma sub_location encontrada para os grupos {allowed_group_keys} do subject '{subject_key}'")
 
+        # Se uma chave específica foi pedida (ex: via semente), valida se ela está na lista de permitidas
         if sub_location_key is not None:
-            for sub_location in valid_sub_locations:
-                if sub_location["key"] == sub_location_key:
-                    return sub_location
-            raise ValueError(f"Sub-location '{sub_location_key}' inválida para subject '{subject_key}'")
+            for sl in valid_sub_locations:
+                if sl["key"] == sub_location_key:
+                    return sl
+            raise ValueError(f"Sub-location '{sub_location_key}' não é permitida para o subject '{subject_key}'")
 
-        weighted_sub_locations = [(sub_location, sub_location.get("weight", 10)) for sub_location in valid_sub_locations]
+        # Escolha ponderada entre as opções válidas para o bicho
+        weighted_sub_locations = [(sl, sl.get("weight", 10)) for sl in valid_sub_locations]
         return self._weighted_choice(weighted_sub_locations)
 
     def _get_location_for_sub_location(self, sub_location: Dict, location_key: Optional[str] = None) -> Dict:
@@ -816,15 +846,23 @@ class ProceduralQuestSystem:
 
     def _is_valid_modifier_for_subject(self, modifier: Dict, subject: Dict) -> bool:
         modifier_key = modifier.get("key")
-        if not modifier_key:
-            return True
-
-        allowed_categories = self.modifier_subject_rules.get(modifier_key)
-        if not allowed_categories:
+        if not modifier_key or modifier_key == "none":
             return True
 
         subject_category = subject.get("category")
-        return subject_category in allowed_categories
+        if not subject_category:
+            return True
+
+        # Nova lógica: busca quais modificadores são permitidos para a categoria do sujeito
+        allowed_modifiers = self.modifier_subject_rules.get(subject_category)
+        
+        # Se não houver regra específica para a categoria, podemos assumir que todos são permitidos
+        # ou manter uma lista restrita. Seguindo sua sugestão, se houver uma lista, validamos nela.
+        if allowed_modifiers is None:
+            return True
+
+        return modifier_key in allowed_modifiers
+
 
     def _get_modifier_for_subject(self, subject: Dict, modifier_key: Optional[str] = None, quest_type: Optional[str] = None) -> Dict:
         if modifier_key:
@@ -839,13 +877,31 @@ class ProceduralQuestSystem:
                 )
             return modifier
 
+        subject_category = subject.get("category", "")
+        
+        # Verifica se a categoria do sujeito exige um modificador (não permite "none")
+        # Podemos definir isso no weights.json em uma nova chave "mandatory_modifier_categories"
+        # Ou simplesmente checar se a categoria existe em modifier_subject_rules e se queremos forçar.
+        # Vou usar uma abordagem flexível: se a categoria estiver em 'mandatory_modifier_categories',
+        # ignoramos o peso de 'none'.
+        mandatory_categories = self.incompatible_modes.get("mandatory_modifier_categories", [])
+        is_mandatory = subject_category in mandatory_categories
+
         action_rules = self.modifier_chance_by_action.get(quest_type or "", {})
-        none_weight = action_rules.get("none", 80)
+        none_weight = action_rules.get("none", 80) if not is_mandatory else 0
         special_weight = action_rules.get("special", 20)
+        
         roll_total = none_weight + special_weight
+        
+        # Se por algum motivo o total for 0 (ex: mandatory mas sem special_weight), 
+        # garantimos que haverá um sorteio.
+        if roll_total <= 0:
+            roll_total = 100
+            special_weight = 100
+
         roll = random.uniform(0, roll_total)
 
-        if roll <= none_weight:
+        if not is_mandatory and roll <= none_weight:
             modifier = dict(self.modifiers["none"])
             modifier["key"] = "none"
             return modifier
@@ -898,7 +954,7 @@ class ProceduralQuestSystem:
 
         return choices[-1][0]
 
-    def _get_max_heroes(self, max_heroes: Optional[int]) -> int:
+    def _get_max_heroes(self, max_heroes: Optional[int], avg_level: int = 1) -> int:
         if max_heroes is not None:
             return self._clamp(max_heroes, 1, 4)
 
@@ -906,26 +962,37 @@ class ProceduralQuestSystem:
         if not choices:
             return random.randint(1, 4)
 
-        return self._clamp(self._weighted_choice_simple(choices), 1, 4)
+        level_bias = min(max(avg_level - 1, 0), 3)
 
-    def _generate_context(self, subject: dict, location: dict, sub_location: dict, modifier: dict) -> dict:
+        adjusted = []
+        for heroes_count, weight in choices:
+            # Curva mais suave e previsível
+            scale = 1 + (level_bias * 0.25 * (heroes_count - 1))
+            adjusted.append((heroes_count, weight * scale))
+
+        return self._clamp(self._weighted_choice_simple(adjusted), 1, 4)
+
+    def _generate_context(self, subject, location, sub_location, modifier):
         result = {}
 
         for lang in self.SUPPORTED_LANGUAGES:
+            enemy_block = {
+                "details": self._localize_context_list(subject, "details", lang),
+                "behavior": self._localize_context_list(subject, "behavior", lang),
+                "attack": self._localize_context_list(subject, "attack", lang),
+                "modifier": self._localize_context_list(modifier, "modifier", lang),
+            }
+
+            # 🧪 AQUI A MÁGICA ACONTECE
+            self._apply_modifier_context_localized(enemy_block, modifier, lang)
+
             result[lang] = {
-                "enemy": {
-                    "details": self._localize_context_list(subject, "details", lang),
-                    "behavior": self._localize_context_list(subject, "behavior", lang),
-                    "attack": self._localize_context_list(subject, "attack", lang),
-                },
+                "enemy": enemy_block,
                 "place": {
                     "landmark": self._localize_context_list(location, "landmark", lang),
                     "feeling": self._localize_context_list(location, "feeling", lang),
                     "details": self._localize_context_list(sub_location, "details", lang),
                     "history": self._localize_context_list(sub_location, "history", lang),
-                },
-                "modifier": {
-                    "details": self._localize_context_list(modifier, "details", lang),
                 }
             }
 
@@ -946,47 +1013,119 @@ class ProceduralQuestSystem:
 
         return result
 
+    def _apply_modifier_context_localized(self, enemy_block: dict, modifier: dict, lang: str):
+        context = modifier.get("context", {})
+
+        mapping = {
+            "details_add": "details",
+            "attack_add": "attack",
+            "behavior_add": "behavior"
+        }
+
+        for mod_key, target_key in mapping.items():
+            if mod_key not in context:
+                continue
+
+            additions = []
+            for entry in context[mod_key]:
+                if isinstance(entry, str):
+                    additions.append(entry)
+                elif isinstance(entry, dict):
+                    text = entry.get(lang) or entry.get("pt") or entry.get("en")
+                    if text:
+                        additions.append(text)
+
+            enemy_block.setdefault(target_key, [])
+            enemy_block[target_key].extend(additions)
+
     def _get_location_with_preposition(self, sub_location: dict, preposition: str, lang: str) -> str:
+        if self.lm:
+            return self.lm.get_with_preposition(sub_location, preposition, lang)
+        
+        # Fallback se o LanguageManager não estiver disponível
         data = sub_location.get(lang, {})
+        if isinstance(data, str): return data
+        return data.get("text") or data.get("base") or ""
 
-        if isinstance(data, str):
-            return data  # fallback simples
+    # ============================================================
+    # SCOUT
+    # ============================================================
 
-        # 1. Tenta versão pronta
-        key = f"with_{preposition}"
-        base = data.get("base") or data.get("text", "")
+    def generate_escort_quest(self, avg_level: int, direction: str = None) -> Quest:
+        direction = direction or random.choice(["levar", "trazer"])
 
-        if key in data:
-            return f"{data[key]} {base}"
+        # Sorteia um camp com NPCs
+        camp = self._pick_escort_camp()
+        npc_group = self._pick_npc_from_camp(camp)
 
-        if not base:
-            return ""
+        # Sorteia inimigo para o report (quem atacou no caminho)
+        subject = self._pick_subject_for_action("fight", avg_level)
+        modifier = self._pick_modifier_for_subject(subject)
 
-        if lang != "pt":
-            return base
+        # Location baseada no camp
+        location = self._get_location_for_sub_location(camp)
 
-        gender = sub_location.get("gender", "m")
-        number = sub_location.get("number", "singular")
+        # Duration baseada na distância se disponível
+        camp_key = camp.get("key", "")
+        distance = getattr(self, "map_graph", None) and self.map_graph.get_distance_to(camp_key)
+        duration = max(2, distance) if distance and distance > 0 else random.randint(2, 4)
 
-        if preposition == "em":
-            if number == "plural":
-                return f"nos {base}" if gender == "m" else f"nas {base}"
-            else:
-                return f"no {base}" if gender == "m" else f"na {base}"
+        context = {
+            "location_key": camp_key,
+            "location_type": "camp",
+            "action_type": "escort",
+            "escort_direction": direction,
+            "escort_npc": npc_group,
+            "enemy": self._compose_subject_phrase("fight", subject, modifier, self.language),
+            "enemy_type": self._get_modifier_form(modifier, subject, self.language),
+            "subject_category": subject.get("category", "unknown"),
+            "narrative": self._generate_context(subject, location, camp, modifier),
+        }
 
-        elif preposition == "de":
-            if number == "plural":
-                return f"dos {base}" if gender == "m" else f"das {base}"
-            else:
-                return f"do {base}" if gender == "m" else f"da {base}"
+        seed = self._generate_seed(
+            action_id=self._get_action_id("escort", direction),
+            subject_id=subject.get("id", 0),
+            location_id=location.get("id", 0),
+            sub_location_id=camp.get("id", 0),
+            modifier_id=modifier.get("id", 0),
+        )
 
-        elif preposition == "a":
-            if number == "plural":
-                return f"aos {base}" if gender == "m" else f"às {base}"
-            else:
-                return f"ao {base}" if gender == "m" else f"à {base}"
+        difficulty = self._calculate_difficulty(subject, modifier, camp, avg_level)
 
-        return base
+        return Quest(
+            id=seed,
+            name=self._compose_escort_name(direction, npc_group, camp),
+            description=self._compose_escort_description(direction, npc_group, camp, subject, modifier),
+            type="escort",
+            max_heroes=self._get_max_heroes(None, avg_level),
+            duration=duration,
+            difficulty=difficulty,
+            expired_at=random.randint(3, 6),
+            available_from_turn=0,
+            rewards=self._calculate_rewards(difficulty, duration),
+            required_quests=[],
+            context=context,
+            language=self.language,
+        )
+
+    def _compose_escort_name(self, direction, npc_group, camp) -> str:
+        camp_name = self._get_lang_value(camp, self.language)
+        if direction == "levar":
+            return f"Escoltar {npc_group} até {camp_name}"
+        return f"Resgatar {npc_group} de {camp_name}"
+
+    def _compose_escort_description(self, direction, npc_group, camp, subject, modifier) -> str:
+        camp_name = self._get_lang_value(camp, self.language)
+        enemy_name = self._compose_subject_phrase("fight", subject, modifier, self.language)
+        if direction == "levar":
+            return (
+                f"Um grupo de {npc_group} precisa chegar a {camp_name}. "
+                f"Foram avistados {enemy_name} no caminho — precisamos de proteção."
+            )
+        return (
+            f"{npc_group} estão presos em {camp_name}. "
+            f"Há relatos de {enemy_name} bloqueando a rota de volta."
+        )
 
 if __name__ == "__main__":
  
@@ -1064,7 +1203,7 @@ if __name__ == "__main__":
 
     proc = ProceduralQuestSystem(language="pt")
 
-    for _ in range(2):
+    for _ in range(20):
         print("─" * 70)
         quest = proc.generate_quest_of_type("fight", 1)
         print(f"ID: {quest.id}")

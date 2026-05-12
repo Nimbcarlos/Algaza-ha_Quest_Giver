@@ -1,0 +1,186 @@
+{
+  "incompatible_modes": {
+    "mandatory_modifier_categories": ["slime"]
+  },
+  "action_subject_rules": {
+    "fight": [
+      "slime",
+      "humanoid",
+      "beast",
+      "monster",
+      "undead",
+      "elemental",
+      "construct",
+      "aberration",
+      "demon",
+      "dragonkin",
+      "giant",
+      "plant_hostile",
+      "swarm",
+      "spirit_hostile"
+    ],
+    "diplomacy": [
+      "faction",
+      "person",
+      "creature"
+    ],
+    "nature": [
+      "phenomenon",
+      "place",
+      "creature",
+      "resource"
+    ],
+    "athletics": [
+      "place",
+      "obstacle",
+      "route"
+    ],
+    "thievery": [
+      "item",
+      "person",
+      "place"
+    ],
+    "religion": [
+      "spirit",
+      "place",
+      "artifact",
+      "creature"
+    ],
+    "arcana": [
+      "artifact",
+      "item",
+      "phenomenon",
+      "place"
+    ],
+    "intimidation": [
+      "person",
+      "faction",
+      "creature"
+    ],
+    "survival": [
+      "creature",
+      "place",
+      "route",
+      "resource"
+    ],
+    "cure": [
+      "person",
+      "creature",
+      "place"
+    ],
+    "performance": [
+      "person",
+      "faction",
+      "crowd"
+    ],
+    "investigation": [
+      "person",
+      "item",
+      "place",
+      "event"
+    ],
+    "alchemy": [
+      "item",
+      "resource",
+      "phenomenon"
+    ],
+    "stealth": [
+      "place",
+      "person",
+      "item"
+    ]
+  },
+
+  "modifier_subject_rules": {
+    "slime": ["green", "blue", "red"],
+    "humanoid": ["archer", "furious", "cursed", "hostile"],
+    "beast": ["furious", "hostile"],
+    "monster": ["furious"],
+    "giant": ["furious", "ancient"],
+    "faction": ["furious", "desperate", "protected", "hostile"],
+    "person": ["furious", "hidden", "cursed", "desperate", "protected", "hostile", "sacred"],
+    "crowd": ["furious", "desperate", "hostile"],
+    "elemental": ["corrupted", "ancient", "unstable"],
+    "plant_hostile": ["corrupted"],
+    "spirit_hostile": ["corrupted", "cursed", "unstable"],
+    "dragonkin": ["corrupted", "ancient"],
+    "artifact": ["corrupted", "hidden", "cursed", "ancient", "protected", "sacred", "stolen"],
+    "place": ["corrupted", "hidden", "cursed", "ancient", "protected", "abandoned", "sacred"],
+    "spirit": ["corrupted", "cursed", "ancient", "sacred"],
+    "phenomenon": ["corrupted", "unstable"],
+    "resource": ["corrupted", "unstable", "stolen"],
+    "item": ["hidden", "cursed", "ancient", "unstable", "protected", "sacred", "stolen"],
+    "route": ["hidden", "ancient", "abandoned"],
+    "event": ["hidden", "unstable"],
+    "undead": ["cursed"],
+    "construct": ["ancient"],
+    "aberration": ["unstable"],
+    "creature": ["hostile"],
+    "obstacle": ["abandoned"]
+  },  
+  
+  "modifier_chance_by_action": {
+    "fight": {
+      "none": 85,
+      "special": 15
+    },
+    "investigation": {
+      "none": 70,
+      "special": 30
+    },
+    "cure": {
+      "none": 50,
+      "special": 50
+    },
+    "diplomacy": {
+      "none": 50,
+      "special": 50
+    },
+    "nature": {
+      "none": 50,
+      "special": 50
+    },
+    "athletics": {
+      "none": 50,
+      "special": 50
+    },
+    "thievery": {
+      "none": 50,
+      "special": 50
+    },
+    "religion": {
+      "none": 50,
+      "special": 50
+    },
+    "arcana": {
+      "none": 50,
+      "special": 50
+    },
+    "intimidation": {
+      "none": 50,
+      "special": 50
+    },
+    "survival": {
+      "none": 50,
+      "special": 50
+    },
+    "performance": {
+      "none": 50,
+      "special": 50
+    },
+    "alchemy": {
+      "none": 50,
+      "special": 50
+    },
+    "stealth": {
+      "none": 50,
+      "special": 50
+    }
+  },
+  "max_heroes_weights": {
+    "1": 60,
+    "2": 25,
+    "3": 10,
+    "4": 5
+  }
+}

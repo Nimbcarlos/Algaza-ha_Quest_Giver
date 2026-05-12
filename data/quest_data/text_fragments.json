@@ -1,0 +1,102 @@
+{
+  "description": {
+    "fight": {
+      "intro": [
+        {
+          "pt": "Um novo pedido chegou à guilda.",
+          "en": "A new request has reached the guild.",
+          "es": "Se ha llegado una nueva solicitud a la guild.",
+          "ru": "Поступил новый запрос в гильдию.",
+          "ja": "ギルドに新しい依頼が届いた。",
+          "zh": "一个新的请求已经到达了公会。"
+        },
+        {
+          "pt": "Um pedido de ajuda chegou,",
+          "en": "A help request has arrived,",
+          "es": "Ha llegado una solicitud de ayuda,",
+          "ru": "Поступил новый запрос,",
+          "ja": "ギルドに新しい依頼が届いた。",
+          "zh": "一个新的请求已经到达了公会。"
+        }
+      ],
+      "objective": [
+        {
+          "pt": "foram vistos",
+          "en": "have been spotted",
+          "es": "han sido vistos",
+          "ru": "были замечены",
+          "ja": "が目撃された",
+          "zh": "被发现"
+        },
+        {
+          "pt": "há relatos de",
+          "en": "there are reports of",
+          "es": "hay informes de",
+          "ru": "есть сообщения о",
+          "ja": "の報告がある",
+          "zh": "有关于...的报告"
+        },
+        {
+          "pt": "há informações de que",
+          "en": "there is information that",
+          "es": "hay información que",
+          "ru": "есть информация о",
+          "ja": "という情報がある",
+          "zh": "有关于...的信息"
+        }
+      ],
+      "objective_context": [
+        {
+          "pt": "nos arredores",
+          "en": "in the surroundings",
+          "es": "en los alrededores",
+          "ru": "в окрестностях",
+          "ja": "周辺で",
+          "zh": "在…周遭"
+        },
+        {
+          "pt": "próximos",
+          "en": "nearby",
+          "es": "cercanos",
+          "ru": "близкие",
+          "ja": "周辺で",
+          "zh": "在…周遭"
+        },
+        {
+          "pt": "nas proximidades",
+          "en": "in the vicinity",
+          "es": "en las proximidades",
+          "ru": "в окрестностях",
+          "ja": "周辺で",
+          "zh": "在…周遭"
+        }
+      ],
+      "pressure": [
+        {
+          "pt": "Não há muito tempo antes do próximo ataque.",
+          "en": "There's not much time before the next attack.",
+          "es": "No queda mucho tiempo antes del próximo ataque.",
+          "ru": "До следующей атаки осталось мало времени.",
+          "ja": "次の攻撃まであまり時間がない。",
+          "zh": "距离下一次攻击的时间已经不多了。"
+        },
+        {
+          "pt": "O medo está se espalhando rapidamente.",
+          "en": "Fear is spreading rapidly.",
+          "es": "El miedo se está extendiendo rápidamente.",
+          "ru": "Страх быстро распространяется.",
+          "ja": "恐怖が急速に広まっている。",
+          "zh": "恐惧正在迅速蔓延。"
+        },
+        {
+          "pt": "O apoio local está começando a ceder.",
+          "en": "Local support is starting to crumble.",
+          "es": "El apoyo local está empezando a ceder.",
+          "ru": "Местная поддержка начинает ослабевать.",
+          "ja": "地元の支援が崩れ始めている。",
+          "zh": "当地的支持正开始动摇。"
+        }
+      ]
+    }
+  }
+}

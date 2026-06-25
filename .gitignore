@@ -22,3 +22,8 @@ SteamworksPy64.dll
 Algazaha.spec
 steamworks/
 _scripts/
+main.spec
+quest_editor.py
+log.txt
+game.txt
+venv/

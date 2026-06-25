@@ -133,367 +133,307 @@
     "arrived": {
       "alone": {
         "en": [
-          "Arrived near {location}. Steps counted and corrected.",
-          "Stopped in front of {location}. Alignment verified.",
-          "Advanced toward {location}. No deviation allowed.",
-          "Position taken near {location}. Pattern maintained.",
-          "Visual contact with {location}. Situation under control.",
-          "Arrival confirmed at {location}. Order verified.",
-          "Moved closer to {location}. Advance corrected.",
-          "Held position before {location}. Full assessment complete.",
-          "Passed through {location}. Nothing out of place.",
-          "Final position at {location}. Ready to act."
+          "Arrived near {place}. Steps counted and corrected.",
+          "Stopped in front of {place}. Alignment verified.",
+          "Advanced toward {place}. No deviation allowed.",
+          "Position taken near {place}. Pattern maintained.",
+          "Visual contact with {place}. Situation under control.",
+          "Arrival confirmed at {place}. Order verified.",
+          "Moved closer to {place}. Advance corrected.",
+          "Held position before {place}. Full assessment complete.",
+          "Passed through {place}. Nothing out of place.",
+          "Final position at {place}. Ready to act."
         ],
         "pt": [
-          "Cheguei perto d{location}. Passos contados e corrigidos.",
-          "Parei diante d{location}. Esperei alinhamento adequado.",
-          "Avancei até d{location}. Nenhum desvio tolerado.",
-          "Posição tomada perto d{location}. Padrão mantido.",
-          "Contato visual com d{location}. Situação sob controle.",
-          "Chegada confirmada d{location}. Ordem verificada.",
-          "Aproximei-me d{location}. Ajustei avanço antes de prosseguir.",
-          "Mantive posição diante d{location}. Avaliação completa.",
-          "Passei por {location}. Nada fora do lugar.",
-          "Posição final d{location}. Pronta para agir."
+          "Cheguei perto {da_place}. Passos contados e corrigidos.",
+          "Parei diante {da_place}. Esperei alinhamento adequado.",
+          "Avancei até {da_place}. Nenhum desvio tolerado.",
+          "Posição tomada perto {da_place}. Padrão mantido.",
+          "Contato visual com {da_place}. Situação sob controle.",
+          "Chegada confirmada {da_place}. Ordem verificada.",
+          "Aproximei-me {da_place}. Ajustei avanço antes de prosseguir.",
+          "Mantive posição diante {da_place}. Avaliação completa.",
+          "Passei por {a_place}. Nada fora do lugar.",
+          "Posição final {da_place}. Pronta para agir."
         ],
         "es": [
-          "Llegué cerca d{location}. Pasos contados y corregidos.",
-          "Me detuve frente d{location}. Esperé la alineación correcta.",
-          "Avancé hasta d{location}. Ninguna desviación tolerada.",
-          "Posición tomada cerca d{location}. Patrón mantenido.",
-          "Contacto visual con {location}. Situación bajo control.",
-          "Llegada confirmada d{location}. Orden verificado.",
-          "Me acerqué d{location}. Ajusté el avance antes de seguir.",
-          "Mantuve posición frente d{location}. Evaluación completa.",
-          "Pasé por {location}. Nada fuera de lugar.",
-          "Posición final d{location}. Lista para actuar."
+          "Llegué cerca {da_place}. Pasos contados y corregidos.",
+          "Me detuve frente {da_place}. Esperé la alineación correcta.",
+          "Avancé hasta {da_place}. Ninguna desviación tolerada.",
+          "Posición tomada cerca {da_place}. Patrón mantenido.",
+          "Contacto visual con {a_place}. Situación bajo control.",
+          "Llegada confirmada {da_place}. Orden verificado.",
+          "Me acerqué {da_place}. Ajusté el avance antes de seguir.",
+          "Mantuve posición frente {da_place}. Evaluación completa.",
+          "Pasé por {a_place}. Nada fuera de lugar.",
+          "Posición final {da_place}. Lista para actuar."
         ],
         "ru": [
-          "Прибыл к {location}. Шаги посчитаны и исправлены.",
-          "Остановился перед {location}. Выравнивание проверено.",
-          "Продвинулся к {location}. Отклонение не допускается.",
-          "Занял позицию возле {location}. Паттерн сохранен.",
-          "Визуальный контакт с {location}. Ситуация под контролем.",
-          "Прибытие подтверждено к {location}. Порядок проверен.",
-          "Приблизился к {location}. Исправил продвижение перед продолжением.",
-          "Удерживал позицию перед {location}. Полная оценка завершена.",
-          "Прошел через {location}. Ничего не выбивается из места.",
-          "Финальная позиция у {location}. Готов к действию."
+          "Прибыл к {place}. Шаги посчитаны и исправлены.",
+          "Остановился перед {place}. Выравнивание проверено.",
+          "Продвинулся к {place}. Отклонение не допускается.",
+          "Занял позицию возле {place}. Паттерн сохранен.",
+          "Визуальный контакт с {place}. Ситуация под контролем.",
+          "Прибытие подтверждено к {place}. Порядок проверен.",
+          "Приблизился к {place}. Исправил продвижение перед продолжением.",
+          "Удерживал позицию перед {place}. Полная оценка завершена.",
+          "Прошел через {place}. Ничего не выбивается из места.",
+          "Финальная позиция у {place}. Готов к действию."
         ],
         "zh": [
-          "到达{location}附近。步伐已数过并纠正。",
-          "停在{location}前面。等待正确的对齐。",
-          "向{location}推进。任何偏离都不允许。",
-          "在{location}附近占位。保持模式。",
-          "与{location}视觉接触。情况受控。",
-          "确认到达{location}。秩序已验证。",
-          "靠近{location}。在继续之前调整了前进。",
-          "在{location}前保持位置。完成全面评估。",
-          "通过{location}。没有任何异常。",
-          "在{location}的最终位置。准备行动。"
+          "到达{place}附近。步伐已数过并纠正。",
+          "停在{place}前面。等待正确的对齐。",
+          "向{place}推进。任何偏离都不允许。",
+          "在{place}附近占位。保持模式。",
+          "与{place}视觉接触。情况受控。",
+          "确认到达{place}。秩序已验证。",
+          "靠近{place}。在继续之前调整了前进。",
+          "在{place}前保持位置。完成全面评估。",
+          "通过{place}。没有任何异常。",
+          "在{place}的最终位置。准备行动。"
         ],
           "ja": [
-            "{location}の近くに到着。歩数を数えて修正。",
-            "{location}の前で停止。正しい位置を待つ。",
-            "{location}に向かって進む。どんな逸脱も許されない。",
-            "{location}の近くに位置を取る。パターンを維持。",
-            "{location}と視覚的接触。状況は制御下にある。",
-            "{location}への到着を確認。秩序を検証。",
-            "{location}に近づく。続行前に前進を修正。",
-            "{location}の前で位置を保持。完全な評価が完了。",
-            "{location}を通過。何も異常はない。",
-            "{location}の最終位置。行動の準備ができている。"
+            "{place}の近くに到着。歩数を数えて修正。",
+            "{place}の前で停止。正しい位置を待つ。",
+            "{place}に向かって進む。どんな逸脱も許されない。",
+            "{place}の近くに位置を取る。パターンを維持。",
+            "{place}と視覚的接触。状況は制御下にある。",
+            "{place}への到着を確認。秩序を検証。",
+            "{place}に近づく。続行前に前進を修正。",
+            "{place}の前で位置を保持。完全な評価が完了。",
+            "{place}を通過。何も異常はない。",
+            "{place}の最終位置。行動の準備ができている。"
           ]
       },
       "group": {
         "en": [
-          "Arrived near {location}. Group pace adjusted.",
-          "Halted the group before {location}. Reorganization applied.",
-          "Advanced toward {location}. Formation corrected.",
-          "Position taken near {location}. Group held back.",
-          "Visual contact with {location}. Formation stable.",
-          "Arrival confirmed at {location}. Order restored.",
-          "Held the advance at {location}. Corrections applied.",
-          "Moved first through {location}. Path validated.",
-          "Kept everyone behind {location}. No pattern breaks.",
-          "Final position at {location}. Group ready."
+          "Arrived near {place}. Group pace adjusted.",
+          "Halted the group before {place}. Reorganization applied.",
+          "Advanced toward {place}. Formation corrected.",
+          "Position taken near {place}. Group held back.",
+          "Visual contact with {place}. Formation stable.",
+          "Arrival confirmed at {place}. Order restored.",
+          "Held the advance at {place}. Corrections applied.",
+          "Moved first through {place}. Path validated.",
+          "Kept everyone behind {place}. No pattern breaks.",
+          "Final position at {place}. Group ready."
         ],
         "pt": [
-          "Chegamos perto d{location}. Ritmo do grupo ajustado.",
-          "Interrompi o avanço diante d{location}. Reorganização feita.",
-          "Avançamos até d{location}. Formação corrigida.",
-          "Posição tomada perto d{location}. Grupo mantido atrás.",
-          "Contato visual com d{location}. Formação estável.",
-          "Chegada confirmada d{location}. Ordem restabelecida.",
-          "Segurei o avanço d{location}. Correções aplicadas.",
-          "Passei primeiro por d{location}. Caminho validado.",
-          "Mantive todos atrás d{location}. Nenhuma quebra de padrão.",
-          "Posição final d{location}. Grupo pronto."
+          "Chegamos perto {da_place}. Ritmo do grupo ajustado.",
+          "Interrompi o avanço diante {da_place}. Reorganização feita.",
+          "Avançamos até {da_place}. Formação corrigida.",
+          "Posição tomada perto {da_place}. Grupo mantido atrás.",
+          "Contato visual com {da_place}. Formação estável.",
+          "Chegada confirmada {da_place}. Ordem restabelecida.",
+          "Segurei o avanço {da_place}. Correções aplicadas.",
+          "Passei primeiro por {da_place}. Caminho validado.",
+          "Mantive todos atrás {da_place}. Nenhuma quebra de padrão.",
+          "Posição final {da_place}. Grupo pronto."
         ],
         "es": [
-          "Llegamos cerca d{location}. Ritmo del grupo ajustado.",
-          "Detuve el avance frente d{location}. Reorganización aplicada.",
-          "Avanzamos hasta d{location}. Formación corregida.",
-          "Posición tomada cerca d{location}. Grupo mantenido atrás.",
-          "Contacto visual con d{location}. Formación estable.",
-          "Llegada confirmada d{location}. Orden restablecido.",
-          "Contuve el avance d{location}. Correcciones aplicadas.",
-          "Pasé primero por d{location}. Camino validado.",
-          "Mantuve a todos detrás d{location}. Ninguna ruptura de patrón.",
-          "Posición final d{location}. Grupo listo."
+          "Llegamos cerca {da_place}. Ritmo del grupo ajustado.",
+          "Detuve el avance frente {da_place}. Reorganización aplicada.",
+          "Avanzamos hasta {da_place}. Formación corregida.",
+          "Posición tomada cerca {da_place}. Grupo mantenido atrás.",
+          "Contacto visual con {da_place}. Formación estable.",
+          "Llegada confirmada {da_place}. Orden restablecido.",
+          "Contuve el avance {da_place}. Correcciones aplicadas.",
+          "Pasé primero por {da_place}. Camino validado.",
+          "Mantuve a todos detrás {da_place}. Ninguna ruptura de patrón.",
+          "Posición final {da_place}. Grupo listo."
         ]      
       }
     },
     "action": {
       "fight": {
         "alone": {
-          "pt": [
-            "Pelo segredo do aço, desferi seis golpes n{enemy}. Nem um a mais, nem um a menos.",
-            "O aço não mente. O sexto golpe n{enemy} encerrou sua patética existência.",
-            "Por Morc, executei a sequência perfeita n{enemy}. A simetria é o único deus que sigo.",
-            "Saboreei o peso da espada enquanto contava cada impacto n{enemy} até o sexto.",
-            "Civilização é um veneno, mas n{enemy} sentiu a pureza de seis cortes exatos.",
-            "Morc ri do alto de sua montanha, mas ele viu minha lâmina cair seis vezes n{enemy}.",
-            "Deixei a terra beber o sangue n{enemy} apenas após o sexto e definitivo golpe.",
-            "A lâmina longa respondeu ao meu comando. Seis vezes ela beijou a carne n{enemy}.",
-            "O vento sopra das estepes, e meu aço cantou seis vezes n{enemy} antes do silêncio.",
-            "Não sou uma berserker irracional; sou o carrasco que deu a {enemy} seis cortes simétricos."
-          ],
            "en": [
-            "By the secret of steel, I delivered six strikes against {enemy}. Not one more, not one less.",
-            "Steel does not lie. The sixth strike against {enemy} ended its pathetic existence.",
-            "By Morc, I executed the perfect sequence against {enemy}. Symmetry is the only god I follow.",
-            "I savored the weight of the blade as I counted each impact against {enemy} up to the sixth.",
-            "Civilization is a poison, but {enemy} felt the purity of six exact cuts.",
-            "Morc laughs from atop his mountain, but he saw my blade fall six times against {enemy}.",
-            "I let the earth drink {enemy}'s blood only after the sixth and final strike.",
-            "The long blade responded to my command. Six times it kissed {enemy}'s flesh.",
-            "The wind blows from the steppes, and my steel sang six times against {enemy} before the silence.",
-            "I am not a mindless berserker; I am the executioner who gave {enemy} six symmetrical cuts."
+            "By the secret of steel, I delivered Simetric Cleave against {enemy}.",
+            "Steel does not lie. I used the Calculated Leap against {enemy}.",
+            "By Morc, I executed the Perfect Bash against {enemy}. Symmetry is the only god I follow.",
+            "Morc laughs from atop his mountain, but he saw my Geometric Earthquake against {enemy}.",
+            "I am not a mindless berserker; I am the executioner who gave {enemy} Synchronized Ground Stomp."
           ],
-           "es": [
-            "Por el secreto del acero, desferí seis golpes contra {enemy}. Ni uno más, ni uno menos.",
-            "El acero no miente. El sexto golpe contra {enemy} terminó su patética existencia.",
-            "Por Morc, ejecuté la secuencia perfecta contra {enemy}. La simetría es el único dios que sigo.",
-            "Saboreé el peso de la espada mientras contaba cada impacto contra {enemy} hasta el sexto.",
-            "La civilización es un veneno, pero {enemy} sintió la pureza de seis cortes exactos.",
-            "Morc ríe desde lo alto de su montaña, pero vio mi hoja caer seis veces contra {enemy}.",
-            "Dejé que la tierra bebiera la sangre de {enemy} solo después del sexto y definitivo golpe.",
-            "La hoja larga respondió a mi comando. Seis veces besó la carne de {enemy}.",
-            "El viento sopla desde las estepas, y mi acero cantó seis veces contra {enemy} antes del silencio.",
-            "No soy un berserker sin sentido; soy el verdugo que le dio a {enemy} seis cortes simétricos."
+          "pt": [
+            "Pelo segredo do aço, eu desferi o Corte Simétrico contra {o_enemy}.",
+            "O aço não mente. Usei o Salto Calculado contra {o_enemy}.",
+            "Por Morc, executei o Golpe Perfeito contra {o_enemy}. Simetria é o único deus que sigo.",
+            "Morc ri do alto de sua montanha, mas ele viu meu Terremoto Geométrico contra {o_enemy}.",
+            "Não sou um berserker sem mente; sou o carrasco que deu {ao_enemy} o Pisão Sincronizado."
+            ],
+          "es": [
+            "Por el secreto del acero, desaté el Corte Simétrico contra {o_enemy}.",
+            "El acero no miente. Usé el Salto Calculado contra {o_enemy}.",
+            "Por Morc, ejecuté el Golpe Perfecto contra {o_enemy}. La simetría es el único dios que sigo.",
+            "Morc se ríe desde lo alto de su montaña, pero vio mi Terremoto Geométrico contra {o_enemy}.",
+            "No soy un berserker sin mente; soy el verdugo que le dio a {ao_enemy} el Pisotón Sincronizado."
           ],
-           "ru": [
-            "По секрету стали, я нанес шесть ударов по {enemy}. Ни одного больше, ни одного меньше.",
-            "Сталь не лжет. Шестой удар по {enemy} положил конец его жалкому существованию.",
-            "Во имя Морка, я выполнил идеальную последовательность против {enemy}. Симметрия — единственный бог, которому я следую.",
-            "Я наслаждался весом клинка, считая каждый удар по {enemy} до шестого.",
-            "Цивилизация — это яд, но {enemy} почувствовал чистоту шести точных ударов.",
-            "Морк смеется с вершины своей горы, но он видел, как мое лезвие падало шесть раз по {enemy}.",
-            "Я позволил земле пить кровь {enemy} только после шестого и последнего удара.",
-            "Длинный клинок ответил на мою команду. Шесть раз он поцеловал плоть {enemy}.",
-            "Ветер дует со степей, и мой сталь пела шесть раз по {enemy} перед тишиной.",
-            "Я не безумный берсерк; я палач, который дал {enemy} шесть симметричных ударов."
+          "ru": [
+            "По секрету стали, я нанес Симметричный Удар по {enemy}.",
+            "Сталь не лжет. Я использовал Вычисленный Прыжок против {enemy}.",
+            "Во имя Морка, я выполнил Идеальный Удар против {enemy}. Симметрия — единственный бог, которому я следую.",
+            "Морк смеется с вершины своей горы, но он видел мое Геометрическое Землетрясение против {enemy}.",
+            "Я не безумный берсерк; я палач, который дал {enemy} Синхронный Топот."
           ],
-           "zh": [
-            "凭借钢铁的秘密，我对{enemy}施以六击。不是多一个，也不是少一个。",
-            "钢铁不会说谎。对{enemy}的第六击结束了它可怜的存在。",
-            "以莫克之名，我对{enemy}执行了完美的序列。对称是我唯一崇拜的神。",
-            "我用我的剑，为{enemy}画出了完美的六边形。",
-            "文明是毒药，但{enemy}感受到了六个精确的打击。",
-            "莫克从他的山顶上笑着，但他看到了我的剑六次落在{enemy}身上。",
-            "我让大地喝下{enemy}的血，只有在第六次打击之后。",
-            "长剑响应了我的命令。它六次亲吻了{enemy}的肉体。",
-            "风从草原吹来，我的钢铁在{enemy}身上唱了六次，然后是寂静。",
-            "我不是一个无脑的狂战士；我是那个给了{enemy}六个对称切口的刽子手。"
+          "zh": [
+            "凭借钢铁的秘密，我对{enemy}施展了对称斩。",
+            "钢铁不会说谎。我对{enemy}使用了计算跳跃。",
+            "以莫克之名，我对{enemy}执行了完美猛击。对称是我唯一崇拜的神。",
+            "莫克从他的山顶上笑着，但他看到了我对{enemy}的几何地震。",
+            "我不是一个无脑的狂战士；我是那个给予{enemy}同步地面震荡的刽子手。"
           ],
-           "ja": [
-            "鋼の秘密によって、私は{enemy}に六撃を与えた。多くもなく、少なくもない。",
-            "鋼は嘘をつかない。{enemy}への六撃目が、その哀れな存在を終わらせた。",
-            "モルクの名のもとに、私は{enemy}に完璧なシーケンスを実行した。対称性は私が従う唯一の神だ。",
-            "私の剣は私の意志に従った。六回、{enemy}の肉体を撫でた。",
-            "文明は毒だが、{enemy}は六つの正確な切り傷の純粋さを感じた。",
-            "モルクは山の頂から笑っているが、彼は私の剣が{enemy}に六回落ちるのを見た。",
-            "私は{enemy}の命を奪った。六つの斬撃で、完璧な対称性を示した。",
-            "長い剣は私の命令に応じた。六回、{enemy}の肉体を撫でた。",
-            "風はステップから吹き、私の鋼は{enemy}に六回歌い、その後沈黙した。",
-            "私は無意味な狂戦士ではない。私は{enemy}に六つの対称的な切口を与えた処刑者だ。"
+          "ja": [
+            "鋼の秘密によって、私は{enemy}に対してシメトリッククリーブを放ちました。",
+            "鋼は嘘をつかない。私は{enemy}に対して計算された跳躍を使いました。",
+            "モルクの名の下に、私は{enemy}に対して完璧なバッシュを実行しました。対称性は私が従う唯一の神です。",
+            "モルクは山の頂上から笑っていますが、彼は私の{enemy}に対する幾何学的地震を見ました。",
+            "私は無思考な狂戦士ではありません；私は{enemy}にシンクロナイズドグラウンドストンプを与えた死刑執行人です。"
           ]
         },
         "group": {
-          "pt": [
-            "Avancei primeiro e garanti seis golpes precisos n{enemy}, como Khoram exige.",
-            "O grupo observou enquanto minha espada longa ditou o ritmo: seis marcas n{enemy}.",
-            "Eles seguiram meus passos, mas conduzi a lâmina até fechar o sexto ciclo n{enemy}.",
-            "Eles lutaram com impulso; eu mantive a frieza do aço. Foram seis impactos n{enemy}.",
-            "O metal ecoou seis vezes n{enemy}, cada descida medida.",
-            "Meus flancos foram protegidos enquanto busquei o silêncio do sexto golpe n{enemy}.",
-            "Ajustei o compasso do combate até alinhar seis cortes exatos n{enemy}.",
-            "Sob o olhar do Deus da Montanha, executei seis golpes contados n{enemy}.",
-            "Mantive postura firme até sentir o sexto impacto atravessar n{enemy}.",
-            "Restaurei a simetria do confronto com seis cortes profundos n{enemy}."
-          ],
           "en": [
-            "I advanced first and ensured six precise strikes against {enemy}, as Khoram demands.",
-            "The group watched as my long blade set the pace: six marks against {enemy}.",
-            "They followed my lead, but I drove the blade to close the sixth cycle against {enemy}.",
-            "They fought with momentum; I maintained the coldness of steel. There were six impacts against {enemy}.",
-            "The metal echoed six times against {enemy}, each descent measured.",
-            "My flanks were protected as I sought the silence of the sixth strike against {enemy}.",
-            "I adjusted the rhythm of combat until I aligned six exact cuts against {enemy}.",
-            "Under the gaze of the Mountain God, I executed six counted strikes against {enemy}.",
-            "I held a firm posture until I felt the sixth impact pierce through {enemy}.",
-            "I restored the symmetry of the confrontation with six deep cuts against {enemy}."
+            "I advanced and ensured Rhythmic Whirlwind against {enemy}, as Khoram demands.",
+            "The group watched as my long blade set the pace: Precise Rend against {enemy}.",
+            "The metal echoed Overpower Aligned against {enemy}, each descent measured.",
+            "I adjusted the rhythm of combat until I aligned Cicled Weapon Throw against {enemy}.",
+            "Under the gaze of the Mountain God, I executed Methodic Avalanche against {enemy}."
+          ],
+          "pt": [
+            "Avancei e garanti o Redemoinho Rítmico contra {o_enemy}, como Khoram exige.",
+            "O grupo assistiu enquanto minha lâmina longa ditava o ritmo: Rasgo Preciso contra {o_enemy}.",
+            "O metal ecoou Sobrecarga Alinhada contra {o_enemy}, cada descida medida.",
+            "Ajustei o ritmo do combate até alinhar o Arremesso de Arma Circular contra {o_enemy}.",
+            "Sob o olhar do Deus da Montanha, executei a Avalanche Metódica contra {o_enemy}."
           ],
           "es": [
-            "Avancé primero y aseguré seis golpes precisos contra {enemy}, como exige Khoram.",
-            "El grupo observó mientras mi hoja larga marcaba el ritmo: seis marcas contra {enemy}.",
-            "Siguieron mi ejemplo, pero conduje la hoja para cerrar el sexto ciclo contra {enemy}.",
-            "Lucharon con impulso; yo mantuve la frialdad del acero. Hubo seis impactos contra {enemy}.",
-            "El metal resonó seis veces contra {enemy}, cada descenso medido.",
-            "Mis flancos fueron protegidos mientras buscaba el silencio del sexto golpe contra {enemy}.",
-            "Ajusté el ritmo del combate hasta alinear seis cortes exactos contra {enemy}.",
-            "Bajo la mirada del Dios de la Montaña, ejecuté seis golpes contados contra {enemy}.",
-            "Mantuvé una postura firme hasta sentir el sexto impacto atravesar a {enemy}.",
-            "Restauré la simetría del enfrentamiento con seis cortes profundos contra {enemy}."
-          ],
+            "Avancé y aseguré el Torbellino Rítmico contra {o_enemy}, como exige Khoram.",
+            "El grupo observó mientras mi larga hoja marcaba el ritmo: Desgarro Preciso contra {o_enemy}.",
+            "El metal resonó Sobrecarga Alineada contra {o_enemy}, cada descenso medido.",
+            "Ajusté el ritmo del combate hasta alinear el Lanzamiento de Arma Circular contra {o_enemy}.",
+            "Bajo la mirada del Dios de la Montaña, ejecuté la Avalancha Metódica contra {o_enemy}."
+           ],
           "ru": [
-            "Я продвинулся первым и обеспечил шесть точных ударов по {enemy}, как требует Хорам.",
-            "Группа наблюдала, как мой длинный клинок задавал ритм: шесть отметок по {enemy}.",
-            "Они следовали за мной, но я вел клинок, чтобы закрыть шестой цикл по {enemy}.",
-            "Они сражались с импульсом; я сохранял холодность стали. Было шесть ударов по {enemy}.",
-            "Металл эхом отозвался шесть раз по {enemy}, каждый спуск был измерен.",
-            "Мои фланги были защищены, пока я искал тишину шестого удара по {enemy}.",
-            "Я отрегулировал ритм боя, пока не выровнял шесть точных ударов по {enemy}.",
-            "Под взглядом Бога Горы я выполнил шесть отсчитанных ударов по {enemy}.",
-            "Я держал твердую позу, пока не почувствовал, как шестой удар пронзает {enemy}.",
-            "Я восстановил симметрию противостояния шестью глубокими порезами по {enemy}."
-          ],
+            "Я продвинулся и обеспечил Ритмичный Вихрь против {enemy}, как требует Хорам.",
+            "Группа наблюдала, как мой длинный клинок задает ритм: Точный Разрыв против {enemy}.",
+            "Металл эхом отозвался при Перегрузке в Линию против {enemy}, каждое снижение было измерено.",
+            "Я отрегулировал ритм боя, пока не выровнял Круговой Бросок Оружия против {enemy}.",
+            "Под взглядом Горного Бога я выполнил Методическое Лавинообразование против {enemy}."
+            ],
           "zh": [
-            "我先行一步，确保了对{enemy}的六次精准打击，正如Khoram所要求的。",
-            "当我的长剑设定节奏时，队伍注视着：对{enemy}的六个标记。",
-            "他们跟随我的引导，但我驱动剑刃完成了对{enemy}的第六个循环。",
-            "他们带着势头战斗；我保持了钢铁的冷静。对{enemy}有六次冲击。",
-            "金属在{enemy}上回响了六次，每一次下降都经过测量。",
-            "当我寻找第六次打击的寂静时，我的侧翼得到了保护。",
-            "我调整了战斗的节奏，直到我对{enemy}对齐了六个精确的切口。",
-            "在山神的注视下，我对{enemy}执行了六次计数打击。",
-            "我保持坚定的姿态，直到感觉到第六次冲击穿透了{enemy}。",
-            "我用对{enemy}的六个深切口恢复了对抗的对称性。"
-          ],
+            "我前进并确保了对{enemy}的节奏旋风，正如Khoram所要求的。",
+            "当我的长刀设定节奏时，团队观看：对{enemy}的精准撕裂。",
+            "金属回响着对{enemy}的过载对齐，每次下降都经过测量。",
+            "我调整了战斗的节奏，直到我对{enemy}对齐了循环武器投掷。",
+            "在山神的注视下，我对{enemy}执行了有条不紊的雪崩。"
+           ],
           "ja": [
-            "{enemy}に対して、私は最初に進み、Khoramが要求するように6つの正確な攻撃を確実にしました。",
-            "私の長い刃がペースを設定するのをグループは見守りました：{enemy}に対して6つのマーク。",
-            "彼らは私のリードに従いましたが、私は刃を駆使して{enemy}に対して6番目のサイクルを閉じました。",
-            "彼らは勢いで戦いました；私は鋼の冷たさを保ちました。{enemy}に対して6つの衝撃がありました。",
-            "金属は{enemy}に対して6回こだまし、各下降は測定されました。",
-            "私の側面は保護されていましたが、私は{enemy}に対する6番目の攻撃の静けさを求めました。",
-            "私は戦闘のリズムを調整し、{enemy}に対して6つの正確な切り傷を合わせました。",
-            "山の神の視線の下で、私は{enemy}に対して6つのカウントされた攻撃を実行しました。",
-            "私は{enemy}に対して6番目の衝撃が突き 刺さるのを感じるまで、しっかりとした姿勢を保ちました。",
-            "私は{enemy}に対して6つの深い切り傷で対決の対称性を回復しました。"
-          ]
-        }        
+            "私は前進し、{enemy}に対してリズミックワールウィンドを確実にしました、コラムが要求するように。",
+            "グループは私の長い刃がペースを設定するのを見ました：{enemy}に対する正確な裂き。",
+            "金属は{enemy}に対するオーバーパワーアラインドで反響し、各降下は測定されました。",
+            "私は戦闘のリズムを調整し、{enemy}に対してサイクルドウェポンスローを合わせました。",
+            "山の神の視線の下で、私は{enemy}に対してメソディックアバランチを実行しました。"
+           ]
+        }
       },
       "athletics": {
         "alone": {
           "pt": [
-            "Ajustei os pés, alinhei o corpo e apliquei força medida em {challenge}.",
-            "Forcei {challenge} em ciclos curtos, repetindo o movimento até manter o padrão.",
-            "Usei o peso exato contra {challenge}, corrigindo cada desvio."
+            "Ajustei os pés, alinhei o corpo e apliquei força medida em {subject}.",
+            "Forcei {subject} em ciclos curtos, repetindo o movimento até manter o padrão.",
+            "Usei o peso exato contra {subject}, corrigindo cada desvio."
           ],
           "en": [
-            "I adjusted my feet, aligned my body, and applied measured force against {challenge}.",
-            "I forced {challenge} into short cycles, repeating the movement until I maintained the pattern.",
-            "I used exact weight against {challenge}, correcting each deviation."
+            "I adjusted my feet, aligned my body, and applied measured force against {subject}.",
+            "I forced {subject} into short cycles, repeating the movement until I maintained the pattern.",
+            "I used exact weight against {subject}, correcting each deviation."
           ],
           "es": [
-            "Ajusté mis pies, alineé mi cuerpo y apliqué fuerza medida contra {challenge}.",
-            "Forcé a {challenge} en ciclos cortos, repitiendo el movimiento hasta mantener el patrón.",
-            "Usé peso exacto contra {challenge}, corrigiendo cada desviación."
+            "Ajusté mis pies, alineé mi cuerpo y apliqué fuerza medida contra {subject}.",
+            "Forcé a {subject} en ciclos cortos, repitiendo el movimiento hasta mantener el patrón.",
+            "Usé peso exacto contra {subject}, corrigiendo cada desviación."
           ],
           "ru": [
-            "Я отрегулировал свои ноги, выровнял тело и применил измеренную силу против {challenge}.",
-            "Я заставил {challenge} работать в коротких циклах, повторяя движение, пока не поддерживал паттерн.",
-            "Я использовал точный вес против {challenge}, исправляя каждое отклонение."
+            "Я отрегулировал свои ноги, выровнял тело и применил измеренную силу против {subject}.",
+            "Я заставил {subject} работать в коротких циклах, повторяя движение, пока не поддерживал паттерн.",
+            "Я использовал точный вес против {subject}, исправляя каждое отклонение."
           ],
           "zh": [
-            "我调整了我的脚，调整了我的身体，并对{challenge}施加了适度的力量。",
-            "我将{challenge}强制进入短周期，重复动作直到保持模式。",
-            "我对{challenge}使用了精确的重量，纠正了每一个偏差。"
+            "我调整了我的脚，调整了我的身体，并对{subject}施加了适度的力量。",
+            "我将{subject}强制进入短周期，重复动作直到保持模式。",
+            "我对{subject}使用了精确的重量，纠正了每一个偏差。"
           ],
           "ja": [
-            "私は足を調整し、体を整え、{challenge}に対して測定された力を加えました。",
-            "{challenge}を短いサイクルに強制し、パターンを維持するまで動きを繰り返しました。",
-            "{challenge}に対して正確な重さを使い、各偏差を修正しました。"
+            "私は足を調整し、体を整え、{subject}に対して測定された力を加えました。",
+            "{subject}を短いサイクルに強制し、パターンを維持するまで動きを繰り返しました。",
+            "{subject}に対して正確な重さを使い、各偏差を修正しました。"
           ]
         }
       },
       "intimidation": {
         "alone": {
           "pt": [
-            "Aproximei-me de {challenge} e deixei o silêncio organizar o espaço.",
-            "Mantive o olhar fixo em {challenge} até que a desordem cessasse.",
-            "Falei baixo para {challenge}, cada palavra colocada no lugar certo."
+            "Aproximei-me de {subject} e deixei o silêncio organizar o espaço.",
+            "Mantive o olhar fixo em {subject} até que a desordem cessasse.",
+            "Falei baixo para {subject}, cada palavra colocada no lugar certo."
           ],
           "en": [
-            "I approached {challenge} and let silence organize the space.",
-            "I held my gaze fixed on {challenge} until the disorder ceased.",
-            "I spoke softly to {challenge}, each word placed in the right spot."
+            "I approached {subject} and let silence organize the space.",
+            "I held my gaze fixed on {subject} until the disorder ceased.",
+            "I spoke softly to {subject}, each word placed in the right spot."
           ],
           "es": [
-            "Me acerqué a {challenge} y dejé que el silencio organizara el espacio.",
-            "Mantuvé mi mirada fija en {challenge} hasta que el desorden cesó.",
-            "Hablé suavemente a {challenge}, cada palabra colocada en el lugar correcto."
+            "Me acerqué a {subject} y dejé que el silencio organizara el espacio.",
+            "Mantuvé mi mirada fija en {subject} hasta que el desorden cesó.",
+            "Hablé suavemente a {subject}, cada palabra colocada en el lugar correcto."
           ],
           "ru": [
-            "Я подошел к {challenge} и позволил тишине организовать пространство.",
-            "Я удерживал взгляд на {challenge}, пока беспорядок не прекратился.",
-            "Я говорил тихо с {challenge}, каждое слово было размещено в нужном месте."
+            "Я подошел к {subject} и позволил тишине организовать пространство.",
+            "Я удерживал взгляд на {subject}, пока беспорядок не прекратился.",
+            "Я говорил тихо с {subject}, каждое слово было размещено в нужном месте."
           ],
           "zh": [
-            "我走近{challenge}，让沉默来组织空间。",
-            "我盯着{challenge}看，直到混乱停止。",
-            "我对{challenge}轻声说话，每个字都放在正确的位置。"
+            "我走近{subject}，让沉默来组织空间。",
+            "我盯着{subject}看，直到混乱停止。",
+            "我对{subject}轻声说话，每个字都放在正确的位置。"
           ],
           "ja": [
-            "{challenge}に近づき、沈黙が空間を整理するのを待ちました。",
-            "{challenge}に視線を固定し、混乱が収まるまで見つめ続けました。",
-            "{challenge}に静かに話しかけ、言葉を適切な場所に配置しました。"
+            "{subject}に近づき、沈黙が空間を整理するのを待ちました。",
+            "{subject}に視線を固定し、混乱が収まるまで見つめ続けました。",
+            "{subject}に静かに話しかけ、言葉を適切な場所に配置しました。"
            ]
         }
       },
       "survival": {
         "alone": {
           "pt": [
-            "Observei padrões ao redor de {challenge} antes de avançar.",
-            "Marquei referências próximas de {challenge} para manter direção.",
-            "Ajustei meu ritmo conforme os sinais que cercavam {challenge}."
+            "Observei padrões ao redor de {subject} antes de avançar.",
+            "Marquei referências próximas de {subject} para manter direção.",
+            "Ajustei meu ritmo conforme os sinais que cercavam {subject}."
           ],
           "en": [
-            "I observed patterns around {challenge} before advancing.",
-            "I marked nearby references to {challenge} to maintain direction.",
-            "I adjusted my pace according to the signs surrounding {challenge}."
+            "I observed patterns around {subject} before advancing.",
+            "I marked nearby references to {subject} to maintain direction.",
+            "I adjusted my pace according to the signs surrounding {subject}."
           ],
           "es": [
-            "Observé patrones alrededor de {challenge} antes de avanzar.",
-            "Marqué referencias cercanas a {challenge} para mantener la dirección.",
-            "Ajusté mi ritmo según las señales que rodeaban a {challenge}."
+            "Observé patrones alrededor de {subject} antes de avanzar.",
+            "Marqué referencias cercanas a {subject} para mantener la dirección.",
+            "Ajusté mi ritmo según las señales que rodeaban a {subject}."
           ],
           "ru": [
-            "Я наблюдал за шаблонами вокруг {challenge} перед тем, как продвигаться.",
-            "Я отметил ближайшие ориентиры к {challenge}, чтобы поддерживать направление.",
-            "Я отрегулировал свой ритм в соответствии с признаками, окружающими {challenge}."
+            "Я наблюдал за шаблонами вокруг {subject} перед тем, как продвигаться.",
+            "Я отметил ближайшие ориентиры к {subject}, чтобы поддерживать направление.",
+            "Я отрегулировал свой ритм в соответствии с признаками, окружающими {subject}."
           ],
           "zh": [
-            "我在前进之前观察了{challenge}周围的模式。",
-            "我标记了{challenge}附近的参考点以保持方向。",
-            "我根据围绕{challenge}的迹象调整了我的节奏。"
+            "我在前进之前观察了{subject}周围的模式。",
+            "我标记了{subject}附近的参考点以保持方向。",
+            "我根据围绕{subject}的迹象调整了我的节奏。"
           ],
           "ja": [
-            "{challenge}の周りのパターンを観察してから前進しました。",
-            "{challenge}の近くの参照点をマークして方向を維持しました。",
-            "{challenge}を取り巻くサインに従ってペースを調整しました。"
+            "{subject}の周りのパターンを観察してから前進しました。",
+            "{subject}の近くの参照点をマークして方向を維持しました。",
+            "{subject}を取り巻くサインに従ってペースを調整しました。"
            ]
         }
       }
@@ -674,7 +614,7 @@
         "group": {
           "pt": [
             "Kaela ouve vozes demais. Eu prefiro o som único do metal no osso.",
-            "A clériga sorriu para o vazio enquanto eu finalizava o ciclo n{enemy}.",
+            "A clériga sorriu para o vazio enquanto eu finalizava o ciclo {no_enemy}.",
             "Kaela me disse que os anjos gostam da minha contagem. Achei... aceitável."
           ],
           "en": [
@@ -777,7 +717,7 @@
           "pt": [
             "Seraphine criticou o ângulo do meu corte. Disse que era 'química ineficiente'.",
             "A alquimista me deu um tônico amargo. Me ajudou a manter o ritmo até o fim.",
-            "Seraphine observou n{enemy} e anotou algo sobre meus seis pontos de pressão."
+            "Seraphine observou {no_enemy} e anotou algo sobre meus seis pontos de pressão."
           ],
           "en": [
             "Seraphine criticized the angle of my cut. She said it was 'inefficient chemistry'.",
@@ -845,7 +785,7 @@
           "pt": [
             "Nyx é um pesadelo. Ela entende que o abate deve ser uma obra de arte.",
             "A assassina não deixa fantasmas. Eu deixo apenas seis marcas profundas.",
-            "Nyx sorriu ao ver a simetria n{enemy}. Pela primeira vez, não senti medo dela."
+            "Nyx sorriu ao ver a simetria {no_enemy}. Pela primeira vez, não senti medo dela."
           ],
           "en": [
             "Nyx is a nightmare. She understands that the kill must be a work of art.",
@@ -911,7 +851,7 @@
       "14": {
         "group": {
           "pt": [
-            "Raska entende de pontos de falha. Eu mostrei seis deles n{enemy}.",
+            "Raska entende de pontos de falha. Eu mostrei seis deles {no_enemy}.",
             "A engenheira reclamou do meu suor na engrenagem. Eu reclamei do barulho dela.",
             "Raska consertou minha guarda. Uma manutenção necessária para o próximo ciclo."
           ],
@@ -976,6 +916,580 @@
           ]
         }
       }
+    },
+  "narrative": {
+    "place": {
+      "landmark": {
+        "pt": [
+          "Observei {fragment}. A disposição era aceitável.",
+          "{fragment}. Finalmente algo com padrão reconhecível.",
+          "{fragment}. Contei tudo duas vezes para confirmar.",
+          "{fragment}. A simetria era quase satisfatória.",
+          "{fragment}. Alguns detalhes precisavam de correção.",
+          "{fragment}. Mantive os olhos nos alinhamentos.",
+          "{fragment}. Havia ordem suficiente para prosseguir.",
+          "{fragment}. Estranhamente organizado. Gostei disso.",
+          "{fragment}. Verifiquei proporções antes de avançar.",
+          "{fragment}. Nenhuma irregularidade grave encontrada.",
+          "{fragment}. A distribuição chamou mais atenção que qualquer ameaça.",
+          "{fragment}. Passei mais tempo analisando os padrões do que a paisagem.",
+          "{fragment}. Tudo parecia ocupar o lugar correto.",
+          "{fragment}. As imperfeições eram poucas. Incomumente poucas.",
+          "{fragment}. Consegui ignorar quase todas as assimetrias.",
+          "{fragment}. Havia uma lógica agradável na disposição das formas.",
+          "{fragment}. Considerei reorganizar algumas partes.",
+          "{fragment}. Registrei cada irregularidade mentalmente.",
+          "{fragment}. Nada estava perfeitamente alinhado. Quase nada.",
+          "{fragment}. O local parecia entender a importância da ordem."
+        ],
+        "en": [
+          "{fragment}. The layout was acceptable.",
+          "{fragment}. Finally something with a recognizable pattern.",
+          "{fragment}. I counted everything twice to confirm.",
+          "{fragment}. The symmetry was almost satisfying.",
+          "{fragment}. Some details needed correction.",
+          "{fragment}. I kept my eyes on the alignments.",
+          "{fragment}. There was enough order to proceed.",
+          "{fragment}. Strangely organized. I liked that.",
+          "{fragment}. I checked proportions before advancing.",
+          "{fragment}. No major irregularities found.",
+          "{fragment}. The distribution caught more attention than any threat.",
+          "{fragment}. I spent more time analyzing the patterns than the landscape.",
+          "{fragment}. Everything seemed to occupy the right place.",
+          "{fragment}. The imperfections were few. Uncommonly few.",
+          "{fragment}. I managed to ignore almost all asymmetries.",
+          "{fragment}. There was a pleasant logic in the arrangement of shapes.",
+          "{fragment}. I considered rearranging some parts.",
+          "{fragment}. I mentally recorded every irregularity.",
+          "{fragment}. Nothing was perfectly aligned. Almost nothing.",
+          "{fragment}. The place seemed to understand the importance of order."
+         ],
+         "es": [
+           "{fragment}. El diseño era aceptable.",
+           "{fragment}. Finalmente algo con un patrón reconocible.",
+           "{fragment}. Conté todo dos veces para confirmar.",
+           "{fragment}. La simetría era casi satisfactoria.",
+           "{fragment}. Algunos detalles necesitaban corrección.",
+           "{fragment}. Mantuve mis ojos en las alineaciones.",
+           "{fragment}. Había suficiente orden para proceder.",
+           "{fragment}. Extrañamente organizado. Me gustó eso.",
+           "{fragment}. Verifiqué las proporciones antes de avanzar.",
+           "{fragment}. No se encontraron irregularidades importantes.",
+           "{fragment}. La distribución llamó más la atención que cualquier amenaza.",
+           "{fragment}. Pasé más tiempo analizando los patrones que el paisaje.",
+           "{fragment}. Todo parecía ocupar el lugar correcto.",
+           "{fragment}. Las imperfecciones eran pocas. Inusualmente pocas.",
+           "{fragment}. Logré ignorar casi todas las asimetrías.",
+           "{fragment}. Había una lógica agradable en la disposición de las formas.",
+           "{fragment}. Consideré reorganizar algunas partes.",
+           "{fragment}. Registré mentalmente cada irregularidad.",
+           "{fragment}. Nada estaba perfectamente alineado. Casi nada.",
+           "{fragment}. El lugar parecía entender la importancia de la orden."
+         ],
+         "ru": [
+           "{fragment}. Макет был приемлемым.",
+           "{fragment}. Наконец-то что-то с узнаваемым узором.",
+           "{fragment}. Я все пересчитал дважды, чтобы подтвердить.",
+           "{fragment}. Симметрия была почти удовлетворительной.",
+           "{fragment}. Некоторые детали нуждались в исправлении.",
+           "{fragment}. Я держал глаза на выравниваниях.",
+           "{fragment}. Было достаточно порядка, чтобы продолжить.",
+           "{fragment}. Странно организован. Мне это понравилось.",
+           "{fragment}. Я проверил пропорции перед продвижением.",
+           "{fragment}. Не найдено серьезных нарушений.",
+           "{fragment}. Распределение привлекло больше внимания, чем любая угроза.",
+           "{fragment}. Я провел больше времени, анализируя узоры, чем пейзаж.",
+           "{fragment}. Все казалось занимать правильное место.",
+           "{fragment}. Недостатки были редки. Необычно мало.",
+           "{fragment}. Мне удалось игнорировать почти все асимметрии.",
+           "{fragment}. В расположении форм была приятная логика.",
+           "{fragment}. Я подумал о том, чтобы переставить некоторые части.",
+           "{fragment}. Я мысленно записал каждое нарушение.",
+           "{fragment}. Ничто не было идеально выровнено. Почти ничто.",
+           "{fragment}. Место казалось понимающим важность порядка."
+         ],
+          "zh": [
+            "{fragment}。布局是可以接受的。",
+            "{fragment}。终于有了一个可识别的模式。",
+            "{fragment}。我数了两遍以确认。",
+            "{fragment}。对称几乎令人满意。",
+            "{fragment}。一些细节需要修正。",
+            "{fragment}。我把目光放在对齐上。",
+            "{fragment}。有足够的秩序可以继续。",
+            "{fragment}。奇怪地组织。我喜欢那样。",
+            "{fragment}。我在前进之前检查了比例。",
+            "{fragment}。没有发现重大不规则。",
+            "{fragment}。分布比任何威胁都更引人注目。",
+            "{fragment}。我花了更多时间分析模式而不是风景。",
+            "{fragment}。一切似乎都占据了正确的位置。",
+            "{fragment}。瑕疵很少。不寻常地少。",
+            "{fragment}。我设法忽略了几乎所有的不对称。",
+            "{fragment}。形状的排列有一种令人愉快的逻辑。",
+            "{fragment}。我考虑重新安排一些部分。",
+            "{fragment}。我在心里记录了每一个不规则之处。",
+            "{fragment}。没有什么是完全对齐的。几乎没有什么是完全对齐的。",
+            "{fragment}。这个地方似乎理解秩序的重要性。"
+            ],
+            "ja": [
+              "{fragment}. レイアウトは許容範囲でした。",
+              "{fragment}. ついに認識可能なパターンがありました。",
+              "{fragment}. 確認のためにすべてを2回数えました。",
+              "{fragment}. 対称性はほぼ満足のいくものでした。",
+              "{fragment}. 一部の詳細は修正が必要でした。",
+              "{fragment}. 配列に目を向けていました。",
+              "{fragment}. 続行するのに十分な秩序がありました。",
+              "{fragment}. 奇妙に整理されていました。それが好きでした。",
+              "{fragment}. 進む前に比率を確認しました。",
+              "{fragment}. 大きな不規則は見つかりませんでした。",
+              "{fragment}. 分布はどんな脅威よりも注目を集めました。",
+              "{fragment}. 景色よりもパターンを分析するのに多くの時間を費やしました。",
+              "{fragment}. すべてが正しい場所を占めているようでした。",
+              "{fragment}. 不完全な点は少なかったです。異常に少なかったです。",
+              "{fragment}. ほとんどすべての非対称を無視することができました。",
+              "{fragment}. 形の配置には心地よい論理がありました。",
+              "{fragment}. 一部を再配置することを検討しました。",
+              "{fragment}. 心の中であらゆる不規則を記録しました。",
+              "{fragment}. 完全に整列しているものはありませんでした。ほとんど完全に整列しているものはありませんでした。",
+              "{fragment}. その場所は秩序の重要性を理解しているようでした。"
+             ]
+      },
+      "feeling": {
+        "pt": [
+          "Senti um arrepio ao perceber {fragment}.",
+          "{fragment}. Tive dificuldade em ignorar isso.",
+          "{fragment}. Minha atenção ficou presa nisso imediatamente.",
+          "Não gostei de sentir {fragment}.",
+          "{fragment}. Continuei avançando, mas registrei o problema.",
+          "{fragment}. Algo ali parecia errado.",
+          "Parei por um instante ao notar {fragment}.",
+          "{fragment}. Demorei mais do que deveria analisando aquilo.",
+          "{fragment}. Isso permaneceu na minha mente durante todo o percurso.",
+          "Senti desconforto ao perceber {fragment}.",
+          "{fragment}. Foi impossível não prestar atenção.",
+          "{fragment}. Mantive a calma, mas não gostei da sensação.",
+          "Minha concentração foi desviada por {fragment}.",
+          "{fragment}. Passei algum tempo tentando entender aquilo.",
+          "{fragment}. Considerei várias explicações antes de seguir.",
+          "Havia algo perturbador em {fragment}.",
+          "{fragment}. Aquilo parecia exigir uma resposta.",
+          "Senti necessidade de corrigir alguma coisa ao notar {fragment}.",
+          "{fragment}. Quanto mais observava, menos gostava.",
+          "{fragment}. Permanecer ali tornou-se estranhamente desconfortável.",
+          "{fragment}. Contei minha respiração até seis antes de continuar.",
+          "{fragment}. Tive vontade de encontrar a origem daquilo.",
+          "{fragment}. O local parecia girar ao redor dessa sensação.",
+          "{fragment}. Ignorei o incômodo e mantive o ritmo.",
+          "{fragment}. Algo dentro de mim insistia para não ignorar isso."
+        ],
+        "en": [
+          "I felt a chill upon noticing {fragment}.",
+          "{fragment}. I had trouble ignoring it.",
+          "{fragment}. My attention was immediately caught by it.",
+          "I didn't like feeling {fragment}.",
+          "{fragment}. I kept moving forward but noted the issue.",
+          "{fragment}. Something about it felt wrong.",
+          "I paused for a moment upon noticing {fragment}.",
+          "{fragment}. I spent more time analyzing that than I should have.",
+          "{fragment}. It stayed on my mind throughout the whole path.",
+          "I felt uneasy upon noticing {fragment}.",
+          "{fragment}. It was impossible not to pay attention.",
+          "{fragment}. I kept calm but didn't like the feeling.",
+          "My focus was diverted by {fragment}.",
+          "{fragment}. I spent some time trying to understand that.",
+          "{fragment}. I considered several explanations before proceeding.",
+          "There was something unsettling about {fragment}.",
+          "{fragment}. That seemed to demand a response.",
+          "I felt the need to correct something upon noticing {fragment}.",
+          "{fragment}. The more I observed, the less I liked it.",
+          "{fragment}. Staying there became strangely uncomfortable.",
+          "{fragment}. I counted my breath up to six before continuing.",
+          "{fragment}. I had the urge to find the source of that.",
+          "{fragment}. The place seemed to revolve around that feeling.",
+          "{fragment}. I ignored the discomfort and kept the pace.",
+          "{fragment}. Something inside me insisted on not ignoring that."
+         ],
+         "es": [
+           "Sentí un escalofrío al notar {fragment}.",
+           "{fragment}. Tuve problemas para ignorarlo.",
+           "{fragment}. Mi atención fue inmediatamente captada por eso.",
+           "No me gustó sentir {fragment}.",
+           "{fragment}. Seguí adelante pero anoté el problema.",
+           "{fragment}. Algo sobre eso se sentía mal.",
+           "Me detuve por un momento al notar {fragment}.",
+           "{fragment}. Pasé más tiempo analizando eso de lo que debería haber pasado.",
+           "{fragment}. Se quedó en mi mente durante todo el camino.",
+           "Me sentí incómodo al notar {fragment}.",
+           "{fragment}. Fue imposible no prestar atención a eso.",
+           "{fragment}. Me mantuve calmado pero no me gustó la sensación.",
+           "Mi enfoque fue desviado por {fragment}.",
+           "{fragment}. Pasé algún tiempo tratando de entender eso.",
+           "{fragment}. Consideré varias explicaciones antes de continuar.",
+            "Había algo inquietante sobre {fragment}.",
+            "{fragment}. Eso parecía exigir una respuesta.",
+            "Sentí la necesidad de corregir algo al notar {fragment}.",
+            "{fragment}. Cuanto más observaba, menos me gustaba.",
+            "{fragment}. Quedarse allí se volvió extrañamente incómodo.",
+            "{fragment}. Conté mi respiración hasta seis antes de continuar.",
+            "{fragment}. Tuve la urgencia de encontrar la fuente de eso.",
+            "{fragment}. El lugar parecía girar alrededor de esa sensación.",
+            "{fragment}. Ignoré la incomodidad y mantuve el ritmo.",
+            "{fragment}. Algo dentro de mí insistía en no ignorar eso."
+         ],
+          "ru": [
+            "Я почувствовал холод при заметив {fragment}.",
+            "{fragment}. Мне было трудно игнорировать это.",
+            "{fragment}. Мое внимание сразу же было привлечено к этому.",
+            "Мне не понравилось ощущать {fragment}.",
+            "{fragment}. Я продолжал двигаться вперед, но отметил проблему.",
+            "{fragment}. Что-то в этом казалось неправильным.",
+            "Я на мгновение замолк, заметив {fragment}.",
+            "{fragment}. Я потратил больше времени на анализ этого, чем должен был.",
+            "{fragment}. Это оставалось в моей голове на протяжении всего пути.",
+            "Я почувствовал беспокойство при заметив {fragment}.",
+            "{fragment}. Было невозможно не обращать на это внимания.",
+            "{fragment}. Я сохранял спокойствие, но мне не нравилось это чувство.",
+            "Мое внимание было отвлечено {fragment}.",
+            "{fragment}. Я потратил некоторое время, пытаясь понять это.",
+            "{fragment}. Я рассмотрел несколько объяснений, прежде чем продолжить.",
+             "В этом было что-то тревожное {fragment}.",
+             "{fragment}. Это казалось требующим ответа.",
+             "Я почувствовал необходимость исправить что-то при заметив {fragment}.",
+             "{fragment}. Чем больше я наблюдал, тем меньше мне это нравилось.",
+             "{fragment}. Оставаться там стало странно неудобно.",
+             "{fragment}. Я сосчитал свое дыхание до шести, прежде чем продолжить.",
+             "{fragment}. У меня было желание найти источник этого.",
+             "{fragment}. Место казалось вращающимся вокруг этого чувства.",
+             "{fragment}. Я проигнорировал дискомфорт и сохранил темп."
+          ],
+          "zh": [
+            "当注意到{fragment}时，我感到一阵寒意。",
+            "{fragment}。我很难忽视它。",
+            "{fragment}。我的注意力立即被它吸引了。",
+            "我不喜欢感觉{fragment}。",
+            "{fragment}。我继续前进，但注意到了这个问题。",
+            "{fragment}。关于它的某些东西感觉不对劲。",
+            "当注意到{fragment}时，我停了一会儿。",
+            "{fragment}。我花了比应该更多的时间分析那个。",
+            "{fragment}。它在我的脑海中停留了整个路径。",
+            "{fragment}。当注意到{fragment}时，我感到不安。",
+            "{fragment}。不可能不注意它。",
+            "{fragment}。我保持冷静，但不喜欢这种感觉。",
+            "我的注意力被{fragment}分散了。",
+            "{fragment}。我花了一些时间试图理解那个。",
+            "{fragment}。我在继续之前考虑了几种解释。",
+            "{fragment}。关于{fragment}有些令人不安。",
+            "{fragment}。那似乎需要一个回应。",
+            "当注意到{fragment}时，我感到需要纠正一些东西。",
+            "{fragment}。我观察得越多，就越不喜欢它。",
+            "{fragment}。停留在那里变得奇怪地不舒服。",
+            "{fragment}。我数了六次呼吸才继续。",
+            "{fragment}。我有冲动去找到那个的来源。",
+            "{fragment}。这个地方似乎围绕着那种感觉旋转。",
+            "{fragment}。我忽略了不适感，保持了节奏。"
+          ],
+          "ja": [
+            "{fragment}. 気づいたとき、私は寒気を感じました。",
+            "{fragment}. それを無視するのに苦労しました。",
+            "{fragment}. 私の注意はすぐにそれに引き付けられました。",
+            "{fragment}. {fragment}を感じるのは好きではありませんでした。",
+            "{fragment}. 前進し続けましたが、問題を記録しました。",
+            "{fragment}. それについて何かが間違っているように感じました。",
+            "{fragment}. {fragment}に気づいて一瞬立ち止まりました。",
+            "{fragment}. それを分析するのに必要以上の時間を費やしました。",
+            "{fragment}. それは私の心に全体の道を通して残りました。",
+            "{fragment}. {fragment}に気づいて不安を感じました。",
+            "{fragment}. それに注意を払わないことは不可能でした。",
+            "{fragment}. 落ち着いていましたが、その感覚は好きではありませんでした。",
+            "私の焦点は{fragment}によってそらされました。",
+            "{fragment}. それを理解しようとするのに少し時間を費やしました。",
+            "{fragment}. 続行する前にいくつかの説明を考慮しました。",
+             "{fragment}について何か不安なことがありました。",
+             "{fragment}. それは反応を要求しているようでした。",
+             "{fragment}に気づいて何かを修正する必要性を感じました。",
+             "{fragment}. 観察すればするほど、それが好きではなくなりました。",
+             "{fragment}. そこにいることは奇妙に不快になりました。",
+             "{fragment}. 続行する前に呼吸を6回数えました。",
+             "{fragment}. それの源を見つけたいという衝動がありました。",
+             "{fragment}. その場所はその感覚の周りを回っているようでした。",
+             "{fragment}. 不快感を無視してペースを保ちました。"
+           ]
+      },
+      "details": {
+        "pt": [
+          "Fiquei incomodada ao notar {fragment}.",
+          "Tive vontade de reorganizar {fragment}.",
+          "Contei cada parte de {fragment}.",
+          "Procurei padrões em {fragment}.",
+          "Passei tempo demais analisando {fragment}."
+        ],
+        "en": [
+          "I felt uneasy upon noticing {fragment}.",
+          "I had the urge to rearrange {fragment}.",
+          "I counted every part of {fragment}.",
+          "I looked for patterns in {fragment}.",
+          "I spent too much time analyzing {fragment}."
+         ],
+         "es": [
+           "Me sentí incómodo al notar {fragment}.",
+           "Tuve la urgencia de reorganizar {fragment}.",
+           "Conté cada parte de {fragment}.",
+           "Busqué patrones en {fragment}.",
+           "Pasé demasiado tiempo analizando {fragment}."
+         ],
+          "ru": [
+            "Я почувствовал беспокойство при заметив {fragment}.",
+            "У меня было желание переставить {fragment}.",
+            "Я посчитал каждую часть {fragment}.",
+            "Я искал шаблоны в {fragment}.",
+            "Я потратил слишком много времени на анализ {fragment}."
+          ],
+          "zh": [
+            "当注意到{fragment}时，我感到不安。",
+            "我有重新安排{fragment}的冲动。",
+            "我数了{fragment}的每个部分。",
+            "我在{fragment}中寻找模式。",
+            "我花了太多时间分析{fragment}。"
+          ],
+          "ja": [
+            "{fragment}に気づいて不安を感じました。",
+            "{fragment}を再配置したいという衝動がありました。",
+            "{fragment}のすべての部分を数えました。",
+            "{fragment}のパターンを探しました。",
+            "{fragment}を分析するのに時間をかけすぎました。"
+           ]
+      },
+      "history": {
+        "pt": [
+          "Tentei encontrar lógica em {fragment}.",
+          "Procurei algum padrão por trás de {fragment}.",
+          "Quis entender como chegaram a {fragment}.",
+          "As marcas do passado ainda eram visíveis em {fragment}.",
+          "Consegui imaginar a ordem que existia antes de {fragment}."
+        ],
+        "en": [
+          "I tried to find logic in {fragment}.",
+          "I looked for some pattern behind {fragment}.",
+          "I wanted to understand how they got to {fragment}.",
+          "The marks of the past were still visible in {fragment}.",
+          "I could imagine the order that existed before {fragment}."
+         ],
+         "es": [
+           "Intenté encontrar lógica en {fragment}.",
+           "Busqué algún patrón detrás de {fragment}.",
+           "Quería entender cómo llegaron a {fragment}.",
+           "Las marcas del pasado aún eran visibles en {fragment}.",
+           "Podía imaginar el orden que existía antes de {fragment}."
+         ],
+          "ru": [
+            "Я пытался найти логику в {fragment}.",
+            "Я искал какой-то шаблон за {fragment}.",
+            "Я хотел понять, как они пришли к {fragment}.",
+            "Следы прошлого все еще были видны в {fragment}.",
+            "Я мог представить порядок, который существовал до {fragment}."
+          ],
+          "zh": [
+            "我试图在{fragment}中找到逻辑。",
+            "我在{fragment}背后寻找一些模式。",
+            "我想了解他们是如何得到{fragment}的。",
+            "{fragment}中仍然可以看到过去的痕迹。",
+            "我可以想象在{fragment}之前存在的秩序。"
+          ],
+          "ja": [
+            "{fragment}に論理を見つけようとしました。",
+            "{fragment}の背後に何らかのパターンを探しました。",
+            "{fragment}にたどり着く方法を理解したいと思いました。",
+            "{fragment}には過去の痕跡がまだ見えていました。",
+            "{fragment}の前に存在していた秩序を想像することができました。"
+           ]
+      }
+    },
+    
+    "enemy": {
+      "details":{
+      "pt": [
+        "Vi {fragment} e meus dedos formigaram; a assimetria ali era um insulto.",
+        "Foi {fragment} que entregou o que aquela criatura era: um rascunho de monstro, sem qualquer padrão.",
+        "Meus olhos foram direto para {fragment}; planejei os seis golpes necessários para corrigir aquela falha.",
+        "Não gostei do que vi em {fragment}. É impossível trabalhar com algo tão desorganizado.",
+        "Percebi {fragment} antes mesmo da luta começar e já sabia exatamente onde o meu corte final precisava cair."
+      ],
+      "en": [
+        "I saw {fragment} and my fingers tingled; the asymmetry there was an insult.",
+        "It was {fragment} that revealed what that creature was: a draft of a monster, without any pattern.",
+        "My eyes went straight to {fragment}; I planned the six strikes needed to correct that flaw.",
+        "I didn't like what I saw in {fragment}. It's impossible to work with something so disorganized.",
+        "I noticed {fragment} even before the fight started and already knew exactly where my final cut needed to fall."
+       ],
+       "es": [
+         "Vi {fragment} y mis dedos se hormiguearon; la asimetría allí era un insulto.",
+         "Fue {fragment} lo que reveló lo que esa criatura era: un borrador de un monstruo, sin ningún patrón.",
+         "Mis ojos fueron directamente a {fragment}; planeé los seis golpes necesarios para corregir esa falla.",
+         "No me gustó lo que vi en {fragment}. Es imposible trabajar con algo tan desorganizado.",
+         "Noté {fragment} incluso antes de que comenzara la pelea y ya sabía exactamente dónde necesitaba caer mi corte final."
+       ],
+        "ru": [
+          "Я увидел {fragment}, и мои пальцы зачесались; асимметрия там была оскорблением.",
+          "Это было {fragment}, что раскрыла, что это существо было: черновиком монстра, без какого-либо шаблона.",
+          "Мои глаза сразу же обратились к {fragment}; я спланировал шесть ударов, необходимых для исправления этого недостатка.",
+          "Мне не понравилось то, что я увидел в {fragment}. Невозможно работать с чем-то таким неорганизованным.",
+          "Я заметил {fragment} даже до того, как началась битва, и уже знал точно, где должен упасть мой последний удар."
+        ],
+        "zh": [
+          "我看到{fragment}，我的手指发麻；那里不对称是一个侮辱。",
+          "{fragment}揭示了那只生物是什么：一个怪物的草图，没有任何模式。",
+          "我的眼睛直接看向{fragment}；我计划了纠正那个缺陷所需的六次打击。",
+          "我不喜欢在{fragment}中看到的东西。无法与如此混乱的东西合作。",
+          "我甚至在战斗开始之前就注意到了{fragment}，并且已经确切地知道我的最后一击需要落在哪里。"
+        ],
+        "ja": [
+          "{fragment}を見て、私の指はうずきました。そこにある非対称は侮辱でした。",
+          "{fragment}は、その生き物が何であるかを明らかにしました：パターンのないモンスターのドラフトでした。",
+          "私の目はまっすぐ{fragment}に行きました。私はその欠陥を修正するために必要な6回の攻撃を計画しました。",
+          "{fragment}で見たものが好きではありませんでした。そんなに混乱したものと一緒に仕事をすることは不可能です。",
+          "戦いが始まる前に{fragment}に気づいて、すでに私の最後のカットがどこに落ちる必要があるかを正確に知っていました。"
+         ]
+    },
+    "attack":{
+      "pt": [
+        "Neutralizei {fragment} com uma Postura simétrica impecável.",
+        "Respondi a {fragment} mantendo uma Guarda ritmada.",
+        "Suportei {fragment} com absoluta Resistência metódica.",
+        "Encaixei {fragment} no meu Compasso de batalha.",
+        "Minha Pele disciplinada absorveu {fragment} sem hesitação.",
+        "Mantive o Foco compulsivo para desviar de {fragment}.",
+        "A Precisão defensiva tornou {fragment} inútil.",
+        "Ergui uma Barreira de padrão contra {fragment}.",
+        "O Ritmo inabalável desfez a ameaça de {fragment}.",
+        "Resisti a {fragment} com Estabilidade brutal."
+      ],
+      "en": [
+        "I neutralized {fragment} with an impeccable Symmetrical Stance.",
+        "I responded to {fragment} by maintaining a Rhythmic Guard.",
+        "I endured {fragment} with absolute Methodical Resistance.",
+        "I fit {fragment} into my Battle Tempo.",
+        "My disciplined Skin absorbed {fragment} without hesitation.",
+        "I kept the Compulsive Focus to dodge {fragment}.",
+        "The Defensive Precision made {fragment} useless.",
+        "I raised a Pattern Barrier against {fragment}.",
+        "The Unwavering Rhythm undid the threat of {fragment}.",
+        "I resisted {fragment} with brutal Stability."
+       ],
+       "es": [
+         "Neutralicé {fragment} con una Postura Simétrica impecable.",
+         "Respondí a {fragment} manteniendo una Guardia Rítmica.",
+         "Soporté {fragment} con una Resistencia Metódica absoluta.",
+         "Encaixé {fragment} en mi Compás de batalla.",
+         "Mi Piel disciplinada absorbió {fragment} sin dudarlo.",
+         "Mantuvé el Enfoque compulsivo para esquivar {fragment}.",
+         "La Precisión defensiva hizo que {fragment} fuera inútil.",
+         "Levanté una Barrera de patrón contra {fragment}.",
+         "El Ritmo inquebrantable deshizo la amenaza de {fragment}.",
+         "Resistí a {fragment} con Estabilidad brutal."
+       ],
+        "ru": [
+          "Я нейтрализовал {fragment} с безупречной Симметричной Стойкой.",
+          "Я ответил на {fragment}, поддерживая Ритмическую Охрану.",
+          "Я выдержал {fragment} с абсолютной Методической Сопротивляемостью.",
+          "Я вписал {fragment} в мой Боевой Темп.",
+          "Моя дисциплинированная Кожа поглотила {fragment} без колебаний.",
+          "Я сохранял Компульсивный Фокус, чтобы уклониться от {fragment}.",
+          "Защитная Точность сделала {fragment} бесполезным.",
+          "Я поднял Барьер Шаблона против {fragment}.",
+          "Непоколебимый Ритм отменил угрозу от {fragment}.",
+          "Я сопротивлялся {fragment} с жестокой Стабильностью."
+        ],
+        "zh": [
+          "我用无可挑剔的对称姿态中和了{fragment}。",
+          "我通过保持有节奏的防守来回应{fragment}。",
+          "我以绝对有条不紊的抵抗忍受了{fragment}。",
+          "我将{fragment}融入了我的战斗节奏。",
+          "我纪律严明的皮肤毫不犹豫地吸收了{fragment}。",
+          "我保持强迫性的专注来躲避{fragment}。",
+          "防御精度使{fragment}变得无用。",
+          "我举起了一个模式屏障来对抗{fragment}。",
+          "坚定不移的节奏解除了{fragment}的威胁。",
+          "我以残酷的稳定性抵抗了{fragment}。"
+         ],
+         "ja": [
+           "{fragment}を完璧な対称の構えで無効化しました。",
+           "{fragment}にリズミカルなガードを維持して対応しました。",
+           "{fragment}を絶対的な方法論的抵抗で耐えました。",
+           "{fragment}を私の戦闘テンポに合わせました。",
+           "私の規律ある肌はためらうことなく{fragment}を吸収しました。",
+           "{fragment}を回避するために強迫的な集中力を保ちました。",
+           "防御の精度が{fragment}を無用にしました。",
+           "{fragment}に対してパターンバリアを上げました。",
+           "揺るぎないリズムが{fragment}の脅威を解消しました。",
+           "{fragment}に残酷な安定性で抵抗しました。"
+          ]
     }
   }
+  },
+  "failure": {
+      "solo": {
+        "pt": [
+          "A falha em antecipar {enemy_attack} quebrou minha contagem; a assimetria do dano foi um insulto ao meu ritmo.",
+          "Errei o cálculo contra {enemy} em {place}; a execução do meu movimento foi imprecisa e desonrou a simetria.",
+          "Permiti que {enemy_attack} interrompesse minha sequência; precisei de tempo para reajustar meu foco após esse erro técnico."
+        ],
+        "en": [
+          "Failing to anticipate {enemy_attack} broke my count; the asymmetry of the damage was an insult to my rhythm.",
+          "I miscalculated against {enemy} in {place}; the execution of my move was imprecise and dishonored the symmetry.",
+          "I allowed {enemy_attack} to interrupt my sequence; I needed time to readjust my focus after that technical error."
+         ],
+         "es": [
+           "Fallar en anticipar {enemy_attack} rompió mi conteo; la asimetría del daño fue un insulto a mi ritmo.",
+           "Calculé mal contra {enemy} en {place}; la ejecución de mi movimiento fue imprecisa y deshonró la simetría.",
+           "Permití que {enemy_attack} interrumpiera mi secuencia; necesitaba tiempo para reajustar mi enfoque después de ese error técnico."
+         ],
+          "ru": [
+            "Не сумев предвидеть {enemy_attack}, я нарушил свой счет; асимметрия урона была оскорблением для моего ритма.",
+            "Я неправильно рассчитал против {enemy} в {place}; выполнение моего движения было неточным и оскорбило симметрию.",
+            "Я позволил {enemy_attack} прервать мою последовательность; мне нужно было время, чтобы перенастроить свое внимание после этой технической ошибки."
+          ],
+          "zh": [
+            "未能预见{enemy_attack}打破了我的计数；伤害的不对称是对我的节奏的侮辱。",
+            "我在{place}对{enemy}计算错误；我的动作执行不准确，玷污了对称。",
+            "我允许{enemy_attack}打断了我的序列；在那次技术错误之后，我需要时间重新调整我的注意力。"
+          ],
+          "ja": [
+            "{enemy_attack}を予測できなかったため、カウントが崩れました。ダメージの非対称性は私のリズムへの侮辱でした。",
+            "{place}で{enemy}に対して計算を誤りました。私の動きの実行は不正確で、対称性を汚しました。",
+            "{enemy_attack}が私のシーケンスを中断することを許しました。その技術的なエラーの後、焦点を再調整するための時間が必要でした。"
+           ]
+      },
+      "group": {
+        "pt": [
+          "A forma desordenada como {enemy} se moveu em {place} impediu que eu completasse minha sequência de seis golpes.",
+          "O padrão de {enemy_attack} foi um caos deliberado que contornou minha guarda, impossibilitando a execução da simetria.",
+          "A natureza irregular de {enemy} em {place} arruinou o ritmo do combate; foi impossível manter a precisão diante de tanta desordem."
+        ],
+        "en": [
+          "The disorderly way {enemy} moved in {place} prevented me from completing my sequence of six strikes.",
+          "{enemy_attack}'s pattern was a deliberate chaos that bypassed my guard, making the execution of symmetry impossible.",
+          "{enemy}'s irregular nature in {place} ruined the rhythm of the fight; it was impossible to maintain precision in the face of such disorder."
+         ],
+         "es": [
+           "La forma desordenada en que {enemy} se movió en {place} me impidió completar mi secuencia de seis golpes.",
+           "El patrón de {enemy_attack} fue un caos deliberado que evitó mi guardia, haciendo imposible la ejecución de la simetría.",
+           "La naturaleza irregular de {enemy} en {place} arruinó el ritmo de la pelea; fue imposible mantener la precisión frente a tal desorden."
+         ],
+          "ru": [
+            "Беспорядочный способ, которым {enemy} двигался в {place}, помешал мне завершить мою последовательность из шести ударов.",
+            "Шаблон {enemy_attack} был преднамеренным хаосом, который обошел мою защиту, делая выполнение симметрии невозможным.",
+            "Нерегулярная природа {enemy} в {place} испортила ритм боя; было невозможно поддерживать точность перед лицом такого беспорядка."
+          ],
+          "zh": [
+            "{enemy}在{place}中混乱的移动方式阻止了我完成六次打击的序列。",
+            "{enemy_attack}的模式是一个故意的混乱，绕过了我的防守，使得执行对称变得不可能。",
+            "{enemy}在{place}的不规则性质破坏了战斗的节奏；面对如此混乱，保持精确是不可能的。"
+          ],
+          "ja": [
+            "{enemy}が{place}で動く無秩序な方法は、私が6回の攻撃のシーケンスを完了するのを妨げました。",
+            "{enemy_attack}のパターンは、私のガードを回避する意図的な混乱であり、対称性の実行を不可能にしました。",
+            "{enemy}の{place}での不規則な性質は、戦いのリズムを台無しにしました。そのような混乱の中で精度を維持することは不可能でした。"
+           ]
+      }
+    }
+}
 }

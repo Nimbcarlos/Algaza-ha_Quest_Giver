@@ -98,7 +98,7 @@ class MusicManager:
             elif name == 'default' and os.path.exists(self.music_folder):
                 self.playlists[name] = self._load_from_folder(self.music_folder)
         
-        print(f"[MusicManager] Playlists carregadas: {list(self.playlists.keys())}")
+        # print(f"[MusicManager] Playlists carregadas: {list(self.playlists.keys())}")
     
     def _load_from_folder(self, folder):
         """Carrega músicas de uma pasta específica."""
@@ -187,7 +187,7 @@ class MusicManager:
             if not self.is_muted:
                 self.current_sound.play()
                 track_name = os.path.basename(music_path).replace("_", " ").rsplit('.', 1)[0]
-                print(f"[MusicManager] ♪ {track_name}")
+                # print(f"[MusicManager] ♪ {track_name}")
                 
                 # Descomente para ativar notificação visual
                 # Clock.schedule_once(lambda dt: MusicNotification(track_name), 0)
@@ -207,7 +207,7 @@ class MusicManager:
     
     def stop(self):
         """Para a música completamente."""
-        print("[MusicManager] Parando música")
+        # print("[MusicManager] Parando música")
         
         if self.current_sound:
             self._manual_stop = True
@@ -223,13 +223,13 @@ class MusicManager:
         if self.current_sound and self.is_playing:
             self.current_sound.stop()
             self.is_playing = False
-            print("[MusicManager] Música pausada")
+            # print("[MusicManager] Música pausada")
     
     def resume(self):
         """Retoma a música se estava pausada."""
         if not self.is_playing and self.current_playlist:
             self.play(self.current_playlist)
-            print("[MusicManager] Música retomada")
+            # print("[MusicManager] Música retomada")
     
     def set_volume(self, volume):
         """
@@ -241,7 +241,7 @@ class MusicManager:
         self.volume = max(0.0, min(1.0, volume))
         if self.current_sound and not self.is_muted:
             self.current_sound.volume = self.volume
-        print(f"[MusicManager] Volume: {self.volume * 100:.0f}%")
+        # print(f"[MusicManager] Volume: {self.volume * 100:.0f}%")
     
     def toggle_mute(self):
         """Liga/desliga o mute."""

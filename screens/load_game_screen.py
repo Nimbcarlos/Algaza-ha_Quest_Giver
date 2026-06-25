@@ -220,9 +220,18 @@ class LoadGameScreen(Screen):
 
     def load_save(self, filename):
         """Carrega o save e entra no gameplay"""
-        qm = self.manager.quest_manager
-        if save.load_game(qm, filename):
-            print(f"✅ {self.lm.t('save_loaded_success')}: {filename}")
+        gameplay = self.manager.get_screen("gameplay")
+        
+        # Garante que as instâncias existam antes de carregar os dados nelas
+        from core.quest_manager import QuestManager
+        gameplay.quest_manager = QuestManager()
+        gameplay.hero_manager = gameplay.quest_manager.hero_manager
+
+        # carrega o save no qm do gameplay
+        if save.load_state(gameplay.quest_manager, filename):
+            # print(f"✅ {self.lm.t('save_loaded_success')}: {filename}")
+            # sinaliza que veio de um load (on_enter do gameplay usa isso)
+            gameplay.coming_from_load = True
             self.manager.current = "gameplay"
         else:
             print(f"⚠️ {self.lm.t('save_loaded_error')}: {filename}")

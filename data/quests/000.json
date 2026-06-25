@@ -10,7 +10,7 @@
   "type": "fight",
   "max_heroes": 2,
   "expired_at": 3,
-  "available_from_turn": 1,
+  "available_from_turn": 9999999999999999,
   "duration": 1,
   "difficulty": 6,
   "rewards": {
@@ -26,6 +26,11 @@
       "pt": "a floresta",
       "en": "the forest",
       "es": "el bosque"
+    },
+    "sub_location": {
+      "pt": "clareira",
+      "en": "the clearing",
+      "es": "la claraira"
     },
     "enemy": {
       "pt": "o urso",

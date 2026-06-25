@@ -49,7 +49,7 @@ class SteamManager:
             return False
 
         except Exception as e:
-            print(f"[SteamManager] ❌ Erro ao desbloquear achievement: {e}")
+        #    print(f"[SteamManager] ❌ Erro ao desbloquear achievement: {e}")
             import traceback
             traceback.print_exc()
             return False
@@ -63,7 +63,7 @@ class SteamManager:
             return False
 
         try:
-            print(f"[SteamManager] 🔄 Atualizando stat: {stat_name} = {value}")
+        #    print(f"[SteamManager] 🔄 Atualizando stat: {stat_name} = {value}")
             
             # ✅ CORRIGIDO: Usa Users.SetStatInt (que você adicionou no steamworks.py)
             result = self.steam.Users.SetStatInt(self.steam, stat_name, value)
@@ -87,10 +87,10 @@ class SteamManager:
         try:
             # ✅ CORRIGIDO: Usa Users.GetStatInt
             value = self.steam.Users.GetStatInt(self.steam, stat_name)
-            print(f"[SteamManager] 📊 GetStatInt({stat_name}) = {value}")
+        #    print(f"[SteamManager] 📊 GetStatInt({stat_name}) = {value}")
             return value
         except Exception as e:
-            print(f"[SteamManager] ⚠️  Erro ao ler stat {stat_name}: {e}")
+        #    print(f"[SteamManager] ⚠️  Erro ao ler stat {stat_name}: {e}")
             return 0
 
     # ════════════════════════════════════════════════════════════════
@@ -111,18 +111,18 @@ class SteamManager:
         """Finaliza o Steam."""
         if self.is_initialized and self.steam:
             try:
-                print("[SteamManager] 🔄 Finalizando Steam...")
+            #    print("[SteamManager] 🔄 Finalizando Steam...")
                 self.steam.shutdown()
-                print("[SteamManager] ✅ Steam finalizado")
+            #    print("[SteamManager] ✅ Steam finalizado")
             except Exception as e:
-                print(f"[SteamManager] ⚠️  Erro ao finalizar: {e}")
+               print(f"[SteamManager] ⚠️  Erro ao finalizar: {e}")
 
     # ════════════════════════════════════════════════════════════════
     # INTEGRAÇÃO COM O JOGO
     # ════════════════════════════════════════════════════════════════
     def on_quest_resolved(self, quest, heroes, result):
         """Callback quando quest é resolvida."""
-        print(f"\n[SteamManager] 📋 Quest {quest.id} resolvida: {result}")
+    #    print(f"\n[SteamManager] 📋 Quest {quest.id} resolvida: {result}")
         
         # ──────────────────────────────────────────────────────────
         # ATUALIZA STATS
@@ -130,10 +130,10 @@ class SteamManager:
         if result == "success":
             # Pega stat atual e incrementa
             total = self.get_stat(Stats.QUESTS_COMPLETED) + 1
-            print("mais um quest", total)
+
             self.set_stat(Stats.QUESTS_COMPLETED, total)
             
-            print(f"[SteamManager] 📊 Total de quests completas: {total}")
+        #    print(f"[SteamManager] 📊 Total de quests completas: {total}")
             
             # ──────────────────────────────────────────────────────
             # ACHIEVEMENTS DE CONTAGEM
@@ -176,7 +176,7 @@ class SteamManager:
     # ════════════════════════════════════════════════════════════════
     def _check_hidden_events(self, quest, heroes, result):
         """Verifica achievements secretos."""
-        if quest.id == 999:
+        if quest.id == 9999999999:
             for hero in heroes:
                 if hero.id == "1":
                     self.unlock_achievement("QUEST_999_WITH_HERO_1")
@@ -261,28 +261,28 @@ class Stats:
 # ════════════════════════════════════════════════════════════════
 
 if __name__ == "__main__":
-    print("Testando SteamManager...")
+#    print("Testando SteamManager...")
     
     steam = get_steam_manager()
     
     if steam.is_initialized:
-        print("\n✅ Steam OK! Testando...")
+    #    print("\n✅ Steam OK! Testando...")
         
         # Testa stat
-        print("\n1. Testando stats:")
+    #    print("\n1. Testando stats:")
         steam.set_stat(Stats.QUESTS_COMPLETED, 1)
         value = steam.get_stat(Stats.QUESTS_COMPLETED)
-        print(f"   Stat lida: {value}")
+    #    print(f"   Stat lida: {value}")
         
         # Testa achievement
-        print("\n2. Testando achievement:")
+    #    print("\n2. Testando achievement:")
         steam.unlock_achievement(Achievements.FIRST_QUEST)
         
         steam.shutdown()
     else:
-        print("\n❌ Steam não inicializado")
-        print("Verifique:")
-        print("  1. Steam está rodando?")
-        print("  2. steam_appid.txt existe?")
-        print("  3. steam_api64.dll está na pasta?")
+       print("\n❌ Steam não inicializado")
+    #    print("Verifique:")
+    #    print("  1. Steam está rodando?")
+    #    print("  2. steam_appid.txt existe?")
+    #    print("  3. steam_api64.dll está na pasta?")
        

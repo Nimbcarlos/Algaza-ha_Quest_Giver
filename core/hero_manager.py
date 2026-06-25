@@ -17,10 +17,6 @@ class HeroManager:
                 self.unlocked_heroes.add(hero.id)
 
     def check_hero_unlocks(self, completed_quests: set[int], current_turn: int):
-        """
-        Atualiza desbloqueios e remoções de heróis baseado nas quests completadas
-        e no turno atual.
-        """
         for hero in self.all_heroes:
             # --- Remoção: se completou uma quest que faz o herói ir embora ---
             if any(q in completed_quests for q in hero.leave_on_quest):
@@ -43,6 +39,12 @@ class HeroManager:
         return [
             h for h in self.all_heroes
             if h.id in self.unlocked_heroes and h.status == "idle"
+        ]
+
+    def get_all_available_heroes(self) -> list[Hero]:
+        """Retorna os heróis desbloqueados e disponíveis (status = idle)."""
+        return [
+            h for h in self.all_heroes if h.id in self.unlocked_heroes
         ]
 
     def is_hero_unlocked(self, hero_id: int) -> bool:

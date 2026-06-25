@@ -281,6 +281,7 @@ class SettingsScreen(Screen):
     def set_language(self, instance, lang):
         self.config["language"] = lang
         self.lm.set_language(lang)
+
         self.save_config()
 
         # 🔤 Atualiza a fonte global (acessa o app principal)
@@ -332,6 +333,8 @@ class SettingsScreen(Screen):
 
     def go_back(self, *args):
         if self.previous_screen == "gameplay":
+            gameplay = self.manager.get_screen("gameplay")
+            gameplay.coming_from_settings = True    # ← faltava isso
             music = get_music_manager()
             if music.is_muted:
                 music.toggle_mute()

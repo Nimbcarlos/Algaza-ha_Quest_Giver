@@ -38,16 +38,11 @@
   "unlock_by_quest": [],
   "available_from_turn": 1,
   "leave_on_quest": [],
-  "growth_curve": {
-    "1": { "strength": 2, "dexterity": 1, "intelligence": 1, "wisdom": 2 },
-    "2": { "strength": 2, "dexterity": 1, "intelligence": 1, "wisdom": 2 },
-    "3": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 3 },
-    "4": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 3 },
-    "5": { "strength": 4, "dexterity": 1, "intelligence": 1, "wisdom": 4 },
-    "6": { "strength": 4, "dexterity": 2, "intelligence": 2, "wisdom": 4 },
-    "7": { "strength": 5, "dexterity": 2, "intelligence": 2, "wisdom": 5 },
-    "8": { "strength": 5, "dexterity": 2, "intelligence": 2, "wisdom": 5 },
-    "9": { "strength": 6, "dexterity": 2, "intelligence": 2, "wisdom": 6 },
-    "10": { "strength": 6, "dexterity": 2, "intelligence": 2, "wisdom": 6 }
+  "growth_rules": {
+      "base": { "strength": 2, "dexterity": 1, "intelligence": 1, "wisdom": 2 },
+      "schedules": [
+          { "attrs": ["strength", "wisdom"],        "every": 2, "offset": 1 },
+          { "attrs": ["dexterity", "intelligence"], "every": 4, "offset": 3 }
+      ]
   }
 }

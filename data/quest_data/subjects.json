@@ -16,39 +16,28 @@
     "pt": {
       "gender": "m",
       "number": "plural",
-      "text": "slimes",
-      "with_em": "nos",
-      "with_de": "dos",
-      "with_a": "aos",
-      "with_o": "os",
-      "with_um": "uns"
+      "text": "slimes"
     },
     "es": {
       "gender": "m",
       "number": "plural",
-      "text": "slimes",
-      "article_definite": "los",
-      "article_indefinite": "unos"
+      "text": "slimes"
     },
     "en": {
       "number": "plural",
-      "text": "slimes",
-      "article_indefinite": ""
+      "text": "slimes"
     },
     "zh": {
       "number": "plural",
-      "text": "史莱姆",
-      "article_indefinite": ""
+      "text": "史莱姆"
     },
     "ja": {
       "number": "plural",
-      "text": "スライム",
-      "article_indefinite": ""
+      "text": "スライム"
     },
     "ru": {
       "number": "plural",
-      "text": "слизни",
-      "article_indefinite": ""
+      "text": "слизни"
     },
     "context": {
       "details": [

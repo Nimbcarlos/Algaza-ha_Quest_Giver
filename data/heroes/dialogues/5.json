@@ -50,150 +50,150 @@
       "arrived": {
         "alone": {
           "pt": [
-            "Eu tentava tanto e chegava tão longe, mas ao pisar d{location}, sentia que nada disso importava.",
-            "Minha visão ficava nublada enquanto eu caminhava d{location}; o que eu sentia era real ou apenas falta de ar?",
-            "Eu olhava para o céu d{location} e sentia que era o meu último recurso, minha última esperança de saída.",
-            "Eu me perdia d{location}, mas dessa vez não queria ser encontrada por ninguém.",
-            "O chão d{location} parecia pronto para me engolir enquanto eu gritava por dentro, sem que ninguém ouvisse.",
-            "Eu contava os passos d{location}, esperando que o tempo não me fizesse esquecer por que comecei isso.",
-            "Eu atravessava os portões d{location} sentindo que a vida era apenas uma lição que eu ainda não aprendi.",
-            "Meus olhos buscavam algo real d{location}, mas tudo parecia apenas um show barato de marionetes.",
-            "Eu caminhava d{location} sentindo o peso de mil mentiras que contei para mim mesma sobre o destino.",
-            "O silêncio d{location} era tão alto que eu quase conseguia ouvir o som da minha própria desilusão."
+            "Eu tentava tanto e chegava tão longe, mas ao pisar {da_place}, sentia que nada disso importava.",
+            "Minha visão ficava nublada enquanto eu caminhava {na_place}; o que eu sentia era real ou apenas falta de ar?",
+            "Eu olhava para o céu {da_place} e sentia que era o meu último recurso, minha última esperança de saída.",
+            "Eu me perdia {na_place}, mas dessa vez não queria ser encontrada por ninguém.",
+            "O chão {da_place} parecia pronto para me engolir enquanto eu gritava por dentro, sem que ninguém ouvisse.",
+            "Eu contava os passos {da_place}, esperando que o tempo não me fizesse esquecer por que comecei isso.",
+            "Eu atravessava os portões {da_place} sentindo que a vida era apenas uma lição que eu ainda não aprendi.",
+            "Meus olhos buscavam algo real {na_place}, mas tudo parecia apenas um show barato de marionetes.",
+            "Eu caminhava {na_place} sentindo o peso de mil mentiras que contei para mim mesma sobre o destino.",
+            "O silêncio {da_place} era tão alto que eu quase conseguia ouvir o som da minha própria desilusão."
           ],
           "es": [
-            "Intentaba tanto y llegaba tan lejos, pero al pisar d{location}, sentía que nada de eso importaba.",
-            "Mi visión se nublaba mientras caminaba d{location}; lo que sentía, ¿era real o solo falta de aire?",
-            "Miraba el cielo d{location} y sentía que era mi último recurso, mi última esperanza de escape.",
-            "Me perdía d{location}, pero esta vez no quería ser encontrado por nadie.",
-            "El suelo d{location} parecía listo para tragarme mientras gritaba por dentro, sin que nadie escuchara.",
-            "Contaba los pasos d{location}, esperando que el tiempo no me hiciera olvidar por qué empecé esto.",
-            "Atravesaba las puertas d{location} sintiendo que la vida era solo una lección que aún no había aprendido.",
-            "Mis ojos buscaban algo real d{location}, pero todo parecía solo un espectáculo barato de marionetas.",
-            "Caminaba d{location} sintiendo el peso de mil mentiras que me conté a mí misma sobre el destino.",
-            "El silencio d{location} era tan alto que casi podía escuchar el sonido de mi propia desilusión."
+            "Intentaba tanto y llegaba tan lejos, pero al pisar {da_place}, sentía que nada de eso importaba.",
+            "Mi visión se nublaba mientras caminaba {na_place}; lo que sentía, ¿era real o solo falta de aire?",
+            "Miraba el cielo {da_place} y sentía que era mi último recurso, mi última esperanza de escape.",
+            "Me perdía {na_place}, pero esta vez no quería ser encontrado por nadie.",
+            "El suelo {da_place} parecía listo para tragarme mientras gritaba por dentro, sin que nadie escuchara.",
+            "Contaba los pasos {da_place}, esperando que el tiempo no me hiciera olvidar por qué empecé esto.",
+            "Atravesaba las puertas {da_place} sintiendo que la vida era solo una lección que aún no había aprendido.",
+            "Mis ojos buscaban algo real {na_place}, pero todo parecía solo un espectáculo barato de marionetas.",
+            "Caminaba {na_place} sintiendo el peso de mil mentiras que me conté a mí misma sobre el destino.",
+            "El silencio {da_place} era tan alto que casi podía escuchar el sonido de mi propia desilusión."
           ],
           "ru": [
-            "Я так старался и так далеко зашел, но когда ступил d{location}, почувствовал, что все это не имеет значения.",
-            "Мое зрение затуманивалось, когда я шел d{location}; то, что я чувствовал, было реальным или просто нехваткой воздуха?",
-            "Я смотрел на небо d{location} и чувствовал, что это мое последнее средство, моя последняя надежда на побег.",
-            "Я терялся d{location}, но на этот раз не хотел, чтобы меня кто-то нашел.",
-            "Земля d{location} казалась готовой проглотить меня, пока я кричал внутри, и никто не слышал.",
-            "Я считал шаги d{location}, надеясь, что время не заставит меня забыть, почему я начал это.",
-            "Я проходил через ворота d{location}, чувствуя, что жизнь - это всего лишь урок, который я еще не выучил.",
-            "Мои глаза искали что-то реальное d{location}, но все казалось дешевым кукольным шоу.",
-            "Я шел d{location}, чувствуя тяжесть тысячи лжи, которые я рассказал себе о судьбе.",
-            "Тишина d{location} была настолько громкой, что я почти мог услышать звук своего собственного разочарования."
+            "Я так старался и так далеко зашел, но когда ступил {place}, почувствовал, что все это не имеет значения.",
+            "Мое зрение затуманивалось, когда я шел {place}; то, что я чувствовал, было реальным или просто нехваткой воздуха?",
+            "Я смотрел на небо {place} и чувствовал, что это мое последнее средство, моя последняя надежда на побег.",
+            "Я терялся {place}, но на этот раз не хотел, чтобы меня кто-то нашел.",
+            "Земля {place} казалась готовой проглотить меня, пока я кричал внутри, и никто не слышал.",
+            "Я считал шаги {place}, надеясь, что время не заставит меня забыть, почему я начал это.",
+            "Я проходил через ворота {place}, чувствуя, что жизнь - это всего лишь урок, который я еще не выучил.",
+            "Мои глаза искали что-то реальное {place}, но все казалось дешевым кукольным шоу.",
+            "Я шел {place}, чувствуя тяжесть тысячи лжи, которые я рассказал себе о судьбе.",
+            "Тишина {place} была настолько громкой, что я почти мог услышать звук своего собственного разочарования."
           ],
           "zh": [
-            "我努力了那么多，走了那么远，但当我踏上d{location}时，感觉这一切都毫无意义。",
-            "当我走在d{location}时，我的视线变得模糊；我感觉到的是真实的还是只是缺氧？",
-            "我看着d{location}的天空，感觉那是我最后的希望。",
-            "我在d{location}迷失了，但这次我不想被任何人找到。",
-            "当我在d{location}内心呐喊时，地面似乎准备吞噬我，但没有人听到。",
-            "我数着在d{location}的步伐，希望时间不会让我忘记为什么开始这一切。",
-            "我穿过d{location}的门，感觉生活只是一个我还没有学会的课程。",
-            "我的眼睛在d{location}寻找一些真实的东西，但一切似乎只是一个廉价的木偶表演。",
-            "我在d{location}行走，感觉到自己对命运撒了千百个谎言的重负。",
-            "d{location}的寂静如此之大，我几乎能听到自己失望的声音。"
+            "我努力了那么多，走了那么远，但当我踏上{place}时，感觉这一切都毫无意义。",
+            "当我走在{place}时，我的视线变得模糊；我感觉到的是真实的还是只是缺氧？",
+            "我看着{place}的天空，感觉那是我最后的希望。",
+            "我在{place}迷失了，但这次我不想被任何人找到。",
+            "当我在{place}内心呐喊时，地面似乎准备吞噬我，但没有人听到。",
+            "我数着在{place}的步伐，希望时间不会让我忘记为什么开始这一切。",
+            "我穿过{place}的门，感觉生活只是一个我还没有学会的课程。",
+            "我的眼睛在{place}寻找一些真实的东西，但一切似乎只是一个廉价的木偶表演。",
+            "我在{place}行走，感觉到自己对命运撒了千百个谎言的重负。",
+            "{place}的寂静如此之大，我几乎能听到自己失望的声音。"
           ],
           "ja": [
-            "私はとても努力して、ここまで来たのに、d{location}に足を踏み入れたとき、すべてが無意味に感じました。",
-            "d{location}を歩いていると視界がぼやけました。私が感じていることは現実なのか、それともただの息切れなのか？",
-            "d{location}の空を見上げると、それがあなたの最後の希望だった。",
-            "d{location}で迷子になりましたが、今回は誰にも見つけられたくありませんでした。",
-            "d{location}の地面は私を飲み込む準備ができているようでしたが、誰も私の内なる叫びを聞いていませんでした。",
-            "d{location}の歩数を数えていました。時間が経って、なぜこれを始めたのか忘れないことを願って。",
-            "d{location}の門をくぐると、人生はまだ学んないレッスンに過ぎないと感じました。",
-            "d{location}で何か本物のものを探していましたが、すべてが安っぽいマリオネットショーのように見えました。",
-            "d{location}を歩いていると、運命について自分に言い聞かせた千の嘘の重さを感じました。",
-            "d{location}の静けさはとても大きくて、自分の失望の音が聞こえるほどでした。"
+            "私はとても努力して、ここまで来たのに、{place}に足を踏み入れたとき、すべてが無意味に感じました。",
+            "{place}を歩いていると視界がぼやけました。私が感じていることは現実なのか、それともただの息切れなのか？",
+            "{place}の空を見上げると、それがあなたの最後の希望だった。",
+            "{place}で迷子になりましたが、今回は誰にも見つけられたくありませんでした。",
+            "{place}の地面は私を飲み込む準備ができているようでしたが、誰も私の内なる叫びを聞いていませんでした。",
+            "{place}の歩数を数えていました。時間が経って、なぜこれを始めたのか忘れないことを願って。",
+            "{place}の門をくぐると、人生はまだ学んないレッスンに過ぎないと感じました。",
+            "{place}で何か本物のものを探していましたが、すべてが安っぽいマリオネットショーのように見えました。",
+            "{place}を歩いていると、運命について自分に言い聞かせた千の嘘の重さを感じました。",
+            "{place}の静けさはとても大きくて、自分の失望の音が聞こえるほどでした。"
           ],
           "en": [
-            "I tried so hard and got so far, but when I stepped on d{location}, I felt that none of it mattered.",
-            "My vision blurred as I walked d{location}; what I felt, was it real or just lack of air?",
-            "I looked at the sky d{location} and felt it was my last resort, my last hope for escape.",
-            "I got lost d{location}, but this time I didn't want to be found by anyone.",
-            "The ground d{location} seemed ready to swallow me as I screamed inside, with no one hearing.",
-            "I counted the steps d{location}, hoping that time wouldn't make me forget why I started this.",
-            "I crossed the gates d{location} feeling that life was just a lesson I haven't learned yet.",
-            "My eyes searched for something real d{location}, but everything seemed just a cheap puppet show.",
-            "I walked d{location} feeling the weight of a thousand lies I told myself about fate.",
-            "The silence d{location} was so loud that I could almost hear the sound of my own disappointment."
+            "I tried so hard and got so far, but when I stepped on {place}, I felt that none of it mattered.",
+            "My vision blurred as I walked {place}; what I felt, was it real or just lack of air?",
+            "I looked at the sky {place} and felt it was my last resort, my last hope for escape.",
+            "I got lost {place}, but this time I didn't want to be found by anyone.",
+            "The ground {place} seemed ready to swallow me as I screamed inside, with no one hearing.",
+            "I counted the steps {place}, hoping that time wouldn't make me forget why I started this.",
+            "I crossed the gates {place} feeling that life was just a lesson I haven't learned yet.",
+            "My eyes searched for something real {place}, but everything seemed just a cheap puppet show.",
+            "I walked {place} feeling the weight of a thousand lies I told myself about fate.",
+            "The silence {place} was so loud that I could almost hear the sound of my own disappointment."
           ]
         },
         "group": {
           "pt": [
-            "Nós avançávamos d{location} como se estivéssemos esperando que o céu simplesmente desabasse sobre nós.",
-            "Eu olhava para o grupo entrando d{location} e via apenas um bando de animais em uma gaiola prestes a quebrar.",
-            "Nós caminhávamos d{location} e eu me perguntava: por que tudo tem que acabar em gritos e poeira?",
-            "O ritmo dos nossos passos d{location} parecia uma contagem regressiva para o fim de algo que mal começou.",
-            "Nós nos movíamos d{location} como se estivéssemos sufocando em um mundo que não nos pertence mais.",
-            "Eu observava o grupo d{location} e sentia que estávamos todos apenas esperando o nosso tempo acabar.",
-            "Nós entrávamos d{location} e eu via a toxicidade no ar, a mesma que corrói nossas cidades e almas.",
-            "Ninguém falava, mas a tensão d{location} era como uma corda de piano prestes a estourar no pescoço de todos.",
-            "Nós cruzávamos d{location} e eu sentia que, no fundo, todos ali estavam apenas procurando um lugar para cair.",
-            "O grupo se espalhava d{location} enquanto eu dedilhava um hino para aqueles que nunca serão compreendidos."
+            "Nós avançávamos {na_place} como se estivéssemos esperando que o céu simplesmente desabasse sobre nós.",
+            "Eu olhava para o grupo entrando {na_place} e via apenas um bando de animais em uma gaiola prestes a quebrar.",
+            "Nós caminhávamos {na_place} e eu me perguntava: por que tudo tem que acabar em gritos e poeira?",
+            "O ritmo dos nossos passos {na_place} parecia uma contagem regressiva para o fim de algo que mal começou.",
+            "Nós nos movíamos {na_place} como se estivéssemos sufocando em um mundo que não nos pertence mais.",
+            "Eu observava o grupo {na_place} e sentia que estávamos todos apenas esperando o nosso tempo acabar.",
+            "Nós entrávamos {na_place} e eu via a toxicidade no ar, a mesma que corrói nossas cidades e almas.",
+            "Ninguém falava, mas a tensão {da_place} era como uma corda de piano prestes a estourar no pescoço de todos.",
+            "Nós cruzávamos {a_place} e eu sentia que, no fundo, todos ali estavam apenas procurando um lugar para cair.",
+            "O grupo se espalhava {na_place} enquanto eu dedilhava um hino para aqueles que nunca serão compreendidos."
           ],
           "es": [
-            "Avanzábamos d{location} como si estuviéramos esperando que el cielo simplemente se derrumbara sobre nosotros.",
-            "Miraba al grupo entrando d{location} y solo veía un montón de animales en una jaula a punto de romperse.",
-            "Caminábamos d{location} y me preguntaba: ¿por qué todo tiene que terminar en gritos y polvo?",
-            "El ritmo de nuestros pasos d{location} parecía una cuenta regresiva para el fin de algo que apenas comenzó.",
-            "Nos movíamos d{location} como si estuviéramos asfixiándonos en un mundo que ya no nos pertenece.",
-            "Observaba al grupo d{location} y sentía que todos estábamos solo esperando a que nuestro tiempo se acabara.",
-            "Entrábamos d{location} y veía la toxicidad en el aire, la misma que corroe nuestras ciudades y almas.",
-            "Nadie hablaba, pero la tensión d{location} era como una cuerda de piano a punto de estallar en el cuello de todos.",
-            "Cruzábamos d{location} y sentía que, en el fondo, todos allí estaban solo buscando un lugar para caer.",
-            "El grupo se esparcía d{location} mientras yo tocaba un himno para aquellos que nunca serán comprendidos."
+            "Avanzábamos {na_place} como si estuviéramos esperando que el cielo simplemente se derrumbara sobre nosotros.",
+            "Miraba al grupo entrando {na_place} y solo veía un montón de animales en una jaula a punto de romperse.",
+            "Caminábamos {na_place} y me preguntaba: ¿por qué todo tiene que terminar en gritos y polvo?",
+            "El ritmo de nuestros pasos {na_place} parecía una cuenta regresiva para el fin de algo que apenas comenzó.",
+            "Nos movíamos {na_place} como si estuviéramos asfixiándonos en un mundo que ya no nos pertenece.",
+            "Observaba al grupo {na_place} y sentía que todos estábamos solo esperando a que nuestro tiempo se acabara.",
+            "Entrábamos {na_place} y veía la toxicidad en el aire, la misma que corroe nuestras ciudades y almas.",
+            "Nadie hablaba, pero la tensión {da_place} era como una cuerda de piano a punto de estallar en el cuello de todos.",
+            "Cruzábamos {a_place} y sentía que, en el fondo, todos allí estaban solo buscando un lugar para caer.",
+            "El grupo se esparcía {na_place} mientras yo tocaba un himno para aquellos que nunca serán comprendidos."
           ],
           "ru": [
-            "Мы продвигались d{location}, как будто ждали, что небо просто рухнет на нас.",
-            "Я смотрел на группу, входящую d{location}, и видел только стаю животных в клетке, готовой сломаться.",
-            "Мы шли d{location}, и я задавался вопросом: почему все должно закончиться криками и пылью?",
-            "Ритм наших шагов d{location} казался обратным отсчетом до конца чего-то, что едва началось.",
-            "Мы двигались d{location}, как будто задыхались в мире, который больше не принадлежит нам.",
-            "Я наблюдал за группой d{location} и чувствовал, что все мы просто ждем, когда наше время закончится.",
-            "Мы входили d{location} и я видел токсичность в воздухе, ту же, которая разъедает наши города и души.",
-            "Никто не говорил, но напряжение d{location} было как струна пианино, готовая лопнуть на шее всех.",
-            "Мы пересекали d{location} и я чувствовал, что в глубине души все там просто ищут место для падения.",
-            "Группа рассеивалась d{location}, пока я играл гимн для тех, кто никогда не будет понят."
+            "Мы продвигались {place}, как будто ждали, что небо просто рухнет на нас.",
+            "Я смотрел на группу, входящую {place}, и видел только стаю животных в клетке, готовой сломаться.",
+            "Мы шли {place}, и я задавался вопросом: почему все должно закончиться криками и пылью?",
+            "Ритм наших шагов {place} казался обратным отсчетом до конца чего-то, что едва началось.",
+            "Мы двигались {place}, как будто задыхались в мире, который больше не принадлежит нам.",
+            "Я наблюдал за группой {place} и чувствовал, что все мы просто ждем, когда наше время закончится.",
+            "Мы входили {place} и я видел токсичность в воздухе, ту же, которая разъедает наши города и души.",
+            "Никто не говорил, но напряжение {place} было как струна пианино, готовая лопнуть на шее всех.",
+            "Мы пересекали {place} и я чувствовал, что в глубине души все там просто ищут место для падения.",
+            "Группа рассеивалась {place}, пока я играл гимн для тех, кто никогда не будет понят."
           ],
           "zh": [
-            "我们在d{location}前进，就好像我们在等待天空直接崩塌在我们身上一样。",
-            "我看着进入d{location}的队伍，只看到一群即将破碎的笼子里的动物。",
-            "我们在d{location}行走，我想知道：为什么一切都必须以尖叫和尘埃结束？",
-            "我们在d{location}的步伐节奏似乎是某种倒计时，预示着某些刚开始就要结束了。",
-            "我们在d{location}移动，就好像我们正在一个不再属于我们的世界里窒息一样。",
-            "我观察着d{location}的队伍，感觉我们都只是在等待我们的时间结束。",
-            "我们进入d{location}，我看到空气中的毒性，那同样腐蚀着我们的城市和灵魂。",
-            "没有人说话，但d{location}的紧张气氛就像一根钢琴弦，准备在所有人的脖子上爆炸。",
-            "我们穿过d{location}，我感觉到，在内心深处，那里所有人都只是寻找一个可以倒下的地方。",
-            "队伍在d{location}散开，而我为那些永远不会被理解的人弹奏了一首赞美诗。"
+            "我们在{place}前进，就好像我们在等待天空直接崩塌在我们身上一样。",
+            "我看着进入{place}的队伍，只看到一群即将破碎的笼子里的动物。",
+            "我们在{place}行走，我想知道：为什么一切都必须以尖叫和尘埃结束？",
+            "我们在{place}的步伐节奏似乎是某种倒计时，预示着某些刚开始就要结束了。",
+            "我们在{place}移动，就好像我们正在一个不再属于我们的世界里窒息一样。",
+            "我观察着{place}的队伍，感觉我们都只是在等待我们的时间结束。",
+            "我们进入{place}，我看到空气中的毒性，那同样腐蚀着我们的城市和灵魂。",
+            "没有人说话，但{place}的紧张气氛就像一根钢琴弦，准备在所有人的脖子上爆炸。",
+            "我们穿过{place}，我感觉到，在内心深处，那里所有人都只是寻找一个可以倒下的地方。",
+            "队伍在{place}散开，而我为那些永远不会被理解的人弹奏了一首赞美诗。"
           ],
           "ja": [
-            "私たちはd{location}を進んでいましたが、まるで空が私たちの上に崩れ落ちるのを待っているかのようでした。",
-            "d{location}に入るグループを見ていましたが、壊れそうな檻の中の動物の群れしか見えませんでした。",
-            "私たちはd{location}を歩いていましたが、なぜすべてが叫び声と埃で終わらなければならないのか疑問に思っていました。",
-            "d{location}での私たちの歩みのリズムは、何かが始まったばかりなのに終わるまでのカウントダウンのようでした。",
-            "私たちはd{location}を移動していましたが、まるでもはや私たちのものではない世界で窒息しているかのようでした。",
-            "私はd{location}のグループを観察していましたが、私たち全員がただ自分たちの時間が終わるのを待っているだけだと感じていました。",
-            "私たちはd{location}に入りましたが、空気中の毒性を見ました。それは私たちの都市や魂を蝕む同じものでした。",
-            "誰も話しませんでしたが、d{location}の緊張感は、すべての人の首に爆発する準備ができたピアノの弦のようでした。",
-            "私たちはd{location}を横切りましたが、内心では、そこにいるすべての人がただ倒れる場所を探しているだけだと感じていました。",
-            "グループはd{location}で散らばりましたが、私は理解されない人のために賛美歌を弾いていました。"
+            "私たちは{place}を進んでいましたが、まるで空が私たちの上に崩れ落ちるのを待っているかのようでした。",
+            "{place}に入るグループを見ていましたが、壊れそうな檻の中の動物の群れしか見えませんでした。",
+            "私たちは{place}を歩いていましたが、なぜすべてが叫び声と埃で終わらなければならないのか疑問に思っていました。",
+            "{place}での私たちの歩みのリズムは、何かが始まったばかりなのに終わるまでのカウントダウンのようでした。",
+            "私たちは{place}を移動していましたが、まるでもはや私たちのものではない世界で窒息しているかのようでした。",
+            "私は{place}のグループを観察していましたが、私たち全員がただ自分たちの時間が終わるのを待っているだけだと感じていました。",
+            "私たちは{place}に入りましたが、空気中の毒性を見ました。それは私たちの都市や魂を蝕む同じものでした。",
+            "誰も話しませんでしたが、{place}の緊張感は、すべての人の首に爆発する準備ができたピアノの弦のようでした。",
+            "私たちは{place}を横切りましたが、内心では、そこにいるすべての人がただ倒れる場所を探しているだけだと感じていました。",
+            "グループは{place}で散らばりましたが、私は理解されない人のために賛美歌を弾いていました。"
           ],
           "en": [
-            "We were advancing d{location} as if we were waiting for the sky to just collapse on us.",
-            "I looked at the group entering d{location} and only saw a bunch of animals in a cage about to break.",
-            "We were walking d{location} and I wondered: why does everything have to end in screams and dust?",
-            "The rhythm of our steps d{location} felt like a countdown to the end of something that barely started.",
-            "We were moving d{location} as if we were suffocating in a world that no longer belongs to us.",
-            "I observed the group d{location} and felt that we were all just waiting for our time to run out.",
-            "We entered d{location} and I saw the toxicity in the air, the same that corrodes our cities and souls.",
-            "No one spoke but the tension d{location} was like a piano string about to snap on everyone's neck.",
-            "We crossed d{location} and I felt that, deep down, everyone there was just looking for a place to fall.",
-            "The group spread out d{location} while I strummed a hymn for those who will never be understood."
+            "We were advancing {place} as if we were waiting for the sky to just collapse on us.",
+            "I looked at the group entering {place} and only saw a bunch of animals in a cage about to break.",
+            "We were walking {place} and I wondered: why does everything have to end in screams and dust?",
+            "The rhythm of our steps {place} felt like a countdown to the end of something that barely started.",
+            "We were moving {place} as if we were suffocating in a world that no longer belongs to us.",
+            "I observed the group {place} and felt that we were all just waiting for our time to run out.",
+            "We entered {place} and I saw the toxicity in the air, the same that corrodes our cities and souls.",
+            "No one spoke but the tension {place} was like a piano string about to snap on everyone's neck.",
+            "We crossed {place} and I felt that, deep down, everyone there was just looking for a place to fall.",
+            "The group spread out {place} while I strummed a hymn for those who will never be understood."
           ]
         }
       },
@@ -201,28 +201,28 @@
         "fight": {
           "alone": {
             "pt": [
-              "Eu gritava contra {enemy} e, no final, sentia que nada disso importava.",
-              "Cada nota que eu lançava n{enemy} era um passo mais perto do meu limite.",
-              "Eu me tornava o caos d{enemy}, um animal enjaulado em acordes dissonantes.",
-              "Eu cortava {enemy} com versos que eram como veneno em sua alma tóxica.",
-              "Minha melodia sufocava {enemy}, deixando-o sem lugar para se esconder.",
-              "Eu atacava {enemy} para esquecer as lições que a vida tentou me ensinar.",
-              "Minhas cordas chicoteavam {enemy}, transformando minha paranoia em poder.",
-              "Eu forçava {enemy} a ouvir o som do meu próprio pesadelo acordado.",
-              "Contra {enemy}, eu era a última esperança de um hino já esquecido.",
-              "Eu golpeava {enemy} enquanto as estrelas lá fora se recusavam a brilhar."
+              "Eu gritava contra {o_enemy} e, no final, sentia que nada disso importava.",
+              "Cada nota que eu lançava {no_enemy} era um passo mais perto do meu limite.",
+              "Eu me tornava o caos {do_enemy}, um animal enjaulado em acordes dissonantes.",
+              "Eu cortava {o_enemy} com versos que eram como veneno em sua alma tóxica.",
+              "Minha melodia sufocava {o_enemy}, deixando-o sem lugar para se esconder.",
+              "Eu atacava {o_enemy} para esquecer as lições que a vida tentou me ensinar.",
+              "Minhas cordas chicoteavam {o_enemy}, transformando minha paranoia em poder.",
+              "Eu forçava {o_enemy} a ouvir o som do meu próprio pesadelo acordado.",
+              "Contra {o_enemy}, eu era a última esperança de um hino já esquecido.",
+              "Eu golpeava {o_enemy} enquanto as estrelas lá fora se recusavam a brilhar."
             ],
             "es": [
-              "Gritaba contra {enemy} y, al final, sentía que nada de eso importaba.",
-              "Cada nota que lanzaba a {enemy} era un paso más cerca de mi límite.",
-              "Me convertía en el caos de {enemy}, un animal enjaulado en acordes disonantes.",
-              "Cortaba a {enemy} con versos que eran como veneno en su alma tóxica.",
-              "Mi melodía sofocaba a {enemy}, dejándolo sin lugar para esconderse.",
-              "Atacaba a {enemy} para olvidar las lecciones que la vida intentó enseñarme.",
-              "Mis cuerdas azotaban a {enemy}, transformando mi paranoia en poder.",
-              "Forzaba a {enemy} a escuchar el sonido de mi propia pesadilla despierta.",
+              "Gritaba contra {o_enemy} y, al final, sentía que nada de eso importaba.",
+              "Cada nota que lanzaba {o_enemy} era un paso más cerca de mi límite.",
+              "Me convertía en el caos {do_enemy}, un animal enjaulado en acordes disonantes.",
+              "Cortaba {o_enemy} con versos que eran como veneno en su alma tóxica.",
+              "Mi melodía sofocaba {o_enemy}, dejándolo sin lugar para esconderse.",
+              "Atacaba {o_enemy} para olvidar las lecciones que la vida intentó enseñarme.",
+              "Mis cuerdas azotaban {o_enemy}, transformando mi paranoia en poder.",
+              "Forzaba {o_enemy} a escuchar el sonido de mi propia pesadilla despierta.",
               "Contra {enemy}, era la última esperanza de un himno ya olvidado.",
-              "Golpeaba a {enemy} mientras las estrellas allá afuera se negaban a brillar."
+              "Golpeaba {o_enemy} mientras las estrellas allá afuera se negaban a brillar."
             ],
             "ru": [
               "Я кричал против {enemy} и, в конце концов, чувствовал, что все это не имеет значения.",
@@ -351,102 +351,102 @@
     "thievery": {
       "alone": {
         "pt": [
-          "Eu movia meus dedos com precisão contra {challenge}, sentindo que estava a um passo de quebrar algo que não teria conserto.",
-          "Eu agia nas sombras, manipulando {challenge} enquanto o som da minha própria respiração parecia um grito de alerta.",
-          "Meus movimentos eram rápidos sobre {challenge}, como se eu estivesse tentando roubar tempo de um destino que já me condenou."
+          "Eu movia meus dedos com precisão contra {subject}, sentindo que estava a um passo de quebrar algo que não teria conserto.",
+          "Eu agia nas sombras, manipulando {subject} enquanto o som da minha própria respiração parecia um grito de alerta.",
+          "Meus movimentos eram rápidos sobre {subject}, como se eu estivesse tentando roubar tempo de um destino que já me condenou."
         ],
         "es": [
-          "Movía mis dedos con precisión contra {challenge}, sintiendo que estaba a un paso de romper algo que no tendría reparación.",
-          "Actuaba en las sombras, manipulando {challenge} mientras el sonido de mi propia respiración parecía un grito de alerta.",
-          "Mis movimientos eran rápidos sobre {challenge}, como si estuviera tratando de robar tiempo de un destino que ya me condenó."
+          "Movía mis dedos con precisión contra {subject}, sintiendo que estaba a un paso de romper algo que no tendría reparación.",
+          "Actuaba en las sombras, manipulando {subject} mientras el sonido de mi propia respiración parecía un grito de alerta.",
+          "Mis movimientos eran rápidos sobre {subject}, como si estuviera tratando de robar tiempo de un destino que ya me condenó."
         ],
         "ru": [
-          "Я двигал пальцами с точностью против {challenge}, чувствуя, что я на шаг от того, чтобы сломать что-то, что не подлежит ремонту.",
-          "Я действовал в тенях, манипулируя {challenge}, в то время как звук моего собственного дыхания казался криком тревоги.",
-          "Мои движения были быстрыми над {challenge}, как будто я пытался украсть время у судьбы, которая уже меня осудила."
+          "Я двигал пальцами с точностью против {subject}, чувствуя, что я на шаг от того, чтобы сломать что-то, что не подлежит ремонту.",
+          "Я действовал в тенях, манипулируя {subject}, в то время как звук моего собственного дыхания казался криком тревоги.",
+          "Мои движения были быстрыми над {subject}, как будто я пытался украсть время у судьбы, которая уже меня осудила."
         ],
         "zh": [
-          "我以精确的动作对抗{challenge}，感觉自己正处于打破某些无法修复的东西的边缘。",
-          "我在阴影中行动，操纵着{challenge}，而我自己的呼吸声听起来像是警报的尖叫。",
-          "我的动作在{challenge}上迅速，就好像我在试图从一个已经注定要惩罚我的命运中偷取时间一样。"
+          "我以精确的动作对抗{subject}，感觉自己正处于打破某些无法修复的东西的边缘。",
+          "我在阴影中行动，操纵着{subject}，而我自己的呼吸声听起来像是警报的尖叫。",
+          "我的动作在{subject}上迅速，就好像我在试图从一个已经注定要惩罚我的命运中偷取时间一样。"
         ],
         "ja": [
-          "私は{challenge}に対して正確に指を動かし、修復できない何かを壊す一歩手前にいると感じていました。",
-          "私は影の中で行動し、{challenge}を操作していましたが、自分の呼吸の音が警告の叫びのように聞こえていました。",
-          "私の動きは{challenge}の上で速く、まるですでに私を裁いている運命から時間を盗もうとしているかのようでした。"
+          "私は{subject}に対して正確に指を動かし、修復できない何かを壊す一歩手前にいると感じていました。",
+          "私は影の中で行動し、{subject}を操作していましたが、自分の呼吸の音が警告の叫びのように聞こえていました。",
+          "私の動きは{subject}の上で速く、まるですでに私を裁いている運命から時間を盗もうとしているかのようでした。"
          ],
          "en": [
-          "I moved my fingers with precision against {challenge}, feeling like I was one step away from breaking something that wouldn't be repairable.",
-          "I acted in the shadows, manipulating {challenge} while the sound of my own breathing felt like a scream of alert.",
-          "My movements were quick over {challenge}, as if I was trying to steal time from a fate that already condemned me."
+          "I moved my fingers with precision against {subject}, feeling like I was one step away from breaking something that wouldn't be repairable.",
+          "I acted in the shadows, manipulating {subject} while the sound of my own breathing felt like a scream of alert.",
+          "My movements were quick over {subject}, as if I was trying to steal time from a fate that already condemned me."
            ]
       }
     },
     "diplomacy": {
       "alone": {
         "pt": [
-          "Eu lançava minhas palavras para desarmar {challenge}, tentando segurar o caos por mais alguns minutos antes do fim.",
-          "Minha voz saía calma diante d{challenge}, mas por dentro eu contava os segundos para que aquela paz frágil se estilhaçasse.",
-          "Eu tentava convencer os envolvidos n{challenge} usando verdades amargas, sabendo que a compreensão deles era apenas uma ilusão."
+          "Eu lançava minhas palavras para desarmar {subject}, tentando segurar o caos por mais alguns minutos antes do fim.",
+          "Minha voz saía calma diante d{subject}, mas por dentro eu contava os segundos para que aquela paz frágil se estilhaçasse.",
+          "Eu tentava convencer os envolvidos n{subject} usando verdades amargas, sabendo que a compreensão deles era apenas uma ilusão."
         ],
         "es": [
-          "Lanzaba mis palabras para desarmar {challenge}, tratando de mantener el caos a raya por unos minutos más antes del final.",
-          "Mi voz salía calmada frente a {challenge}, pero por dentro contaba los segundos para que esa frágil paz se hiciera añicos.",
-          "Intentaba convencer a los involucrados en {challenge} usando verdades amargas, sabiendo que su comprensión era solo una ilusión."
+          "Lanzaba mis palabras para desarmar {subject}, tratando de mantener el caos a raya por unos minutos más antes del final.",
+          "Mi voz salía calmada frente a {subject}, pero por dentro contaba los segundos para que esa frágil paz se hiciera añicos.",
+          "Intentaba convencer a los involucrados en {subject} usando verdades amargas, sabiendo que su comprensión era solo una ilusión."
         ],
         "ru": [
-          "Я бросал свои слова, чтобы обезоружить {challenge}, пытаясь удержать хаос на расстоянии еще несколько минут до конца.",
-          "Мой голос звучал спокойно перед {challenge}, но внутри я считал секунды, чтобы эта хрупкая мирная обстановка разбилась вдребезги.",
-          "Я пытался убедить вовлеченных в {challenge}, используя горькие истины, зная, что их понимание - это всего лишь иллюзия."
+          "Я бросал свои слова, чтобы обезоружить {subject}, пытаясь удержать хаос на расстоянии еще несколько минут до конца.",
+          "Мой голос звучал спокойно перед {subject}, но внутри я считал секунды, чтобы эта хрупкая мирная обстановка разбилась вдребезги.",
+          "Я пытался убедить вовлеченных в {subject}, используя горькие истины, зная, что их понимание - это всего лишь иллюзия."
         ],
         "zh": [
-          "我抛出我的话语来解除{challenge}的武装，试图在结束之前再保持混乱几分钟。",
-          "我的声音在{challenge}面前显得平静，但内心却在数着秒数，等待那脆弱的和平被打碎。",
-          "我试图用苦涩的真相来说服{challenge}中涉及的人，知道他们的理解只是一个幻觉。"
+          "我抛出我的话语来解除{subject}的武装，试图在结束之前再保持混乱几分钟。",
+          "我的声音在{subject}面前显得平静，但内心却在数着秒数，等待那脆弱的和平被打碎。",
+          "我试图用苦涩的真相来说服{subject}中涉及的人，知道他们的理解只是一个幻觉。"
         ],
         "ja": [
-          "私は{challenge}を無力化するために言葉を投げかけ、終わりの前にもう少し混乱を抑えようとしました。",
-          "私の声は{challenge}の前で冷静に出ましたが、内心ではその脆い平和が粉々になるまで秒数を数えていました。",
-          "私は苦い真実を使って{challenge}に関与する人々を説得しようとしましたが、彼らの理解はただの幻想だと知っていました。"
+          "私は{subject}を無力化するために言葉を投げかけ、終わりの前にもう少し混乱を抑えようとしました。",
+          "私の声は{subject}の前で冷静に出ましたが、内心ではその脆い平和が粉々になるまで秒数を数えていました。",
+          "私は苦い真実を使って{subject}に関与する人々を説得しようとしましたが、彼らの理解はただの幻想だと知っていました。"
          ],
          "en": [
-          "I threw out my words to disarm {challenge}, trying to hold the chaos at bay for a few more minutes before the end.",
-          "My voice came out calm in front of {challenge}, but inside I was counting the seconds for that fragile peace to shatter.",
-          "I tried to convince those involved in {challenge} using bitter truths, knowing that their understanding was just an illusion."
+          "I threw out my words to disarm {subject}, trying to hold the chaos at bay for a few more minutes before the end.",
+          "My voice came out calm in front of {subject}, but inside I was counting the seconds for that fragile peace to shatter.",
+          "I tried to convince those involved in {subject} using bitter truths, knowing that their understanding was just an illusion."
            ]
       }
     },
     "performance": {
       "alone": {
         "pt": [
-          "Eu deixava a música fluir para ocultar {challenge}, criando uma cortina de som para esconder a feiura do que acontecia.",
-          "Minha apresentação era um hino fúnebre para distrair {challenge}, uma nota de entretenimento em um mundo que não suporta a verdade.",
-          "Eu tocava cada nota com o peso de mil decepções, forçando todos a ignorarem {challenge} enquanto o resto desmoronava em silêncio."
+          "Eu deixava a música fluir para ocultar {subject}, criando uma cortina de som para esconder a feiura do que acontecia.",
+          "Minha apresentação era um hino fúnebre para distrair {subject}, uma nota de entretenimento em um mundo que não suporta a verdade.",
+          "Eu tocava cada nota com o peso de mil decepções, forçando todos a ignorarem {subject} enquanto o resto desmoronava em silêncio."
         ],
         "es": [
-          "Dejaba que la música fluyera para ocultar {challenge}, creando una cortina de sonido para esconder la fealdad de lo que estaba sucediendo.",
-          "Mi presentación era un himno fúnebre para distraer {challenge}, una nota de entretenimiento en un mundo que no soporta la verdad.",
-          "Tocaba cada nota con el peso de mil decepciones, obligando a todos a ignorar {challenge} mientras el resto se desmoronaba en silencio."
+          "Dejaba que la música fluyera para ocultar {subject}, creando una cortina de sonido para esconder la fealdad de lo que estaba sucediendo.",
+          "Mi presentación era un himno fúnebre para distraer {subject}, una nota de entretenimiento en un mundo que no soporta la verdad.",
+          "Tocaba cada nota con el peso de mil decepciones, obligando a todos a ignorar {subject} mientras el resto se desmoronaba en silencio."
         ],
         "ru": [
-          "Я позволял музыке течь, чтобы скрыть {challenge}, создавая звуковой занавес, чтобы скрыть уродство происходящего.",
-          "Мое выступление было траурным гимном, чтобы отвлечь {challenge}, нотой развлечения в мире, который не выдерживает правды.",
-          "Я играл каждую ноту с тяжестью тысячи разочарований, заставляя всех игнорировать {challenge}, пока остальное тихо рушилось."
+          "Я позволял музыке течь, чтобы скрыть {subject}, создавая звуковой занавес, чтобы скрыть уродство происходящего.",
+          "Мое выступление было траурным гимном, чтобы отвлечь {subject}, нотой развлечения в мире, который не выдерживает правды.",
+          "Я играл каждую ноту с тяжестью тысячи разочарований, заставляя всех игнорировать {subject}, пока остальное тихо рушилось."
         ],
         "zh": [
-          "我让音乐流动来掩盖{challenge}，创造一个声音的帷幕来隐藏正在发生的丑陋。",
-          "我的表演是一个哀悼的赞歌，用来分散{challenge}的注意力，在一个无法承受真相的世界里提供娱乐。",
-          "我以千次失望的重量演奏每个音符，迫使所有人忽视{challenge}，同时其他部分默默崩溃。"
+          "我让音乐流动来掩盖{subject}，创造一个声音的帷幕来隐藏正在发生的丑陋。",
+          "我的表演是一个哀悼的赞歌，用来分散{subject}的注意力，在一个无法承受真相的世界里提供娱乐。",
+          "我以千次失望的重量演奏每个音符，迫使所有人忽视{subject}，同时其他部分默默崩溃。"
         ],
         "ja": [
-          "私は{challenge}を隠すために音楽を流し、起こっている醜さを隠すための音のカーテンを作りました。",
-          "私のパフォーマンスは{challenge}を気晴らしするための葬送の賛歌であり、真実に耐えられない世界でのエンターテイメントの一環でした。",
-          "私は千の失望の重みで各ノートを演奏し、残りが静かに崩壊する間、すべての人が{challenge}を無視するように強いました。"
+          "私は{subject}を隠すために音楽を流し、起こっている醜さを隠すための音のカーテンを作りました。",
+          "私のパフォーマンスは{subject}を気晴らしするための葬送の賛歌であり、真実に耐えられない世界でのエンターテイメントの一環でした。",
+          "私は千の失望の重みで各ノートを演奏し、残りが静かに崩壊する間、すべての人が{subject}を無視するように強いました。"
          ],
           "en": [
-            "I let the music flow to hide {challenge}, creating a curtain of sound to hide the ugliness of what was happening.",
-            "My performance was a funeral hymn to distract {challenge}, a note of entertainment in a world that can't handle the truth.",
-            "I played each note with the weight of a thousand disappointments, forcing everyone to ignore {challenge} while the rest quietly collapsed."
+            "I let the music flow to hide {subject}, creating a curtain of sound to hide the ugliness of what was happening.",
+            "My performance was a funeral hymn to distract {subject}, a note of entertainment in a world that can't handle the truth.",
+            "I played each note with the weight of a thousand disappointments, forcing everyone to ignore {subject} while the rest quietly collapsed."
           ]
         }
       }
@@ -457,32 +457,32 @@
             "pt": [
               "A Lyra é como um hino de metal: silenciosa no começo, mas quando a luta explode, ela se torna o grito que ninguém consegue calar.",
               "Ver a Lyra lutar é entender que o silêncio dela não é paz, é apenas a calmaria antes de um desastre natural inevitável.",
-              "Eu curo as feridas da Lyra enquanto ela ruge d{location}, mas sei que por trás daquela fúria, ela ainda é a garota que não sabe como dizer 'oi'."
+              "Eu curo as feridas da Lyra enquanto ela ruge {place}, mas sei que por trás daquela fúria, ela ainda é a garota que não sabe como dizer 'oi'."
             ],
             "es": [
               "Lyra es como un himno de metal: silenciosa al principio, pero cuando la lucha estalla, se convierte en el grito que nadie puede callar.",
               "Ver a Lyra luchar es entender que su silencio no es paz, es solo la calma antes de un desastre natural inevitable.",
-              "Curo las heridas de Lyra mientras ella ruge d{location}, pero sé que detrás de esa furia, ella sigue siendo la chica que no sabe cómo decir 'hola'."
+              "Curo las heridas de Lyra mientras ella ruge {place}, pero sé que detrás de esa furia, ella sigue siendo la chica que no sabe cómo decir 'hola'."
             ],
             "ru": [
               "Лира как металлический гимн: сначала тихая, но когда борьба взрывается, она становится криком, который никто не может замолкнуть.",
               "Видеть, как Лира сражается, значит понимать, что ее молчание - это не мир, а просто затишье перед неизбежной природной катастрофой.",
-              "Я лечу раны Лиры, пока она рычит d{location}, но знаю, что за этой яростью она все еще та девушка, которая не знает, как сказать 'привет'."
+              "Я лечу раны Лиры, пока она рычит {place}, но знаю, что за этой яростью она все еще та девушка, которая не знает, как сказать 'привет'."
             ],
             "zh": [
               "Lyra就像一首金属赞美诗：开始时沉默，但当战斗爆发时，她变成了一个没人能让她闭嘴的尖叫。",
               "看到Lyra战斗就是理解她的沉默不是和平，而只是不可避免的自然灾害前的平静。",
-              "我治愈了Lyra的伤口，当她在d{location}咆哮时，但我知道在那种愤怒背后，她仍然是那个不知道如何说'嗨'的女孩。"
+              "我治愈了Lyra的伤口，当她在{place}咆哮时，但我知道在那种愤怒背后，她仍然是那个不知道如何说'嗨'的女孩。"
             ],
             "ja": [
               "Lyraはメタルの賛美歌のようです：最初は静かですが、戦いが爆発すると、誰も黙らせることができない叫びになります。",
               "Lyraが戦うのを見ることは、彼女の沈黙が平和ではなく、避けられない自然災害の前の静けさであることを理解することです。",
-              "私はLyraの傷を癒しながら、彼女がd{location}で咆哮しているのを見ていますが、その怒りの背後には、まだ「こんにちは」と言う方法を知らない女の子がいることを知っています。"
+              "私はLyraの傷を癒しながら、彼女が{place}で咆哮しているのを見ていますが、その怒りの背後には、まだ「こんにちは」と言う方法を知らない女の子がいることを知っています。"
              ],
              "en": [
               "Lyra is like a metal hymn: silent at first, but when the fight explodes, she becomes the scream that no one can silence.",
               "Seeing Lyra fight is understanding that her silence is not peace, it's just the calm before an inevitable natural disaster.",
-              "I heal Lyra's wounds while she roars d{location}, but I know that behind that fury, she's still the girl who doesn't know how to say 'hi'."
+              "I heal Lyra's wounds while she roars {place}, but I know that behind that fury, she's still the girl who doesn't know how to say 'hi'."
                ]
           }
         },
@@ -523,32 +523,32 @@
         "3": {
           "group": {
             "pt": [
-              "Maelis é como uma raiz antiga d{location}: ela aguenta o peso de tudo enquanto nós apenas tentamos não ser soprados pelo vento.",
+              "Maelis é como uma raiz antiga {place}: ela aguenta o peso de tudo enquanto nós apenas tentamos não ser soprados pelo vento.",
               "Eu sinto a dor dela através da minha música, uma agonia lenta e persistente de quem decidiu ser o escudo de um mundo que já morreu.",
               "Ela não precisa de palavras, e eu também não; nossas canções e o silêncio dela são apenas duas formas diferentes de aceitar a derrota."
             ],
             "es": [
-              "Maelis es como una raíz antigua d{location}: soporta el peso de todo mientras nosotros solo intentamos no ser soplados por el viento.",
+              "Maelis es como una raíz antigua {place}: soporta el peso de todo mientras nosotros solo intentamos no ser soplados por el viento.",
               "Siento su dolor a través de mi música, una agonía lenta y persistente de alguien que decidió ser el escudo de un mundo que ya murió.",
               "Ella no necesita palabras, y yo tampoco; nuestras canciones y su silencio son solo dos formas diferentes de aceptar la derrota."
             ],
             "ru": [
-              "Маэлис как древний корень d{location}: она выдерживает вес всего, пока мы просто пытаемся не быть сдуваемыми ветром.",
+              "Маэлис как древний корень {place}: она выдерживает вес всего, пока мы просто пытаемся не быть сдуваемыми ветром.",
               "Я чувствую ее боль через свою музыку, медленную и настойчивую агонию того, кто решил быть щитом мира, который уже умер.",
               "Ей не нужны слова, и мне тоже; наши песни и ее молчание - это просто две разные формы принятия поражения."
             ],
             "zh": [
-              "Maelis就像d{location}的一根古老的树根：她承受着一切的重量，而我们只是试图不被风吹走。",
+              "Maelis就像{place}的一根古老的树根：她承受着一切的重量，而我们只是试图不被风吹走。",
               "我通过我的音乐感受到她的痛苦，那是一种缓慢而持久的痛苦，来自于一个决定成为已经死去的世界的盾牌的人。",
               "她不需要言语，我也不需要；我们的歌曲和她的沉默只是接受失败的两种不同方式。"
             ],
             "ja": [
-              "Maelisはd{location}の古い根のようです：彼女はすべての重みを支え、私たちはただ風に吹かれないようにしています。",
+              "Maelisは{place}の古い根のようです：彼女はすべての重みを支え、私たちはただ風に吹かれないようにしています。",
               "私は彼女の痛みを音楽を通して感じます。すでに死んだ世界の盾になることを決めた人の、ゆっくりとした持続的な苦しみです。",
               "彼女は言葉を必要としませんし、私もそうです。私たちの歌と彼女の沈黙は、敗北を受け入れるための2つの異なる方法にすぎません。"
              ],
              "en": [
-              "Maelis is like an ancient root d{location}: she bears the weight of everything while we just try not to be blown away by the wind.",
+              "Maelis is like an ancient root {place}: she bears the weight of everything while we just try not to be blown away by the wind.",
               "I feel her pain through my music, a slow and persistent agony of someone who decided to be the shield of a world that already died.",
               "She doesn't need words, and neither do I; our songs and her silence are just two different ways of accepting defeat."
                ]
@@ -558,32 +558,32 @@
           "group": {
             "pt": [
               "A Saryth faz da cura um espetáculo, mas eu sei que os espíritos que ela chama estão apenas rindo da nossa tentativa de sobreviver.",
-              "Enquanto eu sussurro sobre a perda, ela grita sobre a vida. É uma rima pobre para um lugar tão desgraçado quanto d{location}.",
+              "Enquanto eu sussurro sobre a perda, ela grita sobre a vida. É uma rima pobre para um lugar tão desgraçado quanto {place}.",
               "Ela tem certeza do que faz, e isso me assusta; quem tem tanta confiança assim geralmente é o primeiro a não ver o abismo chegando."
             ],
             "es": [
               "Saryth hace de la curación un espectáculo, pero sé que los espíritus que llama solo se están riendo de nuestro intento de sobrevivir.",
-              "Mientras susurro sobre la pérdida, ella grita sobre la vida. Es una rima pobre para un lugar tan desdichado como d{location}.",
+              "Mientras susurro sobre la pérdida, ella grita sobre la vida. Es una rima pobre para un lugar tan desdichado como {place}.",
               "Ella está segura de lo que hace, y eso me asusta; quien tiene tanta confianza generalmente es el primero en no ver el abismo acercándose."
             ],
             "ru": [
               "Сарит делает из исцеления шоу, но я знаю, что духи, которых она вызывает, просто смеются над нашей попыткой выжить.",
-              "Пока я шепчу о потере, она кричит о жизни. Это плохая рифма для такого несчастного места, как d{location}.",
+              "Пока я шепчу о потере, она кричит о жизни. Это плохая рифма для такого несчастного места, как {place}.",
               "Она уверена в том, что делает, и это пугает меня; кто так уверен в себе, обычно первым не видит приближающуюся пропасть."
             ],
             "zh": [
               "Saryth把治疗变成了一场表演，但我知道她召唤的那些灵魂只是在嘲笑我们试图生存的努力。",
-              "当我低声说着失去时，她大声说着生命。这对于像d{location}这样一个不幸的地方来说是一个糟糕的押韵。",
+              "当我低声说着失去时，她大声说着生命。这对于像{place}这样一个不幸的地方来说是一个糟糕的押韵。",
               "她对自己所做的事情很有信心，这让我害怕；通常如此自信的人是第一个看不到深渊来临的人。"
             ],
             "ja": [
               "Sarythは治癒をショーにしますが、彼女が呼び出す霊は私たちの生き残りの試みをただ笑っています。",
-              "私が喪失についてささやいている間、彼女は生命について叫びます。d{location}のような不幸な場所には、これは悪い韻です。",
+              "私が喪失についてささやいている間、彼女は生命について叫びます。{place}のような不幸な場所には、これは悪い韻です。",
               "彼女は自分のやっていることに自信を持っていますが、それが私を怖がらせます。そんなに自信がある人は通常、最初に近づいてくる奈落を見ません。"
              ],
              "en": [
               "Saryth makes healing a spectacle, but I know the spirits she calls are just laughing at our attempt to survive.",
-              "While I whisper about loss, she screams about life. It's a poor rhyme for a place as wretched as d{location}.",
+              "While I whisper about loss, she screams about life. It's a poor rhyme for a place as wretched as {place}.",
               "She's sure of what she does, and that scares me; who has that much confidence is usually the first to not see the abyss coming."
                ]
           }
@@ -592,32 +592,32 @@
           "group": {
             "pt": [
               "Kaela ouve vozes que ninguém mais ouve; talvez o divino seja apenas um surto coletivo que ela decidiu levar a sério demais.",
-              "Eu tento manter o foco dela d{location} enquanto as vozes a puxam para longe; é difícil curar alguém que já está com a mente em outro plano.",
+              "Eu tento manter o foco dela {place} enquanto as vozes a puxam para longe; é difícil curar alguém que já está com a mente em outro plano.",
               "Ela acha que é um coral divino, mas para mim soa como a interferência de um rádio quebrado em uma noite de tempestade."
             ],
             "es": [
               "Kaela escucha voces que nadie más escucha; tal vez lo divino sea solo un brote colectivo que ella decidió tomar demasiado en serio.",
-              "Intento mantener su enfoque d{location} mientras las voces la alejan; es difícil curar a alguien que ya tiene la mente en otro plano.",
+              "Intento mantener su enfoque {place} mientras las voces la alejan; es difícil curar a alguien que ya tiene la mente en otro plano.",
               "Ella piensa que es un coro divino, pero para mí suena como la interferencia de una radio rota en una noche de tormenta."
             ],
             "ru": [
               "Каэла слышит голоса, которые никто другой не слышит; может быть, божественное - это просто коллективный бред, который она решила воспринимать слишком серьезно.",
-              "Я пытаюсь удержать ее внимание d{location}, пока голоса уводят ее в сторону; трудно лечить кого-то, кто уже имеет ум в другом плане.",
+              "Я пытаюсь удержать ее внимание {place}, пока голоса уводят ее в сторону; трудно лечить кого-то, кто уже имеет ум в другом плане.",
               "Она думает, что это божественный хор, но для меня это звучит как помехи от сломанного радио в штормовую ночь."
             ],
             "zh": [
               "Kaela听到别人听不到的声音；也许神圣只是一个集体的幻想，她决定过于认真地对待它。",
-              "当声音把她拉开时，我试图让她专注于d{location}；治疗一个已经把心思放在另一个平面上的人是很困难的。",
+              "当声音把她拉开时，我试图让她专注于{place}；治疗一个已经把心思放在另一个平面上的人是很困难的。",
               "她认为这是一个神圣的合唱团，但对我来说听起来像是暴风雨夜里坏掉的收音机的干扰。"
             ],
             "ja": [
               "Kaelaは誰も聞こえない声を聞いています。おそらく神聖なものは、彼女があまりにも真剣に受け止めることにした集団的な発作にすぎません。",
-              "私はd{location}で彼女の集中力を保とうとしますが、声が彼女を引き離します。すでに別の次元に心がある人を治療するのは難しいです。",
+              "私は{place}で彼女の集中力を保とうとしますが、声が彼女を引き離します。すでに別の次元に心がある人を治療するのは難しいです。",
               "彼女はそれが神聖な合唱団だと思っていますが、私には嵐の夜の壊れたラジオの干渉のように聞こえます。"
              ],
              "en": [
               "Kaela hears voices that no one else hears; maybe the divine is just a collective delusion that she decided to take too seriously.",
-              "I try to keep her focused d{location} while the voices pull her away; it's hard to heal someone who already has their mind on another plane.",
+              "I try to keep her focused {place} while the voices pull her away; it's hard to heal someone who already has their mind on another plane.",
               "She thinks it's a divine choir, but to me it sounds like the interference of a broken radio on a stormy night."
                ]
           }
@@ -625,32 +625,32 @@
         "7": {
           "group": {
             "pt": [
-              "Leona busca lógica no caos, como se pudesse programar o destino para não nos matar d{location}. Pobre garota iludida.",
+              "Leona busca lógica no caos, como se pudesse programar o destino para não nos matar {place}. Pobre garota iludida.",
               "Os relâmpagos dela são bonitos, mas a eletricidade sempre segue o caminho de menor resistência. Eu me pergunto quando ela vai desistir de nós.",
               "Eu curo os esgotamentos da Leona enquanto ela tenta decifrar o mundo; a matemática dela nunca fecha quando o assunto é dor humana."
             ],
             "es": [
-              "Leona busca lógica en el caos, como si pudiera programar el destino para que no nos mate d{location}. Pobre chica ilusa.",
+              "Leona busca lógica en el caos, como si pudiera programar el destino para que no nos mate {place}. Pobre chica ilusa.",
               "Sus relámpagos son bonitos, pero la electricidad siempre sigue el camino de menor resistencia. Me pregunto cuándo se rendirá con nosotros.",
               "Curo los agotamientos de Leona mientras ella intenta descifrar el mundo; su matemática nunca cierra cuando se trata de dolor humano."
             ],
             "ru": [
-              "Леона ищет логику в хаосе, как будто могла бы запрограммировать судьбу, чтобы она не убивала нас d{location}. Бедная наивная девушка.",
+              "Леона ищет логику в хаосе, как будто могла бы запрограммировать судьбу, чтобы она не убивала нас {place}. Бедная наивная девушка.",
               "Ее молнии красивые, но электричество всегда следует по пути наименьшего сопротивления. Я задаюсь вопросом, когда она сдастся с нами.",
               "Я лечу истощение Леоны, пока она пытается расшифровать мир; ее математика никогда не закрывается, когда речь идет о человеческой боли."
             ],
             "zh": [
-              "Leona在混乱中寻找逻辑，就好像她能编程命运让它不杀死我们d{location}一样。可怜的幻想女孩。",
+              "Leona在混乱中寻找逻辑，就好像她能编程命运让它不杀死我们{place}一样。可怜的幻想女孩。",
               "她的闪电很漂亮，但电总是沿着阻力最小的路径前进。我想知道她什么时候会放弃我们。",
               "当Leona试图解读世界时，我治愈了她的疲劳；当涉及到人类的痛苦时，她的数学永远无法成立。"
             ],
             "ja": [
-              "Leonaは混沌の中で論理を探しています。まるで運命をプログラムして、d{location}で私たちを殺さないようにできるかのようです。かわいそうな幻想的な女の子。",
+              "Leonaは混沌の中で論理を探しています。まるで運命をプログラムして、{place}で私たちを殺さないようにできるかのようです。かわいそうな幻想的な女の子。",
               "彼女の雷は美しいですが、電気は常に抵抗の少ない道をたどります。彼女がいつ私たちをあきらめるのか疑問に思います。",
               "私はLeonaの疲労を癒しながら、彼女が世界を解読しようとするのを見ています。人間の痛みに関しては、彼女の数学は決して成立しません。"
              ],
              "en": [
-              "Leona seeks logic in chaos, as if she could program fate to not kill us d{location}. Poor deluded girl.",
+              "Leona seeks logic in chaos, as if she could program fate to not kill us {place}. Poor deluded girl.",
               "Her lightning is pretty, but electricity always follows the path of least resistance. I wonder when she'll give up on us.",
               "I heal Leona's burnouts while she tries to decipher the world; her math never adds up when it comes to human pain."
                ]
@@ -661,32 +661,32 @@
             "pt": [
               "Serah diz que a dor é o único mestre honesto; se for assim, ela deve ser a pessoa mais sábia e miserável deste grupo.",
               "Eu mantenho o corpo da Serah inteiro enquanto ela o entrega de bandeja para o inimigo. É um ciclo autodestrutivo que eu conheço bem.",
-              "Ela foca na agonia d{location} para não ter que lidar com o vazio que sente quando a luta termina. Eu entendo, de verdade."
+              "Ela foca na agonia {place} para não ter que lidar com o vazio que sente quando a luta termina. Eu entendo, de verdade."
             ],
             "es": [
               "Serah dice que el dolor es el único maestro honesto; si es así, ella debe ser la persona más sabia y miserable de este grupo.",
               "Mantengo el cuerpo de Serah entero mientras ella lo entrega de bandeja para el enemigo. Es un ciclo autodestructivo que conozco bien.",
-              "Ella se enfoca en la agonía d{location} para no tener que lidiar con el vacío que siente cuando la lucha termina. Lo entiendo, de verdad."
+              "Ella se enfoca en la agonía {place} para no tener que lidiar con el vacío que siente cuando la lucha termina. Lo entiendo, de verdad."
             ],
             "ru": [
               "Серах говорит, что боль - единственный честный учитель; если это так, она должна быть самым мудрым и несчастным человеком в этой группе.",
               "Я держу тело Серах целым, пока она подает его на блюдечке врагу. Это самоуничтожающийся цикл, который я хорошо знаю.",
-              "Она сосредотачивается на агонии d{location}, чтобы не иметь дело с пустотой, которую она чувствует, когда бой заканчивается. Я понимаю, правда."
+              "Она сосредотачивается на агонии {place}, чтобы не иметь дело с пустотой, которую она чувствует, когда бой заканчивается. Я понимаю, правда."
             ],
             "zh": [
               "Serah说痛苦是唯一诚实的老师；如果是这样的话，她应该是这个团队中最聪明和最悲惨的人。",
               "当Serah把身体递给敌人时，我保持着她的身体完整。这是一个我非常熟悉的自我毁灭循环。",
-              "她专注于d{location}的痛苦，以免不得不处理当战斗结束时她感受到的空虚。我真的理解。"
+              "她专注于{place}的痛苦，以免不得不处理当战斗结束时她感受到的空虚。我真的理解。"
             ],
             "ja": [
               "Serahは痛みが唯一の正直な教師だと言います。もしそうなら、彼女はこのグループで最も賢くて悲惨な人でなければなりません。",
               "私はSerahの体を完全に保ちますが、彼女はそれを敵に提供します。これは私がよく知っている自己破壊的なサイクルです。",
-              "彼女はd{location}の苦悶に集中して、戦いが終わったときに感じる空虚に対処しないようにしています。私は本当に理解しています。"
+              "彼女は{place}の苦悶に集中して、戦いが終わったときに感じる空虚に対処しないようにしています。私は本当に理解しています。"
              ],
              "en": [
               "Serah says pain is the only honest teacher; if that's the case, she must be the wisest and most miserable person in this group.",
               "I keep Serah's body whole while she delivers it on a platter to the enemy. It's a self-destructive cycle that I know well.",
-              "She focuses on the agony d{location} to avoid having to deal with the emptiness she feels when the fight ends. I understand, truly."
+              "She focuses on the agony {place} to avoid having to deal with the emptiness she feels when the fight ends. I understand, truly."
                ]
           }
         },
@@ -695,32 +695,32 @@
             "pt": [
               "Seraphine diz que sobreviver é química. Talvez ela esteja certa e minha música seja apenas uma reação química de desespero no cérebro deles.",
               "O tom dela é seco como o deserto, mas é a única honestidade clínica que temos enquanto tudo desmorona ao nosso redor.",
-              "Eu e ela cuidamos dos feridos d{location}: ela fecha a carne com veneno e eu mantenho a mente deles longe do fim."
+              "Eu e ela cuidamos dos feridos {place}: ela fecha a carne com veneno e eu mantenho a mente deles longe do fim."
             ],
             "es": [
               "Seraphine dice que sobrevivir es química. Tal vez tenga razón y mi música sea solo una reacción química de desesperación en sus cerebros.",
               "Su tono es seco como el desierto, pero es la única honestidad clínica que tenemos mientras todo se desmorona a nuestro alrededor.",
-              "Ella y yo cuidamos a los heridos d{location}: ella cierra la carne con veneno y yo mantengo sus mentes lejos del final."
+              "Ella y yo cuidamos a los heridos {place}: ella cierra la carne con veneno y yo mantengo sus mentes lejos del final."
             ],
             "ru": [
               "Серафина говорит, что выживание - это химия. Может быть, она права, и моя музыка - это просто химическая реакция отчаяния в их мозгах.",
               "Ее тон сухой, как пустыня, но это единственная клиническая честность, которую мы имеем, пока все вокруг нас рушится.",
-              "Она и я заботимся о раненых d{location}: она закрывает плоть ядом, а я держу их умы подальше от конца."
+              "Она и я заботимся о раненых {place}: она закрывает плоть ядом, а я держу их умы подальше от конца."
             ],
             "zh": [
               "Seraphine说生存是化学反应。也许她是对的，我的音乐只是他们大脑中绝望的化学反应。",
               "她的语气干燥如沙漠，但这是我们在周围一切崩溃时唯一的临床诚实。",
-              "我和她照顾d{location}的伤员：她用毒药封住肉体，而我让他们的思想远离终结。"
+              "我和她照顾{place}的伤员：她用毒药封住肉体，而我让他们的思想远离终结。"
             ],
             "ja": [
               "Seraphineは生き残ることは化学だと言います。もしかしたら彼女は正しいかもしれませんし、私の音楽は彼らの脳の絶望の化学反応にすぎないかもしれません。",
               "彼女のトーンは砂漠のように乾いていますが、私たちの周りのすべてが崩壊している中で、これが私たちが持っている唯一の臨床的な正直さです。",
-              "彼女と私はd{location}の負傷者を世話します：彼女は毒で肉を閉じ、私は彼らの心を終わりから遠ざけます。"
+              "彼女と私は{place}の負傷者を世話します：彼女は毒で肉を閉じ、私は彼らの心を終わりから遠ざけます。"
              ],
              "en": [
               "Seraphine says surviving is chemistry. Maybe she's right and my music is just a chemical reaction of despair in their brains.",
               "Her tone is dry as the desert, but it's the only clinical honesty we have while everything around us collapses.",
-              "She and I take care of the wounded d{location}: she closes the flesh with poison and I keep their minds away from the end."
+              "She and I take care of the wounded {place}: she closes the flesh with poison and I keep their minds away from the end."
                ]
           }
         },
@@ -728,32 +728,32 @@
           "group": {
             "pt": [
               "A Elara tenta ser honesta em um mundo de mentiras. É como tentar tocar uma melodia perfeita em um alaúde com as cordas podres.",
-              "Eu observo a Elara se mover nas sombras d{location} e sinto pena; a verdade dela não vai pagar as contas nem salvar a mãe dela por muito tempo.",
+              "Eu observo a Elara se mover nas sombras {place} e sinto pena; a verdade dela não vai pagar as contas nem salvar a mãe dela por muito tempo.",
               "Ela não rouba por princípios, mas o destino já roubou tudo dela. Minha música é o único consolo que ela não consegue recusar."
             ],
             "es": [
               "Elara intenta ser honesta en un mundo de mentiras. Es como intentar tocar una melodía perfecta en un laúd con cuerdas podridas.",
-              "Observo a Elara moverse en las sombras d{location} y siento pena; su verdad no va a pagar las cuentas ni salvar a su madre por mucho tiempo.",
+              "Observo a Elara moverse en las sombras {place} y siento pena; su verdad no va a pagar las cuentas ni salvar a su madre por mucho tiempo.",
               "Ella no roba por principios, pero el destino ya le ha robado todo. Mi música es el único consuelo que ella no puede rechazar."
             ],
             "ru": [
               "Элара пытается быть честной в мире лжи. Это как пытаться сыграть идеальную мелодию на лютне с гнилыми струнами.",
-              "Я наблюдаю, как Элара движется в тенях d{location}, и мне жаль; ее правда не будет оплачивать счета или спасать ее мать долго.",
+              "Я наблюдаю, как Элара движется в тенях {place}, и мне жаль; ее правда не будет оплачивать счета или спасать ее мать долго.",
               "Она не крадет по принципам, но судьба уже украла у нее все. Моя музыка - единственное утешение, которое она не может отвергнуть."
             ],
             "zh": [
               "Elara试图在一个充满谎言的世界里保持诚实。这就像试图在一把弦已经腐烂的鲁特琴上弹奏完美的旋律。",
-              "我观察着Elara在d{location}的阴影中移动，感到很遗憾；她的真相不会支付账单，也不会长时间拯救她的母亲。",
+              "我观察着Elara在{place}的阴影中移动，感到很遗憾；她的真相不会支付账单，也不会长时间拯救她的母亲。",
               "她不是出于原则而偷窃，但命运已经偷走了她的一切。我的音乐是她无法拒绝的唯一安慰。"
             ],
             "ja": [
               "Elaraは嘘の世界で正直になろうとします。腐った弦のリュートで完璧なメロディを演奏しようとするようなものです。",
-              "私はElaraがd{location}の影の中を動くのを見て、気の毒に思います。彼女の真実は請求書を支払ったり、彼女の母親を長く救ったりすることはありません。",
+              "私はElaraが{place}の影の中を動くのを見て、気の毒に思います。彼女の真実は請求書を支払ったり、彼女の母親を長く救ったりすることはありません。",
               "彼女は原則で盗むわけではありませんが、運命はすでに彼女からすべてを盗んでいます。私の音楽は、彼女が拒否できない唯一の慰めです。"
              ],
              "en": [
               "Elara tries to be honest in a world of lies. It's like trying to play a perfect melody on a lute with rotten strings.",
-              "I watch Elara move in the shadows d{location} and feel sorry; her truth won't pay the bills or save her mother for long.",
+              "I watch Elara move in the shadows {place} and feel sorry; her truth won't pay the bills or save her mother for long.",
               "She doesn't steal by principles, but fate has already stolen everything from her. My music is the only comfort she can't refuse."
                ]
           }
@@ -763,64 +763,64 @@
             "pt": [
               "A Nyx é o pesadelo que os monstros temem, mas eu me pergunto quem é que a Nyx vê quando fecha os olhos no escuro.",
               "Eu curo as mãos dela e sinto o sangue de mil 'fantasmas' que ela tenta ignorar. A culpa é uma melodia que não para de tocar.",
-              "Ela não mata humanos para não ser assombrada, mas d{location}, a própria alma dela já parece um lugar abandonado."
+              "Ela não mata humanos para não ser assombrada, mas {place}, a própria alma dela já parece um lugar abandonado."
             ],
             "es": [
               "Nyx es la pesadilla que los monstruos temen, pero me pregunto a quién ve Nyx cuando cierra los ojos en la oscuridad.",
               "Curo sus manos y siento la sangre de mil 'fantasmas' que ella intenta ignorar. La culpa es una melodía que no deja de sonar.",
-              "Ella no mata humanos para no ser perseguida, pero d{location}, su propia alma ya parece un lugar abandonado."
+              "Ella no mata humanos para no ser perseguida, pero {place}, su propia alma ya parece un lugar abandonado."
             ],
             "ru": [
               "Никс - это кошмар, которого боятся монстры, но я задаюсь вопросом, кого видит Никс, когда закрывает глаза в темноте.",
               "Я лечу ее руки и чувствую кровь тысячи 'призраков', которых она пытается игнорировать. Вина - это мелодия, которая не перестает играть.",
-              "Она не убивает людей, чтобы не быть преследуемой, но d{location}, ее собственная душа уже кажется заброшенным местом."
+              "Она не убивает людей, чтобы не быть преследуемой, но {place}, ее собственная душа уже кажется заброшенным местом."
             ],
             "zh": [
               "Nyx是怪物们害怕的噩梦，但我想知道当Nyx在黑暗中闭上眼睛时看到的是什么。",
               "我治愈她的手，感觉到她试图忽视的千个'幽灵'的血。内疚是一首不停地播放的旋律。",
-              "她不杀人以免被追杀，但d{location}，她自己的灵魂已经看起来像一个被遗弃的地方了。"
+              "她不杀人以免被追杀，但{place}，她自己的灵魂已经看起来像一个被遗弃的地方了。"
             ],
             "ja": [
               "Nyxはモンスターが恐れる悪夢ですが、Nyxが暗闇で目を閉じるときに誰を見るのか疑問に思います。",
               "私は彼女の手を治療し、彼女が無視しようとする千の「幽霊」の血を感じます。罪悪感は止まらないメロディーです。",
-              "彼女は追われないように人を殺しませんが、d{location}、彼女自身の魂はすでに放棄された場所のように見えます。"
+              "彼女は追われないように人を殺しませんが、{place}、彼女自身の魂はすでに放棄された場所のように見えます。"
              ],
              "en": [
               "Nyx is the nightmare that monsters fear, but I wonder who Nyx sees when she closes her eyes in the dark.",
               "I heal her hands and feel the blood of a thousand 'ghosts' that she tries to ignore. Guilt is a melody that never stops playing.",
-              "She doesn't kill humans to avoid being haunted, but d{location}, her own soul already looks like an abandoned place."
+              "She doesn't kill humans to avoid being haunted, but {place}, her own soul already looks like an abandoned place."
                ]
           }
         },
         "12": {
           "group": {
             "pt": [
-              "Morga e sua obsessão pelo número seis. É uma forma engraçada de tentar colocar ordem no massacre d{location}.",
+              "Morga e sua obsessão pelo número seis. É uma forma engraçada de tentar colocar ordem no massacre {place}.",
               "Eu conto os golpes dela como se fossem batidas de um metrônomo quebrado; a precisão dela é a coisa mais aterrorizante que já vi.",
               "Enquanto ela busca a simetria no abate, eu busco uma razão para continuarmos vivos. Acho que a busca dela é mais bem-sucedida."
             ],
             "es": [
-              "Morga y su obsesión por el número seis. Es una forma divertida de intentar poner orden en la masacre d{location}.",
+              "Morga y su obsesión por el número seis. Es una forma divertida de intentar poner orden en la masacre {place}.",
               "Cuento sus golpes como si fueran los latidos de un metrónomo roto; su precisión es lo más aterrador que he visto.",
               "Mientras ella busca la simetría en la matanza, yo busco una razón para seguir vivos. Creo que su búsqueda es más exitosa."
             ],
             "ru": [
-              "Морга и ее одержимость числом шесть. Это забавный способ попытаться навести порядок в резне d{location}.",
+              "Морга и ее одержимость числом шесть. Это забавный способ попытаться навести порядок в резне {place}.",
               "Я считаю ее удары, как если бы они были ударами сломанного метронома; ее точность - это самое страшное, что я когда-либо видел.",
               "Пока она ищет симметрию в убое, я ищу причину продолжать жить. Думаю, ее поиск более успешен."
             ],
             "zh": [
-              "Morga和她对数字六的痴迷。这是试图在d{location}的屠杀中建立秩序的一种有趣方式。",
+              "Morga和她对数字六的痴迷。这是试图在{place}的屠杀中建立秩序的一种有趣方式。",
               "我数着她的打击，就好像它们是一个坏掉的节拍器的节拍一样；她的准确性是我见过的最可怕的东西。",
               "当她在屠杀中寻找对称时，我在寻找继续活下去的理由。我觉得她的追求更成功。"
             ],
             "ja": [
-              "Morgaと数字の6への執着。d{location}の虐殺に秩序をつけようとする面白い方法です。",
+              "Morgaと数字の6への執着。{place}の虐殺に秩序をつけようとする面白い方法です。",
               "私は彼女の打撃を壊れたメトロノームのビートのように数えます。彼女の正確さは私が見た中で最も恐ろしいものです。",
               "彼女が虐殺の対称性を求めている間、私は生き続ける理由を探しています。彼女の追求の方が成功していると思います。"
              ],
              "en": [
-              "Morga and her obsession with the number six. It's a funny way to try to put order in the d{location} massacre.",
+              "Morga and her obsession with the number six. It's a funny way to try to put order in the {place} massacre.",
               "I count her strikes as if they were beats of a broken metronome; her precision is the scariest thing I've ever seen.",
               "While she seeks symmetry in the slaughter, I seek a reason to keep living. I think her pursuit is more successful."
                ]
@@ -830,33 +830,33 @@
           "group": {
             "pt": [
               "Mina conversa com os mortos porque eles são os únicos que não mentem mais. Às vezes, eu sinto inveja da plateia dela.",
-              "Eu mantenho a Mina viva d{location} enquanto ela pede favores aos ossos; somos um grupo de fantasmas, alguns apenas ainda respiram.",
-              "Ela lembra o nome dos mortos, mas quem vai lembrar os nossos quando a balada final d{location} terminar?"
+              "Eu mantenho a Mina viva {place} enquanto ela pede favores aos ossos; somos um grupo de fantasmas, alguns apenas ainda respiram.",
+              "Ela lembra o nome dos mortos, mas quem vai lembrar os nossos quando a balada final {place} terminar?"
             ],
             "es": [
               "Mina conversa con los muertos porque son los únicos que ya no mienten. A veces, siento envidia de su audiencia.",
-              "Mantengo a Mina viva d{location} mientras ella pide favores a los huesos; somos un grupo de fantasmas, algunos solo aún respiran.",
-              "Ella recuerda el nombre de los muertos, pero ¿quién recordará los nuestros cuando termine la balada final d{location}?"
+              "Mantengo a Mina viva {place} mientras ella pide favores a los huesos; somos un grupo de fantasmas, algunos solo aún respiran.",
+              "Ella recuerda el nombre de los muertos, pero ¿quién recordará los nuestros cuando termine la balada final {place}?"
             ],
             "ru": [
               "Мина разговаривает с мертвыми, потому что они единственные, кто больше не лжет. Иногда я завидую ее аудитории.",
-              "Я держу Мину живой d{location}, пока она просит одолжения у костей; мы группа призраков, некоторые просто еще дышат.",
-              "Она помнит имена мертвых, но кто запомнит наши, когда закончится финальная баллада d{location}?"
+              "Я держу Мину живой {place}, пока она просит одолжения у костей; мы группа призраков, некоторые просто еще дышат.",
+              "Она помнит имена мертвых, но кто запомнит наши, когда закончится финальная баллада {place}?"
             ],
             "zh": [
               "Mina与死者交谈，因为他们是唯一不再说谎的人。有时候，我羡慕她的观众。",
-              "当Mina向骨头请求帮助时，我让她在d{location}保持活着；我们是一群幽灵，有些人只是还在呼吸。",
-              "她记得死者的名字，但当d{location}的最后一首歌结束时，谁会记得我们的名字呢？"
+              "当Mina向骨头请求帮助时，我让她在{place}保持活着；我们是一群幽灵，有些人只是还在呼吸。",
+              "她记得死者的名字，但当{place}的最后一首歌结束时，谁会记得我们的名字呢？"
             ],
             "ja": [
               "Minaは死者と話します。なぜなら、彼らはもう嘘をつかない唯一の人だからです。時々、私は彼女の観客を羨ましく思います。",
-              "私はMinaをd{location}で生かしておきますが、彼女は骨に頼みます。私たちは幽霊のグループであり、いくつかはまだ呼吸しています。",
-              "彼女は死者の名前を覚えていますが、d{location}の最後のバラードが終わったときに誰が私たちの名前を覚えているでしょうか？"
+              "私はMinaを{place}で生かしておきますが、彼女は骨に頼みます。私たちは幽霊のグループであり、いくつかはまだ呼吸しています。",
+              "彼女は死者の名前を覚えていますが、{place}の最後のバラードが終わったときに誰が私たちの名前を覚えているでしょうか？"
              ],
              "en": [
               "Mina talks to the dead because they are the only ones who don't lie anymore. Sometimes, I feel envious of her audience.",
-              "I keep Mina alive d{location} while she asks favors from the bones; we're a group of ghosts, some just still breathe.",
-              "She remembers the name of the dead, but who will remember ours when the final ballad d{location} ends?"
+              "I keep Mina alive {place} while she asks favors from the bones; we're a group of ghosts, some just still breathe.",
+              "She remembers the name of the dead, but who will remember ours when the final ballad {place} ends?"
                ]
           }
         },
@@ -864,32 +864,32 @@
           "group": {
             "pt": [
               "Raska acha que pode consertar o mundo com engrenagens, mas as pessoas quebram de um jeito que nenhuma chave inglesa resolve.",
-              "As faíscas da Raska d{location} são como pequenos gritos de socorro de máquinas que foram forçadas além do limite. Como todos nós.",
+              "As faíscas da Raska {place} são como pequenos gritos de socorro de máquinas que foram forçadas além do limite. Como todos nós.",
               "Eu curo as queimaduras dela enquanto ela reforça as defesas; ela evita o colapso do sistema, mas o coração dela já parece fundido."
             ],
             "es": [
               "Raska cree que puede arreglar el mundo con engranajes, pero las personas se rompen de una manera que ninguna llave inglesa puede resolver.",
-              "Las chispas de Raska d{location} son como pequeños gritos de ayuda de máquinas que han sido forzadas más allá del límite. Como todos nosotros.",
+              "Las chispas de Raska {place} son como pequeños gritos de ayuda de máquinas que han sido forzadas más allá del límite. Como todos nosotros.",
               "Curo sus quemaduras mientras ella refuerza las defensas; ella evita el colapso del sistema, pero su corazón ya parece fundido."
             ],
             "ru": [
               "Раска думает, что может починить мир с помощью шестеренок, но люди ломаются так, что никакой гаечный ключ не может решить.",
-              "Искры Раски d{location} похожи на маленькие крики о помощи от машин, которые были вынуждены работать за пределами своих возможностей. Как и все мы.",
+              "Искры Раски {place} похожи на маленькие крики о помощи от машин, которые были вынуждены работать за пределами своих возможностей. Как и все мы.",
               "Я лечу ее ожоги, пока она укрепляет оборону; она предотвращает коллапс системы, но ее сердце уже кажется расплавленным."
             ],
             "zh": [
               "Raska认为她可以用齿轮修复世界，但人们以一种没有任何扳手可以解决的方式破碎。",
-              "Raska d{location}的火花就像被迫超出极限的机器发出的微小求救声。就像我们所有人一样。",
+              "Raska {place}的火花就像被迫超出极限的机器发出的微小求救声。就像我们所有人一样。",
               "当她加强防御时，我治愈她的烧伤；她避免了系统崩溃，但她的心已经看起来像是融化了。"
             ],
             "ja": [
               "Raskaは歯車で世界を修理できると思っていますが、人はどんなレンチでも解決できない方法で壊れます。",
-              "Raska d{location}の火花は、限界を超えて強制された機械からの小さな助けを求める叫びのようです。私たち全員のように。",
+              "Raska {place}の火花は、限界を超えて強制された機械からの小さな助けを求める叫びのようです。私たち全員のように。",
               "彼女が防御を強化している間、私は彼女の火傷を治療します。彼女はシステムの崩壊を防ぎますが、彼女の心はすでに溶けたように見えます。"
              ],
              "en": [
               "Raska thinks she can fix the world with gears, but people break in a way that no wrench can solve.",
-              "Raska's sparks d{location} are like little cries for help from machines that have been forced beyond the limit. Like all of us.",
+              "Raska's sparks {place} are like little cries for help from machines that have been forced beyond the limit. Like all of us.",
               "I heal her burns while she reinforces defenses; she avoids system collapse, but her heart already looks melted."
                ]
           }
@@ -897,38 +897,373 @@
         "15": {
           "group": {
             "pt": [
-              "Gaela ouve a terra tremer e entende o que ela diz. Eu só ouço o som de nós todos sendo enterrados d{location}.",
+              "Gaela ouve a terra tremer e entende o que ela diz. Eu só ouço o som de nós todos sendo enterrados {place}.",
               "A gagueira da Gaela é a coisa mais honesta deste grupo; ela sabe que não existem palavras humanas que deem conta desse horror.",
               "Eu mantenho a Gaela firme enquanto a rocha responde ao chamado dela; no fim, somos apenas poeira tentando não voltar para o chão."
             ],
             "es": [
-              "Gaela escucha la tierra temblar y entiende lo que dice. Solo escucho el sonido de todos nosotros siendo enterrados d{location}.",
+              "Gaela escucha la tierra temblar y entiende lo que dice. Solo escucho el sonido de todos nosotros siendo enterrados {place}.",
               "El tartamudeo de Gaela es lo más honesto de este grupo; ella sabe que no existen palabras humanas que puedan lidiar con este horror.",
               "Mantengo a Gaela firme mientras la roca responde a su llamado; al final, somos solo polvo tratando de no volver al suelo."
              ],
              "ru": [
-              "Гаэла слышит, как земля дрожит, и понимает, что она говорит. Я только слышу звук того, как нас всех закапывают d{location}.",
+              "Гаэла слышит, как земля дрожит, и понимает, что она говорит. Я только слышу звук того, как нас всех закапывают {place}.",
               "Заикание Гаэлы - это самое честное в этой группе; она знает, что нет человеческих слов, которые могли бы справиться с этим ужасом.",
               "Я держу Гаэлу крепко, пока скала отвечает на ее зов; в конце концов, мы просто пыль, пытающаяся не вернуться на землю."
              ],
              "zh": [
-              "Gaela听到地面震动并理解它说的话。我只听到我们所有人被埋葬的声音d{location}。",
+              "Gaela听到地面震动并理解它说的话。我只听到我们所有人被埋葬的声音{place}。",
               "Gaela的口吃是这个团队中最诚实的；她知道没有人类的语言能够应对这种恐怖。",
               "当岩石回应她的呼唤时，我紧紧地抱住Gaela；最后，我们只是试图不回到地面上的尘埃。"
              ],
              "ja": [
-              "Gaelaは地面の震えを聞いて、地面が何を言っているのか理解します。私はただ、私たち全員がd{location}に埋められている音を聞いています。",
+              "Gaelaは地面の震えを聞いて、地面が何を言っているのか理解します。私はただ、私たち全員が{place}に埋められている音を聞いています。",
               "Gaelaの吃音はこのグループで最も正直なものです。彼女はこの恐怖に対処できる人間の言葉が存在しないことを知っています。",
               "私は岩が彼女の呼びかけに応える間、Gaelaをしっかりと保ちます。結局、私たちはただ、地面に戻らないようにするための塵です。"
              ],
              "en": [
-              "Gaela hears the earth tremble and understands what it says. I only hear the sound of all of us being buried d{location}.",
+              "Gaela hears the earth tremble and understands what it says. I only hear the sound of all of us being buried {place}.",
               "Gaela's stutter is the most honest thing in this group; she knows there are no human words that can deal with this horror.",
               "I hold Gaela steady while the rock responds to her call; in the end, we're just dust trying not to go back to the ground."
                ]
           }
         }
-      }
+      },
+      "narrative": {
+        "enemy": {
+          "details": {
+            "pt": [
+              "Já imaginei quantos problemas {fragment} ainda causariam.",
+              "Nada em {fragment} sugeria um desfecho favorável.",
+              "Vi em {fragment} mais um lembrete de como tudo acaba mal.",
+              "Não encontrei nada reconfortante em {fragment}.",
+              "Achei difícil ignorar o que {fragment} anunciava."
+            ],
+            "es": [
+              "Ya imaginé cuántos problemas {fragment} aún causaría.",
+              "Nada en {fragment} sugería un desenlace favorable.",
+              "Vi en {fragment} otro recordatorio de cómo todo termina mal.",
+              "No encontré nada reconfortante en {fragment}.",
+              "Me resultó difícil ignorar lo que {fragment} anunciaba."
+            ],
+            "ru": [
+              "Я уже представлял, сколько проблем {fragment} еще вызовет.",
+              "Ничто в {fragment} не указывало на благоприятный исход.",
+              "Я видел в {fragment} еще одно напоминание о том, как все заканчивается плохо.",
+              "Я не нашел ничего утешительного в {fragment}.",
+              "Мне было трудно игнорировать то, что {fragment} объявлял."
+            ],
+            "zh": [
+              "我已经想象过 {fragment} 还会带来多少问题。",
+              "在 {fragment} 中没有任何迹象表明会有有利的结局。",
+              "我在 {fragment} 中又看到了一个提醒，说明一切最终都会变坏。",
+              "我在 {fragment} 中没有找到任何令人安慰的东西。",
+              "我觉得很难忽视 {fragment} 所宣告的内容。"
+            ],
+            "ja": [
+              "私はすでに、{fragment}がまだ引き起こす問題の数を想像していた。",
+              "{fragment}には良い結果を示唆するものがない。",
+              "{fragment}には、すべてがうまくいかないことを示すもう一つの思い出があった。",
+              "{fragment}には、慰めとなるものはなかった。",
+              "{fragment}が告げたことを無視することは難しかった。"
+            ],
+            "en": [
+              "I already imagined how many problems {fragment} would still cause.",
+              "Nothing in {fragment} suggested a favorable outcome.",
+              "I saw in {fragment} another reminder of how everything ends badly.",
+              "I found nothing comforting in {fragment}.",
+              "I found it hard to ignore what {fragment} was announcing."
+               ]
+          },
+          "attack": {
+            "pt": [
+              "Minha Balada da Resistência amenizou {fragment}.",
+              "Respondi a {fragment} com meu Réquiem dos Caídos.",
+              "Meu Coro Protetor absorveu parte de {fragment}.",
+              "Usei a Melodia da Persistência contra {fragment}.",
+              "Meu Hino das Cicatrizes ajudou o grupo a suportar {fragment}."
+            ],
+            "en": [
+              "My Ballad of Resistance soothed {fragment}.",
+              "I responded to {fragment} with my Requiem of the Fallen.",
+              "My Protective Chorus absorbed part of {fragment}.",
+              "I used the Melody of Persistence against {fragment}.",
+              "My Hymn of Scar tissue helped the group endure {fragment}."
+            ],
+              "es": [
+                "Mi Balada de Resistencia calmó {fragment}.",
+                "Respondí a {fragment} con mi Réquiem de los Caídos.",
+                "Mi Coro Protector absorbió parte de {fragment}.",
+                "Usé la Melodía de la Persistencia contra {fragment}.",
+                "Mi Himno de Cicatrices ayudó al grupo a soportar {fragment}."
+              ],
+              "ru": [
+                "Моя Баллада Сопротивления успокоила {fragment}.",
+                "Я ответил на {fragment} своим Реквиемом Погибших.",
+                "Мой Защитный Хор поглотил часть {fragment}.",
+                "Я использовал Мелодию Настойчивости против {fragment}.",
+                "Мой Гимн Рубцов помог группе выдержать {fragment}."
+              ],
+              "zh": [
+                "我的抵抗之歌安抚了{fragment}。",
+                "我用我的亡者安魂曲回应了{fragment}。",
+                "我的保护合唱吸收了部分{fragment}。",
+                "我用坚持的旋律对抗了{fragment}。",
+                "我的伤疤赞美诗帮助团队忍受了{fragment}。"
+              ],
+              "ja": [
+                "私の抵抗のバラードは{fragment}を和らげました。",
+                "{fragment}に私のレクイエム・オブ・ザ・フォールンで応えました。",
+                "私のプロテクティブコーラスは{fragment}の一部を吸収しました。",
+                "{fragment}に対して私のメロディー・オブ・パーシステンスを使用しました。",
+                "私のヒム・オブ・スカーティッシュはグループが{fragment}に耐えるのを助けました。"
+              ]
+          }
+        },
+        "place": {
+          "landmark": {
+            "pt": [ 
+              "{fragment} me pareceu mais um monumento ao que já foi perdido.", 
+              "Foi difícil olhar para {fragment} sem pensar em como tudo termina em ruínas.", 
+              "{fragment} me lembrou que até as coisas grandiosas acabam se desgastando.", 
+              "Havia algo triste em {fragment}.", 
+              "{fragment} só reforçou a sensação de que nada permanece intacto para sempre." 
+            ],
+            "es": [ 
+              "{fragment} me pareció más un monumento a lo que ya se ha perdido.", 
+              "Fue difícil mirar {fragment} sin pensar en cómo todo termina en ruinas.", 
+              "{fragment} me recordó que incluso las cosas grandiosas terminan desgastándose.", 
+              "Había algo triste en {fragment}.", 
+              "{fragment} solo reforzó la sensación de que nada permanece intacto para siempre." 
+            ],
+            "ru": [ 
+              "{fragment} показался мне больше памятником тому, что уже потеряно.", 
+              "Было трудно смотреть на {fragment}, не думая о том, как все заканчивается в руинах.", 
+              "{fragment} напомнил мне, что даже грандиозные вещи в конечном итоге изнашиваются.", 
+              "В {fragment} было что-то печальное.", 
+              "{fragment} только усилил ощущение, что ничто не остается нетронутым навсегда." 
+            ],
+            "zh": [ 
+              "{fragment} 在我看来更像是一个已经失去的东西的纪念碑。", 
+              "很难看着 {fragment} 而不想到一切最终都会变成废墟。", 
+              "{fragment} 让我想起了即使是宏伟的事物最终也会磨损。", 
+              "{fragment} 中有一些悲伤的东西。", 
+              "{fragment} 只是加强了某些东西永远不会保持完整的感觉。" 
+            ],
+            "ja": [ 
+              "{fragment}は、すでに失われたものの記念碑のように見えました。", 
+              "{fragment}を見て、すべてが廃墟になることを考えずにはいられませんでした。", 
+              "{fragment}は、壮大なものでも最終的には擦り切れてしまうことを思い出させました。", 
+              "{fragment}には何か悲しいものがありました。", 
+              "{fragment}は、何も永遠に無傷のままではないという感覚を強化するだけでした。" 
+             ],
+             "en": [ 
+              "{fragment} seemed more like a monument to what has already been lost.", 
+              "It was hard to look at {fragment} without thinking about how everything ends in ruins.", 
+              "{fragment} reminded me that even grand things eventually wear down.", 
+              "There was something sad about {fragment}.", 
+              "{fragment} only reinforced the feeling that nothing remains intact forever." 
+             ]
+          },
+          "feeling": {
+            "pt": [
+              "{fragment} não me pareceu um bom presságio.",
+              "Foi difícil ignorar o que {fragment} parecia anunciar.",
+              "{fragment} só reforçou a sensação de que algo acabaria dando errado.",
+              "Não consegui encontrar conforto em {fragment}.",
+              "{fragment} me deixou pensando no preço que ainda seria pago."
+            ],
+            "es": [
+              "{fragment} no me pareció un buen presagio.",
+              "Fue difícil ignorar lo que {fragment} parecía anunciar.",
+              "{fragment} solo reforzó la sensación de que algo terminaría saliendo mal.",
+              "No pude encontrar consuelo en {fragment}.",
+              "{fragment} me dejó pensando en el precio que aún se pagaría."
+            ],
+            "ru": [
+              "{fragment} не показался мне хорошим предзнаменованием.",
+              "Было трудно игнорировать то, что {fragment} казалось объявлять.",
+              "{fragment} только усилил ощущение, что что-то закончится плохо.",
+              "Я не смог найти утешение в {fragment}.",
+              "{fragment} заставил меня задуматься о цене, которая еще будет заплачена."
+            ],
+            "zh": [
+              "{fragment} 看起来不像是一个好预兆。",
+              "很难忽视 {fragment} 看起来在宣告的内容。",
+              "{fragment} 只是加强了某些事情最终会出问题的感觉。",
+              "我无法在 {fragment} 中找到安慰。",
+              "{fragment} 让我想到了还将要付出的代价。"
+            ],
+            "ja": [
+              "{fragment}は私には良い前兆のようには見えませんでした。",
+              "{fragment}が宣言しているように見えることを無視するのは難しかった。",
+              "{fragment}は、何かがうまくいかないという感覚を強化するだけでした。",
+              "{fragment}には慰めを見つけることができませんでした。",
+              "{fragment}は、まだ支払われる価格について考えさせられました。"
+             ],
+             "en": [
+              "{fragment} didn't seem like a good omen to me.",
+              "It was hard to ignore what {fragment} seemed to be announcing.",
+              "{fragment} only reinforced the feeling that something would end up going wrong.",
+              "I couldn't find comfort in {fragment}.",
+              "{fragment} left me thinking about the price that would still be paid."
+             ]
+          },
+          "details": {
+            "pt": [
+              "{fragment} me lembrou como poucas coisas permanecem intactas por muito tempo.",
+              "Não consegui olhar para {fragment} sem imaginar quanto tempo ainda restava.",
+              "Havia algo melancólico em {fragment}.",
+              "{fragment} me pareceu mais frágil do que à primeira vista.",
+              "Passei algum tempo pensando em como {fragment} também acabaria desaparecendo."
+            ],
+            "es": [
+              "{fragment} me recordó cómo pocas cosas permanecen intactas por mucho tiempo.",
+              "No pude mirar {fragment} sin imaginar cuánto tiempo quedaba.",
+              "Había algo melancólico en {fragment}.",
+              "{fragment} me pareció más frágil de lo que parecía a primera vista.",
+              "Pasé algún tiempo pensando en cómo {fragment} también acabaría desapareciendo."
+            ],
+            "ru": [
+              "{fragment} напомнил мне, как мало вещей остается нетронутыми надолго.",
+              "Я не мог смотреть на {fragment}, не представляя, сколько времени осталось.",
+              "В {fragment} было что-то меланхолическое.",
+              "{fragment} показался мне более хрупким, чем на первый взгляд.",
+              "Я провел некоторое время, думая о том, как {fragment} тоже в конечном итоге исчезнет."
+            ],
+            "zh": [
+              "{fragment} 让我想起了很少有东西能长时间保持完整。",
+              "我无法看着 {fragment} 而不想象还剩下多少时间。",
+              "{fragment} 中有一些忧郁的东西。",
+              "{fragment} 在我看来比乍一看更脆弱。",
+              "我花了一些时间思考 {fragment} 也最终会消失。"
+            ],
+            "ja": [
+              "{fragment}は、長い間無傷のままでいるものがほとんどないことを思い出させました。",
+              "{fragment}を見て、どれくらいの時間が残っているのか想像せずにはいられませんでした。",
+              "{fragment}には何かメランコリックなものがありました。",
+              "{fragment}は一見したよりも脆いように見えました。",
+              "{fragment}も最終的には消えてしまうことを考えるのに少し時間を費やしました。"
+             ],
+             "en": [
+              "{fragment} reminded me how few things remain intact for long.",
+              "I couldn't look at {fragment} without imagining how much time was still left.",
+              "There was something melancholy about {fragment}.",
+              "{fragment} seemed more fragile than it looked at first glance.",
+              "I spent some time thinking about how {fragment} would also end up disappearing."
+             ]
+          },
+          "history": {
+            "pt": [
+              "Foi difícil não associar {fragment} a alguma perda.",
+              "{fragment} me pareceu mais um vestígio do que já foi perdido.",
+              "Não consegui olhar para {fragment} sem pensar no que ficou para trás.",
+              "{fragment} me lembrou que nem tudo consegue sobreviver.",
+              "Vi em {fragment} mais uma história que não terminou bem."
+            ],
+            "es": [
+              "Fue difícil no asociar {fragment} con alguna pérdida.",
+              "{fragment} me pareció más un vestigio de lo que ya se ha perdido.",
+              "No pude mirar {fragment} sin pensar en lo que quedó atrás.",
+              "{fragment} me recordó que no todo puede sobrevivir.",
+              "Vi en {fragment} otra historia que no terminó bien."
+            ],
+            "ru": [
+              "Было трудно не ассоциировать {fragment} с какой-то потерей.",
+              "{fragment} показался мне скорее остатком того, что уже было потеряно.",
+              "Я не мог смотреть на {fragment}, не думая о том, что осталось позади.",
+              "{fragment} напомнил мне, что не все может выжить.",
+              "Я видел в {fragment} еще одну историю, которая закончилась плохо."
+            ],
+            "zh": [
+              "很难不把 {fragment} 与某种损失联系起来。",
+              "{fragment} 在我看来更像是已经失去的东西的遗迹。",
+              "我无法看着 {fragment} 而不想到身后留下的东西。",
+              "{fragment} 让我想起，并非所有东西都能幸存下来。",
+              "我在 {fragment} 中又看到了一个没有好结局的故事。"
+            ],
+            "ja": [
+              "{fragment}を何かの損失と関連付けないのは難しかった。",
+              "{fragment}はすでに失われたものの遺物のように見えました。",
+              "{fragment}を見て、背後に残されたものを考えずにはいられませんでした。",
+              "{fragment}はすべてが生き残るわけではないことを思い出させました。",
+              "{fragment}には、うまく終わらなかったもう一つの話がありました。"
+             ],
+             "en": [
+              "It was hard not to associate {fragment} with some kind of loss.",
+              "{fragment} seemed more like a remnant of what has already been lost.",
+              "I couldn't look at {fragment} without thinking about what was left behind.",
+              "{fragment} reminded me that not everything can survive.",
+              "I saw in {fragment} another story that didn't end well."
+             ]
+          }               
+        } 
+      },
+  "failure": {
+    "solo": {
+      "pt": [
+        "Esperei o pior {do_enemy} e reagi tarde demais.",
+        "Subestimei o quanto {enemy_attack} ainda podia piorar.",
+        "Passei tempo demais considerando as consequências {na_place} e perdi a oportunidade."
+      ],
+      "es": [
+        "Esperé lo peor {do_enemy} y reaccioné demasiado tarde.",
+        "Subestimé cuánto {enemy_attack} aún podía empeorar.",
+        "Pasé demasiado tiempo considerando las consecuencias {na_place} y perdí la oportunidad."
+       ],
+       "ru": [
+        "Я ожидал худшего {enemy} и отреагировал слишком поздно.",
+        "Я недооценил, насколько {enemy_attack} еще может ухудшиться.",
+        "Я потратил слишком много времени, обдумывая последствия {place}, и упустил возможность."
+       ],
+       "zh": [
+        "我期待着最坏的{enemy}，但反应太迟了。",
+        "我低估了{enemy_attack}还可能变得多糟。",
+        "我花了太多时间考虑{place}的后果，错过了机会。"
+       ],
+       "ja": [
+        "私は最悪の{enemy}を期待していましたが、反応が遅すぎました。",
+        "{enemy_attack}がさらに悪化する可能性を過小評価していました。",
+        "{place}の結果を考えるのに時間をかけすぎて、チャンスを逃しました。"
+       ],
+       "en": [
+        "I expected the worst of {enemy} and reacted too late.",
+        "I underestimated how much {enemy_attack} could still get worse.",
+        "I spent too much time considering the consequences {place} and missed the opportunity."
+         ]
+    },
+    "group": {
+      "pt": [
+        "Presumi que {enemy_attack} atingiria alguém e não consegui impedir.",
+        "Passei tempo demais me preparando para o pior {do_enemy} enquanto o grupo precisava agir.",
+        "Esperava perdas {na_place} e isso me fez hesitar no momento errado."
+      ],
+      "es": [
+        "Presumí que {enemy_attack} alcanzaría a alguien y no pude evitarlo.",
+        "Pasé demasiado tiempo preparándome para lo peor {do_enemy} mientras el grupo necesitaba actuar.",
+        "Esperaba pérdidas {na_place} y eso me hizo dudar en el momento equivocado."
+       ],
+       "ru": [
+        "Я предположил, что {enemy_attack} поразит кого-то, и не смог этого предотвратить.",
+        "Я потратил слишком много времени на подготовку к худшему {enemy}, в то время как группе нужно было действовать.",
+        "Я ожидал потерь {place}, и это заставило меня колебаться в неподходящий момент."
+       ],
+       "zh": [
+        "我以为{enemy_attack}会击中某人，但我没能阻止它。",
+        "当团队需要行动时，我花了太多时间为最坏的{enemy}做准备。",
+        "我期待着{place}的损失，这让我在错误的时刻犹豫不决。"
+       ],
+       "ja": [
+        "{enemy_attack}が誰かを攻撃すると思い込んでいて、阻止できませんでした。",
+        "グループが行動する必要があるときに、最悪の{enemy}に備えるのに時間をかけすぎました、。",
+        "{place}の損失を期待していて、それが間違ったタイミングで躊躇する原因になりました。"
+       ],
+       "en": [
+        "I assumed {enemy_attack} would hit someone and couldn't prevent it.",
+        "I spent too much time preparing for the worst of {enemy} while the group needed to act.",
+        "I expected losses {place} and that made me hesitate at the wrong moment."
+         ]
+    }
     }
   }
-    
+}

@@ -133,150 +133,150 @@
       "arrived": {
         "alone": {
           "pt": [
-            "Eu parei diante d{location} e respirei fundo; uma voz antiga sussurrou que a luz sempre encontra um caminho, mesmo quando tudo parece perdido.",
-            "Eu toquei o símbolo no meu peito ao cruzar a entrada d{location}, enquanto alguém murmurava que a cura começa onde a fé é testada.",
-            "Eu caminhei até d{location} sentindo um coro invisível discutir entre si, repetindo que até os mais sombrios merecem redenção.",
-            "Eu ajoelhei por um instante antes de entrar d{location}, porque uma das vozes insistiu que a disciplina é o primeiro milagre.",
-            "Eu observei cada detalhe d{location} enquanto um timbre severo ecoava na minha mente dizendo que devo proteger os fracos, custe o que custar.",
-            "Eu avancei por d{location} com cuidado, e alguém declarou dentro da minha cabeça que a esperança é uma chama que nunca deve ser apagada.",
-            "Eu segurei meu cajado com firmeza ao pisar d{location}, enquanto um sussurro firme repetia que a fé sem ação é apenas ruído.",
-            "Eu inclinei a cabeça ao atravessar d{location}, porque uma voz gentil lembrava que toda dor pode ser transformada.",
-            "Eu tracei um pequeno símbolo no ar diante d{location}, seguindo a orientação de um eco que dizia que a luz precisa ser invocada com intenção.",
-            "Eu entrei d{location} em silêncio, escutando um conselho insistente que afirmava que até na escuridão mais densa há propósito."
+            "Eu parei diante {da_place} e respirei fundo; uma voz antiga sussurrou que a luz sempre encontra um caminho, mesmo quando tudo parece perdido.",
+            "Eu toquei o símbolo no meu peito ao cruzar a entrada {da_place}, enquanto alguém murmurava que a cura começa onde a fé é testada.",
+            "Eu caminhei até {da_place} sentindo um coro invisível discutir entre si, repetindo que até os mais sombrios merecem redenção.",
+            "Eu ajoelhei por um instante antes de entrar {da_place}, porque uma das vozes insistiu que a disciplina é o primeiro milagre.",
+            "Eu observei cada detalhe {da_place} enquanto um timbre severo ecoava na minha mente dizendo que devo proteger os fracos, custe o que custar.",
+            "Eu avancei por {da_place} com cuidado, e alguém declarou dentro da minha cabeça que a esperança é uma chama que nunca deve ser apagada.",
+            "Eu segurei meu cajado com firmeza ao pisar {da_place}, enquanto um sussurro firme repetia que a fé sem ação é apenas ruído.",
+            "Eu inclinei a cabeça ao atravessar {da_place}, porque uma voz gentil lembrava que toda dor pode ser transformada.",
+            "Eu tracei um pequeno símbolo no ar diante {da_place}, seguindo a orientação de um eco que dizia que a luz precisa ser invocada com intenção.",
+            "Eu entrei {da_place} em silêncio, escutando um conselho insistente que afirmava que até na escuridão mais densa há propósito."
           ],
           "en": [
-            "I stood before {location} and took a deep breath; an ancient voice whispered that light always finds a way, even when all seems lost.",
-            "I touched the symbol on my chest as I crossed the entrance of {location}, while someone murmured that healing begins where faith is tested.",
-            "I walked to {location} feeling an invisible chorus arguing among themselves, repeating that even the darkest deserve redemption.",
-            "I knelt for a moment before entering {location}, because one of the voices insisted that discipline is the first miracle.",
-            "I observed every detail of {location} while a stern voice echoed in my mind saying I must protect the weak, whatever the cost.",
-            "I moved through {location} carefully, and someone inside my head declared that hope is a flame that must never be extinguished.",
-            "I held my staff firmly as I stepped into {location}, while a steady whisper repeated that faith without action is just noise.",
-            "I bowed my head while passing through {location}, because a gentle voice reminded me that all pain can be transformed.",
-            "I traced a small symbol in the air before {location}, following the guidance of an echo saying that light must be invoked with intention.",
-            "I entered {location} in silence, listening to insistent advice stating that even in the densest darkness, there is purpose."
+            "I stood before {place} and took a deep breath; an ancient voice whispered that light always finds a way, even when all seems lost.",
+            "I touched the symbol on my chest as I crossed the entrance of {place}, while someone murmured that healing begins where faith is tested.",
+            "I walked to {place} feeling an invisible chorus arguing among themselves, repeating that even the darkest deserve redemption.",
+            "I knelt for a moment before entering {place}, because one of the voices insisted that discipline is the first miracle.",
+            "I observed every detail of {place} while a stern voice echoed in my mind saying I must protect the weak, whatever the cost.",
+            "I moved through {place} carefully, and someone inside my head declared that hope is a flame that must never be extinguished.",
+            "I held my staff firmly as I stepped into {place}, while a steady whisper repeated that faith without action is just noise.",
+            "I bowed my head while passing through {place}, because a gentle voice reminded me that all pain can be transformed.",
+            "I traced a small symbol in the air before {place}, following the guidance of an echo saying that light must be invoked with intention.",
+            "I entered {place} in silence, listening to insistent advice stating that even in the densest darkness, there is purpose."
           ],
           "es": [
-            "Me detuve ante {location} y respiré hondo; una voz antigua susurró que la luz siempre encuentra un camino, incluso cuando todo parece perdido.",
-            "Toqué el símbolo en mi pecho al cruzar la entrada de {location}, mientras alguien murmuraba que la curación comienza donde la fe es puesta a prueba.",
-            "Caminé hacia {location} sintiendo un coro invisible discutir entre sí, repitiendo que incluso los más oscuros merecen redención.",
-            "Me arrodillé por un instante antes de entrar en {location}, porque una de las voces insistió en que la disciplina es el primer milagro.",
-            "Observé cada detalle de {location} mientras un timbre severo resonaba en mi mente diciendo que debo proteger a los débiles, cueste lo que cueste.",
-            "Avancé por {location} con cuidado, y alguien declaró dentro de mi cabeza que la esperanza es una llama que nunca debe apagarse.",
-            "Sujeté mi bastón con firmeza al pisar {location}, mientras un susurro firme repetía que la fe sin acción es solo ruido.",
-            "Incliné la cabeza al atravesar {location}, porque una voz gentil recordaba que todo dolor puede ser transformado.",
-            "Tracé un pequeño símbolo en el aire ante {location}, siguiendo la guía de un eco que decía que la luz debe ser invocada con intención.",
-            "Entré en {location} en silencio, escuchando un consejo insistente que afirmaba que incluso en la oscuridad más densa hay un propósito."
+            "Me detuve ante {place} y respiré hondo; una voz antigua susurró que la luz siempre encuentra un camino, incluso cuando todo parece perdido.",
+            "Toqué el símbolo en mi pecho al cruzar la entrada {da_place}, mientras alguien murmuraba que la curación comienza donde la fe es puesta a prueba.",
+            "Caminé hacia {a_place} sintiendo un coro invisible discutir entre sí, repitiendo que incluso los más oscuros merecen redención.",
+            "Me arrodillé por un instante antes de entrar {na_place}, porque una de las voces insistió en que la disciplina es el primer milagro.",
+            "Observé cada detalle {da_place} mientras un timbre severo resonaba en mi mente diciendo que debo proteger a los débiles, cueste lo que cueste.",
+            "Avancé por {place} con cuidado, y alguien declaró dentro de mi cabeza que la esperanza es una llama que nunca debe apagarse.",
+            "Sujeté mi bastón con firmeza al poner un pie {na_place}, mientras un susurro firme repetía que la fe sin acción es solo ruido.",
+            "Incliné la cabeza al atravesar {place}, porque una voz gentil recordaba que todo dolor puede ser transformado.",
+            "Tracé un pequeño símbolo en el aire ante {place}, siguiendo la guía de un eco que decía que la luz debe ser invocada con intención.",
+            "Entré {na_place} en silencio, escuchando un consejo insistente que afirmaba que incluso en la oscuridad más densa hay un propósito."
           ],
           "ru": [
-            "Я остановилась перед {location} и глубоко вздохнула; древний голос прошептал, что свет всегда находит путь, даже когда всё кажется потерянным.",
-            "Я коснулась символа на своей груди, переступая порог {location}, пока кто-то бормотал, что исцеление начинается там, где вера подвергается испытанию.",
-            "Я шла к {location}, чувствуя, как невидимый хор спорит между собой, повторяя, что даже самые мрачные заслуживают искупления.",
-            "Я преклонила колени на мгновение перед входом в {location}, потому что один из голосов настоял на том, что дисциплина — это первое чудо.",
-            "Я осмотрела каждую деталь {location}, пока суровый голос эхом отдавался в моей голове, говоря, что я должна защищать слабых любой ценой.",
-            "Я осторожно продвигалась по {location}, и кто-то в моей голове заявил, что надежда — это пламя, которое никогда не должно угаснуть.",
-            "Я крепко сжала свой посох, ступая в {location}, пока настойчивый шепот повторял, что вера без действий — это всего лишь шум.",
-            "Я склонила голову, проходя через {location}, потому что нежный голос напомнил, что любую боль можно преобразить.",
-            "Я начертала в воздухе перед {location} небольшой символ, следуя указанию эха, которое говорило, что свет нужно призывать с намерением.",
-            "Я вошла в {location} в тишине, прислушиваясь к настойчивому совету, гласящему, что даже в самой густой тьме есть смысл."
+            "Я остановилась перед {place} и глубоко вздохнула; древний голос прошептал, что свет всегда находит путь, даже когда всё кажется потерянным.",
+            "Я коснулась символа на своей груди, переступая порог {place}, пока кто-то бормотал, что исцеление начинается там, где вера подвергается испытанию.",
+            "Я шла к {place}, чувствуя, как невидимый хор спорит между собой, повторяя, что даже самые мрачные заслуживают искупления.",
+            "Я преклонила колени на мгновение перед входом в {place}, потому что один из голосов настоял на том, что дисциплина — это первое чудо.",
+            "Я осмотрела каждую деталь {place}, пока суровый голос эхом отдавался в моей голове, говоря, что я должна защищать слабых любой ценой.",
+            "Я осторожно продвигалась по {place}, и кто-то в моей голове заявил, что надежда — это пламя, которое никогда не должно угаснуть.",
+            "Я крепко сжала свой посох, ступая в {place}, пока настойчивый шепот повторял, что вера без действий — это всего лишь шум.",
+            "Я склонила голову, проходя через {place}, потому что нежный голос напомнил, что любую боль можно преобразить.",
+            "Я начертала в воздухе перед {place} небольшой символ, следуя указанию эха, которое говорило, что свет нужно призывать с намерением.",
+            "Я вошла в {place} в тишине, прислушиваясь к настойчивому совету, гласящему, что даже в самой густой тьме есть смысл."
           ],
           "zh": [
-            "我站在{location}前深吸了一口气；一个古老的声音低声说，即使在一切似乎都迷失的时候，光总能找到出路。",
-            "当我跨进{location}的入口时，我抚摸着胸前的符号，有人喃喃自语，治愈始于信仰受到考验的地方。",
-            "我走向{location}，感觉到一个隐形的合唱团在争吵，重复着即使是最黑暗的人也值得救赎。",
-            "在进入{location}之前我跪了一会儿，因为其中一个声音坚持认为纪律是第一个奇迹。",
-            "我观察着{location}的每一个细节，一个严厉的声音在我的脑海中回荡，说无论付出什么代价，我都必须保护弱者。",
-            "我小心翼翼地在{location}中前进，脑海中有人宣布，希望是永不熄灭的火焰。",
-            "当我踏入{location}时，我紧紧握住法杖，一个坚定的低语重复着：没有行动的信仰只是噪音。",
-            "经过{location}时我低下了头，因为一个温柔的声音提醒我，所有的痛苦都可以被转化。",
-            "我在{location}前的空中画了一个小符号，遵循着一个回声的指引，它说必须用意志来唤回光明。",
-            "我静静地进入了{location}，听着一个坚持的建议，声称即使在最浓重的黑暗中也有其意义。"
+            "我站在{place}前深吸了一口气；一个古老的声音低声说，即使在一切似乎都迷失的时候，光总能找到出路。",
+            "当我跨进{place}的入口时，我抚摸着胸前的符号，有人喃喃自语，治愈始于信仰受到考验的地方。",
+            "我走向{place}，感觉到一个隐形的合唱团在争吵，重复着即使是最黑暗的人也值得救赎。",
+            "在进入{place}之前我跪了一会儿，因为其中一个声音坚持认为纪律是第一个奇迹。",
+            "我观察着{place}的每一个细节，一个严厉的声音在我的脑海中回荡，说无论付出什么代价，我都必须保护弱者。",
+            "我小心翼翼地在{place}中前进，脑海中有人宣布，希望是永不熄灭的火焰。",
+            "当我踏入{place}时，我紧紧握住法杖，一个坚定的低语重复着：没有行动的信仰只是噪音。",
+            "经过{place}时我低下了头，因为一个温柔的声音提醒我，所有的痛苦都可以被转化。",
+            "我在{place}前的空中画了一个小符号，遵循着一个回声的指引，它说必须用意志来唤回光明。",
+            "我静静地进入了{place}，听着一个坚持的建议，声称即使在最浓重的黑暗中也有其意义。"
           ],
           "ja": [
-            "私は{location}の前に立ち、深呼吸をしました。古い声が、すべてが失われたように見えても、光は常に道を見つけると囁きました。",
-            "{location}の入り口を横切るとき、胸のシンボルに触れました。誰かが、癒しは信仰が試される場所から始まると呟いていました。",
-            "{location}へと歩きながら、目に見えない合唱が互いに議論し、最も暗い者でさえ救済に値すると繰り返しているのを感じました。",
-            "{location}に入る前に一瞬膝をつきました。声の一つが、規律こそが最初の奇迹だと主張したからです。",
-            "{location}の細部を観察していると、厳しい音色が私の頭の中に響き、何があっても弱者を守らなければならないと言いました。",
-            "慎重に{location}を進むと、頭の中で誰かが、希望は決して消してはならない炎だと宣言しました。",
-            "{location}に足を踏み入れたとき、杖をしっかりと握りました。確かな囁きが、行動を伴わない信仰はただの雑音だと繰り返していました。",
-            "{location}を通り抜けるとき、頭を垂れました。優しい声が、すべての痛みは変容させることができると思い出させてくれたからです。",
-            "{location}の前で空中に小さな印を描きました。光は意図を持って呼び出される必要があるという残響の導きに従ったのです。",
-            "静かに{location}に入り、最も深い暗闇の中にさえ目的があるという執拗な助言に耳を傾けました。"
+            "私は{place}の前に立ち、深呼吸をしました。古い声が、すべてが失われたように見えても、光は常に道を見つけると囁きました。",
+            "{place}の入り口を横切るとき、胸のシンボルに触れました。誰かが、癒しは信仰が試される場所から始まると呟いていました。",
+            "{place}へと歩きながら、目に見えない合唱が互いに議論し、最も暗い者でさえ救済に値すると繰り返しているのを感じました。",
+            "{place}に入る前に一瞬膝をつきました。声の一つが、規律こそが最初の奇迹だと主張したからです。",
+            "{place}の細部を観察していると、厳しい音色が私の頭の中に響き、何があっても弱者を守らなければならないと言いました。",
+            "慎重に{place}を進むと、頭の中で誰かが、希望は決して消してはならない炎だと宣言しました。",
+            "{place}に足を踏み入れたとき、杖をしっかりと握りました。確かな囁きが、行動を伴わない信仰はただの雑音だと繰り返していました。",
+            "{place}を通り抜けるとき、頭を垂れました。優しい声が、すべての痛みは変容させることができると思い出させてくれたからです。",
+            "{place}の前で空中に小さな印を描きました。光は意図を持って呼び出される必要があるという残響の導きに従ったのです。",
+            "静かに{place}に入り、最も深い暗闇の中にさえ目的があるという執拗な助言に耳を傾けました。"
           ]
         },
         "group": {
           "pt": [
-            "Eu caminhei ao lado deles até d{location}, enquanto uma voz murmurava que líderes verdadeiros guiam sem serem vistos; eu apenas apertei o passo.",
-            "Eu parei diante d{location} e pedi que mantivessem formação, mesmo com um sussurro insistindo que a fé deveria ser suficiente para nos proteger.",
-            "Eu observei cada um antes de avançarmos por d{location}, porque um eco na minha mente repetia que proteger os outros é um juramento, não uma escolha.",
-            "Eu ajustei meu símbolo sagrado ao entrar d{location}, ignorando a voz que dizia que alguns ali precisavam ser testados pelo fogo.",
-            "Eu respirei fundo e sinalizei para seguirmos por d{location}, enquanto um tom solene lembrava que a esperança deve ser carregada como armadura.",
-            "Eu toquei o ombro de um deles antes de cruzarmos d{location}, já que uma voz suave insistia que até guerreiros precisam ser lembrados de sua humanidade.",
-            "Eu avancei por d{location} mantendo-me entre eles e o desconhecido, mesmo quando alguém dentro da minha cabeça questionava minha própria força.",
-            "Eu pedi silêncio ao grupo ao nos aproximarmos d{location}, enquanto um coro invisível discutia sobre sacrifício e propósito.",
-            "Eu tracei um pequeno gesto de bênção antes de entrarmos d{location}, apesar de uma voz mais rígida afirmar que fé não substitui preparo.",
-            "Eu caminhei com eles por d{location}, ouvindo um conselho interno que dizia que cada passo compartilhado é também uma responsabilidade."
+            "Eu caminhei ao lado deles até {da_place}, enquanto uma voz murmurava que líderes verdadeiros guiam sem serem vistos; eu apenas apertei o passo.",
+            "Eu parei diante {da_place} e pedi que mantivessem formação, mesmo com um sussurro insistindo que a fé deveria ser suficiente para nos proteger.",
+            "Eu observei cada um antes de avançarmos por {da_place}, porque um eco na minha mente repetia que proteger os outros é um juramento, não uma escolha.",
+            "Eu ajustei meu símbolo sagrado ao entrar {da_place}, ignorando a voz que dizia que alguns ali precisavam ser testados pelo fogo.",
+            "Eu respirei fundo e sinalizei para seguirmos por {da_place}, enquanto um tom solene lembrava que a esperança deve ser carregada como armadura.",
+            "Eu toquei o ombro de um deles antes de cruzarmos {da_place}, já que uma voz suave insistia que até guerreiros precisam ser lembrados de sua humanidade.",
+            "Eu avancei por {da_place} mantendo-me entre eles e o desconhecido, mesmo quando alguém dentro da minha cabeça questionava minha própria força.",
+            "Eu pedi silêncio ao grupo ao nos aproximarmos {da_place}, enquanto um coro invisível discutia sobre sacrifício e propósito.",
+            "Eu tracei um pequeno gesto de bênção antes de entrarmos {da_place}, apesar de uma voz mais rígida afirmar que fé não substitui preparo.",
+            "Eu caminhei com eles por {da_place}, ouvindo um conselho interno que dizia que cada passo compartilhado é também uma responsabilidade."
           ],
           "en": [
-            "I walked alongside them to {location}, while a voice murmured that true leaders lead without being seen; I just picked up the pace.",
-            "I stopped before {location} and asked them to hold formation, even with a whisper insisting that faith should be enough to protect us.",
-            "I observed each of them before we advanced through {location}, because an echo in my mind repeated that protecting others is an oath, not a choice.",
-            "I adjusted my holy symbol upon entering {location}, ignoring the voice that said some there needed to be tested by fire.",
-            "I took a deep breath and signaled for us to follow through {location}, while a solemn tone reminded me that hope must be worn like armor.",
-            "I touched the shoulder of one of them before we crossed {location}, as a soft voice insisted that even warriors need to be reminded of their humanity.",
-            "I moved through {location} keeping myself between them and the unknown, even when someone inside my head questioned my own strength.",
-            "I asked the group for silence as we approached {location}, while an invisible chorus argued about sacrifice and purpose.",
-            "I traced a small gesture of blessing before we entered {location}, despite a stricter voice claiming that faith does not replace preparation.",
-            "I walked with them through {location}, listening to internal advice saying that every shared step is also a responsibility."
+            "I walked alongside them to {place}, while a voice murmured that true leaders lead without being seen; I just picked up the pace.",
+            "I stopped before {place} and asked them to hold formation, even with a whisper insisting that faith should be enough to protect us.",
+            "I observed each of them before we advanced through {place}, because an echo in my mind repeated that protecting others is an oath, not a choice.",
+            "I adjusted my holy symbol upon entering {place}, ignoring the voice that said some there needed to be tested by fire.",
+            "I took a deep breath and signaled for us to follow through {place}, while a solemn tone reminded me that hope must be worn like armor.",
+            "I touched the shoulder of one of them before we crossed {place}, as a soft voice insisted that even warriors need to be reminded of their humanity.",
+            "I moved through {place} keeping myself between them and the unknown, even when someone inside my head questioned my own strength.",
+            "I asked the group for silence as we approached {place}, while an invisible chorus argued about sacrifice and purpose.",
+            "I traced a small gesture of blessing before we entered {place}, despite a stricter voice claiming that faith does not replace preparation.",
+            "I walked with them through {place}, listening to internal advice saying that every shared step is also a responsibility."
           ],
           "es": [
-            "Caminé junto a ellos hasta {location}, mientras una voz murmuraba que los verdaderos líderes guían sin ser vistos; simplemente apreté el paso.",
-            "Me detuve ante {location} y les pedí que mantuvieran la formación, incluso con un susurro insistiendo en que la fe debería ser suficiente para protegernos.",
-            "Observé a cada uno antes de avanzar por {location}, porque un eco en mi mente repetía que proteger a los demás es un juramento, no una elección.",
-            "Ajusté mi símbolo sagrado al entrar en {location}, ignorando la voz que decía que algunos allí necesitaban ser probados por el fuego.",
-            "Respiré hondo y les hice señas para seguir por {location}, mientras un tono solemne recordaba que la esperanza debe llevarse como una armadura.",
-            "Toqué el hombro de uno de ellos antes de cruzar {location}, ya que una voz suave insistía en que incluso los guerreros necesitan que se les recuerde su humanidad.",
-            "Avancé por {location} manteniéndome entre ellos y lo desconocido, incluso cuando alguien dentro de mi cabeza cuestionaba mi propia fuerza.",
-            "Pedí silencio al grupo al acercarnos a {location}, mientras un coro invisible discutía sobre el sacrificio y el propósito.",
-            "Tracé un pequeño gesto de bendición antes de entrar en {location}, a pesar de que una voz más rígida afirmaba que la fe no sustituye la preparación.",
-            "Caminé con ellos por {location}, escuchando un consejo interno que decía que cada paso compartido es también una responsabilidad."
+            "Caminé junto a ellos hasta {place}, mientras una voz murmuraba que los verdaderos líderes guían sin ser vistos; simplemente apreté el paso.",
+            "Me detuve ante {place} y les pedí que mantuvieran la formación, incluso con un susurro insistiendo en que la fe debería ser suficiente para protegernos.",
+            "Observé a cada uno antes de avanzar por {place}, porque un eco en mi mente repetía que proteger a los demás es un juramento, no una elección.",
+            "Ajusté mi símbolo sagrado al entrar {na_place}, ignorando la voz que decía que algunos allí necesitaban ser probados por el fuego.",
+            "Respiré hondo y les hice señas para seguir por {place}, mientras un tono solemne recordaba que la esperanza debe llevarse como una armadura.",
+            "Toqué el hombro de uno de ellos antes de cruzar {place}, ya que una voz suave insistía en que incluso los guerreros necesitan que se les recuerde su humanidad.",
+            "Avancé por {place} manteniéndome entre ellos y lo desconocido, incluso cuando alguien dentro de mi cabeza cuestionaba mi propia fuerza.",
+            "Pedí silencio al grupo al acercarnos {a_place}, mientras un coro invisible discutía sobre el sacrificio y el propósito.",
+            "Tracé un pequeño gesto de bendición antes de entrar {na_place}, a pesar de que una voz más rígida afirmaba que la fe no sustituye la preparación.",
+            "Caminé con ellos por {place}, escuchando un consejo interno que decía que cada paso compartido es también una responsabilidad."
           ],
           "ru": [
-            "Я шла рядом с ними к {location}, пока голос шептал, что истинные лидеры ведут, оставаясь невидимыми; я просто прибавила шагу.",
-            "Я остановилась перед {location} и попросила их держать строй, хотя шепот настаивал, что веры должно быть достаточно, чтобы защитить нас.",
-            "Я осмотрела каждого из них перед тем, как мы двинулись через {location}, потому что эхо в моей голове повторяло, что защита других — это клятва, а не выбор.",
-            "Я поправила свой священный символ при входе в {location}, игнорируя голос, который говорил, что некоторые здесь должны быть испытаны огнем.",
-            "Я глубоко вздохнула и подала сигнал следовать через {location}, в то время как торжественный тон напоминал, что надежду нужно носить как доспехи.",
-            "Я коснулась плеча одного из них перед тем, как мы пересекли {location}, так как мягкий голос настаивал на том, что даже воинам нужно напоминать об их человечности.",
-            "Я продвигалась по {location}, держась между ними и неизвестностью, даже когда кто-то в моей голове сомневался в моей собственной силе.",
-            "Я попросила группу о тишине при приближении к {location}, пока невидимый хор спорил о жертве и цели.",
-            "Я совершила небольшой жест благословения перед входом в {location}, несмотря на то что более строгий голос утверждал, что вера не заменяет подготовку.",
-            "Я шла с ними через {location}, прислушиваясь к внутреннему совету, который говорил, что каждый общий шаг — это также и ответственность."
+            "Я шла рядом с ними к {place}, пока голос шептал, что истинные лидеры ведут, оставаясь невидимыми; я просто прибавила шагу.",
+            "Я остановилась перед {place} и попросила их держать строй, хотя шепот настаивал, что веры должно быть достаточно, чтобы защитить нас.",
+            "Я осмотрела каждого из них перед тем, как мы двинулись через {place}, потому что эхо в моей голове повторяло, что защита других — это клятва, а не выбор.",
+            "Я поправила свой священный символ при входе в {place}, игнорируя голос, который говорил, что некоторые здесь должны быть испытаны огнем.",
+            "Я глубоко вздохнула и подала сигнал следовать через {place}, в то время как торжественный тон напоминал, что надежду нужно носить как доспехи.",
+            "Я коснулась плеча одного из них перед тем, как мы пересекли {place}, так как мягкий голос настаивал на том, что даже воинам нужно напоминать об их человечности.",
+            "Я продвигалась по {place}, держась между ними и неизвестностью, даже когда кто-то в моей голове сомневался в моей собственной силе.",
+            "Я попросила группу о тишине при приближении к {place}, пока невидимый хор спорил о жертве и цели.",
+            "Я совершила небольшой жест благословения перед входом в {place}, несмотря на то что более строгий голос утверждал, что вера не заменяет подготовку.",
+            "Я шла с ними через {place}, прислушиваясь к внутреннему совету, который говорил, что каждый общий шаг — это также и ответственность."
           ],
           "zh": [
-            "我走在他们身边前往{location}，一个声音喃喃说真正的领导者在不被看见的情况下引导；我只是加快了脚步。",
-            "我停在{location}前，要求他们保持阵型，尽管有个声音坚持认为信仰足以保护我们。",
-            "在进入{location}之前，我观察了每一个人，因为我脑海中的一个回声重复着：保护他人是一种誓言，而非一种选择。",
-            "进入{location}时我调整了神圣符号，无视了那个说这里有些人需要接受烈火考验的声音。",
-            "我深吸一口气，示意我们继续穿过{location}，一个庄严的语调提醒我，必须像穿盔甲一样带着希望。",
-            "在穿过{location}之前，我碰了一个人的肩膀，因为一个温柔的声音坚持说即使是战士也需要被提醒他们的人性。",
-            "我穿过{location}，让自己处于他们与未知之间，即使脑海中有人在质疑我自己的力量。",
-            "当我们靠近{location}时，我要求队伍保持安静，而一个隐形的合唱团正在争论牺牲与目的。",
-            "进入{location}之前我画了一个小小的祝福手势，尽管一个更严厉的声音声称信仰不能取代准备。",
-            "我与他们一同走过{location}，听着内心的建议，它说每一步共同的跨越也是一份责任。"
+            "我走在他们身边前往{place}，一个声音喃喃说真正的领导者在不被看见的情况下引导；我只是加快了脚步。",
+            "我停在{place}前，要求他们保持阵型，尽管有个声音坚持认为信仰足以保护我们。",
+            "在进入{place}之前，我观察了每一个人，因为我脑海中的一个回声重复着：保护他人是一种誓言，而非一种选择。",
+            "进入{place}时我调整了神圣符号，无视了那个说这里有些人需要接受烈火考验的声音。",
+            "我深吸一口气，示意我们继续穿过{place}，一个庄严的语调提醒我，必须像穿盔甲一样带着希望。",
+            "在穿过{place}之前，我碰了一个人的肩膀，因为一个温柔的声音坚持说即使是战士也需要被提醒他们的人性。",
+            "我穿过{place}，让自己处于他们与未知之间，即使脑海中有人在质疑我自己的力量。",
+            "当我们靠近{place}时，我要求队伍保持安静，而一个隐形的合唱团正在争论牺牲与目的。",
+            "进入{place}之前我画了一个小小的祝福手势，尽管一个更严厉的声音声称信仰不能取代准备。",
+            "我与他们一同走过{place}，听着内心的建议，它说每一步共同的跨越也是一份责任。"
           ],
           "ja": [
-            "私は彼らの隣を歩いて{location}へ向かいました。声が、真のリーダーは姿を見せずに導くものだと囁いていました。私はただ歩調を早めました。",
-            "{location}の前に立ち、陣形を維持するように頼みました。信仰だけで私たちを守るのに十分なはずだという囁きを無視して。",
-            "{location}を進む前に一人一人を観察しました。脳裏に響く残響が、他者を守ることは選択ではなく誓いなのだと繰り返していたからです。",
-            "{location}に入るとき、聖なるシンボルを整えました。ここにいる何人かは火の試練を受ける必要があるという声を無視しながら。",
-            "深呼吸をして{location}を進むよう合図を送りました。厳かな音色が、希望は鎧のように身に纏わなければならないと思い出させてくれました。",
-            "{location}を越える前に一人の肩に触れました。穏やかな声が、戦士であっても人間であることを思い出させる必要があると主張したからです。",
-            "{location}を進む間、彼らと未知のものの間に身を置きました。頭の中の誰かが私自身の力を疑っているときでさえ。",
-            "{location}に近づく際、一行に静粛を求めました。目に見えない合唱が犠牲と目的について議論している間。",
-            "{location}に入る前に小さな祝福の仕草をしました。より厳しい声が、信仰は準備の代わりにはならないと断言していたにもかかわらず。",
-            "彼らと共に{location}を歩きました。共有する一歩一歩がまた一つの責任であるという内なる助言を聞きながら。"
+            "私は彼らの隣を歩いて{place}へ向かいました。声が、真のリーダーは姿を見せずに導くものだと囁いていました。私はただ歩調を早めました。",
+            "{place}の前に立ち、陣形を維持するように頼みました。信仰だけで私たちを守るのに十分なはずだという囁きを無視して。",
+            "{place}を進む前に一人一人を観察しました。脳裏に響く残響が、他者を守ることは選択ではなく誓いなのだと繰り返していたからです。",
+            "{place}に入るとき、聖なるシンボルを整えました。ここにいる何人かは火の試練を受ける必要があるという声を無視しながら。",
+            "深呼吸をして{place}を進むよう合図を送りました。厳かな音色が、希望は鎧のように身に纏わなければならないと思い出させてくれました。",
+            "{place}を越える前に一人の肩に触れました。穏やかな声が、戦士であっても人間であることを思い出させる必要があると主張したからです。",
+            "{place}を進む間、彼らと未知のものの間に身を置きました。頭の中の誰かが私自身の力を疑っているときでさえ。",
+            "{place}に近づく際、一行に静粛を求めました。目に見えない合唱が犠牲と目的について議論している間。",
+            "{place}に入る前に小さな祝福の仕草をしました。より厳しい声が、信仰は準備の代わりにはならないと断言していたにもかかわらず。",
+            "彼らと共に{place}を歩きました。共有する一歩一歩がまた一つの責任であるという内なる助言を聞きながら。"
           ]
         }
       },
@@ -284,30 +284,16 @@
         "fight": {
           "alone": {
             "pt": [
-              "Eu ergui meu símbolo sagrado e invoquei a luz contra {enemy}, enquanto uma voz firme declarava que a purificação começa pelo fogo.",
-              "Eu canalizei energia divina na direção de {enemy}, ouvindo um sussurro solene afirmar que a fé é a arma mais antiga do mundo.",
-              "Eu avancei alguns passos e deixei a luz se condensar em minhas mãos antes de lançá-la contra {enemy}, como alguém já havia ensinado em outra era.",
-              "Eu tracei um círculo luminoso no ar e o projetei sobre {enemy}, enquanto um eco distante repetia que até a escuridão teme a aurora.",
-              "Eu pressionei o símbolo contra o peito e liberei um feixe radiante em direção a {enemy}, seguindo a orientação de uma voz que falava sobre disciplina e sacrifício.",
-              "Eu estendi o cajado e deixei a energia sagrada correr até atingir {enemy}, ouvindo um conselho antigo sobre proteger os inocentes a qualquer custo.",
-              "Eu murmurei palavras rituais e conduzi a luz contra {enemy}, enquanto alguém na minha mente lembrava que milagres exigem convicção.",
-              "Eu concentrei a chama divina na palma da mão e a direcionei a {enemy}, escutando um comentário severo sobre justiça inevitável.",
-              "Eu avancei sob o peso das vozes e projetei um clarão contra {enemy}, como se estivesse repetindo um ensinamento transmitido de geração em geração.",
-              "Eu invoquei um brilho quase celestial e o enviei contra {enemy}, enquanto o coro interno discutia se aquilo era punição ou redenção."
-            ]
-          },
-          "group": {
-            "pt": [
-              "Eu permaneci próxima deles enquanto enfrentavam {enemy}, canalizando luz para fechar as feridas que surgiam, como uma velha mentora certa vez descrevera.",
-              "Eu ergui meu símbolo e deixei a energia fluir sobre os aliados sempre que podia, ouvindo uma voz suave dizer que cura é também uma forma de coragem.",
-              "Eu toquei cada um que vacilava diante de {enemy}, conduzindo a luz com cuidado, como se repetisse um ritual ensinado em um templo distante.",
-              "Eu mantive minha posição atrás da linha de frente contra {enemy}, restaurando forças conforme surgiam cortes e hematomas, enquanto um eco lembrava que o dever do clérigo é sustentar.",
-              "Eu tracei bênçãos rápidas sobre os companheiros durante o confronto com {enemy}, escutando alguém afirmar que proteger é mais nobre do que destruir.",
-              "Eu observei os movimentos deles contra {enemy} e intervim sempre que uma ferida se abria, guiada por um conselho antigo sobre misericórdia ativa.",
-              "Eu pressionei minha mão luminosa contra armaduras rachadas e ombros sangrando enquanto {enemy} avançava, como se seguisse uma liturgia memorizada.",
-              "Eu deixei a luz circular entre nós durante a batalha com {enemy}, lembrando das palavras de um velho sermão sobre manter a chama acesa.",
-              "Eu caminhei entre eles sob a ameaça de {enemy}, restaurando o que era possível, enquanto o coral interno discutia a diferença entre milagre e técnica.",
-              "Eu mantive o símbolo erguido durante o confronto com {enemy}, enviando ondas suaves de cura aos aliados sempre que podia, seguindo a orientação de vozes que falavam sobre compaixão disciplinada."
+              "Eu ergui meu símbolo sagrado e invoquei a luz contra {o_enemy}, enquanto uma voz firme declarava que a purificação começa pelo fogo.",
+              "Eu canalizei energia divina na direção {do_enemy}, ouvindo um sussurro solene afirmar que a fé é a arma mais antiga do mundo.",
+              "Eu avancei alguns passos e deixei a luz se condensar em minhas mãos antes de lançá-la contra {o_enemy}, como alguém já havia ensinado em outra era.",
+              "Eu tracei um círculo luminoso no ar e o projetei sobre {o_enemy}, enquanto um eco distante repetia que até a escuridão teme a aurora.",
+              "Eu pressionei o símbolo contra o peito e liberei um feixe radiante em direção {ao_enemy}, seguindo a orientação de uma voz que falava sobre disciplina e sacrifício.",
+              "Eu estendi o cajado e deixei a energia sagrada correr até atingir {o_enemy}, ouvindo um conselho antigo sobre proteger os inocentes a qualquer custo.",
+              "Eu murmurei palavras rituais e conduzi a luz contra {o_enemy}, enquanto alguém na minha mente lembrava que milagres exigem convicção.",
+              "Eu concentrei a chama divina na palma da mão e a direcionei {ao_enemy}, escutando um comentário severo sobre justiça inevitável.",
+              "Eu avancei sob o peso das vozes e projetei um clarão contra {o_enemy}, como se estivesse repetindo um ensinamento transmitido de geração em geração.",
+              "Eu invoquei um brilho quase celestial e o enviei contra {o_enemy}, enquanto o coro interno discutia se aquilo era punição ou redenção."
             ],
             "en": [
               "I raised my holy symbol and invoked the light against {enemy}, while a firm voice declared that purification begins with fire.",
@@ -322,16 +308,16 @@
               "I invoked an almost celestial glow and sent it against {enemy}, while the inner chorus debated whether that was punishment or redemption."
             ],
             "es": [
-              "Alcé mi símbolo sagrado e invoqué la luz contra {enemy}, mientras una voz firme declaraba que la purificación comienza con el fuego.",
-              "Canalicé energía divina hacia {enemy}, escuchando un susurro solemne afirmar que la fe es el arma más antigua del mundo.",
-              "Avancé unos pasos y dejé que la luz se condensara en mis manos antes de lanzarla contra {enemy}, tal como alguien enseñó en otra era.",
-              "Tracé un círculo luminoso en el aire y lo proyecté sobre {enemy}, mientras un eco distante repetía que incluso la oscuridad teme al amanecer.",
-              "Presioné el símbolo contra mi pecho y liberé un haz radiante hacia {enemy}, siguiendo la guía de una voz que hablaba de disciplina y sacrificio.",
-              "Extendí el báculo y dejé que la energía sagrada fluyera hasta alcanzar a {enemy}, escuchando un consejo antiguo sobre proteger a los inocentes a cualquier precio.",
-              "Murmuré palabras rituales y conduje la luz contra {enemy}, mientras alguien en mi mente recordaba que los milagros requieren convicción.",
-              "Concentré la llama divina en la palma de mi mano y la dirigí a {enemy}, escuchando un comentario severo sobre la justicia inevitable.",
-              "Avancé bajo el peso de las voces y proyecté un destello contra {enemy}, como si repitiera una enseñanza transmitida de generación en generación.",
-              "Invoqué un brillo casi celestial y lo envié contra {enemy}, mientras el coro interno discutía si aquello era castigo o redención."
+              "Alcé mi símbolo sagrado e invoqué la luz contra {ao_enemy}, mientras una voz firme declaraba que la purificación comienza con el fuego.",
+              "Canalicé energía divina hacia {ao_enemy}, escuchando un susurro solemne afirmar que la fe es el arma más antigua del mundo.",
+              "Avancé unos pasos y dejé que la luz se condensara en mis manos antes de lanzarla sobre {ao_enemy}, tal como alguien enseñó en otra era.",
+              "Tracé un círculo luminoso en el aire y lo proyecté hacia {ao_enemy}, mientras un eco distante repetía que incluso la oscuridad teme al amanecer.",
+              "Presioné el símbolo contra mi pecho y liberé un haz radiante contra {ao_enemy}, siguiendo la guía de una voz que hablaba de disciplina y sacrificio.",
+              "Extendí el báculo y dejé que la energía sagrada fluyera hasta alcanzar {ao_enemy}, escuchando un consejo antiguo sobre proteger a los inocentes a cualquier precio.",
+              "Murmuré palabras rituales y conduje la luz hacia {ao_enemy}, mientras alguien en mi mente recordaba que los milagros requieren convicción.",
+              "Concentré la llama divina en la palma de mi mano y la dirigí contra {ao_enemy}, escuchando un comentario severo sobre la justicia inevitable.",
+              "Avancé bajo el peso de las voces y proyecté un destello sobre {ao_enemy}, como si repitiera una enseñanza transmitida de generación en generación.",
+              "Invoqué un brillo casi celestial y lo envié hacia {ao_enemy}, mientras el coro interno discutía si aquello era castigo o redención."
             ],
             "ru": [
               "Я подняла свой священный символ и призвала свет против {enemy}, в то время как твердый голос объявил, что очищение начинается с огня.",
@@ -369,39 +355,113 @@
               "声の重圧の下で前進し、代々受け継がれてきた教えを繰り返すかのように、{enemy}に閃光を放ちました。",
               "天界のような輝きを呼び出し、それを{enemy}に送りました。内なる合唱が、それが罰なのか救済なのかを議論している間。"
             ]
+          },
+          "group": {
+            "pt": [
+              "Eu permaneci próxima deles enquanto enfrentavam {o_enemy}, canalizando luz para fechar as feridas que surgiam, como uma velha mentora certa vez descrevera.",
+              "Eu ergui meu símbolo e deixei a energia fluir sobre os aliados sempre que podia, ouvindo uma voz suave dizer que cura é também uma forma de coragem.",
+              "Eu toquei cada um que vacilava diante {do_enemy}, conduzindo a luz com cuidado, como se repetisse um ritual ensinado em um templo distante.",
+              "Eu mantive minha posição atrás da linha de frente contra {o_enemy}, restaurando forças conforme surgiam cortes e hematomas, enquanto um eco lembrava que o dever do clérigo é sustentar.",
+              "Eu tracei bênçãos rápidas sobre os companheiros durante o confronto com {o_enemy}, escutando alguém afirmar que proteger é mais nobre do que destruir.",
+              "Eu observei os movimentos deles contra {o_enemy} e intervim sempre que uma ferida se abria, guiada por um conselho antigo sobre misericórdia ativa.",
+              "Eu pressionei minha mão luminosa contra armaduras rachadas e ombros sangrando enquanto {o_enemy} avançavam, como se seguisse uma liturgia memorizada.",
+              "Eu deixei a luz circular entre nós durante a batalha com {o_enemy}, lembrando das palavras de um velho sermão sobre manter a chama acesa.",
+              "Eu caminhei entre eles sob a ameaça {do_enemy}, restaurando o que era possível, enquanto o coral interno discutia a diferença entre milagre e técnica.",
+              "Eu mantive o símbolo erguido durante o confronto com {o_enemy}, enviando ondas suaves de cura aos aliados sempre que podia, seguindo a orientação de vozes que falavam sobre compaixão disciplinada."
+            ],
+            "en": [
+              "I stayed close to them as they faced {enemy}, channeling light to close wounds as they appeared, just as an old mentor once described.",
+              "I raised my symbol and let the energy flow over allies whenever I could, hearing a soft voice say that healing is also a form of courage.",
+              "I touched each one who faltered before {enemy}, carefully leading the light, as if repeating a ritual taught in a distant temple.",
+              "I kept my position behind the front line against {enemy}, restoring strength as cuts and bruises emerged, while an echo reminded me that the cleric's duty is to sustain.",
+              "I traced quick blessings over my companions during the confrontation with {enemy}, listening to someone affirm that protecting is more noble than destroying.",
+              "I observed their movements against {enemy} and intervened whenever a wound opened, guided by ancient advice on active mercy.",
+              "I pressed my glowing hand against cracked armor and bleeding shoulders as {enemy} advanced, as if following a memorized liturgy.",
+              "I let the light circle among us during the battle with {enemy}, recalling the words of an old sermon about keeping the flame alive.",
+              "I walked among them under the threat of {enemy}, restoring what I could, while the inner chorus debated the difference between miracle and technique.",
+              "I kept the symbol raised during the confrontation with {enemy}, sending gentle waves of healing to allies whenever I could, following the guidance of voices speaking about disciplined compassion."
+            ],
+            "es": [
+              "Me mantuve cerca de ellos mientras enfrentaban {ao_enemy}, canalizando luz para cerrar las heridas a medida que aparecían, tal como lo describió una vieja mentora una vez.",
+              "Alcé mi símbolo y dejé que la energía fluyera sobre los aliados siempre que pude, escuchando una voz suave decir que sanar también es una forma de coraje.",
+              "Toqué a cada uno que vacilaba ante {ao_enemy}, guiando cuidadosamente la luz, como si repitiera un ritual enseñado en un templo distante.",
+              "Mantuve mi posición detrás de la línea del frente contra {ao_enemy}, restaurando fuerzas a medida que surgían cortes y hematomas, mientras un eco recordaba que el deber del clérigo es sostener.",
+              "Tracé bendiciones rápidas sobre mis compañeros durante el enfrentamiento con {ao_enemy}, escuchando a alguien afirmar que proteger es más noble que destruir.",
+              "Observé sus movimientos frente {ao_enemy} e intervine cada vez que se abría una herida, guiada por un consejo antiguo sobre la misericordia activa.",
+              "Presioné mi mano luminosa contra armaduras agrietadas y hombros sangrientos mientras {enemy} avanzaba, como si siguiera una liturgia memorizada.",
+              "Dejé que la luz circulara entre nosotros durante la batalla contra {ao_enemy}, recordando las palabras de un viejo sermón sobre mantener la llama encendida.",
+              "Caminé entre ellos bajo la amenaza {do_enemy}, restaurando lo que podía, mientras el coro interno debatía la diferencia entre milagro y técnica.",
+              "Mantuve el símbolo en alto durante el enfrentamiento con {ao_enemy}, enviando ondas suaves de curación a los aliados siempre que pude, siguiendo la guía de voces que hablaban sobre la compasión disciplinada."
+            ],
+              "ru": [
+                "Я оставалась рядом с ними, когда они сталкивались с {enemy}, направляя свет, чтобы закрывать раны по мере их появления, так же, как однажды описала старая наставница.",
+                "Я подняла свой символ и позволила энергии течь над союзниками всякий раз, когда могла, слыша мягкий голос, говорящий, что исцеление — это также форма мужества.",
+                "Я коснулась каждого, кто колебался перед {enemy}, осторожно ведя свет, словно повторяя ритуал, преподанный в далеком храме.",
+                "Я держала свою позицию за линией фронта против {enemy}, восстанавливая силы по мере появления порезов и синяков, в то время как эхо напоминало мне, что долг клирика — поддерживать.",
+                "Я быстро наносила благословения своим товарищам во время столкновения с {enemy}, слушая, как кто-то утверждает, что защищать — это более благородно, чем разрушать.",
+                "Я наблюдала за их движениями против {enemy} и вмешивалась всякий раз, когда открывалась рана, руководствуясь древним советом о деятельной милости.",
+                "Я прижимала свою светящуюся руку к треснувшей броне и кровоточащим плечам по мере продвижения {enemy}, словно следуя запомненной литургии.",
+                "Я позволяла свету циркулировать между нами во время битвы с {enemy}, вспоминая слова старой проповеди о том, как поддерживать пламя живым.",
+                "Я ходила среди них под угрозой {enemy}, восстанавливая то, что могла, в то время как внутренний хор спорил о разнице между чудом и техникой.",
+                "Я держала символ поднятым во время столкновения с {enemy}, посылая мягкие волны исцеления союзникам всякий раз, когда могла, следуя указаниям голосов, говорящих о дисциплинированной сострадании."
+              ],
+              "zh": [
+                "当他们面对{enemy}时，我一直靠近他们，导引光芒来关闭伤口，就像一位老导师曾经描述的那样。",
+                "我举起我的符号，让能量在盟友身上流动，每当我能的时候，听到一个温柔的声音说治愈也是一种勇气的表现。",
+                "我触摸了每一个在{enemy}面前动摇的人，小心地引导着光芒，就好像在重复一个遥远寺庙里教过的仪式一样。",
+                "我在{enemy}的前线后保持我的位置，当出现割伤和瘀伤时恢复力量，而一个回声提醒我，牧师的职责是维持。",
+                "在与{enemy}的对抗中，我快速地为同伴们描绘祝福，听到有人肯定保护比破坏更高尚。",
+                "我观察他们对抗{enemy}的动作，并在每次伤口打开时进行干预，受到关于积极慈悲的古老建议的指导。",
+                "当{enemy}推进时，我将发光的手按在破裂的盔甲和流血的肩膀上，就好像在遵循一个记忆中的礼拜仪式一样。",
+                "在与{enemy}的战斗中，我让光芒在我们之间循环，回想起一篇关于保持火焰燃烧的古老布道词。",
+                "在{enemy}的威胁下，我走在他们之间，恢复我能做的一切，而内心的合唱正在争论奇迹和技巧之间的区别。",
+                "在与{enemy}的对抗中，我保持符号高举，每当我能的时候向盟友发送温和的治愈波，遵循着关于纪律化同情心的声音指引。"
+              ],
+              "ja": [
+                  "彼らが{enemy}に立ち向かう中、私は近くにいて、傷が現れるたびに光を導きました。まるで昔の師匠が説明したように。",
+                  "シンボルを掲げ、できる限り味方の上にエネルギーを流しました。治癒もまた勇気の一形態だという柔らかな声を聞きながら。",
+                  "{enemy}の前で躊躇する者には一人一人触れ、慎重に光を導きました。まるで遠い寺院で教えられた儀式を繰り返すかのように。",
+                  "{enemy}との戦いでは前線の後ろに位置し、切り傷やあざが現れるたびに力を回復させました。内なるエコーが、クレリックの義務は支えることだと私に思い出させていました。",
+                  "{enemy}との対決中、仲間たちに素早く祝福を描きました。守ることは破壊するよりも高貴だと誰かが断言するのを聞きながら。",
+                  "{enemy}への動きを観察し、傷が開くたびに介入しました。積極的な慈悲についての古い助言に導かれて。",
+                  "{enemy}が進むにつれて、ひび割れた鎧や血まみれの肩に光る手を押し当てました。覚えたリチュアルに従うかのように。",
+                  "{enemy}との戦いでは光を私たちの間で循環させました。火を生かし続けることについての古い説教の言葉を思い出しながら。",
+                  "{enemy}の脅威の下で彼らの間を歩き、できる限り回復させました。内なる合唱が奇跡と技術の違いについて議論している間。",
+                  "{enemy}との対決中、シンボルを高く掲げ続けました。できる限り味方に優しい治癒の波を送り、規律ある同情について語る声の指導に従いながら。"
+               ]
           }
         },
         "religion": {
           "alone": {
             "pt": [
-              "Eu recitei os preceitos sagrados diante de {challenge}, enquanto uma das vozes insistia que tradição é a espinha dorsal da fé.",
-              "Eu tracei símbolos antigos ao encarar {challenge}, ouvindo um eco afirmar que todo lugar carrega um vestígio do divino.",
-              "Eu citei um trecho de um antigo sermão enquanto lidava com {challenge}, mesmo com o coral interno debatendo interpretações diferentes."
+              "Eu recitei os preceitos sagrados diante de {subject}, enquanto uma das vozes insistia que tradição é a espinha dorsal da fé.",
+              "Eu tracei símbolos antigos ao encarar {subject}, ouvindo um eco afirmar que todo lugar carrega um vestígio do divino.",
+              "Eu citei um trecho de um antigo sermão enquanto lidava com {subject}, mesmo com o coral interno debatendo interpretações diferentes."
             ],
             "en": [
-              "I recited the holy precepts before {challenge}, while one of the voices insisted that tradition is the backbone of faith.",
-              "I traced ancient symbols while facing {challenge}, hearing an echo affirm that every place carries a trace of the divine.",
-              "I quoted a passage from an ancient sermon while dealing with {challenge}, even with the internal chorus debating different interpretations."
+              "I recited the holy precepts before {subject}, while one of the voices insisted that tradition is the backbone of faith.",
+              "I traced ancient symbols while facing {subject}, hearing an echo affirm that every place carries a trace of the divine.",
+              "I quoted a passage from an ancient sermon while dealing with {subject}, even with the internal chorus debating different interpretations."
             ],
             "es": [
-              "Recité los preceptos sagrados ante {challenge}, mientras una de las voces insistía en que la tradición es la columna vertebral de la fe.",
-              "Tracé símbolos antiguos al enfrentarme a {challenge}, escuchando un eco afirmar que cada lugar lleva un vestigio de lo divino.",
-              "Cité un fragmento de un antiguo sermón mientras lidiaba con {challenge}, incluso con el coro interno debatiendo diferentes interpretaciones."
+              "Recité los preceptos sagrados ante {subject}, mientras una de las voces insistía en que la tradición es la columna vertebral de la fe.",
+              "Tracé símbolos antiguos al enfrentarme a {subject}, escuchando un eco afirmar que cada lugar lleva un vestigio de lo divino.",
+              "Cité un fragmento de un antiguo sermón mientras lidiaba con {subject}, incluso con el coro interno debatiendo diferentes interpretaciones."
             ],
             "ru": [
-              "Я зачитала священные заповеди перед {challenge}, в то время как один из голосов настаивал на том, что традиция — это костяк веры.",
-              "Я чертила древние символы, столкнувшись с {challenge}, слыша эхо, утверждающее, что каждое место несет в себе след божественного.",
-              "Я процитировала отрывок из древней проповеди, разбираясь с {challenge}, даже когда внутренний хор спорил о различных толкованиях."
+              "Я зачитала священные заповеди перед {subject}, в то время как один из голосов настаивал на том, что традиция — это костяк веры.",
+              "Я чертила древние символы, столкнувшись с {subject}, слыша эхо, утверждающее, что каждое место несет в себе след божественного.",
+              "Я процитировала отрывок из древней проповеди, разбираясь с {subject}, даже когда внутренний хор спорил о различных толкованиях."
             ],
             "zh": [
-              "我在{challenge}前诵读神圣的诫命，其中一个声音坚持认为传统是信仰的支柱。",
-              "面对{challenge}时我画下了古老的符号，听到一个回声断言每个地方都留有神圣的痕迹。",
-              "在处理{challenge}时，我引用了一段古老的布道词，尽管内心的合唱正在辩论不同的解读。"
+              "我在{subject}前诵读神圣的诫命，其中一个声音坚持认为传统是信仰的支柱。",
+              "面对{subject}时我画下了古老的符号，听到一个回声断言每个地方都留有神圣的痕迹。",
+              "在处理{subject}时，我引用了一段古老的布道词，尽管内心的合唱正在辩论不同的解读。"
             ],
             "ja": [
-              "{challenge}の前で聖なる教えを唱えました。声の一つが、伝統こそが信仰の根幹であると主張していました。",
-              "{challenge}に立ち向かいながら古代の印を描きました。あらゆる場所には神聖な名残があるという残響の肯定を聞きながら。",
-              "{challenge}に対処しながら古い説教の一節を引用しました。内なる合唱が異なる解釈で議論している最中でも。"
+              "{subject}の前で聖なる教えを唱えました。声の一つが、伝統こそが信仰の根幹であると主張していました。",
+              "{subject}に立ち向かいながら古代の印を描きました。あらゆる場所には神聖な名残があるという残響の肯定を聞きながら。",
+              "{subject}に対処しながら古い説教の一節を引用しました。内なる合唱が異なる解釈で議論している最中でも。"
             ]
 
           }
@@ -409,68 +469,68 @@
         "cure": {
           "alone": {
             "pt": [
-              "Eu pressionei minhas mãos sobre a dor causada por {challenge} e canalizei energia sagrada com cuidado, enquanto uma voz suave lembrava que restaurar é um ato de coragem.",
-              "Eu murmurei palavras de bênção enquanto respondia a {challenge}, deixando a luz fluir de forma controlada, seguindo a orientação de um conselho antigo sobre compaixão ativa.",
-              "Eu mantive o símbolo erguido diante de {challenge} e conduzi energia curativa sempre que necessário, ouvindo alguém comentar que milagres exigem disciplina."
+              "Eu pressionei minhas mãos sobre a dor causada por {subject} e canalizei energia sagrada com cuidado, enquanto uma voz suave lembrava que restaurar é um ato de coragem.",
+              "Eu murmurei palavras de bênção enquanto respondia a {subject}, deixando a luz fluir de forma controlada, seguindo a orientação de um conselho antigo sobre compaixão ativa.",
+              "Eu mantive o símbolo erguido diante de {subject} e conduzi energia curativa sempre que necessário, ouvindo alguém comentar que milagres exigem disciplina."
             ],
             "en": [
-              "I pressed my hands over the pain caused by {challenge} and carefully channeled holy energy, while a soft voice reminded me that restoring is an act of courage.",
-              "I murmured words of blessing while responding to {challenge}, letting the light flow in a controlled way, following the guidance of ancient advice on active compassion.",
-              "I kept the symbol raised before {challenge} and directed healing energy whenever necessary, hearing someone comment that miracles require discipline."
+              "I pressed my hands over the pain caused by {subject} and carefully channeled holy energy, while a soft voice reminded me that restoring is an act of courage.",
+              "I murmured words of blessing while responding to {subject}, letting the light flow in a controlled way, following the guidance of ancient advice on active compassion.",
+              "I kept the symbol raised before {subject} and directed healing energy whenever necessary, hearing someone comment that miracles require discipline."
             ],
             "es": [
-              "Presioné mis manos sobre el dolor causado por {challenge} y canalicé energía sagrada con cuidado, mientras una voz suave recordaba que restaurar es un acto de valentía.",
-              "Murmuré palabras de bendición mientras respondía a {challenge}, dejando que la luz fluyera de forma controlada, siguiendo la guía de un antiguo consejo sobre la compasión activa.",
-              "Mantuve el símbolo en alto ante {challenge} y dirigí energía curativa siempre que fue necesario, escuchando a alguien comentar que los milagros requieren disciplina."
+              "Presioné mis manos sobre el dolor causado por {subject} y canalicé energía sagrada con cuidado, mientras una voz suave recordaba que restaurar es un acto de valentía.",
+              "Murmuré palabras de bendición mientras respondía a {subject}, dejando que la luz fluyera de forma controlada, siguiendo la guía de un antiguo consejo sobre la compasión activa.",
+              "Mantuve el símbolo en alto ante {subject} y dirigí energía curativa siempre que fue necesario, escuchando a alguien comentar que los milagros requieren disciplina."
             ],
             "ru": [
-              "Я прижала руки к боли, вызванной {challenge}, и осторожно направила священную энергию, пока мягкий голос напоминал, что восстановление — это акт мужества.",
-              "Я бормотала слова благословения, отвечая на {challenge}, позволяя свету течь под контролем, следуя руководству древнего совета о деятельном сострадании.",
-              "Я держала символ поднятым перед {challenge} и направляла исцеляющую энергию всякий раз, когда это было необходимо, слыша, как кто-то комментирует, что чудеса требуют дисциплины."
+              "Я прижала руки к боли, вызванной {subject}, и осторожно направила священную энергию, пока мягкий голос напоминал, что восстановление — это акт мужества.",
+              "Я бормотала слова благословения, отвечая на {subject}, позволяя свету течь под контролем, следуя руководству древнего совета о деятельном сострадании.",
+              "Я держала символ поднятым перед {subject} и направляла исцеляющую энергию всякий раз, когда это было необходимо, слыша, как кто-то комментирует, что чудеса требуют дисциплины."
             ],
             "zh": [
-              "我将双手按在由{challenge}引起的痛处，小心地引导神圣能量，一个温柔的声音提醒我，修复是一种勇气之举。",
-              "在应对{challenge}时，我低声念诵祝福之词，让光芒受控地流动，遵循关于积极慈悲的古老建议的指引。",
-              "我在{challenge}面前高举符号，并在必要时引导治愈能量，听到有人评论说奇迹需要纪律。"
+              "我将双手按在由{subject}引起的痛处，小心地引导神圣能量，一个温柔的声音提醒我，修复是一种勇气之举。",
+              "在应对{subject}时，我低声念诵祝福之词，让光芒受控地流动，遵循关于积极慈悲的古老建议的指引。",
+              "我在{subject}面前高举符号，并在必要时引导治愈能量，听到有人评论说奇迹需要纪律。"
             ],
             "ja": [
-              "{challenge}による痛みに手を当て、慎重に聖なるエネルギーを注ぎました。回復させることは勇気ある行為だと、穏やかな声が思い出させてくれました。",
-              "{challenge}に応じながら祝福の言葉を呟き、能動的な慈愛に関する古い助言に従って、制御された光を流しました。",
-              "{challenge}の前でシンボルを掲げ続け、必要に応じて癒しのエネルギーを向けました。奇跡には規律が必要だという誰かのコメントを聞きながら。"
+              "{subject}による痛みに手を当て、慎重に聖なるエネルギーを注ぎました。回復させることは勇気ある行為だと、穏やかな声が思い出させてくれました。",
+              "{subject}に応じながら祝福の言葉を呟き、能動的な慈愛に関する古い助言に従って、制御された光を流しました。",
+              "{subject}の前でシンボルを掲げ続け、必要に応じて癒しのエネルギーを向けました。奇跡には規律が必要だという誰かのコメントを聞きながら。"
             ]
           }
         },
         "investigation": {
           "alone": {
             "pt": [
-              "Eu examinei atentamente os sinais deixados por {challenge}, enquanto uma voz mais rígida dizia que até a fé precisa de evidências.",
-              "Eu observei marcas relacionadas a {challenge} ao meu redor, escutando um sussurro afirmar que o divino também fala através de padrões.",
-              "Eu caminhei lentamente analisando cada detalhe envolvendo {challenge}, enquanto o coral interno discutia se aquilo era presságio ou apenas descuido humano."
+              "Eu examinei atentamente os sinais deixados por {subject}, enquanto uma voz mais rígida dizia que até a fé precisa de evidências.",
+              "Eu observei marcas relacionadas a {subject} ao meu redor, escutando um sussurro afirmar que o divino também fala através de padrões.",
+              "Eu caminhei lentamente analisando cada detalhe envolvendo {subject}, enquanto o coral interno discutia se aquilo era presságio ou apenas descuido humano."
             ],
             "en": [
-              "I closely examined the signs left by {challenge}, while a stricter voice said that even faith needs evidence.",
-              "I observed marks related to {challenge} around me, listening to a whisper claim that the divine also speaks through patterns.",
-              "I walked slowly, analyzing every detail involving {challenge}, while the inner chorus debated whether it was an omen or just human neglect."
+              "I closely examined the signs left by {subject}, while a stricter voice said that even faith needs evidence.",
+              "I observed marks related to {subject} around me, listening to a whisper claim that the divine also speaks through patterns.",
+              "I walked slowly, analyzing every detail involving {subject}, while the inner chorus debated whether it was an omen or just human neglect."
             ],
             "es": [
-              "Examiné atentamente las señales dejadas por {challenge}, mientras una voz más rígida decía que incluso la fe necesita evidencias.",
-              "Observé marcas relacionadas con {challenge} a mi alrededor, escuchando un susurro afirmar que lo divino también habla a través de patrones.",
-              "Caminé lentamente analizando cada detalle relacionado con {challenge}, mientras el coro interno discutía si aquello era un presagio o simplemente descuido humano."
+              "Examiné atentamente las señales dejadas por {subject}, mientras una voz más rígida decía que incluso la fe necesita evidencias.",
+              "Observé marcas relacionadas con {subject} a mi alrededor, escuchando un susurro afirmar que lo divino también habla a través de patrones.",
+              "Caminé lentamente analizando cada detalle relacionado con {subject}, mientras el coro interno discutía si aquello era un presagio o simplemente descuido humano."
             ],
             "ru": [
-              "Я внимательно изучила знаки, оставленные {challenge}, в то время как более строгий голос говорил, что даже вера нуждается в доказательствах.",
-              "Я наблюдала за следами, связанными с {challenge} вокруг меня, слушая шепот, утверждающий, что божественное также говорит через закономерности.",
-              "Я медленно шла, анализируя каждую деталь, связанную с {challenge}, пока внутренний хор спорил, было ли это предзнаменованием или просто человеческой неосторожностью."
+              "Я внимательно изучила знаки, оставленные {subject}, в то время как более строгий голос говорил, что даже вера нуждается в доказательствах.",
+              "Я наблюдала за следами, связанными с {subject} вокруг меня, слушая шепот, утверждающий, что божественное также говорит через закономерности.",
+              "Я медленно шла, анализируя каждую деталь, связанную с {subject}, пока внутренний хор спорил, было ли это предзнаменованием или просто человеческой неосторожностью."
             ],
             "zh": [
-              "我仔细检查了{challenge}留下的迹象，一个更严厉的声音说即使是信仰也需要证据。",
-              "我观察周围与{challenge}相关的痕迹，听着一个低语声称神圣也会通过模式来沟通。",
-              "我缓慢行走，分析涉及{challenge}的每一个细节，而内心的合唱正在争论那是预兆还是仅仅是人类的疏忽。"
+              "我仔细检查了{subject}留下的迹象，一个更严厉的声音说即使是信仰也需要证据。",
+              "我观察周围与{subject}相关的痕迹，听着一个低语声称神圣也会通过模式来沟通。",
+              "我缓慢行走，分析涉及{subject}的每一个细节，而内心的合唱正在争论那是预兆还是仅仅是人类的疏忽。"
             ],
             "ja": [
-              "{challenge}が残した兆候を注意深く調べました。より厳しい声が、信仰でさえ証拠を必要とすると言っていました。",
-              "周囲にある{challenge}に関連する跡を観察しました。神聖なものはパターンを通しても語りかけるという囁きを聞きながら。",
-              "{challenge}にまつわる細部を分析しながらゆっくりと歩きました。内なる合唱が、それが不吉な前兆なのか、あるいは単なる人間の不注意なのかを議論している間。"
+              "{subject}が残した兆候を注意深く調べました。より厳しい声が、信仰でさえ証拠を必要とすると言っていました。",
+              "周囲にある{subject}に関連する跡を観察しました。神聖なものはパターンを通しても語りかけるという囁きを聞きながら。",
+              "{subject}にまつわる細部を分析しながらゆっくりと歩きました。内なる合唱が、それが不吉な前兆なのか、あるいは単なる人間の不注意なのかを議論している間。"
             ]
           }
         }
@@ -952,6 +1012,252 @@
             ]
           }
         }
+      },
+      "narrative": {
+        "enemy": {
+          "details": {
+            "pt": [
+              "As vozes pareciam comentar sobre {fragment}.",
+              "Enxerguei um presságio divino em {fragment}.",
+              "Os sussurros ficaram mais altos quando observei {fragment}.",
+              "Acreditei que {fragment} carregava uma mensagem dos céus.",
+              "Tentei compreender o significado oculto por trás de {fragment}."
+            ],
+            "en": [
+              "The voices seemed to comment on {fragment}.",
+              "I saw a divine omen in {fragment}.",
+              "The whispers grew louder as I observed {fragment}.",
+              "I believed {fragment} carried a message from the heavens.",
+              "I tried to understand the hidden meaning behind {fragment}."
+            ],
+            "es": [
+              "Las voces parecían comentar sobre {fragment}.",
+              "Vi un presagio divino en {fragment}.",
+              "Los susurros se hicieron más fuertes al observar {fragment}.",
+              "Creí que {fragment} llevaba un mensaje de los cielos.",
+              "Intenté comprender el significado oculto detrás de {fragment}."
+            ],
+            "ru": [
+              "Голоса, казалось, комментировали {fragment}.",
+              "Я увидела божественное предзнаменование в {fragment}.",
+              "Шепоты становились громче, когда я наблюдала за {fragment}.",
+              "Я верила, что {fragment} несет послание от небес.",
+              "Я пыталась понять скрытый смысл за {fragment}."
+            ],
+            "zh": [
+              "那些声音似乎在评论{fragment}。",
+              "我在{fragment}中看到了神圣的预兆。",
+              "当我观察{fragment}时，耳语变得更大声了。",
+              "我相信{fragment}携带着来自天堂的信息。",
+              "我试图理解{fragment}背后的隐藏意义。"
+            ],
+            "ja": [
+              "声は{fragment}についてコメントしているようでした。",
+              "{fragment}に神聖な前兆を見ました。",
+              "{fragment}を観察するにつれて、囁きは大きくなりました。",
+              "{fragment}には天からのメッセージが込められていると信じていました。",
+              "{fragment}の背後にある隠された意味を理解しようとしました。"
+            ]
+          },
+          "attack": {
+            "pt": [
+              "Meu Escudo da Fé resistiu a {fragment}.",
+              "Busquei refúgio no Santuário contra {fragment}.",
+              "Minha Proteção contra o Mal conteve {fragment}.",
+              "O Vínculo Guardião me ajudou a suportar {fragment}.",
+              "Minha Aura Sagrada enfraqueceu {fragment}.",
+              "A Guarda da Morte me preservou de {fragment}.",
+              "Meu Guardião da Fé interceptou {fragment}.",
+              "A Aura de Proteção me protegeu de {fragment}.",
+              "Minha Égide Divina bloqueou {fragment}.",
+              "Minha Proteção Sagrada resistiu a {fragment}."
+            ],
+            "en": [
+              "My Shield of Faith resisted {fragment}.",
+              "I sought refuge in Sanctuary against {fragment}.",
+              "My Protection from Evil contained {fragment}.",
+              "The Guardian Bond helped me endure {fragment}.",
+              "My Aura of Sanctity weakened {fragment}.",
+              "The Guard of Death preserved me from {fragment}.",
+              "My Guardian of Faith intercepted {fragment}.",
+              "The Aura of Protection shielded me from {fragment}.",
+              "My Divine Aegis blocked {fragment}.",
+              "My Sacred Protection resisted {fragment}."
+            ],
+            "es": [
+              "Mi Escudo de Fe resistió {fragment}.",
+              "Busqué refugio en el Santuario contra {fragment}.",
+              "Mi Protección contra el Mal contuvo {fragment}.",
+              "El Vínculo Guardián me ayudó a soportar {fragment}.",
+              "Mi Aura de Santidad debilitó {fragment}.",
+              "La Guardia de la Muerte me preservó de {fragment}.",
+              "Mi Guardián de Fe interceptó {fragment}.",
+              "El Aura de Protección me protegió de {fragment}.",
+              "Mi Égida Divina bloqueó {fragment}.",
+              "Mi Protección Sagrada resistió {fragment}."
+            ],
+            "ru": [
+              "Мой Щит Веры устоял против {fragment}.",
+              "Я искал убежище в Святилище от {fragment}.",
+              "Моя Защита от Зла сдержала {fragment}.",
+              "Связь Стража помогла мне выдержать {fragment}.",
+              "Моя Аура Святости ослабила {fragment}.",
+              "Страж Смерти сохранил меня от {fragment}.",
+              "Мой Страж Веры перехватил {fragment}.",
+              "Аура Защиты защитила меня от {fragment}.",
+              "Моя Божественная Эгида блокировала {fragment}.",
+              "Моя Священная Защита устояла против {fragment}."
+            ],
+            "zh": [
+              "我的信仰之盾抵挡住了{fragment}。",
+              "我在圣所中寻求庇护以对抗{fragment}。",
+              "我的邪恶防护遏制了{fragment}。",
+              "守护者之约帮助我承受了{fragment}。",
+              "我的神圣光环削弱了{fragment}。",
+              "死亡守卫保护我免受{fragment}的伤害。",
+              "我的信仰守卫拦截了{fragment}。",
+              "保护光环保护我免受{fragment}的伤害。",
+              "我的神圣埃吉斯阻挡了{fragment}。",
+              "我的神圣保护抵挡住了{fragment}。"
+            ],
+            "ja": [
+              "私の信仰の盾は{fragment}に耐えました。",
+              "私は{fragment}から聖域に避難しました。",
+              "私の邪悪からの保護が{fragment}を抑えました。",
+              "守護者の絆が{fragment}を耐えるのを助けました。",
+              "私の神聖なオーラが{fragment}を弱めました。",
+              "死の守護が{fragment}から私を守りました。",
+              "私の信仰の守護者が{fragment}を迎撃しました。",
+              "保護のオーラが{fragment}から私を守りました。",
+              "私の神聖なイージスが{fragment}をブロックしました。",
+              "私の聖なる保護が{fragment}に耐えました。"
+            ]
+          }
+        },
+        "place": {
+          "landmark": {
+            "pt": ["As vozes pareciam conhecer {fragment}.", "Vi um sinal dos céus em {fragment}.", "Parei para ouvir o que os sussurros diziam sobre {fragment}.", "Acreditei que {fragment} tinha sido colocado ali por uma vontade superior.", "Tentei compreender por que as vozes se interessavam tanto por {fragment}."],
+            "en": ["The voices seemed to know {fragment}.", "I saw a sign from the heavens in {fragment}.", "I stopped to hear what the whispers said about {fragment}.", "I believed {fragment} had been placed there by a higher will.", "I tried to understand why the voices were so interested in {fragment}."],
+            "es": ["Las voces parecían conocer {fragment}.", "Vi una señal de los cielos en {fragment}.", "Me detuve a escuchar lo que los susurros decían sobre {fragment}.", "Creí que {fragment} había sido puesto allí por una voluntad superior.", "Intenté comprender por qué las voces se interesaban tanto por {fragment}."],
+            "ru": ["Голоса, казалось, знали {fragment}.", "Я увидел знамение небес в {fragment}.", "Я остановился, чтобы услышать, что шепчут о {fragment}.", "Я поверил, что {fragment} был помещен туда высшей волей.", "Я пытался понять, почему голоса так интересовались {fragment}."],
+            "ja": ["声は{fragment}を知っているようだった。", "{fragment}に天からのしるしを見た。", "{fragment}についてささやきが何と言っているのか聞くために立ち止まった。", "{fragment}は高次な意志によってそこに置かれたのだと信じた。", "なぜ声が{fragment}にこれほど興味を持っていたのか理解しようとした。"],
+            "zh": ["声音似乎知道{fragment}。", "我在{fragment}看到了来自天堂的信号。", "我停下来听听低语声在谈论什么关于{fragment}的事情。", "我相信{fragment}是某种更高的意志放在那里的。", "我试图理解为什么声音会对{fragment}如此感兴趣。"]
+          },
+          "feeling": {
+            "pt": ["As vozes ficaram diferentes quando senti {fragment}.", "Acreditei que {fragment} era um aviso divino.", "Tentei entender por que os sussurros me mostravam {fragment}.", "Interpretei {fragment} como um sinal dos céus.", "Parei por um momento para ouvir o que as vozes diziam sobre {fragment}."],
+            "en": ["The voices changed when I felt {fragment}.", "I believed {fragment} was a divine warning.", "I tried to understand why the whispers were showing me {fragment}.", "I interpreted {fragment} as a sign from the heavens.", "I paused for a moment to hear what the voices said about {fragment}."],
+            "es": ["Las voces cambiaron cuando sentí {fragment}.", "Creí que {fragment} era una advertencia divina.", "Intenté entender por qué los susurros me mostraban {fragment}.", "Interpreté {fragment} como una señal de los cielos.", "Me detuve un momento a escuchar lo que las voces decían sobre {fragment}."],
+            "ru": ["Голоса изменились, когда я почувствовал {fragment}.", "Я поверил, что {fragment} — это божественное предупреждение.", "Я пытался понять, почему шепот показывает мне {fragment}.", "Я истолковал {fragment} как знак небес.", "Я на мгновение остановился, чтобы услышать, что голоса говорят о {fragment}."],
+            "ja": ["{fragment}を感じたとき、声が変わった。", "{fragment}は神聖な警告だと思った。", "なぜささやきが私に{fragment}を見せているのか理解しようとした。", "{fragment}を天からのしるしとして解釈した。", "声が{fragment}について何と言っているか聞くために少し立ち止まった。"],
+            "zh": ["当我感受到{fragment}时，声音发生了变化。", "我相信{fragment}是一个神圣的警告。", "我试图理解为什么低语声会向我展示{fragment}。", "我将{fragment}解读为来自天堂的信号。", "我停了一会儿，听听声音在谈论关于{fragment}的事情。"]
+          },
+          "details": {
+            "pt": ["As vozes pareciam interessadas em {fragment}.", "Tentei descobrir o que os sussurros queriam me mostrar em {fragment}.", "Acreditei que havia uma mensagem escondida em {fragment}.", "Passei algum tempo observando {fragment} em busca de um sinal divino.", "Os sussurros ficaram mais claros quando encontrei {fragment}."],
+            "en": ["The voices seemed interested in {fragment}.", "I tried to discover what the whispers wanted to show me in {fragment}.", "I believed there was a hidden message in {fragment}.", "I spent some time observing {fragment} in search of a divine sign.", "The whispers became clearer when I found {fragment}."],
+            "es": ["Las voces parecían interesadas en {fragment}.", "Intenté descubrir qué querían mostrarme los susurros en {fragment}.", "Creí que había un mensaje oculto en {fragment}.", "Pasé algún tiempo observando {fragment} en busca de una señal divina.", "Los susurros se volvieron más claros cuando encontré {fragment}."],
+            "ru": ["Голоса, казалось, интересовались {fragment}.", "Я пытался выяснить, что шепот хотел показать мне в {fragment}.", "Я поверил, что в {fragment} скрыто послание.", "Я провел некоторое время, наблюдая за {fragment} в поисках божественного знака.", "Шепот стал яснее, когда я нашел {fragment}."],
+            "ja": ["声は{fragment}に興味があるようだった。", "{fragment}において、ささやきが何を見せたがっているのか見つけようとした。", "{fragment}には隠されたメッセージがあると信じた。", "神聖なしるしを探して、{fragment}を観察する時間を過ごした。", "{fragment}を見つけたとき、ささやきがより鮮明になった。"],
+            "zh": ["声音似乎对{fragment}很感兴趣。", "我试图找出低语声想在{fragment}中向我展示什么。", "我相信{fragment}中隐藏着一条信息。", "我花了一些时间观察{fragment}，以寻找神圣的迹象。", "当我找到{fragment}时，低语声变得更清晰了。"]
+          },
+          "history": {
+            "pt": ["As vozes pareciam se lembrar de {fragment}.", "Acreditei que {fragment} escondia uma verdade divina esquecida.", "Os sussurros ficaram inquietos quando ouvi sobre {fragment}.", "Tentei compreender o significado espiritual de {fragment}.", "Senti que as vozes queriam que eu prestasse atenção em {fragment}."],
+            "en": ["The voices seemed to remember {fragment}.", "I believed {fragment} hid a forgotten divine truth.", "The whispers became restless when I heard about {fragment}.", "I tried to understand the spiritual meaning of {fragment}.", "I felt the voices wanted me to pay attention to {fragment}."],
+            "es": ["Las voces parecían recordar {fragment}.", "Creí que {fragment} escondía una verdad divina olvidada.", "Los susurros se inquietaron cuando escuché sobre {fragment}.", "Intenté comprender el significado espiritual de {fragment}.", "Sentí que las voces querían que prestara atención a {fragment}."],
+            "ru": ["Голоса, казалось, помнили {fragment}.", "Я поверил, что {fragment} скрывает забытую божественную истину.", "Шепот стал беспокойным, когда я услышал о {fragment}.", "Я пытался понять духовное значение {fragment}.", "Я почувствовал, что голоса хотят, чтобы я обратил внимание на {fragment}."],
+            "ja": ["声は{fragment}を覚えているようだった。", "{fragment}には忘れ去られた神聖な真実が隠されていると信じた。", "{fragment}について聞いたとき、ささやきは落ち着かなくなった。", "{fragment}の霊的な意味を理解しようとした。", "声が{fragment}に注意を向けてほしいと願っていると感じた。"],
+            "zh": ["声音似乎还记得{fragment}。", "我相信{fragment}隐藏着一个被遗忘的神圣真理。", "当我听到关于{fragment}的消息时，低语声变得不安起来。", "我试图理解{fragment}的精神含义。", "我感觉到声音希望我关注{fragment}。"]
+          }
+        }
+      },
+      "failure": {
+        "solo": {
+          "pt": [
+            "As vozes ficaram mais distantes quando falhei em {place}.",
+            "Acreditei que minha falha em {place} era um teste divino.",
+            "Tentei entender por que os sussurros se silenciaram após {enemy_attack}.",
+            "Interpretei minha falha contra {o_enemy} como um sinal dos céus para reconsiderar minhas ações.",
+            "Parei por um momento para ouvir o que as vozes diziam sobre minha falha para {o_enemy}."
+          ],
+            "en": [
+              "The voices became more distant when I failed at {place}.",
+              "I believed my failure at {place} was a divine test.",
+              "I tried to understand why the whispers fell silent after {enemy_attack}.",
+              "I interpreted my failure against {enemy} as a sign from the heavens to reconsider my actions.",
+              "I paused for a moment to hear what the voices said about my failure against {enemy}."
+            ],
+            "es": [
+              "Las voces se volvieron más distantes cuando fallé en {place}.",
+              "Creí que mi fracaso en {place} era una prueba divina.",
+              "Intenté entender por qué los susurros se silenciaron después de {enemy_attack}.",
+              "Interpreté mi fracaso contra {o_enemy} como una señal de los cielos para reconsiderar mis acciones.",
+              "Me detuve un momento para escuchar lo que las voces decían sobre mi fracaso contra {o_enemy}."
+            ],
+            "ru": [
+              "Голоса стали более отдаленными, когда я потерпел неудачу в {place}.",
+              "Я поверил, что моя неудача в {place} была божественным испытанием.",
+              "Я пытался понять, почему шепот замолк после {enemy_attack}.",
+              "Я истолковал свою неудачу против {enemy} как знак небес, чтобы пересмотреть свои действия.",
+              "Я на мгновение остановился, чтобы услышать, что голоса говорят о моей неудаче против {enemy}."
+            ],
+            "zh": [
+              "当我在{place}失败时，声音变得更加遥远了。",
+              "我相信我在{place}的失败是一个神圣的考验。",
+              "我试图理解为什么在{enemy_attack}之后低语声会沉默。",
+              "我将我对{enemy}的失败解读为来自天堂的一个信号，提醒我重新考虑我的行动。",
+              "我停了一会儿，听听声音在谈论关于我对{enemy}的失败的事情。"
+            ],
+            "ja": [
+              "{place}で失敗したとき、声はより遠くなった。", 
+              "{place}での失敗は神聖な試練だと信じた。",
+              "{enemy_attack}の後、なぜささやきが沈黙したのか理解しようとした。",
+              "{enemy}に対する失敗を、行動を再考するための天からのしるしとして解釈した。",
+              "{enemy}に対する自分の失敗について、声が何と言っているのか聞くために少し立ち止まった。"
+            ]
+        },
+        "group": {
+          "pt": [
+            "As vozes ficaram mais distantes quando falhamos em {place}.",
+            "Acreditei que nossa falha em {place} era um teste divino.",
+            "Tentei entender por que os sussurros se silenciaram após {enemy_attack}.",
+            "Interpretei nossa falha contra {o_enemy} como um sinal dos céus para reconsiderar nossas ações.",
+            "Parei por um momento para ouvir o que as vozes diziam sobre nossa falha para {o_enemy}."
+          ],
+            "en": [
+              "The voices became more distant when we failed at {place}.",
+              "I believed our failure at {place} was a divine test.",
+              "I tried to understand why the whispers fell silent after {enemy_attack}.",
+              "I interpreted our failure against {enemy} as a sign from the heavens to reconsider our actions.",
+              "I paused for a moment to hear what the voices said about our failure against {enemy}."
+            ],
+            "es": [
+              "Las voces se volvieron más distantes cuando fallamos en {place}.",
+              "Creí que nuestro fracaso en {place} era una prueba divina.",
+              "Intenté entender por qué los susurros se silenciaron después de {enemy_attack}.",
+              "Interpreté nuestro fracaso contra {o_enemy} como una señal de los cielos para reconsiderar nuestras acciones.",
+              "Me detuve un momento para escuchar lo que las voces decían sobre nuestro fracaso contra {o_enemy}."
+            ],
+            "ru": [
+              "Голоса стали более отдаленными, когда мы потерпели неудачу в {place}.",
+              "Я поверил, что наша неудача в {place} была божественным испытанием.",
+              "Я пытался понять, почему шепот замолк после {enemy_attack}.",
+              "Я истолковал нашу неудачу против {enemy} как знак небес, чтобы пересмотреть наши действия.",
+              "Я на мгновение остановился, чтобы услышать, что голоса говорят о нашей неудаче против {enemy}."
+            ],
+            "zh": [
+              "当我们在{place}失败时，声音变得更加遥远了。",
+              "我相信我们在{place}的失败是一个神圣的考验。",
+              "我试图理解为什么在{enemy_attack}之后低语声会沉默。",
+              "我将我们对{enemy}的失败解读为来自天堂的一个信号，提醒我们重新考虑我们的行动。",
+              "我停了一会儿，听听声音在谈论关于我们对{enemy}的失败的事情。"
+            ],
+            "ja": [
+              "{place}で失敗したとき、声はより遠くなった。", 
+              "{place}での失敗は神聖な試練だと信じた。",
+              "{enemy_attack}の後、なぜささやきが沈黙したのか理解しようとした。",
+              "{enemy}に対する失敗を、行動を再考するための天からのしるしとして解釈した。",
+              "{enemy}に対する私たちの失敗について、声が何と言っているのか聞くために少し立ち止まった。"
+             ]
       }
     }
-  }
+}
+}

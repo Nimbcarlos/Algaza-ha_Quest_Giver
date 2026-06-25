@@ -36,18 +36,13 @@
   "photo_url": "assets/img/seraphine.png",
   "photo_body_url": "assets/img/seraphinefullbody.png",
   "unlock_by_quest": [],
-  "available_from_turn": 999,
+  "available_from_turn": 9999999999,
   "leave_on_quest": [],
-  "growth_curve": {
-    "1": { "strength": 1, "dexterity": 1, "intelligence": 2, "wisdom": 2 },
-    "2": { "strength": 1, "dexterity": 1, "intelligence": 2, "wisdom": 2 },
-    "3": { "strength": 1, "dexterity": 1, "intelligence": 3, "wisdom": 3 },
-    "4": { "strength": 1, "dexterity": 1, "intelligence": 3, "wisdom": 3 },
-    "5": { "strength": 1, "dexterity": 1, "intelligence": 4, "wisdom": 4 },
-    "6": { "strength": 2, "dexterity": 2, "intelligence": 4, "wisdom": 4 },
-    "7": { "strength": 2, "dexterity": 2, "intelligence": 5, "wisdom": 5 },
-    "8": { "strength": 2, "dexterity": 2, "intelligence": 5, "wisdom": 5 },
-    "9": { "strength": 2, "dexterity": 2, "intelligence": 6, "wisdom": 6 },
-    "10": { "strength": 2, "dexterity": 2, "intelligence": 6, "wisdom": 6 }
+  "growth_rules": {
+    "base": { "strength": 1, "dexterity": 1, "intelligence": 2, "wisdom": 2 },
+    "schedules": [
+        { "attrs": ["intelligence", "wisdom"],        "every": 2, "offset": 1 },
+        { "attrs": ["strength", "dexterity"], "every": 4, "offset": 3 }
+    ]
   }
 }

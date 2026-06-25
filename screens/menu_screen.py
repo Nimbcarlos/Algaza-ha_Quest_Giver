@@ -177,7 +177,7 @@ class MenuScreen(Screen):
     
     def new_game(self, *args):
         """Inicia um novo jogo."""
-        print("[MenuScreen] Iniciando novo jogo...")
+        # print("[MenuScreen] Iniciando novo jogo...")
         
         # 1️⃣ Cria managers totalmente novos
         self.manager.quest_manager = QuestManager()
@@ -216,7 +216,7 @@ class MenuScreen(Screen):
 
     def _confirm_exit(self):
         """Fecha o app após confirmação."""
-        print("[MenuScreen] Saindo do jogo...")
+        # print("[MenuScreen] Saindo do jogo...")
         App.get_running_app().stop()
 
     # ═══════════════════════════════════════════════════════════
@@ -247,62 +247,23 @@ class MenuScreen(Screen):
         self.manager.current = "gameplay"
 
     def continue_game(self, *args):
-        """Carrega o último save e vai para gameplay."""
-        # ──────────────────────────────────────────────────────
-        # 1. Pega o último save
-        # ──────────────────────────────────────────────────────
-        latest_save_path = save.get_latest_save()
-        
-        if not latest_save_path:
+        latest = save.get_latest_save()
+        if not latest:
             print("[MenuScreen] ❌ Nenhum save encontrado")
             return
-        
-        # Extrai apenas o nome do arquivo
-        filename = os.path.basename(latest_save_path)
-        
-        print(f"[MenuScreen] 🔄 Carregando: {filename}")
-        
-        try:
-            # ──────────────────────────────────────────────────────
-            # 2. ✅ IMPORTANTE: Cria QuestManager NOVO primeiro
-            # ──────────────────────────────────────────────────────
-            new_qm = QuestManager()
-            
-            # ──────────────────────────────────────────────────────
-            # 3. Carrega o save nele
-            # ──────────────────────────────────────────────────────
-            success = save.load_game(new_qm, filename)
-            
-            if not success:
-                print(f"[MenuScreen] ❌ Erro ao carregar '{filename}'")
-                return
-            
-            print(f"[MenuScreen] ✅ Save carregado!")
-            
-            # ──────────────────────────────────────────────────────
-            # 4. Atualiza o QuestManager global
-            # ──────────────────────────────────────────────────────
-            self.manager.quest_manager = new_qm
-            
-            # ──────────────────────────────────────────────────────
-            # 5. Remove tela antiga de gameplay
-            # ──────────────────────────────────────────────────────
-            if self.manager.has_screen("gameplay"):
-                old_screen = self.manager.get_screen("gameplay")
-                self.manager.remove_widget(old_screen)
-            
-            # ──────────────────────────────────────────────────────
-            # 6. Cria tela NOVA de gameplay
-            # ──────────────────────────────────────────────────────
-            new_gameplay = GameplayScreen(name="gameplay")
-            self.manager.add_widget(new_gameplay)
-            
-            # ──────────────────────────────────────────────────────
-            # 7. Vai para gameplay
-            # ──────────────────────────────────────────────────────
+
+        filename = os.path.basename(latest)
+        # print(f"[MenuScreen] 🔄 Carregando: {filename}")
+
+        gameplay = self.manager.get_screen("gameplay")
+
+        from core.quest_manager import QuestManager
+        gameplay.quest_manager = QuestManager()
+        gameplay.hero_manager  = gameplay.quest_manager.hero_manager
+
+        if save.load_game(gameplay.quest_manager, filename):
+            # print(f"[MenuScreen] ✅ Save carregado!")
+            gameplay.coming_from_load = True
             self.manager.current = "gameplay"
-        
-        except Exception as e:
-            print(f"[MenuScreen] ❌ Erro: {e}")
-            import traceback
-            traceback.print_exc()
+        else:
+            print(f"[MenuScreen] ❌ Erro ao carregar '{filename}'")

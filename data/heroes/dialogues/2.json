@@ -133,150 +133,150 @@
       "arrived": {
         "alone": {
           "pt": [
-            "Finalmente pisei no solo d{location}. O silêncio dali era quase tão irritante quanto os sermões da Ordem.",
-            "Cheguei n{location}. Ajustei as tiras do meu escudo; senti que aquele lugar exigiria cada grama de metal que eu carregava.",
-            "Desci da sela e observei a entrada d{location}. O vento trouxe um cheiro que eu conhecia bem demais.",
-            "Estive n{location}. Empunhei minha maça apenas pelo hábito de sentir o peso familiar na mão.",
-            "Caminhei pelas bordas d{location}, mantendo os olhos baixos e a guarda alta. Não vim ali para fazer amigos.",
-            "Então o buraco era {location}. Ótimo. Chutei as pedras no caminho e me perguntei que pecado cometi para acabar ali.",
-            "Cheguei n{location} sentindo o peso da minha armadura e o dobro do peso da minha má vontade.",
-            "Pisei n{location} e já senti o cheiro de problemas. Apertei o cabo da arma; pelo menos o metal não reclamava.",
-            "Estive n{location}. Olhei ao redor e só vi mais um lugar que os deuses esqueceram de limpar.",
-            "Finalmente n{location}. Bufei de irritação enquanto verificava se meu escudo ainda aguentava mais uma estupidez."
+            "Finalmente pisei no solo {da_place}. O silêncio dali era quase tão irritante quanto os sermões da Ordem.",
+            "Cheguei {na_place}. Ajustei as tiras do meu escudo; senti que aquele lugar exigiria cada grama de metal que eu carregava.",
+            "Desci da sela e observei a entrada {da_place}. O vento trouxe um cheiro que eu conhecia bem demais.",
+            "Estive {na_place}. Empunhei minha maça apenas pelo hábito de sentir o peso familiar na mão.",
+            "Caminhei pelas bordas {da_place}, mantendo os olhos baixos e a guarda alta. Não vim ali para fazer amigos.",
+            "Então o buraco era {a_place}. Ótimo. Chutei as pedras no caminho e me perguntei que pecado cometi para acabar ali.",
+            "Cheguei {na_place} sentindo o peso da minha armadura e o dobro do peso da minha má vontade.",
+            "Pisei {na_place} e já senti o cheiro de problemas. Apertei o cabo da arma; pelo menos o metal não reclamava.",
+            "Estive {na_place}. Olhei ao redor e só vi mais um lugar que os deuses esqueceram de limpar.",
+            "Finalmente {na_place}. Bufei de irritação enquanto verificava se meu escudo ainda aguentava mais uma estupidez."
           ],
           "en": [
-            "I finally set foot on {location}. The silence there was almost as irritating as the sermons from the Order.",
-            "I arrived at {location}. I adjusted the straps of my shield; I felt that place would require every gram of metal I carried.",
-            "I dismounted and observed the entrance to {location}. The wind brought a smell I knew all too well.",
-            "I had been to {location}. I wielded my mace just out of habit, feeling the familiar weight in my hand.",
-            "I walked along the edges of {location}, keeping my eyes low and my guard high. I didn't come here to make friends.",
-            "So the hole was {location}. Great. I kicked the stones on the path and wondered what sin I committed to end up there.",
-            "I arrived at {location} feeling the weight of my armor and twice the weight of my bad mood.",
-            "I stepped into {location} and already smelled trouble. I tightened my grip on the weapon; at least the metal didn't complain.",
-            "I had been to {location}. I looked around and only saw another place that the gods forgot to clean up.",
-            "Finally at {location}. I huffed in irritation while checking if my shield could still take one more stupidity."
+            "I finally set foot on {place}. The silence there was almost as irritating as the sermons from the Order.",
+            "I arrived at {place}. I adjusted the straps of my shield; I felt that place would require every gram of metal I carried.",
+            "I dismounted and observed the entrance to {place}. The wind brought a smell I knew all too well.",
+            "I had been to {place}. I wielded my mace just out of habit, feeling the familiar weight in my hand.",
+            "I walked along the edges of {place}, keeping my eyes low and my guard high. I didn't come here to make friends.",
+            "So the hole was {place}. Great. I kicked the stones on the path and wondered what sin I committed to end up there.",
+            "I arrived at {place} feeling the weight of my armor and twice the weight of my bad mood.",
+            "I stepped into {place} and already smelled trouble. I tightened my grip on the weapon; at least the metal didn't complain.",
+            "I had been to {place}. I looked around and only saw another place that the gods forgot to clean up.",
+            "Finally at {place}. I huffed in irritation while checking if my shield could still take one more stupidity."
           ],
           "es": [
-            "Finalmente puse un pie en {location}. El silencio allí era casi tan irritante como los sermones de la Orden.",
-            "Llegué a {location}. Ajusté las correas de mi escudo; sentí que ese lugar requeriría cada gramo de metal que llevaba.",
-            "Desmonté y observé la entrada a {location}. El viento trajo un olor que conocía demasiado bien.",
-            "Había estado en {location}. Empuñé mi maza solo por hábito, sintiendo el peso familiar en mi mano.",
-            "Caminé por los bordes de {location}, manteniendo los ojos bajos y la guardia alta. No vine aquí para hacer amigos.",
-            "Así que el agujero era {location}. Genial. Pateé las piedras en el camino y me pregunté qué pecado cometí para terminar allí.",
-            "Llegué a {location} sintiendo el peso de mi armadura y el doble del peso de mi mal humor.",
-            "Entré en {location} y ya olía a problemas. Apreté mi agarre en el arma; al menos el metal no se quejaba.",
-            "Había estado en {location}. Miré alrededor y solo vi otro lugar que los dioses olvidaron limpiar.",
-            "Finalmente en {location}. Resoplé con irritación mientras revisaba si mi escudo aún podía soportar una estupidez más."
+            "Finalmente puse un pie {na_place}. El silencio allí era casi tan irritante como los sermones de la Orden.",
+            "Llegué {ao_place}. Ajusté las correas de mi escudo; sentí que ese lugar requeriría cada gramo de metal que llevaba.",
+            "Desmonté y observé la entrada {ao_place}. El viento trajo un olor que conocía demasiado bien.",
+            "Había estado {na_place}. Empuñé mi maza solo por hábito, sintiendo el peso familiar en mi mano.",
+            "Caminé por los bordes {da_place}, manteniendo los ojos bajos y la guardia alta. No vine aquí para hacer amigos.",
+            "Así que el agujero era {place}. Genial. Pateé las piedras en el camino y me pregunté qué pecado cometí para terminar allí.",
+            "Llegué {ao_place} sintiendo el peso de mi armadura y el doble del peso de mi mal humor.",
+            "Entré {na_place} y ya olía a problemas. Apreté mi agarre en el arma; al menos el metal no se quejaba.",
+            "Había estado {na_place}. Miré alrededor y solo vi otro lugar que los dioses olvidaron limpiar.",
+            "Finalmente {na_place}. Resoplé con irritación mientras revisaba si mi escudo aún podía soportar una estupidez más."
           ],
           "ru": [
-            "Наконец я ступила на землю {location}. Тишина там была почти такой же раздражающей, как проповеди из Ордена.",
-            "Я прибыла в {location}. Я отрегулировала ремни своего щита; я чувствовала, что это место потребует каждого грамма металла, который я ношу.",
-            "Я спешилась и наблюдала за входом в {location}. Ветер принес запах, который я знала слишком хорошо.",
-            "Я была в {location}. Я взяла в руки свою булаву просто по привычке, чувствуя знакомый вес в своей руке.",
-            "Я шла по краям {location}, держа глаза низко и охрану высоко. Я не пришла сюда, чтобы заводить друзей.",
-            "Так что дыра была {location}. Отлично. Я пнула камни на пути и задумалась, какой грех я совершила, чтобы оказаться там.",
-            "Я прибыла в {location}, чувствуя вес своих доспехов и двойной вес своего плохого настроения.",
-            "Я вошла в {location} и уже почувствовала запах проблем. Я крепче сжала оружие; по крайней мере металл не жаловался.",
-            "Я была в {location}. Я огляделась и увидела только еще одно место, которое боги забыли убрать.",
-            "Наконец-то в {location}. Я раздраженно фыркнула, проверяя, может ли мой щит выдержать еще одну глупость."
+            "Наконец я ступила на землю {place}. Тишина там была почти такой же раздражающей, как проповеди из Ордена.",
+            "Я прибыла в {place}. Я отрегулировала ремни своего щита; я чувствовала, что это место потребует каждого грамма металла, который я ношу.",
+            "Я спешилась и наблюдала за входом в {place}. Ветер принес запах, который я знала слишком хорошо.",
+            "Я была в {place}. Я взяла в руки свою булаву просто по привычке, чувствуя знакомый вес в своей руке.",
+            "Я шла по краям {place}, держа глаза низко и охрану высоко. Я не пришла сюда, чтобы заводить друзей.",
+            "Так что дыра была {place}. Отлично. Я пнула камни на пути и задумалась, какой грех я совершила, чтобы оказаться там.",
+            "Я прибыла в {place}, чувствуя вес своих доспехов и двойной вес своего плохого настроения.",
+            "Я вошла в {place} и уже почувствовала запах проблем. Я крепче сжала оружие; по крайней мере металл не жаловался.",
+            "Я была в {place}. Я огляделась и увидела только еще одно место, которое боги забыли убрать.",
+            "Наконец-то в {place}. Я раздраженно фыркнула, проверяя, может ли мой щит выдержать еще одну глупость."
           ],
           "zh": [
-            "我终于踏上了{location}的土地。那里寂静得几乎和秩序的说教一样让人烦躁。",
-            "我来到了{location}。我调整了盾牌的带子；我感觉那个地方需要我携带的每一克金属。",
-            "我下了马，观察着{location}的入口。风带来了一个我太熟悉的气味。",
-            "我曾经去过{location}。我习惯性地挥舞着我的锤子，感觉到手中熟悉的重量。",
-            "我沿着{location}的边缘走着，保持低头和高度警惕。我不是来这里交朋友的。",
-            "所以那个洞是{location}。太好了。我踢了踢路上的石头，想知道我犯了什么罪才会落到那里。",
-            "我来到{location}时感觉到盔甲的重量和坏心情的双倍重量。",
-            "我踏入{location}时已经闻到了麻烦的气息。我紧握武器；至少金属没有抱怨。",
-            "我曾经去过{location}。环顾四周，我只看到了另一个被神遗忘的地方。",
-            "终于到了{location}。我愤怒地哼了一声，同时检查我的盾牌是否还能承受更多的愚蠢行为。"
+            "我终于踏上了{place}的土地。那里寂静得几乎和秩序的说教一样让人烦躁。",
+            "我来到了{place}。我调整了盾牌的带子；我感觉那个地方需要我携带的每一克金属。",
+            "我下了马，观察着{place}的入口。风带来了一个我太熟悉的气味。",
+            "我曾经去过{place}。我习惯性地挥舞着我的锤子，感觉到手中熟悉的重量。",
+            "我沿着{place}的边缘走着，保持低头和高度警惕。我不是来这里交朋友的。",
+            "所以那个洞是{place}。太好了。我踢了踢路上的石头，想知道我犯了什么罪才会落到那里。",
+            "我来到{place}时感觉到盔甲的重量和坏心情的双倍重量。",
+            "我踏入{place}时已经闻到了麻烦的气息。我紧握武器；至少金属没有抱怨。",
+            "我曾经去过{place}。环顾四周，我只看到了另一个被神遗忘的地方。",
+            "终于到了{place}。我愤怒地哼了一声，同时检查我的盾牌是否还能承受更多的愚蠢行为。"
           ],
           "ja": [
-            "ついに{location}の地を踏んだ。あそこは、オーダーの説教と同じくらいイライラする静けさだった。",
-            "{location}に到着した。盾のストラップを調整した。あそこは、私が持っている金属のすべてを必要とする場所だと感じた。",
-            "馬を降りて{location}の入り口を観察した。風が、私があまりにもよく知っている匂いを運んできた。",
-            "{location}には行ったことがある。習慣でメイスを振るった。手に馴染みのある重さを感じながら。",
-            "{location}の端を歩きながら、目を低くして警戒を高く保った。友達を作りに来たわけじゃない。",
-            "穴は{location}だった。素晴らしい。道の石を蹴って、なぜそこに行くことになったのか自分が犯した罪について考えた。",
-            "{location}に到着したとき、鎧の重さと悪い気分の倍の重さを感じた。",
-            "{location}に足を踏み入れたとき、すでにトラブルの匂いがした。武器へのグリップを強めた。少なくとも金属は文句を言わなかった。",
-            "{location}には行ったことがある。周りを見渡して、神々が掃除するのを忘れた別の場所しか見えなかった。",
-            "ついに{location}に着いた。さらに愚かなことができるかどうか盾を確認しながら、イライラして息を吐いた。"
+            "ついに{place}の地を踏んだ。あそこは、オーダーの説教と同じくらいイライラする静けさだった。",
+            "{place}に到着した。盾のストラップを調整した。あそこは、私が持っている金属のすべてを必要とする場所だと感じた。",
+            "馬を降りて{place}の入り口を観察した。風が、私があまりにもよく知っている匂いを運んできた。",
+            "{place}には行ったことがある。習慣でメイスを振るった。手に馴染みのある重さを感じながら。",
+            "{place}の端を歩きながら、目を低くして警戒を高く保った。友達を作りに来たわけじゃない。",
+            "穴は{place}だった。素晴らしい。道の石を蹴って、なぜそこに行くことになったのか自分が犯した罪について考えた。",
+            "{place}に到着したとき、鎧の重さと悪い気分の倍の重さを感じた。",
+            "{place}に足を踏み入れたとき、すでにトラブルの匂いがした。武器へのグリップを強めた。少なくとも金属は文句を言わなかった。",
+            "{place}には行ったことがある。周りを見渡して、神々が掃除するのを忘れた別の場所しか見えなかった。",
+            "ついに{place}に着いた。さらに愚かなことができるかどうか盾を確認しながら、イライラして息を吐いた。"
           ]
         },
         "group": {
           "pt": [
-            "Chegamos n{location}. Mandei que parassem de resmungar e ficassem atrás do meu escudo se quisessem continuar inteiros.",
-            "Estávamos n{location}. Fui na frente abrindo caminho; pedi que não tropeçassem nas próprias botas enquanto eu vigiava.",
-            "Alcançamos {location}. Ordenei que mantivessem a formação e fechassem a boca; o barulho deles atraía mais problemas do que precisávamos.",
-            "Parei o passo. Estávamos n{location}. Olhei para os lados buscando cobertura enquanto eles decidiam o que fazer.",
-            "A travessia para {location} terminou. Mandei que mantivessem as mãos nas armas e parassem de esperar por um milagre divino.",
-            "Chegamos n{location}. Avisei para que não morressem nos primeiros cinco minutos; eu detestava carregar corpos.",
-            "Estávamos n{location}. Ameacei jogar o próximo de um penhasco se ouvisse mais uma reclamação sobre o caminho.",
-            "Pedi que parassem de babar e olhassem ao redor, pois havíamos chegado n{location}. Fiquei na frente e mandei que ficassem quietos.",
-            "Chegamos. {location} era tão deplorável quanto imaginei. Disse que não me perderiam de vista, porque eu não procuraria ninguém.",
-            "Estávamos n{location}. Ajustei meu protetor de pescoço e rezei — não para os deuses, mas para que eles não fizessem nenhuma idiotice."
+            "Chegamos {na_place}. Mandei que parassem de resmungar e ficassem atrás do meu escudo se quisessem continuar inteiros.",
+            "Estávamos {na_place}. Fui na frente abrindo caminho; pedi que não tropeçassem nas próprias botas enquanto eu vigiava.",
+            "Alcançamos {place}. Ordenei que mantivessem a formação e fechassem a boca; o barulho deles atraía mais problemas do que precisávamos.",
+            "Parei o passo. Estávamos {na_place}. Olhei para os lados buscando cobertura enquanto eles decidiam o que fazer.",
+            "A travessia para {place} terminou. Mandei que mantivessem as mãos nas armas e parassem de esperar por um milagre divino.",
+            "Chegamos {na_place}. Avisei para que não morressem nos primeiros cinco minutos; eu detestava carregar corpos.",
+            "Estávamos {na_place}. Ameacei jogar o próximo de um penhasco se ouvisse mais uma reclamação sobre o caminho.",
+            "Pedi que parassem de babar e olhassem ao redor, pois havíamos chegado {na_place}. Fiquei na frente e mandei que ficassem quietos.",
+            "Chegamos. {place} era tão deplorável quanto imaginei. Disse que não me perderiam de vista, porque eu não procuraria ninguém.",
+            "Estávamos {na_place}. Ajustei meu protetor de pescoço e rezei — não para os deuses, mas para que eles não fizessem nenhuma idiotice."
           ],
           "en": [
-            "We arrived at {location}. I told them to stop grumbling and stay behind my shield if they wanted to stay intact.",
-            "We were at {location}. I went ahead, clearing the way; I asked them not to trip over their own boots while I kept watch.",
-            "We reached {location}. I ordered them to maintain formation and shut up; their noise was attracting more trouble than we needed.",
-            "I stopped walking. We were at {location}. I looked around for cover while they decided what to do.",
-            "The crossing to {location} ended. I told them to keep their hands on their weapons and stop waiting for a divine miracle.",
-            "We arrived at {location}. I warned them not to die in the first five minutes; I hated carrying bodies.",
-            "We were at {location}. I threatened to throw the next one off a cliff if I heard one more complaint about the path.",
-            "I asked them to stop drooling and look around, as we had reached {location}. I stayed in front and told them to be quiet.",
-            "We arrived. {location} was as deplorable as I imagined. I said they wouldn't lose sight of me, because I wouldn't look for anyone.",
-            "We were at {location}. I adjusted my neck guard and prayed — not to the gods, but that they wouldn't do anything stupid."
+            "We arrived at {place}. I told them to stop grumbling and stay behind my shield if they wanted to stay intact.",
+            "We were at {place}. I went ahead, clearing the way; I asked them not to trip over their own boots while I kept watch.",
+            "We reached {place}. I ordered them to maintain formation and shut up; their noise was attracting more trouble than we needed.",
+            "I stopped walking. We were at {place}. I looked around for cover while they decided what to do.",
+            "The crossing to {place} ended. I told them to keep their hands on their weapons and stop waiting for a divine miracle.",
+            "We arrived at {place}. I warned them not to die in the first five minutes; I hated carrying bodies.",
+            "We were at {place}. I threatened to throw the next one off a cliff if I heard one more complaint about the path.",
+            "I asked them to stop drooling and look around, as we had reached {place}. I stayed in front and told them to be quiet.",
+            "We arrived. {place} was as deplorable as I imagined. I said they wouldn't lose sight of me, because I wouldn't look for anyone.",
+            "We were at {place}. I adjusted my neck guard and prayed — not to the gods, but that they wouldn't do anything stupid."
           ],
           "es": [
-            "Llegamos a {location}. Les dije que dejaran de refunfuñar y se quedaran detrás de mi escudo si querían mantenerse intactos.",
-            "Estábamos en {location}. Fui adelante, despejando el camino; les pedí que no tropezaran con sus propias botas mientras yo vigilaba.",
-            "Llegamos a {location}. Les ordené que mantuvieran la formación y se callaran; su ruido estaba atrayendo más problemas de los que necesitábamos.",
-            "Me detuve. Estábamos en {location}. Busqué cobertura mientras ellos decidían qué hacer.",
-            "El cruce hacia {location} terminó. Les dije que mantuvieran las manos en sus armas y dejaran de esperar un milagro divino.",
-            "Llegamos a {location}. Les advertí que no murieran en los primeros cinco minutos; odiaba cargar cuerpos.",
-            "Estábamos en {location}. Amenacé con arrojar al siguiente por un acantilado si escuchaba una queja más sobre el camino.",
-            "Les pedí que dejaran de babear y miraran alrededor, ya que habíamos llegado a {location}. Me quedé al frente y les dije que se callaran.",
-            "Llegamos. {location} era tan deplorable como imaginé. Dije que no perderían de vista, porque yo no buscaría a nadie.",
-            "Estábamos en {location}. Ajusté mi protector de cuello y recé, no a los dioses, sino para que no hicieran nada estúpido."
+            "Llegamos {ao_place}. Les dije que dejaran de refunfuñar y se quedaran detrás de mi escudo si querían mantenerse intactos.",
+            "Estábamos {na_place}. Fui adelante, despejando el camino; les pedí que no tropezaran con sus propias botas mientras yo vigilaba.",
+            "Llegamos {ao_place}. Les ordené que mantuvieran la formación y se callaran; su ruido estaba atrayendo más problemas de los que necesitábamos.",
+            "Me detuve. Estábamos {na_place}. Busqué cobertura mientras ellos decidían qué hacer.",
+            "El cruce hacia {place} terminó. Les dije que mantuvieran las manos en sus armas y dejaran de esperar un milagro divino.",
+            "Llegamos {ao_place}. Les advertí que no murieran en los primeros cinco minutos; odiaba cargar cuerpos.",
+            "Estábamos {na_place}. Amenacé con arrojar al siguiente por un acantilado si escuchaba una queja más sobre el camino.",
+            "Les pedí que dejaran de babear y miraran alrededor, ya que habíamos llegado {ao_place}. Me quedé al frente y les dije que se callaran.",
+            "Llegamos. {place} era tan deplorable como imaginé. Dije que no perderían de vista, porque yo no buscaría a nadie.",
+            "Estábamos {na_place}. Ajusté mi protector de cuello y recé, no a los dioses, sino para que no hicieran nada estúpido."
           ],
           "ru": [
-            "Мы прибыли в {location}. Я сказала им перестать ворчать и оставаться за моим щитом, если они хотят остаться целыми.",
-            "Мы были в {location}. Я пошла вперед, расчищая путь; я попросила их не спотыкаться о свои собственные ботинки, пока я следила.",
-            "Мы достигли {location}. Я приказала им сохранять строй и заткнуться; их шум привлекал больше проблем, чем нам нужно.",
-            "Я остановилась. Мы были в {location}. Я огляделась в поисках укрытия, пока они решали, что делать.",
-            "Переход к {location} закончился. Я сказала им держать руки на оружии и перестать ждать божественного чуда.",
-            "Мы прибыли в {location}. Я предупредила их не умирать в первые пять минут; я ненавидела носить тела.",
-            "Мы были в {location}. Я пригрозила выбросить следующего с обрыва, если услышу еще одну жалобу на путь.",
-            "Я попросила их перестать пускать слюни и осмотреться, так как мы достигли {location}. Я осталась впереди и сказала им замолчать.",
-            "Мы прибыли. {location} был таким же жалким, как я и представляла. Я сказала, что они не потеряют меня из виду, потому что я не буду искать никого.",
-            "Мы были в {location}. Я отрегулировала защиту шеи и помолилась — не богам, а тому, чтобы они не сделали ничего глупого."
+            "Мы прибыли в {place}. Я сказала им перестать ворчать и оставаться за моим щитом, если они хотят остаться целыми.",
+            "Мы были в {place}. Я пошла вперед, расчищая путь; я попросила их не спотыкаться о свои собственные ботинки, пока я следила.",
+            "Мы достигли {place}. Я приказала им сохранять строй и заткнуться; их шум привлекал больше проблем, чем нам нужно.",
+            "Я остановилась. Мы были в {place}. Я огляделась в поисках укрытия, пока они решали, что делать.",
+            "Переход к {place} закончился. Я сказала им держать руки на оружии и перестать ждать божественного чуда.",
+            "Мы прибыли в {place}. Я предупредила их не умирать в первые пять минут; я ненавидела носить тела.",
+            "Мы были в {place}. Я пригрозила выбросить следующего с обрыва, если услышу еще одну жалобу на путь.",
+            "Я попросила их перестать пускать слюни и осмотреться, так как мы достигли {place}. Я осталась впереди и сказала им замолчать.",
+            "Мы прибыли. {place} был таким же жалким, как я и представляла. Я сказала, что они не потеряют меня из виду, потому что я не буду искать никого.",
+            "Мы были в {place}. Я отрегулировала защиту шеи и помолилась — не богам, а тому, чтобы они не сделали ничего глупого."
           ],
           "zh": [
-            "我们到达了{location}。我告诉他们如果想保持完整就别再抱怨了，乖乖待在我的盾牌后面。",
-            "我们在{location}。我走在前面，清理道路；我让他们不要绊倒自己的靴子，我会看着的。",
-            "我们到达了{location}。我命令他们保持队形并闭嘴；他们的吵闹吸引了比我们需要的更多麻烦。",
-            "我停下了脚步。我们在{location}。我环顾四周寻找掩护，而他们决定该怎么办。",
-            "穿越到{location}结束了。我告诉他们把手放在武器上，不要再等什么神迹了。",
-            "我们到达了{location}。我警告他们不要在前五分钟内死掉；我讨厌搬运尸体。",
-            "我们在{location}。如果再听到一个关于路的抱怨，我就威胁要把下一个扔下悬崖。",
-            "我让他们别再流口水了，看看周围，因为我们已经到了{location}。我留在前面，让他们安静下来。",
-            "我们到了。{location}和我想象的一样糟糕。我说他们不会失去我的视线，因为我不会去找任何人。",
-            "我们在{location}。我调整了我的颈部护具并祈祷——不是向神祇，而是希望他们不要做任何愚蠢的事。"
+            "我们到达了{place}。我告诉他们如果想保持完整就别再抱怨了，乖乖待在我的盾牌后面。",
+            "我们在{place}。我走在前面，清理道路；我让他们不要绊倒自己的靴子，我会看着的。",
+            "我们到达了{place}。我命令他们保持队形并闭嘴；他们的吵闹吸引了比我们需要的更多麻烦。",
+            "我停下了脚步。我们在{place}。我环顾四周寻找掩护，而他们决定该怎么办。",
+            "穿越到{place}结束了。我告诉他们把手放在武器上，不要再等什么神迹了。",
+            "我们到达了{place}。我警告他们不要在前五分钟内死掉；我讨厌搬运尸体。",
+            "我们在{place}。如果再听到一个关于路的抱怨，我就威胁要把下一个扔下悬崖。",
+            "我让他们别再流口水了，看看周围，因为我们已经到了{place}。我留在前面，让他们安静下来。",
+            "我们到了。{place}和我想象的一样糟糕。我说他们不会失去我的视线，因为我不会去找任何人。",
+            "我们在{place}。我调整了我的颈部护具并祈祷——不是向神祇，而是希望他们不要做任何愚蠢的事。"
           ],
           "ja": [
-            "{location}に到着した。彼らには文句を言うのをやめて、無傷でいたいなら私の盾の後ろにいなさいと言った。",
-            "{location}にいた。私は先頭に立って道を切り開いた。彼らには自分のブーツにつまずかないように頼んだ。",
-            "{location}に到達した。私は彼らに隊形を維持して黙るように命じた。彼らの騒音は必要以上のトラブルを引き寄せていた。",
-            "私は歩みを止めた。{location}にいた。彼らがどうするか決める間、周りを見回して隠れる場所を探した。",
-            "{location}への渡りは終わった。私は彼らに武器から手を離さないように言い、神の奇跡を待つのはやめるように言った。",
-            "{location}に到着した。私は最初の5分で死なないように警告した。私は死体を運ぶのが嫌いだったからだ。",
-            "{location}にいた。道についてもう一つ不満が聞こえたら、次の人を崖から投げ落とすと脅した。",
-            "{location}に到着したとき、彼らにはよだれを垂らすのをやめて周りを見るように頼んだ。私は前にいて静かになるように言った。",
-            "私たちは到着した。{location}は私が想像していたほどひどかった。私は彼らが私から目を離さないと言った。なぜなら私も誰も探さないからだ。",
-            "{location}にいた。私は首当てを調整し、祈った—神々ではなく、彼らが愚かなことをしないことを願って。"
+            "{place}に到着した。彼らには文句を言うのをやめて、無傷でいたいなら私の盾の後ろにいなさいと言った。",
+            "{place}にいた。私は先頭に立って道を切り開いた。彼らには自分のブーツにつまずかないように頼んだ。",
+            "{place}に到達した。私は彼らに隊形を維持して黙るように命じた。彼らの騒音は必要以上のトラブルを引き寄せていた。",
+            "私は歩みを止めた。{place}にいた。彼らがどうするか決める間、周りを見回して隠れる場所を探した。",
+            "{place}への渡りは終わった。私は彼らに武器から手を離さないように言い、神の奇跡を待つのはやめるように言った。",
+            "{place}に到着した。私は最初の5分で死なないように警告した。私は死体を運ぶのが嫌いだったからだ。",
+            "{place}にいた。道についてもう一つ不満が聞こえたら、次の人を崖から投げ落とすと脅した。",
+            "{place}に到着したとき、彼らにはよだれを垂らすのをやめて周りを見るように頼んだ。私は前にいて静かになるように言った。",
+            "私たちは到着した。{place}は私が想像していたほどひどかった。私は彼らが私から目を離さないと言った。なぜなら私も誰も探さないからだ。",
+            "{place}にいた。私は首当てを調整し、祈った—神々ではなく、彼らが愚かなことをしないことを願って。"
           ]
         }
       },
@@ -309,17 +309,17 @@
               "The celestial Bombardment obliterated {enemy}. Overkill, but effective."
             ],
             "es": [
-              "Invocé el sagrado Martillo giratorio contra {do_enemy} y terminé el asunto rápidamente.",
-              "Vi mi Escudo rebotar en {no_enemy} mientras ya pensaba en la cena.",
-              "Una Columna de luz divina golpeó a {ao_enemy}. Un estorbo menos en el camino.",
-              "Vi una Espada caer del cielo sobre {do_enemy}. Doctrina pura y ruidosa.",
-              "Una Explosión sagrada en área limpió todo {no_enemy}. Finalmente, algo de paz.",
-              "Mi Aura radiante frió cada parte de {do_enemy} que se atrevió a acercarse.",
-              "La Investida con escudo aplastó a {ao_enemy}. Alguien tenía que hacer el trabajo sucio.",
-              "Sentencié a cada uno de {do_enemy} con un Juicio divino. La justicia es una maldita tarea.",
-              "Mi Falange espectral atropelló a {ao_enemy}. Ni siquiera tuve que esforzarme mucho.",
-              "El Bombardeo celestial obliteró a {do_enemy}. Exagerado, pero efectivo."
-             ],
+              "Invocé el sagrado Martillo giratorio contra {o_enemy} y terminé el asunto rápidamente.",
+              "Vi mi Escudo rebotar contra {o_enemy} mientras ya pensaba en la cena.",
+              "Una Columna de luz divina golpeó {ao_enemy}. Un estorbo menos en el camino.",
+              "Vi una Espada caer del cielo sobre {o_enemy}. Doctrina pura y ruidosa.",
+              "Una Explosión sagrada en área arrasó a {o_enemy}. Finalmente, algo de paz.",
+              "Mi Aura radiante frió cada parte {do_enemy} que se atrevió a acercarse.",
+              "La Investida con escudo aplastó {ao_enemy}. Alguien tenía que hacer el trabajo sucio.",
+              "Sentencié a cada miembro {do_enemy} con un Juicio divino. La justicia es una maldita tarea.",
+              "Mi Falange espectral atropelló {ao_enemy}. Ni siquiera tuve que esforzarme mucho.",
+              "El Bombardeo celestial obliteró {ao_enemy}. Exagerado, pero efectivo."
+            ],
              "ru": [
                "{enemy} я призвала священный Вращающийся Молот и быстро закончила дело.",
                "{enemy} я увидела, как мой Щит отскакивает, в то время как я уже думала о ужине.",
@@ -383,16 +383,16 @@
               "My angelic Avatars dealt with {enemy}. I just wanted to go home."
              ],
              "es": [
-              "Una Onda de choque sagrada derribó todo {no_enemy} y me ahorró tiempo.",
-              "Coloqué la Marca de condenación en {no_enemy}. El destino ya estaba sellado.",
-              "Usé el Escudo luminoso cegador en {ao_enemy}. Ni siquiera vieron venir el golpe final.",
-              "Mi Martillo espectral orbital pulverizó a {do_enemy} sin que yo dejara de caminar.",
-              "El Escudo giratorio perforante atravesó a {no_enemy}. Qué desastre innecesario.",
-              "El Impacto consagrado destruyó cada pieza de {do_enemy}. Otra obligación cumplida.",
-              "Mi Lâmina de luz colosal cortó a {ao_enemy} por la mitad. Sin dramas.",
-              "Una Descarga celestial frió a {do_enemy} al instante. Pragmático.",
-              "La Lluvia de lanzas sagradas cayó sobre {no_enemy}. Un espectáculo que no pedí.",
-              "Mis Avatares angelicales lidiaron con {do_enemy}. Solo quería irme a casa."
+                "Una Onda de choque sagrada derribó a {o_enemy} y me ahorró tiempo.",
+                "Coloqué la Marca de condenación sobre {o_enemy}. El destino ya estaba sellado.",
+                "Usé el Escudo luminoso cegador contra {ao_enemy}. Ni siquiera vieron venir el golpe final.",
+                "Mi Martillo espectral orbital pulverizó a {ao_enemy} sin que yo dejara de caminar.",
+                "El Escudo giratorio perforante atravesó a {ao_enemy}. Qué desastre innecesario.",
+                "El Impacto consagrado destruyó cada pieza {do_enemy}. Otra obligación cumplida.",
+                "Mi Lámina de luz colosal cortó a {ao_enemy} por la mitad. Sin dramas.",
+                "Una Descarga celestial frió a {ao_enemy} al instante. Pragmático.",
+                "La Lluvia de lanzas sagradas cayó sobre {o_enemy}. Un espectáculo que no pedí.",
+                "Mis Avatares angelicales lidiaron con {o_enemy}. Solo quería irme a casa."
              ],
               "ru": [
                "{enemy} священная Ударная волна сбила с ног все и сэкономила мне время.",
@@ -435,102 +435,102 @@
         "religion": {
           "alone": {
           "pt": [
-            "Recitei o rito diante d{challenge} sem elevar a voz, apenas o suficiente para que ninguém fingisse não ouvir.",
-            "Tracei o símbolo sagrado em direção {challenge} e esperei, observando quem desviava o olhar.",
-            "Toquei o amuleto e encarei {challenge} em silêncio, deixando claro que fé não era espetáculo."
+            "Recitei o rito diante d{subject} sem elevar a voz, apenas o suficiente para que ninguém fingisse não ouvir.",
+            "Tracei o símbolo sagrado em direção {subject} e esperei, observando quem desviava o olhar.",
+            "Toquei o amuleto e encarei {subject} em silêncio, deixando claro que fé não era espetáculo."
           ],
           "en": [
-            "I recited the rite in front of {challenge} without raising my voice, just enough for no one to pretend they didn't hear.",
-            "I traced the sacred symbol towards {challenge} and waited, watching who looked away.",
-            "I touched the amulet and stared at {challenge} in silence, making it clear that faith was not a spectacle."
+            "I recited the rite in front of {subject} without raising my voice, just enough for no one to pretend they didn't hear.",
+            "I traced the sacred symbol towards {subject} and waited, watching who looked away.",
+            "I touched the amulet and stared at {subject} in silence, making it clear that faith was not a spectacle."
            ],
            "es": [
-            "Recité el rito frente a {challenge} sin levantar la voz, lo suficiente para que nadie fingiera no escuchar.",
-            "Dibujé el símbolo sagrado hacia {challenge} y esperé, observando quién desviaba la mirada.",
-            "Toqué el amuleto y miré a {challenge} en silencio, dejando claro que la fe no era un espectáculo."
+            "Recité el rito frente a {subject} sin levantar la voz, lo suficiente para que nadie fingiera no escuchar.",
+            "Dibujé el símbolo sagrado hacia {subject} y esperé, observando quién desviaba la mirada.",
+            "Toqué el amuleto y miré a {subject} en silencio, dejando claro que la fe no era un espectáculo."
            ],
            "ru": [
-            "Я произнесла ритуал перед {challenge}, не повышая голоса, достаточно тихо, чтобы никто не мог притвориться, что не слышит.",
-            "Я нарисовала священный символ в направлении {challenge} и подождала, наблюдая, кто отводит взгляд.",
-            "Я коснулась амулета и молча уставилась на {challenge}, ясно дав понять, что вера — это не зрелище."
+            "Я произнесла ритуал перед {subject}, не повышая голоса, достаточно тихо, чтобы никто не мог притвориться, что не слышит.",
+            "Я нарисовала священный символ в направлении {subject} и подождала, наблюдая, кто отводит взгляд.",
+            "Я коснулась амулета и молча уставилась на {subject}, ясно дав понять, что вера — это не зрелище."
            ],
            "zh": [
-            "我在{challenge}面前背诵了仪式，没有提高声音，只是足够让没有人假装没听到。",
-            "我朝{challenge}画了一个神圣的符号并等待，观察谁会移开视线。",
-            "我触摸了护身符，默默地盯着{challenge}，明确表示信仰不是一场表演。"
+            "我在{subject}面前背诵了仪式，没有提高声音，只是足够让没有人假装没听到。",
+            "我朝{subject}画了一个神圣的符号并等待，观察谁会移开视线。",
+            "我触摸了护身符，默默地盯着{subject}，明确表示信仰不是一场表演。"
            ],
            "ja": [
-            "{challenge}の前で儀式を声を上げずに唱えた。誰も聞こえないふりをできないように、ちょうどいいくらいの声で。",
-            "{challenge}に向かって聖なるシンボルを描き、誰が目をそらすか見ながら待った。",
-            "私はお守りに触れ、{challenge}を黙って見つめた。信仰は見世物ではないことをはっきりさせるために。"
+            "{subject}の前で儀式を声を上げずに唱えた。誰も聞こえないふりをできないように、ちょうどいいくらいの声で。",
+            "{subject}に向かって聖なるシンボルを描き、誰が目をそらすか見ながら待った。",
+            "私はお守りに触れ、{subject}を黙って見つめた。信仰は見世物ではないことをはっきりさせるために。"
            ]
           }
         },
         "diplomacy": {
           "alone": {
           "pt": [
-            "Interpus-me diante d{challenge} e falei o necessário, sem paciência para discursos longos.",
-            "Cruzei os braços frente a {challenge} e conduzi a conversa com frases curtas e tom firme.",
-            "Mantive a postura rígida ao lidar com {challenge}, cortando excessos antes que virassem gritos."
+            "Interpus-me diante d{subject} e falei o necessário, sem paciência para discursos longos.",
+            "Cruzei os braços frente a {subject} e conduzi a conversa com frases curtas e tom firme.",
+            "Mantive a postura rígida ao lidar com {subject}, cortando excessos antes que virassem gritos."
           ],
           "en": [
-            "I interposed myself in front of {challenge} and spoke what was necessary, with no patience for long speeches.",
-            "I crossed my arms in front of {challenge} and led the conversation with short phrases and a firm tone.",
-            "I maintained a rigid posture when dealing with {challenge}, cutting excess before it turned into shouting."
+            "I interposed myself in front of {subject} and spoke what was necessary, with no patience for long speeches.",
+            "I crossed my arms in front of {subject} and led the conversation with short phrases and a firm tone.",
+            "I maintained a rigid posture when dealing with {subject}, cutting excess before it turned into shouting."
            ],
            "es": [
-            "Me interpuse frente a {challenge} y hablé lo necesario, sin paciencia para discursos largos.",
-            "Crucé los brazos frente a {challenge} y dirigí la conversación con frases cortas y un tono firme.",
-            "Mantuve una postura rígida al tratar con {challenge}, cortando el exceso antes de que se convirtiera en gritos."
+            "Me interpuse frente a {subject} y hablé lo necesario, sin paciencia para discursos largos.",
+            "Crucé los brazos frente a {subject} y dirigí la conversación con frases cortas y un tono firme.",
+            "Mantuve una postura rígida al tratar con {subject}, cortando el exceso antes de que se convirtiera en gritos."
            ],
            "ru": [
-            "Я встала перед {challenge} и сказала то, что было необходимо, не имея терпения для длинных речей.",
-            "Я скрестила руки перед {challenge} и вела разговор короткими фразами и твердым тоном.",
-            "Я сохраняла жесткую позу при общении с {challenge}, отрезая излишества, прежде чем они превратятся в крики."
+            "Я встала перед {subject} и сказала то, что было необходимо, не имея терпения для длинных речей.",
+            "Я скрестила руки перед {subject} и вела разговор короткими фразами и твердым тоном.",
+            "Я сохраняла жесткую позу при общении с {subject}, отрезая излишества, прежде чем они превратятся в крики."
            ],
            "zh": [
-            "我站在{challenge}面前，说了必要的话，没有耐心听长篇大论。",
-            "我在{challenge}面前交叉双臂，用简短的短语和坚定的语气引导对话。",
-            "我在处理{challenge}时保持僵硬的姿态，在它变成喊叫之前切断多余的话。"
+            "我站在{subject}面前，说了必要的话，没有耐心听长篇大论。",
+            "我在{subject}面前交叉双臂，用简短的短语和坚定的语气引导对话。",
+            "我在处理{subject}时保持僵硬的姿态，在它变成喊叫之前切断多余的话。"
            ],
            "ja": [
-            "{challenge}の前に立ち、必要なことを話した。長いスピーチには我慢できない。",
-            "{challenge}の前で腕を組み、短いフレーズと堅い口調で会話をリードした。",
-            "{challenge}を相手にするときは厳しい姿勢を保ち、叫び声になる前に余分なものを切り捨てた。"
+            "{subject}の前に立ち、必要なことを話した。長いスピーチには我慢できない。",
+            "{subject}の前で腕を組み、短いフレーズと堅い口調で会話をリードした。",
+            "{subject}を相手にするときは厳しい姿勢を保ち、叫び声になる前に余分なものを切り捨てた。"
            ]
           }
           },
         "intimidation": {
           "alone": {
           "pt": [
-            "Avancei um passo contra {challenge} e deixei o silêncio pesar mais que qualquer ameaça.",
-            "Fixei o olhar n{challenge} e apoiei a mão na arma, sem explicar o motivo.",
-            "Aproximei-me d{challenge} até invadir espaço suficiente para que entendessem."
+            "Avancei um passo contra {subject} e deixei o silêncio pesar mais que qualquer ameaça.",
+            "Fixei o olhar n{subject} e apoiei a mão na arma, sem explicar o motivo.",
+            "Aproximei-me d{subject} até invadir espaço suficiente para que entendessem."
           ],
           "en": [
-            "I stepped forward against {challenge} and let the silence weigh heavier than any threat.",
-            "I fixed my gaze on {challenge} and rested my hand on my weapon, without explaining why.",
-            "I approached {challenge} until I invaded enough space for them to understand."
+            "I stepped forward against {subject} and let the silence weigh heavier than any threat.",
+            "I fixed my gaze on {subject} and rested my hand on my weapon, without explaining why.",
+            "I approached {subject} until I invaded enough space for them to understand."
            ],
            "es": [
-            "Di un paso adelante contra {challenge} y dejé que el silencio pesara más que cualquier amenaza.",
-            "Fijé mi mirada en {challenge} y apoyé mi mano en mi arma, sin explicar por qué.",
-            "Me acerqué a {challenge} hasta invadir suficiente espacio para que entendieran."
+            "Di un paso adelante contra {subject} y dejé que el silencio pesara más que cualquier amenaza.",
+            "Fijé mi mirada en {subject} y apoyé mi mano en mi arma, sin explicar por qué.",
+            "Me acerqué a {subject} hasta invadir suficiente espacio para que entendieran."
            ],
            "ru": [
-            "Я сделала шаг вперед против {challenge} и позволила тишине весить тяжелее любой угрозы.",
-            "Я уставилась на {challenge} и положила руку на оружие, не объясняя почему.",
-            "Я подошла к {challenge}, пока не вторглась в достаточно пространства, чтобы они поняли."
+            "Я сделала шаг вперед против {subject} и позволила тишине весить тяжелее любой угрозы.",
+            "Я уставилась на {subject} и положила руку на оружие, не объясняя почему.",
+            "Я подошла к {subject}, пока не вторглась в достаточно пространства, чтобы они поняли."
            ],
            "zh": [
-            "我向{challenge}迈出一步，让沉默比任何威胁都更有分量。",
-            "我盯着{challenge}看，把手放在武器上，没有解释为什么。",
-            "我接近{challenge}，直到我入侵了足够的空间让他们明白。"
+            "我向{subject}迈出一步，让沉默比任何威胁都更有分量。",
+            "我盯着{subject}看，把手放在武器上，没有解释为什么。",
+            "我接近{subject}，直到我入侵了足够的空间让他们明白。"
            ],
            "ja": [
-            "{challenge}に一歩踏み出し、沈黙がどんな脅威よりも重くなるようにした。",
-            "{challenge}をじっと見つめ、理由を説明せずに武器に手を置いた。",
-            "{challenge}に近づき、彼らが理解できるほどのスペースを侵入した。"
+            "{subject}に一歩踏み出し、沈黙がどんな脅威よりも重くなるようにした。",
+            "{subject}をじっと見つめ、理由を説明せずに武器に手を置いた。",
+            "{subject}に近づき、彼らが理解できるほどのスペースを侵入した。"
            ]
           }
           }
@@ -1465,6 +1465,72 @@
 
         }
       }
+    },
+    "failure": {
+      "solo": {
+        "pt": [
+          "Já tive dias melhores. Infelizmente, {enemy} também.",
+          "Eu estava preparada para muita coisa. Não para {enemy_attack}.",
+          "Nada em {place} cooperou. Nem por um momento."
+        ],
+        "en": [
+          "I've had better days. Unfortunately, so has {enemy}.",
+          "I was prepared for a lot of things. Not for {enemy_attack}.",
+          "Nothing in {place} cooperated. Not for a moment."
+         ],
+        "es": [
+          "He tenido días mejores. Desafortunadamente, {enemy} también.",
+          "Estaba preparada para muchas cosas. No para {enemy_attack}.",
+          "Nada en {place} cooperó. Ni por un momento."
+         ],
+        "ru": [
+          "У меня были лучшие дни. К сожалению, у {enemy} тоже.",
+          "Я была готова ко многому. Не к {enemy_attack}.",
+          "Ничто в {place} не сотрудничало. Ни на мгновение."
+         ],
+        "zh": [
+          "我有过更好的日子。不幸的是，{enemy}也是。",
+          "我为很多事情做好了准备。没有为{enemy_attack}做好准备。",
+          "{place}中的任何东西都没有合作。哪怕一会儿也没有。"
+         ],
+        "ja": [
+          "私はもっと良い日を過ごしたことがあります。残念ながら、{enemy}もそうです。",
+          "私は多くのことに備えていました。{enemy_attack}には備えていませんでした。",
+          "{place}の中の何も協力しませんでした。一瞬たりとも。"
+         ]
+        },
+        "group": {
+          "pt": [
+            "Falhei. Pode anotar isso junto com todos os outros problemas {da_place}.",
+            "Subestimei {o_enemy}. Não pretendo repetir esse erro.",
+            "Da próxima vez, {enemy_attack} termina antes de começar."
+          ],
+          "en": [
+            "I failed. You can chalk that up with all the other problems of {place}.",
+            "I underestimated {enemy}. I don't intend to make that mistake again.",
+            "Next time, {enemy_attack} ends before it even starts."
+          ],
+          "es": [
+            "Fallé. Puedes anotarlo junto con todos los otros problemas {da_place}.",
+            "Subestimé a {o_enemy}. No tengo intención de cometer ese error de nuevo.",
+            "La próxima vez, {enemy_attack} termina antes de que siquiera comience."
+          ],
+          "ru": [
+            "Я провалился. Вы можете записать это вместе со всеми другими проблемами {place}.",
+            "Я недооценил {enemy}. Я не намерен повторять эту ошибку.",
+            "В следующий раз, {enemy_attack} закончится, прежде чем даже начнется."
+          ],
+          "zh": [
+            "我失败了。你可以把它和{place}的所有其他问题一起记下来。",
+            "我低估了{enemy}。我不打算再犯这个错误了。",
+            "下次，{enemy_attack}在开始之前就结束了。"
+           ],
+          "ja": [
+            "私は失敗しました。{place}の他のすべての問題と一緒にそれを記録できます。",
+            "{enemy}を過小評価しました。私はその間違いを繰り返すつもりはありません。",
+            "次回は、{enemy_attack}が始まる前に終わります。"
+           ]
+        }
     }
   }
 }

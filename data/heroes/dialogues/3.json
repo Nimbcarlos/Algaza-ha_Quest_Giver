@@ -133,403 +133,343 @@
     "arrived": {
       "alone": {
         "pt": [
-        "Estive n{location}. O solo vibrava e as raízes observavam meus passos.",
-        "Cheguei n{location}. O silêncio da mata me distraiu, mas minha casca estava pronta.",
-        "Senti n{location} sob meus pés. Fiquei lá, firme como um carvalho antigo.",
-        "Estive n{location}. O vento sussurrou segredos que quase me fizeram esquecer o dever.",
-        "Entrei n{location}. Minha pele endureceu como casca... a natureza exigia cautela.",
-        "N{location} parecia em desequilíbrio. Permaneci em guarda até o tronco ceder.",
-        "Avancei n{location}. Me perdi olhando as formigas, mas meu escudo estava posto.",
-        "Sozinha n{location}. O peso da terra me guiou enquanto aguardava o primeiro golpe.",
-        "Cheguei n{location}. Não precisei de palavras quando o solo falava tão alto.",
-        "Posicionada n{location}. Fui a rocha que o rio contorna. Não saí dali."
+        "Estive {na_place}. O solo vibrava e as raízes observavam meus passos.",
+        "Cheguei {na_place}. O silêncio da mata me distraiu, mas minha casca estava pronta.",
+        "Senti {na_place} sob meus pés. Fiquei lá, firme como um carvalho antigo.",
+        "Estive {na_place}. O vento sussurrou segredos que quase me fizeram esquecer o dever.",
+        "Entrei {na_place}. Minha pele endureceu como casca... a natureza exigia cautela.",
+        "{na_place} parecia em desequilíbrio. Permaneci em guarda até o tronco ceder.",
+        "Avancei {na_place}. Me perdi olhando as formigas, mas meu escudo estava posto.",
+        "Sozinha {na_place}. O peso da terra me guiou enquanto aguardava o primeiro golpe.",
+        "Cheguei {na_place}. Não precisei de palavras quando o solo falava tão alto.",
+        "Posicionada {na_place}. Fui a rocha que o rio contorna. Não saí dali."
       ],
       "en": [
-        "I was at {location}. The ground vibrated and the roots watched my steps.",
-        "I reached {location}. The forest's silence distracted me, but my bark was ready.",
-        "I felt {location} beneath my feet. I stood there, firm as an ancient oak.",
-        "I was at {location}. The wind whispered secrets that almost made me forget my duty.",
-        "I entered {location}. My skin hardened like bark... nature demanded caution.",
-        "At {location}, things felt unbalanced. I remained on guard until the trunk gave way.",
-        "I moved through {location}. I lost myself watching the ants, but my shield was set.",
-        "Alone at {location}. The weight of the earth guided me as I awaited the first blow.",
-        "I reached {location}. I needed no words when the ground spoke so loudly.",
-        "Positioned at {location}. I was the rock the river flows around. I did not move."
+        "I was at {place}. The ground vibrated and the roots watched my steps.",
+        "I reached {place}. The forest's silence distracted me, but my bark was ready.",
+        "I felt {place} beneath my feet. I stood there, firm as an ancient oak.",
+        "I was at {place}. The wind whispered secrets that almost made me forget my duty.",
+        "I entered {place}. My skin hardened like bark... nature demanded caution.",
+        "At {place}, things felt unbalanced. I remained on guard until the trunk gave way.",
+        "I moved through {place}. I lost myself watching the ants, but my shield was set.",
+        "Alone at {place}. The weight of the earth guided me as I awaited the first blow.",
+        "I reached {place}. I needed no words when the ground spoke so loudly.",
+        "Positioned at {place}. I was the rock the river flows around. I did not move."
       ],
       "es": [
-        "Estuve en {location}. El suelo vibraba y las raíces observaban mis pasos.",
-        "Llegué a {location}. El silencio del bosque me distrajo, pero mi corteza estaba lista.",
-        "Sentí {location} bajo mis pies. Me quedé allí, firme como un roble antiguo.",
-        "Estuve en {location}. El viento susurró secretos que casi me hicieron olvidar el deber.",
-        "Entré en {location}. Mi piel se endureció como corteza... la naturaleza exigía cautela.",
-        "{location} parecía en desequilibrio. Permanecí en guardia hasta que el tronco cedió.",
-        "Avancé en {location}. Me perdí mirando a las hormigas, pero mi escudo estaba puesto.",
-        "Sola en {location}. El peso de la tierra me guio mientras esperaba el primer golpe.",
-        "Llegué a {location}. No necesité palabras cuando el suelo hablaba tan fuerte.",
-        "Posicionada en {location}. Fui la roca que el río rodea. No me moví de allí."
+        "Estuve {na_place}. El suelo vibraba y las raíces observaban mis pasos.",
+        "Llegué a {na_place}. El silencio del bosque me distrajo, pero mi corteza estaba lista.",
+        "Sentí {na_place} bajo mis pies. Me quedé allí, firme como un roble antiguo.",
+        "Estuve {na_place}. El viento susurró secretos que casi me hicieron olvidar el deber.",
+        "Entré {na_place}. Mi piel se endureció como corteza... la naturaleza exigía cautela.",
+        "{na_place} parecía en desequilibrio. Permanecí en guardia hasta que el tronco cedió.",
+        "Avancé {na_place}. Me perdí mirando a las hormigas, pero mi escudo estaba puesto.",
+        "Sola {na_place}. El peso de la tierra me guio mientras esperaba el primer golpe.",
+        "Llegué a {na_place}. No necesité palabras cuando el suelo hablaba tan fuerte.",
+        "Posicionada {na_place}. Fui la roca que el río rodea. No me moví de allí."
       ],
       "ru": [
-        "Я была в {location}. Почва дрожала, и корни следили за моими шагами.",
-        "Я пришла в {location}. Тишина леса отвлекла меня, но моя кора была готова.",
-        "Я чувствовала {location} под ногами. Я стояла там, твердая как древний дуб.",
-        "Я была в {location}. Ветер шептал тайны, которые чуть не заставили меня забыть о долге.",
-        "Я вошла в {location}. Моя кожа огрубела, как кора... природа требовала осторожности.",
-        "В {location} чувствовался разлад. Я оставалась на страже, пока ствол не поддался.",
-        "Я шла по {location}. Я засмотрелась на муравьев, но мой щит был на месте.",
-        "Одна в {location}. Вес земли вел меня, пока я ждала первого удара.",
-        "Я добралась до {location}. Слова были не нужны, когда земля говорила так громко.",
-        "На позиции в {location}. Я была скалой, которую огибает река. Я не сдвинулась."
+        "Я была в {place}. Почва дрожала, и корни следили за моими шагами.",
+        "Я пришла в {place}. Тишина леса отвлекла меня, но моя кора была готова.",
+        "Я чувствовала {place} под ногами. Я стояла там, твердая как древний дуб.",
+        "Я была в {place}. Ветер шептал тайны, которые чуть не заставили меня забыть о долге.",
+        "Я вошла в {place}. Моя кожа огрубела, как кора... природа требовала осторожности.",
+        "В {place} чувствовался разлад. Я оставалась на страже, пока ствол не поддался.",
+        "Я шла по {place}. Я засмотрелась на муравьев, но мой щит был на месте.",
+        "Одна в {place}. Вес земли вел меня, пока я ждала первого удара.",
+        "Я добралась до {place}. Слова были не нужны, когда земля говорила так громко.",
+        "На позиции в {place}. Я была скалой, которую огибает река. Я не сдвинулась."
       ],
       "zh": [
-        "我在 {location}。大地在震动，树根在注视着我的脚步。",
-        "我抵达了 {location}。林间的寂静令我分神，但我的树皮已经准备就绪。",
-        "我感受到脚下的 {location}。我伫立在那里，坚如古老的橡木。",
-        "我曾身处 {location}。风轻声耳语着秘密，险些让我忘记了职责。",
-        "我进入了 {location}。我的皮肤变得像树皮一样坚硬……大自然要求谨慎。",
-        "{location} 似乎失去了平衡。我一直严阵以待，直到树干倾倒。",
-        "我在 {location} 前进。我因观察蚂蚁而失神，但我的护盾并未松懈。",
-        "独自在 {location}。大地的重量引导着我，等待着第一击的降临。",
-        "我到达了 {location}。大地之声如此响亮，我已无需言语。",
-        "在 {location} 就位。我是那岩石，任凭河水绕流，我自岿然不动。"
+        "我在 {place}。大地在震动，树根在注视着我的脚步。",
+        "我抵达了 {place}。林间的寂静令我分神，但我的树皮已经准备就绪。",
+        "我感受到脚下的 {place}。我伫立在那里，坚如古老的橡木。",
+        "我曾身处 {place}。风轻声耳语着秘密，险些让我忘记了职责。",
+        "我进入了 {place}。我的皮肤变得像树皮一样坚硬……大自然要求谨慎。",
+        "{place} 似乎失去了平衡。我一直严阵以待，直到树干倾倒。",
+        "我在 {place} 前进。我因观察蚂蚁而失神，但我的护盾并未松懈。",
+        "独自在 {place}。大地的重量引导着我，等待着第一击的降临。",
+        "我到达了 {place}。大地之声如此响亮，我已无需言语。",
+        "在 {place} 就位。我是那岩石，任凭河水绕流，我自岿然不动。"
       ],
       "ja": [
-        "{location} にいた。大地は震え、根が私の足跡を見守っていた。",
-        "{location} に着いた。森の静寂に気を取られたが、私の「皮」は準備できていた。",
-        "足元に {location} を感じた。古木のように毅然として、そこに立ち続けた。",
-        "{location} にいた。風が囁く秘密に、使命を忘れそうになったほどだ。",
-        "{location} に入った。肌は樹皮のように硬くなった…自然は警戒を求めている。",
-        "{location} は均衡を失っているようだ。幹が屈するまで、私は警戒を解かなかった。",
-        "{location} を進んだ。蟻に見入ってしまったが、盾は構えたままだ。",
-        "{location} で独り。大地の重みが私を導き、最初の一撃を待った。",
-        "{location} に着いた。大地がこれほど雄弁なら、言葉は必要ない。",
-        "{location} に配置。川が避けて通る岩のように、そこから動かなかった。"
+        "{place} にいた。大地は震え、根が私の足跡を見守っていた。",
+        "{place} に着いた。森の静寂に気を取られたが、私の「皮」は準備できていた。",
+        "足元に {place} を感じた。古木のように毅然として、そこに立ち続けた。",
+        "{place} にいた。風が囁く秘密に、使命を忘れそうになったほどだ。",
+        "{place} に入った。肌は樹皮のように硬くなった…自然は警戒を求めている。",
+        "{place} は均衡を失っているようだ。幹が屈するまで、私は警戒を解かなかった。",
+        "{place} を進んだ。蟻に見入ってしまったが、盾は構えたままだ。",
+        "{place} で独り。大地の重みが私を導き、最初の一撃を待った。",
+        "{place} に着いた。大地がこれほど雄弁なら、言葉は必要ない。",
+        "{place} に配置。川が避けて通る岩のように、そこから動かなかった。"
       ]
     },
     "group": {
       "ja": [
-        "{location} に着いた。私が先頭に立つ。この体は群れの盾だ。",
-        "{location} は皆のおかげで賑やかだったが、私は皆を守る樹木であり続けた。",
-        "{location} に入った。皆には私の後ろに下がるよう言った。私は強靭な繊維と忍耐でできている。",
-        "{location} にいた。皆の言葉は聞き逃したが、どこに根を張るべきかは分かっていた。",
-        "皆と {location} に踏み込んだ。危険が迫った時、私は折れない幹となった。",
-        "{location} が我々を迎えた。皆が動けるよう、私が一撃を受け止めた。",
-        "着いたぞ… {location} は妙な臭いがした。皆は近くにいた、私が衝撃を耐え抜いた。",
-        "{location} へ進んだ。皆が葉なら、私はそれを支える根だ。",
-        "もう {location} だ。花に気を取られたが、皆のために警戒は怠らなかった。",
-        "{location} にいた。奴らの鋼が触れたのは、私の硬い樹皮だけだった。"
+        "{place} に着いた。私が先頭に立つ。この体は群れの盾だ。",
+        "{place} は皆のおかげで賑やかだったが、私は皆を守る樹木であり続けた。",
+        "{place} に入った。皆には私の後ろに下がるよう言った。私は強靭な繊維と忍耐でできている。",
+        "{place} にいた。皆の言葉は聞き逃したが、どこに根を張るべきかは分かっていた。",
+        "皆と {place} に踏み込んだ。危険が迫った時、私は折れない幹となった。",
+        "{place} が我々を迎えた。皆が動けるよう、私が一撃を受け止めた。",
+        "着いたぞ… {place} は妙な臭いがした。皆は近くにいた、私が衝撃を耐え抜いた。",
+        "{place} へ進んだ。皆が葉なら、私はそれを支える根だ。",
+        "もう {place} だ。花に気を取られたが、皆のために警戒は怠らなかった。",
+        "{place} にいた。奴らの鋼が触れたのは、私の硬い樹皮だけだった。"
       ],
       "zh": [
-          "我们到达了 {location}。我走在最前面；我的身体是族群的护盾。",
-          "{location} 因为有你们而喧闹，但我仍是那棵庇护全队的树。",
-          "我们进入了 {location}。我让他们待在后方；我由坚韧的纤维和耐心铸成。",
-          "我们曾在 {location}。我没听清他们说了什么，但我知道该在哪里扎根。",
-          "我和其他人一同踏入 {location}。危险来临时，我是那绝不折断的树干。",
-          "{location} 接纳了我们。我抵挡了所有攻击，以便你们采取行动。",
-          "我们到了…… {location} 有股奇怪的气味。他们紧跟着我，我承受了冲击。",
-          "我们向 {location} 进发。如果队伍是枝叶，我便是那维持生命的根基。",
-          "已在 {location}。我被一朵花吸引了注意力，但为了你们，我的警惕从未放松。",
-          "我们曾在 {location}。他们的钢铁只撞上了我树皮般的坚硬身躯。"
+          "我们到达了 {place}。我走在最前面；我的身体是族群的护盾。",
+          "{place} 因为有你们而喧闹，但我仍是那棵庇护全队的树。",
+          "我们进入了 {place}。我让他们待在后方；我由坚韧的纤维和耐心铸成。",
+          "我们曾在 {place}。我没听清他们说了什么，但我知道该在哪里扎根。",
+          "我和其他人一同踏入 {place}。危险来临时，我是那绝不折断的树干。",
+          "{place} 接纳了我们。我抵挡了所有攻击，以便你们采取行动。",
+          "我们到了…… {place} 有股奇怪的气味。他们紧跟着我，我承受了冲击。",
+          "我们向 {place} 进发。如果队伍是枝叶，我便是那维持生命的根基。",
+          "已在 {place}。我被一朵花吸引了注意力，但为了你们，我的警惕从未放松。",
+          "我们曾在 {place}。他们的钢铁只撞上了我树皮般的坚硬身躯。"
         ],
       "pt": [
-        "Chegamos n{location}. Fiquei à frente; meu corpo foi o escudo da nossa matilha.",
-        "N{location} era barulhento com vocês, mas fui a árvore que abrigou o grupo.",
-        "Entramos n{location}. Pedi que ficassem atrás de mim, sou feita de fibra e paciência.",
-        "Estivemos n{location}. Perdi o que disseram, mas soube onde devia me plantar.",
-        "Pisei n{location} com os outros. Quando o perigo veio, fui o tronco que não quebra.",
-        "N{location} nos recebeu. Absorvi os golpes para que vocês pudessem agir.",
-        "Chegamos... n{location} tinha um cheiro estranho. Ficaram perto, eu aguentei o impacto.",
-        "Avançamos até n{location}. O grupo era a folhagem, eu fui a raiz que sustentou.",
-        "Já n{location}. Me distraí com uma flor, mas minha guarda continuou alta por vocês.",
-        "Estivemos n{location}. O aço deles encontrou apenas a dureza da minha casca."
+        "Chegamos {na_place}. Fiquei à frente; meu corpo foi o escudo da nossa matilha.",
+        "{na_place} era barulhento com vocês, mas fui a árvore que abrigou o grupo.",
+        "Entramos {na_place}. Pedi que ficassem atrás de mim, sou feita de fibra e paciência.",
+        "Estivemos {na_place}. Perdi o que disseram, mas soube onde devia me plantar.",
+        "Pisei {na_place} com os outros. Quando o perigo veio, fui o tronco que não quebra.",
+        "{na_place} nos recebeu. Absorvi os golpes para que vocês pudessem agir.",
+        "Chegamos... {na_place} tinha um cheiro estranho. Ficaram perto, eu aguentei o impacto.",
+        "Avançamos até {na_place}. O grupo era a folhagem, eu fui a raiz que sustentou.",
+        "Já {na_place}. Me distraí com uma flor, mas minha guarda continuou alta por vocês.",
+        "Estivemos {na_place}. O aço deles encontrou apenas a dureza da minha casca."
       ],
       "ru": [
-        "Мы пришли в {location}. Я встала впереди; мое тело стало щитом для нашей стаи.",
-        "В {location} с вами было шумно, но я была деревом, укрывшим группу.",
-        "Мы вошли в {location}. Я попросила их встать за мной; я создана из волокон и терпения.",
-        "Мы были в {location}. Я прослушала их слова, но знала, где должна пустить корни.",
-        "Я ступила в {location} с остальными. Когда пришла беда, я была стволом, который не ломается.",
-        "{location} встретило нас. Я принимала удары на себя, чтобы вы могли действовать.",
-        "Мы на месте... в {location} был странный запах. Они держались рядом, я выдержала удар.",
-        "Мы дошли до {location}. Группа была листвой, я же была корнем, что давал опору.",
-        "Уже в {location}. Я отвлеклась на цветок, но ради вас не теряла бдительности.",
-        "Мы были в {location}. Их сталь встретила лишь твердость моей коры."
+        "Мы пришли в {place}. Я встала впереди; мое тело стало щитом для нашей стаи.",
+        "В {place} с вами было шумно, но я была деревом, укрывшим группу.",
+        "Мы вошли в {place}. Я попросила их встать за мной; я создана из волокон и терпения.",
+        "Мы были в {place}. Я прослушала их слова, но знала, где должна пустить корни.",
+        "Я ступила в {place} с остальными. Когда пришла беда, я была стволом, который не ломается.",
+        "{place} встретило нас. Я принимала удары на себя, чтобы вы могли действовать.",
+        "Мы на месте... в {place} был странный запах. Они держались рядом, я выдержала удар.",
+        "Мы дошли до {place}. Группа была листвой, я же была корнем, что давал опору.",
+        "Уже в {place}. Я отвлеклась на цветок, но ради вас не теряла бдительности.",
+        "Мы были в {place}. Их сталь встретила лишь твердость моей коры."
       ],
       "es": [
-        "Llegamos a {location}. Me puse al frente; mi cuerpo fue el escudo de nuestra manada.",
-        "{location} era ruidoso con ustedes, pero fui el árbol que dio refugio al grupo.",
-        "Entramos en {location}. Les pedí que se quedaran detrás de mí; soy de fibra y paciencia.",
-        "Estuvimos en {location}. Me perdí lo que dijeron, pero supe dónde debía plantarme.",
-        "Pisé {location} con los demás. Cuando vino el peligro, fui el tronco que no se quiebra.",
-        "{location} nos recibió. Absorbí los golpes para que ustedes pudieran actuar.",
-        "Llegamos... {location} olía raro. Se quedaron cerca, yo aguanté el impacto.",
-        "Avanzamos hasta {location}. El grupo era el follaje, yo fui la raíz que sostuvo todo.",
-        "Ya en {location}. Me distraje con una flor, pero mi guardia siguió alta por ustedes.",
-        "Estuvimos en {location}. Su acero solo encontró la dureza de mi corteza."
+        "Llegamos a {na_place}. Me puse al frente; mi cuerpo fue el escudo de nuestra manada.",
+        "{na_place} era ruidoso con ustedes, pero fui el árbol que dio refugio al grupo.",
+        "Entramos {na_place}. Les pedí que se quedaran detrás de mí; soy de fibra y paciencia.",
+        "Estuvimos {na_place}. Me perdí lo que dijeron, pero supe dónde debía plantarme.",
+        "Pisé {na_place} con los demás. Cuando vino el peligro, fui el tronco que no se quiebra.",
+        "{na_place} nos recibió. Absorbí los golpes para que ustedes pudieran actuar.",
+        "Llegamos... {na_place} olía raro. Se quedaron cerca, yo aguanté el impacto.",
+        "Avanzamos hasta {na_place}. El grupo era el follaje, yo fui la raíz que sostuvo todo.",
+        "Ya {na_place}. Me distraje con una flor, pero mi guardia siguió alta por ustedes.",
+        "Estuvimos {na_place}. Su acero solo encontró la dureza de mi corteza."
       ],
       "en": [
-        "We reached {location}. I took the lead; my body was the shield for our pack.",
-        "{location} was noisy with you, but I was the tree that sheltered the group.",
-        "We entered {location}. I asked them to stay behind me; I am made of fiber and patience.",
-        "We were at {location}. I missed what they said, but I knew where I had to plant myself.",
-        "I stepped into {location} with the others. When danger came, I was the trunk that does not break.",
-        "{location} welcomed us. I absorbed the blows so you could act.",
-        "We arrived... {location} had a strange smell. They stayed close; I endured the impact.",
-        "We advanced to {location}. The group was the foliage, I was the root that sustained us.",
-        "Now at {location}. A flower distracted me, but my guard remained high for you.",
-        "We were at {location}. Their steel found only the hardness of my bark."
+        "We reached {place}. I took the lead; my body was the shield for our pack.",
+        "{place} was noisy with you, but I was the tree that sheltered the group.",
+        "We entered {place}. I asked them to stay behind me; I am made of fiber and patience.",
+        "We were at {place}. I missed what they said, but I knew where I had to plant myself.",
+        "I stepped into {place} with the others. When danger came, I was the trunk that does not break.",
+        "{place} welcomed us. I absorbed the blows so you could act.",
+        "We arrived... {place} had a strange smell. They stayed close; I endured the impact.",
+        "We advanced to {place}. The group was the foliage, I was the root that sustained us.",
+        "Now at {place}. A flower distracted me, but my guard remained high for you.",
+        "We were at {place}. Their steel found only the hardness of my bark."
       ]
     }
     },
     "action": {
       "fight": {
         "alone": {
-          "pt": [
-            "Bati no meu escudo de carvalho e chamei a atenção de {enemy}.",
-            "Minha pele endureceu como casca antes de eu investir contra {enemy}.",
-            "Forcei o confronto direto; {enemy} não passaria pela minha raiz.",
-            "Ataquei {enemy} com o peso de uma árvore secular caindo.",
-            "Rosnei baixo, como um urso, e obriguei {enemy} a lutar comigo.",
-            "Golpeei o solo e desafiei {enemy} enquanto as flores tremiam.",
-            "Respirei fundo, esqueci os pássaros e avancei pesado contra {enemy}.",
-            "Me tornei rocha e tronco diante da investida de {enemy}.",
-            "Ergui meu escudo orgânico e pressionei {enemy} com toda minha fibra.",
-            "Travei combate com {enemy}; o equilíbrio não seria quebrado hoje."
-        ],
-        "en": [
-          "I struck my oak shield and drew {enemy}'s attention.",
-          "My skin hardened like bark before I charged at {enemy}.",
-          "I forced a direct confrontation; {enemy} would not get past my roots.",
-          "I attacked {enemy} with the weight of a centuries-old tree falling.",
-          "I growled low, like a bear, and forced {enemy} to fight me.",
-          "I struck the ground and challenged {enemy} while the flowers trembled.",
-          "I took a deep breath, forgot the birds, and advanced heavily against {enemy}.",
-          "I became rock and trunk before {enemy}'s onslaught.",
-          "I raised my organic shield and pressed {enemy} with all my fiber.",
-          "I engaged in combat with {enemy}; the balance would not be broken today."
-        ],
-        "es": [
-          "Golpeé mi escudo de roble y llamé la atención de {enemy}.",
-          "Mi piel se endureció como corteza antes de embestir a {enemy}.",
-          "Forcé el enfrentamiento directo; {enemy} no pasaría por encima de mi raíz.",
-          "Ataqué a {enemy} con el peso de un árbol centenario cayendo.",
-          "Gruñí bajo, como un oso, y obligué a {enemy} a luchar conmigo.",
-          "Golpeé el suelo y desafié a {enemy} mientras las flores temblaban.",
-          "Respiré hondo, olvidé a los pájaros y avancé pesado contra {enemy}.",
-          "Me volví roca y tronco ante la embestida de {enemy}.",
-          "Alcé mi escudo orgánico y presioné a {enemy} con toda mi fibra.",
-          "Trabe combate con {enemy}; el equilibrio no se rompería hoy."
-        ],
-        "ru": [
-          "Я ударила в свой дубовый щит и привлекла внимание {enemy}.",
-          "Моя кожа огрубела, как кора, прежде чем я бросилась на {enemy}.",
-          "Я навязала прямой бой; {enemy} не пройдет сквозь мои корни.",
-          "Я обрушилась на {enemy} всей тяжестью векового падающего дерева.",
-          "Я низко зарычала, как медведь, и заставила {enemy} сражаться со мной.",
-          "Я ударила по земле и бросила вызов {enemy}, отчего задрожали цветы.",
-          "Я глубоко вздохнула, забыла о птицах и тяжело пошла на {enemy}.",
-          "Я стала камнем и стволом перед натиском {enemy}.",
-          "Я подняла свой органический щит и надавила на {enemy} всей своей силой.",
-          "Я вступила в схватку с {enemy}; равновесие сегодня не будет нарушено."
-        ],
-        "zh": [
-          "我敲击橡木盾，吸引了 {enemy} 的注意。",
-          "在冲向 {enemy} 之前，我的皮肤变得像树皮一样坚硬。",
-          "我强迫正面交锋；{enemy} 绝无法越过我的根须。",
-          "我以百年古树倾倒之势攻击 {enemy}。",
-          "我像熊一样低吼，迫使 {enemy} 与我搏斗。",
-          "我击打地面向 {enemy} 挑战，花朵随之震颤。",
-          "我深吸一口气，忘却鸟鸣，沉重地向 {enemy} 逼近。",
-          "在 {location} 的冲击面前，我化作磐石与巨干。",
-          "我举起有机的护盾，用全身的韧劲压制 {enemy}。",
-          "我与 {enemy} 展开激战；平衡在今天绝不会被打破。"
-        ],
-        "ja": [
-          "オークの盾を叩き、{enemy} の注意を引いた。",
-          "{enemy} に突撃する前、私の肌は樹皮のように硬くなった。",
-          "直接対決を強いた。私の「根」を越えて {enemy} は進ませない。",
-          "百年越えの古木が倒れるような重みで {enemy} に打ちかかった。",
-          "熊のように低く唸り、{enemy} に私と戦うよう強いた。",
-          "大地を叩いて {enemy} に挑んだ。花々が震えていた。",
-          "深く息を吸い、鳥の声を忘れ、{enemy} に向かって重く踏み出した。",
-          "{enemy} の猛攻を前に、私は岩となり、幹となった。",
-          "有機の盾を掲げ、全繊維の力を込めて {enemy} を押し返した。",
-          "{enemy} と刃を交えた。今日、調和が壊れることはない。"
-        ]
-      },
+           "pt": [
+              "Usei Cólera da Natureza contra {o_enemy}.",
+              "Atingi {o_enemy} com Fogo Estelar.",
+              "Marquei {o_enemy} com Fogo Lunar.",
+              "Canalizei Fogo Solar sobre {o_enemy}.",
+              "Espinhos dificultaram o avanço {o_enemy}."
+            ],
+            "en": [
+              "I used Nature's Wrath against {enemy}.",
+              "I struck {enemy} with Starfire.",
+              "I marked {enemy} with Moonfire.",
+              "I channeled Sunfire upon {enemy}.",
+              "Thorns hindered {enemy}'s advance."
+            ],
+            "es": [
+              "Usé Cólera de la Naturaleza contra {o_enemy}.",
+              "Golpeé a {o_enemy} con Fuego Estelar.",
+              "Marqué a {o_enemy} con Fuego Lunar.",
+              "Canalicé Fuego Solar sobre {o_enemy}.",
+              "Espinas dificultaron el avance {o_enemy}."
+            ],
+            "ru": [
+              "Я использовала Гнев Природы против {enemy}.",
+              "Я ударила {enemy} Звездным Огнем.",
+              "Я отметила {enemy} Лунным Огнем.",
+              "Я направила Солнечный Огонь на {enemy}.",
+              "Шипы затруднили продвижение {enemy}."
+            ],
+            "zh": [
+              "我对 {enemy} 使用了自然之怒。",
+              "我用星火打击了 {enemy}。",
+              "我用月火标记了 {enemy}。",
+              "我将太阳之火引导到 {enemy} 身上。",
+              "荆棘阻碍了 {enemy} 的前进。"
+            ],
+            "ja": [
+              "{enemy} に対して自然の怒りを使った。",
+              "{enemy} を星火で攻撃した。",
+              "{enemy} を月火でマークした。",
+              "{enemy} に太陽の火をチャネルした。",
+              "トゲが {enemy} の進行を妨げた。"
+            ]
+        },
       "group": {
         "pt": [
-          "Me plantei na frente do grupo e atraí a fúria de {enemy}.",
-          "Protegi meus aliados; {enemy} teve que lidar com a minha casca primeiro.",
-          "Enquanto eles atacavam, eu absorvi cada golpe de {enemy}.",
-          "Grudei em {enemy} para que ninguém mais fosse ferido.",
-          "Fui o escudo da matilha; {enemy} não conseguiu alcançar os outros.",
-          "Virei o alvo de {enemy} para manter o grupo em segurança.",
-          "Deixei que {enemy} me batesse; meu corpo aguenta o que eles não podem.",
-          "Avancei entre o grupo e {enemy}, sentindo a terra me sustentar.",
-          "Mantive a guarda alta enquanto {enemy} tentava romper nossa linha.",
-          "O grupo recuou e eu me tornei a muralha contra {enemy}."
-        ],
-        "ja": [
-          "仲間の前に立ち、{enemy} の怒りを自分に向けさせた。",
-          "味方を守り抜いた。{enemy} はまず私の樹皮を相手にするしかなかった。",
-          "皆が攻撃する間、私は {enemy} の一撃をすべて受け止めた。",
-          "他の誰も傷つかないよう、{enemy} に張り付いた。",
-          "群れの盾となった。{enemy} は他の者には届かない。",
-          "仲間を安全に保つため、私が {enemy} の標的になった。",
-          "{enemy} に打たれるがままにした。私の体は、皆が耐えられぬ一撃も耐えうる。",
-          "仲間と {enemy} の間に進み出た。大地が私を支えるのを感じる。",
-          "{enemy} が戦列を崩そうとする中、私はガードを高く保ち続けた。",
-          "皆が下がり、私が {enemy} に対する防壁となった。"
-        ],
-        "zh": [
-          "我伫立在队伍前，吸引了 {enemy} 的怒火。",
-          "我守护着盟友；{enemy} 必须先应付我的树皮护甲。",
-          "在他们进攻时，我承受了 {enemy} 的每一次打击。",
-          "我死死缠住 {enemy}，不让其他人受伤。",
-          "我是族群的护盾；{enemy} 无法触及其他同伴。",
-          "我成了 {enemy} 的目标，以确保队伍的安全。",
-          "我任由 {enemy} 击打；我的身体能抗下他们无法承受的伤害。",
-          "我挡在队伍与 {enemy} 之间，感受着大地的支撑。",
-          "在 {enemy} 试图突破防线时，我始终保持警惕。",
-          "队伍后撤，我成了阻挡 {enemy} 的高墙。"
-        ],
-        "ru": [
-          "Я встала перед группой и приняла на себя ярость {enemy}.",
-          "Я защитила союзников; {enemy} пришлось сначала столкнуться с моей корой.",
-          "Пока они атаковали, я впитывала каждый удар {enemy}.",
-          "Я приклеилась к {enemy}, чтобы больше никто не пострадал.",
-          "Я была щитом стаи; {enemy} не смог добраться до остальных.",
-          "Я стала мишенью для {enemy}, чтобы сохранить группу в безопасности.",
-          "Я позволила {enemy} бить меня; мое тело выдержит то, что не под силу им.",
-          "Я встала между группой и {enemy}, чувствуя поддержку земли.",
-          "Я держала стражу, пока {enemy} пытался прорвать наш строй.",
-          "Группа отступила, и я стала стеной на пути {enemy}."
-        ],
-        "es": [
-          "Me planté frente al grupo y atraje la furia de {enemy}.",
-          "Protegí a mis aliados; {enemy} tuvo que lidiar con mi corteza primero.",
-          "Mientras ellos atacaban, yo absorbía cada golpe de {enemy}.",
-          "Me pegué a {enemy} para que nadie más resultara herido.",
-          "Fui el escudo de la manada; {enemy} no pudo alcanzar a los otros.",
-          "Me volví el objetivo de {enemy} para mantener al grupo a salvo.",
-          "Dejé que {enemy} me golpeara; mi cuerpo aguanta lo que ellos no pueden.",
-          "Avancé entre el grupo y {enemy}, sintiendo que la tierra me sostenía.",
-          "Mantuve la guardia alta mientras {enemy} intentaba romper nuestra línea.",
-          "El grupo retrocedió y yo me convertí en la muralla contra {enemy}."
+          "Invoquei a Força da Natureza contra {o_enemy}.",
+          "Um Crescimento Selvagem bloqueou parte {do_enemy}.",
+          "Raízes Enredantes prenderam {o_enemy}.",
+          "Meu Furacão dispersou {o_enemy}.",
+          "Enviei um Enxame de Insetos contra {o_enemy}."
         ],
         "en": [
-          "I planted myself in front of the group and drew {enemy}'s fury.",
-          "I protected my allies; {enemy} had to deal with my bark first.",
-          "While they attacked, I absorbed every blow from {enemy}.",
-          "I stuck to {enemy} so that no one else would be harmed.",
-          "I was the pack's shield; {enemy} couldn't reach the others.",
-          "I became {enemy}'s target to keep the group safe.",
-          "I let {enemy} strike me; my body can take what they cannot.",
-          "I stepped between the group and {enemy}, feeling the earth sustain me.",
-          "I kept my guard high while {enemy} tried to break our line.",
-          "The group fell back and I became the wall against {enemy}."
-        ]
+          "I summoned Nature's Force against {enemy}.",
+          "A Wild Growth blocked part of {enemy}.",
+          "Entangling Roots trapped {enemy}.",
+          "My Hurricane scattered {enemy}.",
+          "I sent a Swarm of Insects against {enemy}."
+        ],
+        "es": [
+          "Invocé la Fuerza de la Naturaleza contra {o_enemy}.",
+          "Un Crecimiento Salvaje bloqueó parte de {o_enemy}.",
+          "Raíces Enredadoras atraparon a {o_enemy}.",
+          "My Huracán dispersó a {o_enemy}.",
+          "Envié un Enjambre de Insectos contra {o_enemy}."
+        ],
+        "ru": [
+          "Я призвала Силу Природы против {enemy}.",
+          "Дикий Рост заблокировал часть {enemy}.",
+          "Опутывающие Корни поймали {enemy}.",
+          "Мой Ураган рассеял {enemy}.",
+          "Я послала Рой Насекомых против {enemy}."
+        ],
+        "zh": [
+          "我召唤了自然之力对抗 {enemy}。",
+          "野性成长阻挡了部分 {enemy}。",
+          "纠缠的根系困住了 {enemy}。",
+          "我的飓风驱散了 {enemy}。",
+          "我派出了一群昆虫对抗 {enemy}。"
+        ],
+        "ja": [
+          "{enemy} に対して自然の力を召喚した。",
+          "ワイルドグロースが {enemy} の一部をブロックした。",
+          "絡みつく根が {enemy} を捕らえた。",
+          "私のハリケーンが {enemy} を散らした。",
+          "私は {enemy} に対して昆虫の群れを送った。"
+         ]
       }
       },
       "survival": {
         "alone": {
         "pt": [
-          "Analisei os rastros silenciosos de {challenge}.",
-          "Busquei por sinais ocultos de {challenge} na terra.",
-          "Estudei as marcas que {challenge} deixou no caminho."
+          "Analisei os rastros silenciosos de {subject}.",
+          "Busquei por sinais ocultos de {subject} na terra.",
+          "Estudei as marcas que {subject} deixou no caminho."
         ],
       "en": [
-        "I analyzed the silent tracks of {challenge}.",
-        "I searched the earth for hidden signs of {challenge}.",
-        "I studied the marks that {challenge} left on the path."
+        "I analyzed the silent tracks of {subject}.",
+        "I searched the earth for hidden signs of {subject}.",
+        "I studied the marks that {subject} left on the path."
       ],
       "es": [
-        "Analicé los rastros silenciosos de {challenge}.",
-        "Busqué señales ocultas de {challenge} en la tierra.",
-        "Estudié las marcas que {challenge} dejó en el camino."
+        "Analicé los rastros silenciosos de {subject}.",
+        "Busqué señales ocultas de {subject} en la tierra.",
+        "Estudié las marcas que {subject} dejó en el camino."
       ],
       "ru": [
-        "Я изучила безмолвные следы {challenge}.",
-        "Я искала в земле скрытые знаки {challenge}.",
-        "Я изучала отметины, которые {challenge} оставил на пути."
+        "Я изучила безмолвные следы {subject}.",
+        "Я искала в земле скрытые знаки {subject}.",
+        "Я изучала отметины, которые {subject} оставил на пути."
       ],
       "zh": [
-        "我分析了 {challenge} 留下的无声足迹。",
-        "我在大地中寻找 {challenge} 隐藏的迹象。",
-        "我研究了 {challenge} 在小径上留下的痕迹。"
+        "我分析了 {subject} 留下的无声足迹。",
+        "我在大地中寻找 {subject} 隐藏的迹象。",
+        "我研究了 {subject} 在小径上留下的痕迹。"
       ],
       "ja": [
-        "{challenge} の静かな痕跡を分析した。",
-        "大地に隠された {challenge} の兆候を探した。",
-        "{challenge} が道に残した跡を調べた。"
+        "{subject} の静かな痕跡を分析した。",
+        "大地に隠された {subject} の兆候を探した。",
+        "{subject} が道に残した跡を調べた。"
       ]
       }
       },
       "nature": {
         "alone": {
         "pt": [
-          "Tentei ouvir o que a floresta dizia sobre {challenge}.",
-          "Busquei o equilíbrio natural diante de {challenge}.",
-          "Observei como o ciclo da vida agia em {challenge}."
+          "Tentei ouvir o que a floresta dizia sobre {subject}.",
+          "Busquei o equilíbrio natural diante de {subject}.",
+          "Observei como o ciclo da vida agia em {subject}."
         ],
       "en": [
-        "I tried to hear what the forest was saying about {challenge}.",
-        "I sought natural balance in the face of {challenge}.",
-        "I observed how the cycle of life acted upon {challenge}."
+        "I tried to hear what the forest was saying about {subject}.",
+        "I sought natural balance in the face of {subject}.",
+        "I observed how the cycle of life acted upon {subject}."
       ],
      "es": [
-        "Intenté escuchar lo que el bosque decía sobre {challenge}.",
-        "Busqué el equilibrio natural ante {challenge}.",
-        "Observé cómo el ciclo de la vida actuaba en {challenge}."
+        "Intenté escuchar lo que el bosque decía sobre {subject}.",
+        "Busqué el equilibrio natural ante {subject}.",
+        "Observé cómo el ciclo de la vida actuaba en {subject}."
       ],
       "ru": [
-        "Я пыталась услышать, что лес говорит о {challenge}.",
-        "Я искала природное равновесие перед лицом {challenge}.",
-        "Я наблюдала за тем, как цикл жизни действует на {challenge}."
+        "Я пыталась услышать, что лес говорит о {subject}.",
+        "Я искала природное равновесие перед лицом {subject}.",
+        "Я наблюдала за тем, как цикл жизни действует на {subject}."
       ],
       "zh": [
-        "我试着倾听森林关于 {challenge} 的低语。",
-        "在 {challenge} 面前，我寻求着自然的平衡。",
-        "我观察着生命的轮回如何作用于 {challenge}。"
+        "我试着倾听森林关于 {subject} 的低语。",
+        "在 {subject} 面前，我寻求着自然的平衡。",
+        "我观察着生命的轮回如何作用于 {subject}。"
       ],
       "ja": [
-        "森林が {challenge} について何を語っているのか聞こうとした。",
-        "{challenge} を前に、自然の調和を求めた。",
-        "生命の循環が {challenge} にどのように作用しているか観察した。"
+        "森林が {subject} について何を語っているのか聞こうとした。",
+        "{subject} を前に、自然の調和を求めた。",
+        "生命の循環が {subject} にどのように作用しているか観察した。"
       ]
       }
       },
       "athletics": {
         "alone": {
         "pt": [
-          "Preparei meu corpo para a resistência de {challenge}.",
-          "Forcei meus músculos contra a inércia de {challenge}.",
-          "Medi minha força física perante {challenge}."
+          "Preparei meu corpo para a resistência de {subject}.",
+          "Forcei meus músculos contra a inércia de {subject}.",
+          "Medi minha força física perante {subject}."
         ],
       "en": [
-        "I prepared my body for the endurance of {challenge}.",
-        "I strained my muscles against the inertia of {challenge}.",
-        "I measured my physical strength against {challenge}."
+        "I prepared my body for the endurance of {subject}.",
+        "I strained my muscles against the inertia of {subject}.",
+        "I measured my physical strength against {subject}."
       ],
       "es": [
-        "Preparé mi cuerpo para la resistencia de {challenge}.",
-        "Forcé mis músculos contra la inercia de {challenge}.",
-        "Medí mi fuerza física ante {challenge}."
+        "Preparé mi cuerpo para la resistencia de {subject}.",
+        "Forcé mis músculos contra la inercia de {subject}.",
+        "Medí mi fuerza física ante {subject}."
       ],
       "ru": [
-        "Я готовила свое тело к стойкости перед {challenge}.",
-        "Я напрягла мышцы против инерции {challenge}.",
-        "Я измерила свою физическую силу перед лицом {challenge}."
+        "Я готовила свое тело к стойкости перед {subject}.",
+        "Я напрягла мышцы против инерции {subject}.",
+        "Я измерила свою физическую силу перед лицом {subject}."
       ],
       "zh": [
-        "我让身体做好准备，以应对 {challenge} 的考验。",
-        "我使出全身力气，对抗 {challenge} 的惯性。",
-        "在 {challenge} 面前，我衡量了自己的体能。"
+        "我让身体做好准备，以应对 {subject} 的考验。",
+        "我使出全身力气，对抗 {subject} 的惯性。",
+        "在 {subject} 面前，我衡量了自己的体能。"
       ],
       "ja": [
-        "{challenge} の抵抗に備え、体を作り直した。",
-        "{challenge} の慣性に抗い、筋肉を駆使した。",
-        "{challenge} に対し、己の身体能力を推し量った。"
+        "{subject} の抵抗に備え、体を作り直した。",
+        "{subject} の慣性に抗い、筋肉を駆使した。",
+        "{subject} に対し、己の身体能力を推し量った。"
       ]
       }
       }
@@ -1011,6 +951,348 @@
       ]
     }
   }
-}
+},
+  "narrative": {
+    "place": {
+      "landmark": {
+        "pt": [
+          "Observei {fragment} e me distraí.",
+          "Tentei sentir o que havia mudado em {fragment}.",
+          "Fiquei escutando o que o vento carregava através de {fragment}.",
+          "Passei algum tempo contemplando {fragment}.",
+          "Algo em {fragment} parecia querer ser notado.",
+          "Me perdi observando os padrões escondidos em {fragment}."
+        ],
+      "en": [
+          "I observed {fragment} and got distracted.",
+          "I tried to feel what had changed in {fragment}.",
+          "I kept listening to what the wind carried through {fragment}.",
+          "I spent some time contemplating {fragment}.",
+          "Something in {fragment} seemed to want to be noticed.",
+          "I got lost observing the hidden patterns in {fragment}."
+        ],
+      "es": [
+          "Observé {fragment} y me distraje.",
+          "Intenté sentir lo que había cambiado en {fragment}.",
+          "Seguí escuchando lo que el viento llevaba a través de {fragment}.",
+          "Pasé un tiempo contemplando {fragment}.",
+          "Algo en {fragment} parecía querer ser notado.",
+          "Me perdí observando los patrones ocultos en {fragment}."
+        ],
+      "ru": [
+          "Я наблюдала за {fragment} и отвлеклась.",
+          "Я пыталась почувствовать, что изменилось в {fragment}.",
+          "Я продолжала слушать, что ветер приносил через {fragment}.",
+          "Я провела некоторое время, созерцая {fragment}.",
+          "Что-то в {fragment} казалось, хотело быть замеченным.",
+          "Я потерялась, наблюдая за скрытыми узорами в {fragment}."
+        ],
+      "zh": [
+          "我观察了 {fragment}，结果分心了。",
+          "我试着感觉 {fragment} 中发生了什么变化。",
+          "我继续听着风通过 {fragment} 带来的声音。",
+          "我花了一些时间来沉思 {fragment}。",
+          "{fragment} 中的某些东西似乎想被注意到。",
+          "我迷失在观察 {fragment} 中隐藏的模式里。"
+        ],
+      "ja": [
+          "{fragment} を観察していて、気が散ってしまった。",
+          "{fragment} で何が変わったのかを感じようとした。",
+          "{fragment} を通して風が運ぶものを聞き続けた。",
+          "{fragment} をしばらくじっと見つめていた。",
+          "{fragment} の中の何かが、注目されたいようだった。",
+          "{fragment} に隠されたパターンを観察しているうちに、迷子になってしまった。"
+         ]
+      },
+      "feeling": {
+        "pt": [
+          "Tentei compreender o que causava {fragment}.",
+          "Fiquei escutando em silêncio a sensação de {fragment}.",
+          "Parei por um momento para refletir sobre {fragment}.",
+          "Havia algo em {fragment} que parecia importante.",
+          "Acabei me distraindo ao tentar entender {fragment}."
+        ],
+      "en": [
+          "I tried to understand what caused {fragment}.",
+          "I kept listening in silence to the feeling of {fragment}.",
+          "I paused for a moment to reflect on {fragment}.",
+          "There was something in {fragment} that seemed important.",
+          "I ended up getting distracted trying to understand {fragment}."
+        ],
+      "es": [
+          "Intenté entender qué causaba {fragment}.",
+          "Seguí escuchando en silencio la sensación de {fragment}.",
+          "Me detuve por un momento para reflexionar sobre {fragment}.",
+          "Había algo en {fragment} que parecía importante.",
+          "Terminé distrayéndome al intentar entender {fragment}."
+        ],
+      "ru": [
+          "Я пыталась понять, что вызвало {fragment}.",
+          "Я продолжала слушать в тишине ощущение {fragment}.",
+          "Я на мгновение остановилась, чтобы поразмышлять о {fragment}.",
+          "В {fragment} было что-то, что казалось важным.",
+          "Я в итоге отвлеклась, пытаясь понять {fragment}."
+        ],
+      "zh": [
+          "我试图理解是什么引起了 {fragment}。",
+          "我继续静静地听着 {fragment} 的感觉。",
+          "我停下来反思了一会儿 {fragment}。",
+          "{fragment} 中有某些东西似乎很重要。",
+          "我最终在试图理解 {fragment} 时分心了。"
+        ],
+      "ja": [
+          "{fragment} を引き起こした原因を理解しようとした。",
+          "{fragment} の感覚を静かに聞き続けた。",
+          "{fragment} について少し考えるために一時停止した。",
+          "{fragment} の中には、重要な何かがあるようだった。",
+          "{fragment} を理解しようとしているうちに、結局気が散ってしまった。"
+         ]
+      },
+      "details": {
+        "pt": [
+          "Procurei perceber o que a natureza expressava através de {fragment}.",
+          "Fiquei observando como o tempo havia moldado {fragment}.",
+          "Havia algo em {fragment} que parecia carregar uma história antiga.",
+          "Me distraí tentando compreender os sinais presentes em {fragment}.",
+          "Passei algum tempo refletindo sobre o significado de {fragment}."
+        ],
+      "en": [
+          "I sought to perceive what nature was expressing through {fragment}.",
+          "I kept observing how time had shaped {fragment}.",
+          "There was something in {fragment} that seemed to carry an ancient story.",
+          "I got distracted trying to understand the signs present in {fragment}.",
+          "I spent some time reflecting on the meaning of {fragment}."
+        ],
+      "es": [
+          "Busqué percibir lo que la naturaleza estaba expresando a través de {fragment}.",
+          "Seguí observando cómo el tiempo había moldeado {fragment}.",
+          "Había algo en {fragment} que parecía llevar una historia antigua.",
+          "Me distraje tratando de entender las señales presentes en {fragment}.",
+          "Pasé un tiempo reflexionando sobre el significado de {fragment}."
+        ],
+      "ru": [
+          "Я пыталась понять, что природа выражает через {fragment}.",
+          "Я продолжала наблюдать, как время сформировало {fragment}.",
+          "В {fragment} было что-то, что казалось носителем древней истории.",
+          "Я отвлеклась, пытаясь понять знаки, присутствующие в {fragment}.",
+          "Я провела некоторое время, размышляя о значении {fragment}."
+        ],
+      "zh": [
+          "我试图理解自然通过 {fragment} 表达了什么。",
+          "我继续观察时间是如何塑造 {fragment} 的。",
+          "{fragment} 中有某些东西似乎承载着古老的故事。",
+          "我在试图理解 {fragment} 中存在的迹象时分心了。",
+          "我花了一些时间来反思 {fragment} 的意义。"
+        ],
+        "ja": [
+            "{fragment} を通して自然が何を表現しているのかを理解しようとした。",
+            "{fragment} が時間によってどのように形作られたかを観察し続けた。",
+            "{fragment} の中には、古代の物語を運んでいるような何かがあった。",
+            "{fragment} に存在するサインを理解しようとしているうちに、気が散ってしまった。",
+            "{fragment} の意味について少し考えるために時間を費やした。"
+          ]
+      },
+      "history": {
+        "pt": [
+          "Tentei entender como o mundo mudou desde {fragment}.",
+          "Fiquei imaginando as marcas deixadas por {fragment}.",
+          "Parei para refletir sobre o que surgiu depois de {fragment}.",
+          "Havia algo melancólico em pensar sobre {fragment}.",
+          "Acabei me distraindo ao imaginar tudo o que levou a {fragment}."
+        ],
+      "en": [
+          "I tried to understand how the world changed since {fragment}.",
+          "I kept imagining the marks left by {fragment}.",
+          "I paused to reflect on what came after {fragment}.",
+          "There was something melancholic about thinking about {fragment}.",
+          "I ended up getting distracted imagining everything that led to {fragment}."
+        ],
+      "es": [
+          "Intenté entender cómo cambió el mundo desde {fragment}.",
+          "Seguí imaginando las marcas dejadas por {fragment}.",
+          "Me detuve para reflexionar sobre lo que vino después de {fragment}.",
+          "Había algo melancólico en pensar sobre {fragment}.",
+          "Terminé distrayéndome al imaginar todo lo que llevó a {fragment}."
+        ],
+      "ru": [
+          "Я пыталась понять, как изменился мир с тех пор, как произошло {fragment}.",
+          "Я продолжала представлять себе следы, оставленные {fragment}.",
+          "Я остановилась, чтобы поразмышлять о том, что произошло после {fragment}.",
+          "В думе о {fragment} было что-то меланхолическое.",
+          "Я в итоге отвлеклась, представляя все, что привело к {fragment}."
+        ],
+      "zh": [
+          "我试图理解自 {fragment} 以来世界是如何改变的。",
+          "我一直在想象 {fragment} 留下的痕迹。",
+          "我停下来反思 {fragment} 之后发生了什么。",
+          "想到 {fragment} 就会有一种忧郁的感觉。",
+          "我最终在想象导致 {fragment} 的一切时分心了。"
+        ],
+        "ja": [
+            "{fragment} 以来、世界がどのように変わったのかを理解しようとした。",
+            "{fragment} が残した痕跡を想像し続けた。",
+            "{fragment} の後に何が来たのかを考えるために一時停止した。",
+            "{fragment} について考えると、どこか物悲しいものがあった。",
+            "{fragment} に至るまでのすべてを想像しているうちに、結局気が散ってしまった。"
+          ]
+      }
+    },
+    "enemy": {
+      "details": {
+        "pt": [
+          "Tentei entender o que a natureza pretendia ao criar {fragment}.",
+          "Fiquei pensando no que {fragment} revelava sobre aquela criatura.",
+          "Havia uma história silenciosa escondida em {fragment}.",
+          "Passei alguns instantes observando {fragment}.",
+          "Acabei me distraindo tentando compreender {fragment}."
+        ],
+      "en": [
+          "I tried to understand what nature intended by creating {fragment}.",
+          "I kept thinking about what {fragment} revealed about that creature.",
+          "There was a silent story hidden in {fragment}.",
+          "I spent a few moments observing {fragment}.",
+          "I ended up getting distracted trying to understand {fragment}."
+        ],
+      "es": [
+          "Intenté entender lo que la naturaleza pretendía al crear {fragment}.",
+          "Seguí pensando en lo que {fragment} revelaba sobre esa criatura.",
+          "Había una historia silenciosa escondida en {fragment}.",
+          "Pasé algunos momentos observando {fragment}.",
+          "Terminé distrayéndome tratando de comprender {fragment}."
+        ],
+      "ru": [
+          "Я пыталась понять, что природа хотела, создавая {fragment}.",
+          "Я продолжала думать о том, что {fragment} раскрывает об этом существе.",
+          "В {fragment} была скрыта тихая история.",
+          "Я провела несколько мгновений, наблюдая за {fragment}.",
+          "Я в итоге отвлеклась, пытаясь понять {fragment}."
+        ],
+      "zh": [
+          "我试图理解自然创造 {fragment} 的意图。",
+          "我一直在思考 {fragment} 揭示了关于那个生物的什么信息。",
+          "{fragment} 中隐藏着一个无声的故事。",
+          "我花了几分钟观察 {fragment}。",
+          "我最终在试图理解 {fragment} 时分心了。"
+        ],
+      "ja": [
+          "{fragment} を作ることで自然が何を意図していたのかを理解しようとした",
+          "{fragment} があの生き物について何を明らかにしているのかを考え続けた",
+          "{fragment} には静かな物語が隠されていた",
+          "{fragment} を数瞬観察していた",
+          "{fragment} を理解しようとしているうちに、結局気が散ってしまった"
+         ]
+      },
+      "attack": {
+        "pt": [
+          "Minha Pele de Árvore ajudou a resistir a {fragment}.",
+          "Um Bastião de Terra absorveu parte de {fragment}.",
+          "Meu Pelo de Ferro reduziu o impacto de {fragment}.",
+          "Precisei recorrer à Regeneração Frenética depois de {fragment}.",
+          "Um Crescimento Protetor me protegeu de {fragment}."
+        ],
+      "en": [
+          "My Tree Skin helped resist {fragment}.",
+          "An Earth Bastion absorbed part of {fragment}.",
+          "My Iron Fur reduced the impact of {fragment}.",
+          "I had to resort to Frenzying Regeneration after {fragment}.",
+          "A Protective Growth shielded me from {fragment}."
+        ],
+      "es": [
+          "Mi Piel de Árbol ayudó a resistir {fragment}.",
+          "Un Bastión de Tierra absorbió parte de {fragment}.",
+          "Mi Pelaje de Hierro redujo el impacto de {fragment}.",
+          "Tuve que recurrir a la Regeneración Frenética después de {fragment}.",
+          "Un Crecimiento Protector me protegió de {fragment}."
+        ],
+      "ru": [
+          "Моя Деревянная Кожа помогла сопротивляться {fragment}.",
+          "Земляной Бастион поглотил часть {fragment}.",
+          "Мой Железный Шерстяной Покров уменьшил воздействие {fragment}.",
+          "Мне пришлось прибегнуть к Безумной Регенерации после {fragment}.",
+          "Защитный Рост защитил меня от {fragment}."
+        ],
+      "zh": [
+          "我的树皮帮助抵御了 {fragment}。",
+          "一个土之堡垒吸收了部分 {fragment}。",
+          "我的铁毛减少了 {fragment} 的冲击。",
+          "{fragment} 之后我不得不求助于狂暴再生。",
+          "一个保护性生长保护我免受 {fragment} 的伤害。"
+        ],
+      "ja": [
+          "私の木の皮は {fragment} に抵抗するのに役立った。",
+          "地の要塞が {fragment} の一部を吸収した。",
+          "私の鉄毛が {fragment} の衝撃を減らした。",
+          "{fragment} の後、狂乱の再生に頼らざるを得なかった。",
+          "保護成長が {fragment} から私を守った。"
+         ]
+      }
+    }
+  },
+  "failure": {
+    "solo": {
+      "pt": [
+        "Fiquei tempo demais refletindo sobre {o_enemy} e não percebi o perigo",
+        "Subestimei {enemy_attack}",
+        "Acabei me distraindo {na_place} no pior momento possível"
+      ],
+      "en": [
+        "I spent too much time reflecting on {enemy} and didn't notice the danger",
+        "I underestimated {enemy_attack}",
+        "I ended up getting distracted {place} at the worst possible moment"
+      ],
+      "es": [
+        "Pasé demasiado tiempo reflexionando sobre {o_enemy} y no noté el peligro",
+        "Subestimé {enemy_attack}",
+        "Terminé distrayéndome {na_place} en el peor momento posible"
+      ],
+      "ru": [
+        "Я провела слишком много времени, размышляя о {enemy}, и не заметила опасности",
+        "Я недооценила {enemy_attack}",
+        "В итоге я отвлеклась {place} в самый неподходящий момент"
+      ],
+      "zh": [
+        "我花了太多时间反思 {enemy}，以至于没有注意到危险",
+        "我低估了 {enemy_attack}",
+        "我最终在最糟糕的时刻 {place} 分心了"
+      ],
+      "ja": [
+        "{enemy} について考えすぎて、危険に気づかなかった",
+        "{enemy_attack} を過小評価してしまった",
+        "最悪のタイミングで {place} に気を取られてしまった"
+       ]
+    },
+    "group": {
+      "pt": [
+        "Passei tempo demais observando {o_enemy} quando deveria estar agindo",
+        "Não consegui impedir {enemy_attack}",
+        "Minha atenção se perdeu {na_place} e isso nos custou caro"
+      ],
+      "en": [
+        "I spent too much time observing {enemy} when I should have been acting",
+        "I failed to prevent {enemy_attack}",
+        "My attention got lost {place} and it cost us dearly"
+      ],
+      "es": [
+        "Pasé demasiado tiempo observando a {o_enemy} cuando debería haber estado actuando",
+        "No pude impedir {enemy_attack}",
+        "Mi atención se perdió {na_place} y eso nos costó caro"
+      ],
+      "ru": [
+        "Я провела слишком много времени, наблюдая за {enemy}, когда должна была действовать",
+        "Мне не удалось предотвратить {enemy_attack}",
+        "Моё внимание потерялось {place}, и это дорого нам обошлось"
+      ],
+      "zh": [
+        "我花了太多时间观察 {enemy}，而不是采取行动",
+        "我未能阻止 {enemy_attack}",
+        "我的注意力在 {place} 上迷失了，这让我们付出了沉重的代价"
+      ],
+      "ja": [
+        "{enemy} を観察するのに時間をかけすぎて、行動すべきだった",
+        "{enemy_attack} を防げなかった",
+        "私の注意が {place} に迷ってしまい、それが大きな代償になった"
+       ]
+    }
+  }
 }
 }

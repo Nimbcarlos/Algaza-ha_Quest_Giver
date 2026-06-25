@@ -133,150 +133,150 @@
     "arrived": {
       "alone": {
         "pt": [
-          "Eu e o Edgar caminhávamos silenciosamente em direção d{location} enquanto os galhos estalavam sob nossos pés.",
-          "O vento soprava frio enquanto eu me aproximava d{location}, pedindo licença aos sussurros que vinham do chão.",
-          "Eu atravessava os limites d{location}, sentindo o peso das memórias que ainda flutuavam pelo ar.",
-          "Meus passos ecoavam enquanto eu explorava as sombras d{location}, observando cada canto onde o sol não alcançava.",
-          "Eu parava diante d{location} e ajustava meu cajado, sentindo a energia antiga que emanava da terra.",
-          "Eu e o Beto contornávamos os arredores d{location}, sentindo o cheiro de terra úmida e segredos guardados.",
-          "O sol se punha enquanto eu e o Nilo observávamos a entrada d{location}, esperando o momento certo de entrar.",
-          "Eu segurava a lanterna enquanto o Igor abria caminho entre a vegetação d{location} com seus dedos pálidos.",
-          "Meus passos eram leves enquanto eu e o Otto percorríamos o corredor principal d{location}, ouvindo os estalos das paredes.",
-          "Eu sentia o frio subir pelas minhas pernas enquanto eu e o Hugo explorávamos os limites d{location} sob a luz da lua."
+          "Eu e o Edgar caminhávamos silenciosamente em direção {da_place} enquanto os galhos estalavam sob nossos pés.",
+          "O vento soprava frio enquanto eu me aproximava {da_place}, pedindo licença aos sussurros que vinham do chão.",
+          "Eu atravessava os limites {da_place}, sentindo o peso das memórias que ainda flutuavam pelo ar.",
+          "Meus passos ecoavam enquanto eu explorava as sombras {da_place}, observando cada canto onde o sol não alcançava.",
+          "Eu parava diante {da_place} e ajustava meu cajado, sentindo a energia antiga que emanava da terra.",
+          "Eu e o Beto contornávamos os arredores {da_place}, sentindo o cheiro de terra úmida e segredos guardados.",
+          "O sol se punha enquanto eu e o Nilo observávamos a entrada {da_place}, esperando o momento certo de entrar.",
+          "Eu segurava a lanterna enquanto o Igor abria caminho entre a vegetação {da_place} com seus dedos pálidos.",
+          "Meus passos eram leves enquanto eu e o Otto percorríamos o corredor principal {da_place}, ouvindo os estalos das paredes.",
+          "Eu sentia o frio subir pelas minhas pernas enquanto eu e o Hugo explorávamos os limites {da_place} sob a luz da lua."
         ],
         "en": [
-          "Edgar and I walked silently toward {location} while the branches snapped under our feet.",
-          "The wind blew cold as I approached {location}, asking permission from the whispers coming from the ground.",
-          "I crossed the boundaries of {location}, feeling the weight of memories still floating in the air.",
-          "My footsteps echoed as I explored the shadows of {location}, observing every corner the sun couldn't reach.",
-          "I stood before {location} and adjusted my staff, feeling the ancient energy emanating from the earth.",
-          "Beto and I skirted the surroundings of {location}, smelling damp earth and kept secrets.",
-          "The sun was setting as Nilo and I observed the entrance to {location}, waiting for the right moment to enter.",
-          "I held the lantern while Igor cleared a path through the vegetation of {location} with his pale fingers.",
-          "My steps were light as Otto and I walked the main corridor of {location}, listening to the walls creaking.",
-          "I felt the cold rising up my legs as Hugo and I explored the limits of {location} under the moonlight."
+          "Edgar and I walked silently toward {place} while the branches snapped under our feet.",
+          "The wind blew cold as I approached {place}, asking permission from the whispers coming from the ground.",
+          "I crossed the boundaries of {place}, feeling the weight of memories still floating in the air.",
+          "My footsteps echoed as I explored the shadows of {place}, observing every corner the sun couldn't reach.",
+          "I stood before {place} and adjusted my staff, feeling the ancient energy emanating from the earth.",
+          "Beto and I skirted the surroundings of {place}, smelling damp earth and kept secrets.",
+          "The sun was setting as Nilo and I observed the entrance to {place}, waiting for the right moment to enter.",
+          "I held the lantern while Igor cleared a path through the vegetation of {place} with his pale fingers.",
+          "My steps were light as Otto and I walked the main corridor of {place}, listening to the walls creaking.",
+          "I felt the cold rising up my legs as Hugo and I explored the limits of {place} under the moonlight."
         ],
         "es": [
-          "Edgar y yo caminábamos en silencio hacia {location} mientras las ramas crujían bajo nuestros pies.",
-          "El viento soplaba frío mientras me acercaba a {location}, pidiendo permiso a los susurros que venían del suelo.",
-          "Atravesaba los límites de {location}, sintiendo el peso de las memorias que aún flotaban en el aire.",
-          "Mis pasos resonaban mientras exploraba las sombras de {location}, observando cada rincón donde el sol no llegaba.",
-          "Me detenía ante {location} y ajustaba mi báculo, sintiendo la energía antigua que emanaba de la tierra.",
-          "Beto y yo rodeábamos los alrededores de {location}, sintiendo el olor a tierra húmeda y secretos guardados.",
-          "El sol se ponía mientras Nilo y yo observábamos la entrada de {location}, esperando el momento adecuado para entrar.",
-          "Sujetaba la linterna mientras Igor abría paso entre la vegetación de {location} con sus dedos pálidos.",
-          "Mis pasos eran ligeros mientras Otto y yo recorríamos el pasillo principal de {location}, escuchando los crujidos de las paredes.",
-          "Sentía el frío subir por mis piernas mientras Hugo y yo explorábamos los límites de {location} bajo la luz de la luna."
+          "Edgar y yo caminábamos en silencio hacia {place} mientras las ramas crujían bajo nuestros pies.",
+          "El viento soplaba frío mientras me acercaba {a_place}, pidiendo permiso a los susurros que venían del suelo.",
+          "Atravesaba los límites {da_place}, sintiendo el peso de las memorias que aún flotaban en el aire.",
+          "Mis pasos resonaban mientras exploraba las sombras {da_place}, observando cada rincón donde el sol no llegaba.",
+          "Me detenía ante {place} y ajustaba mi báculo, sintiendo la energía antigua que emanaba de la tierra.",
+          "Beto y yo rodeábamos los alrededores {da_place}, sintiendo el olor a tierra húmeda y secretos guardados.",
+          "El sol se ponía mientras Nilo y yo observábamos la entrada {da_place}, esperando el momento adecuado para entrar.",
+          "Sujetaba la linterna mientras Igor abría paso entre la vegetación {da_place} con sus dedos pálidos.",
+          "Mis pasos eran ligeros mientras Otto y yo recorríamos el pasillo principal {da_place}, escuchando los crujidos de las paredes.",
+          "Sentía el frío subir por mis piernas mientras Hugo y yo explorábamos los límites {da_place} bajo la luz de la luna."
         ],
         "ru": [
-          "Мы с Эдгаром бесшумно шли к {location}, пока под нашими ногами хрустели ветки.",
-          "Дул холодный ветер, когда я приближалась к {location}, прося разрешения у шепотов, доносившихся из-под земли.",
-          "Я пересекала границы {location}, чувствуя тяжесть воспоминаний, все еще парящих в воздухе.",
-          "Мои шаги отдавались эхом, когда я исследовала тени {location}, осматривая каждый уголок, куда не проникало солнце.",
-          "Я остановилась перед {location} и поправила свой посох, чувствуя древнюю энергию, исходящую от земли.",
-          "Мы с Бето обходили окрестности {location}, вдыхая запах сырой земли и сокрытых тайн.",
-          "Солнце садилось, пока мы с Нилом наблюдали за входом в {location}, ожидая подходящего момента, чтобы войти.",
-          "Я держала фонарь, пока Игорь своими бледными пальцами прокладывал путь сквозь растительность {location}.",
-          "Мои шаги были легкими, когда мы с Отто шли по главному коридору {location}, слушая треск стен.",
-          "Я чувствовала, как холод поднимается по ногам, когда мы с Хьюго исследовали границы {location} при лунном свете."
+          "Мы с Эдгаром бесшумно шли к {place}, пока под нашими ногами хрустели ветки.",
+          "Дул холодный ветер, когда я приближалась к {place}, прося разрешения у шепотов, доносившихся из-под земли.",
+          "Я пересекала границы {place}, чувствуя тяжесть воспоминаний, все еще парящих в воздухе.",
+          "Мои шаги отдавались эхом, когда я исследовала тени {place}, осматривая каждый уголок, куда не проникало солнце.",
+          "Я остановилась перед {place} и поправила свой посох, чувствуя древнюю энергию, исходящую от земли.",
+          "Мы с Бето обходили окрестности {place}, вдыхая запах сырой земли и сокрытых тайн.",
+          "Солнце садилось, пока мы с Нилом наблюдали за входом в {place}, ожидая подходящего момента, чтобы войти.",
+          "Я держала фонарь, пока Игорь своими бледными пальцами прокладывал путь сквозь растительность {place}.",
+          "Мои шаги были легкими, когда мы с Отто шли по главному коридору {place}, слушая треск стен.",
+          "Я чувствовала, как холод поднимается по ногам, когда мы с Хьюго исследовали границы {place} при лунном свете."
         ],
         "zh": [
-          "我和埃德加静静地向{location}走去，树枝在脚下嘎吱作响。",
-          "当我靠近{location}时，寒风凛冽，我向地面传来的低语请求许可。",
-          "我跨越了{location}的边界，感受着空气中依然漂浮着的记忆重量。",
-          "我的脚步声在探索{location}的阴影时回荡，观察着阳光无法触及的每一个角落。",
-          "我停在{location}前，调整我的法杖，感受着大地散发出的古老能量。",
-          "我和贝托在{location}周围绕行，闻到了潮湿泥土和尘封秘密的味道。",
-          "太阳下山时，我和尼洛观察着{location}的入口，等待着进入的最佳时机。",
-          "我拿着灯，而伊戈尔用他苍白的手指在{location}的植被中开路。",
-          "我和奥托走在{location}的主走廊上，脚步轻盈，听着墙壁发出的裂开声。",
-          "当我和雨果在月光下探索{location}的边界时，我感到寒意顺着腿部上升。"
+          "我和埃德加静静地向{place}走去，树枝在脚下嘎吱作响。",
+          "当我靠近{place}时，寒风凛冽，我向地面传来的低语请求许可。",
+          "我跨越了{place}的边界，感受着空气中依然漂浮着的记忆重量。",
+          "我的脚步声在探索{place}的阴影时回荡，观察着阳光无法触及的每一个角落。",
+          "我停在{place}前，调整我的法杖，感受着大地散发出的古老能量。",
+          "我和贝托在{place}周围绕行，闻到了潮湿泥土和尘封秘密的味道。",
+          "太阳下山时，我和尼洛观察着{place}的入口，等待着进入的最佳时机。",
+          "我拿着灯，而伊戈尔用他苍白的手指在{place}的植被中开路。",
+          "我和奥托走在{place}的主走廊上，脚步轻盈，听着墙壁发出的裂开声。",
+          "当我和雨果在月光下探索{place}的边界时，我感到寒意顺着腿部上升。"
         ],
         "ja": [
-          "足元で枝が折れる音を聞きながら、エドガーと私は静かに{location}へ向かって歩きました。",
-          "{location}に近づくと冷たい風が吹き、地面から聞こえる囁き声に許可を求めました。",
-          "{location}の境界を越えると、まだ空中に漂っている記憶の重みを感じました。",
-          "{location}の影を探索すると足音が響き、日の届かない隅々まで観察しました。",
-          "{location}の前に立ち、杖を整えながら、大地から放たれる古いエネルギーを感じました。",
-          "ベトと私は{location}の周辺を回り、湿った土と守られた秘密の匂いを感じました。",
-          "日が沈む中、ニロと私は{location}の入り口を観察し、入るべき適切な瞬間を待ちました。",
-          "私がランタンを持つ間、イゴールが青白い指で{location}の植生をかき分けて道を作りました。",
-          "オットーと私が{location}のメイン通路を歩くと、壁がきしむ音を聞きながら足取りは軽やかでした。",
-          "月明かりの下でヒューゴと{location}の境界を探索していると、足元から冷気が上がってくるのを感じました。"
+          "足元で枝が折れる音を聞きながら、エドガーと私は静かに{place}へ向かって歩きました。",
+          "{place}に近づくと冷たい風が吹き、地面から聞こえる囁き声に許可を求めました。",
+          "{place}の境界を越えると、まだ空中に漂っている記憶の重みを感じました。",
+          "{place}の影を探索すると足音が響き、日の届かない隅々まで観察しました。",
+          "{place}の前に立ち、杖を整えながら、大地から放たれる古いエネルギーを感じました。",
+          "ベトと私は{place}の周辺を回り、湿った土と守られた秘密の匂いを感じました。",
+          "日が沈む中、ニロと私は{place}の入り口を観察し、入るべき適切な瞬間を待ちました。",
+          "私がランタンを持つ間、イゴールが青白い指で{place}の植生をかき分けて道を作りました。",
+          "オットーと私が{place}のメイン通路を歩くと、壁がきしむ音を聞きながら足取りは軽やかでした。",
+          "月明かりの下でヒューゴと{place}の境界を探索していると、足元から冷気が上がってくるのを感じました。"
         ]        
       },
       "group": {
         "pt": [
-          "Nós avançávamos com cautela pelas bordas d{location}, enquanto eu pedia para os rapazes não fazerem tanto barulho com suas armaduras.",
-          "O grupo se espalhava conforme entrávamos d{location}, e eu sentia os espíritos locais nos observando de longe.",
-          "Nós percorríamos o terreno d{location}, tentando decifrar o que os antigos moradores haviam deixado para trás.",
-          "Enquanto caminhávamos pelas entranhas d{location}, eu ia contando aos outros as histórias que as pedras tentavam me dizer.",
-          "Nós cruzávamos o portal d{location} em silêncio, sentindo o ar mudar conforme nossos pés tocavam o solo sagrado.",
-          "Nós seguíamos a trilha que levava d{location}, enquanto a Lara ia na frente garantindo que o caminho estava livre.",
-          "O grupo avançava lentamente pelas ruínas d{location}, e eu pedia para a Mia não se afastar muito de mim.",
-          "Nós investigávamos cada detalhe d{location}, enquanto a Dora sussurrava avisos sobre o que o vento trazia.",
-          "Enquanto cruzávamos o centro d{location}, eu e a Rosa trocávamos olhares sobre as marcas deixadas no chão.",
-          "Nós subíamos a encosta d{location}, mantendo a formação enquanto a Luna vigiava nossa retaguarda com paciência."
+          "Nós avançávamos com cautela pelas bordas {da_place}, enquanto eu pedia para os rapazes não fazerem tanto barulho com suas armaduras.",
+          "O grupo se espalhava conforme entrávamos {da_place}, e eu sentia os espíritos locais nos observando de longe.",
+          "Nós percorríamos o terreno {da_place}, tentando decifrar o que os antigos moradores haviam deixado para trás.",
+          "Enquanto caminhávamos pelas entranhas {da_place}, eu ia contando aos outros as histórias que as pedras tentavam me dizer.",
+          "Nós cruzávamos o portal {da_place} em silêncio, sentindo o ar mudar conforme nossos pés tocavam o solo sagrado.",
+          "Nós seguíamos a trilha que levava {da_place}, enquanto a Lara ia na frente garantindo que o caminho estava livre.",
+          "O grupo avançava lentamente pelas ruínas {da_place}, e eu pedia para a Mia não se afastar muito de mim.",
+          "Nós investigávamos cada detalhe {da_place}, enquanto a Dora sussurrava avisos sobre o que o vento trazia.",
+          "Enquanto cruzávamos o centro {da_place}, eu e a Rosa trocávamos olhares sobre as marcas deixadas no chão.",
+          "Nós subíamos a encosta {da_place}, mantendo a formação enquanto a Luna vigiava nossa retaguarda com paciência."
         ],
         "en": [
-          "We advanced cautiously along the edges of {location}, while I asked the boys not to make so much noise with their armor.",
-          "The group spread out as we entered {location}, and I felt the local spirits watching us from afar.",
-          "We traversed the terrain of {location}, trying to decipher what the former inhabitants had left behind.",
-          "As we walked through the depths of {location}, I told the others stories that the stones were trying to tell me.",
-          "We crossed the portal of {location} in silence, feeling the air change as our feet touched the sacred ground.",
-          "We followed the trail leading to {location}, while Lara went ahead ensuring the path was clear.",
-          "The group advanced slowly through the ruins of {location}, and I asked Mia not to stray too far from me.",
-          "We investigated every detail of {location}, while Dora whispered warnings about what the wind brought.",
-          "As we crossed the center of {location}, Rosa and I exchanged glances regarding the marks left on the ground.",
-          "We climbed the slope of {location}, maintaining formation while Luna patiently guarded our rear."
+          "We advanced cautiously along the edges of {place}, while I asked the boys not to make so much noise with their armor.",
+          "The group spread out as we entered {place}, and I felt the local spirits watching us from afar.",
+          "We traversed the terrain of {place}, trying to decipher what the former inhabitants had left behind.",
+          "As we walked through the depths of {place}, I told the others stories that the stones were trying to tell me.",
+          "We crossed the portal of {place} in silence, feeling the air change as our feet touched the sacred ground.",
+          "We followed the trail leading to {place}, while Lara went ahead ensuring the path was clear.",
+          "The group advanced slowly through the ruins of {place}, and I asked Mia not to stray too far from me.",
+          "We investigated every detail of {place}, while Dora whispered warnings about what the wind brought.",
+          "As we crossed the center of {place}, Rosa and I exchanged glances regarding the marks left on the ground.",
+          "We climbed the slope of {place}, maintaining formation while Luna patiently guarded our rear."
         ],
         "es": [
-          "Avanzábamos con cautela por los bordes de {location}, mientras yo pedía a los chicos que no hicieran tanto ruido con sus armaduras.",
-          "El grupo se dispersaba conforme entrábamos en {location}, y sentía a los espíritus locales observándonos desde lejos.",
-          "Recorríamos el terreno de {location}, intentando descifrar lo que los antiguos habitantes habían dejado atrás.",
-          "Mientras caminábamos por las entrañas de {location}, les contaba a los demás las historias que las piedras intentaban decirme.",
-          "Cruzábamos el portal de {location} en silencio, sintiendo el aire cambiar conforme nuestros pies tocaban el suelo sagrado.",
-          "Seguíamos el sendero que llevaba a {location}, mientras Lara iba delante asegurándose de que el camino estuviera despejado.",
-          "El grupo avanzaba lentamente por las ruinas de {location}, y le pedía a Mia que no se alejara mucho de mí.",
-          "Investigábamos cada detalle de {location}, mientras Dora susurraba advertencias sobre lo que traía el viento.",
-          "Mientras cruzábamos el centro de {location}, Rosa y yo intercambiábamos miradas sobre las marcas dejadas en el suelo.",
-          "Subíamos la cuesta de {location}, manteniendo la formación mientras Luna vigilaba nuestra retaguardia con paciencia."
+          "Avanzábamos con cautela por los bordes {da_place}, mientras yo pedía a los chicos que no hicieran tanto ruido con sus armaduras.",
+          "El grupo se dispersaba conforme entrábamos {na_place}, y sentía a los espíritus locales observándonos desde lejos.",
+          "Recorríamos el terreno {da_place}, intentando descifrar lo que los antiguos habitantes habían dejado atrás.",
+          "Mientras caminábamos por las entrañas {da_place}, les contaba a los demás las historias que las piedras intentaban decirme.",
+          "Cruzábamos el portal {da_place} en silencio, sintiendo el aire cambiar conforme nuestros pies tocaban el suelo sagrado.",
+          "Seguíamos el sendero que llevaba {a_place}, mientras Lara iba delante asegurándose de que el camino estuviera despejado.",
+          "El grupo avanzaba lentamente por las ruinas {da_place}, y le pedía a Mia que no se alejara mucho de mí.",
+          "Investigábamos cada detalle {da_place}, mientras Dora susurraba advertencias sobre lo que traía el viento.",
+          "Mientras cruzábamos el centro {da_place}, Rosa y yo intercambiábamos miradas sobre las marcas dejadas en el suelo.",
+          "Subíamos la cuesta {da_place}, manteniendo la formación mientras Luna vigilaba nuestra retaguardia con paciencia."
         ],
         "ru": [
-          "Мы осторожно продвигались по краям {location}, пока я просила парней не шуметь так сильно своими доспехами.",
-          "Группа рассредоточилась, когда мы вошли в {location}, и я чувствовала, как местные духи наблюдают за нами издалека.",
-          "Мы прочесывали местность {location}, пытаясь расшифровать то, что оставили после себя прежние жители.",
-          "Пока мы шли по недрам {location}, я рассказывала остальным истории, которые пытались поведать мне камни.",
-          "Мы молча пересекли портал {location}, чувствуя, как меняется воздух, когда наши ноги коснулись священной земли.",
-          "Мы шли по тропе, ведущей к {location}, пока Лара шла впереди, проверяя, свободен ли путь.",
-          "Группа медленно продвигалась сквозь руины {location}, и я просила Мию не отходить от меня далеко.",
-          "Мы исследовали каждую деталь {location}, пока Дора шептала предупреждения о том, что принес ветер.",
-          "Когда мы пересекали центр {location}, мы с Розой обменивались взглядами на знаки, оставленные на земле.",
-          "Мы поднимались по склону {location}, сохраняя строй, пока Луна терпеливо охраняла наш тыл."
+          "Мы осторожно продвигались по краям {place}, пока я просила парней не шуметь так сильно своими доспехами.",
+          "Группа рассредоточилась, когда мы вошли в {place}, и я чувствовала, как местные духи наблюдают за нами издалека.",
+          "Мы прочесывали местность {place}, пытаясь расшифровать то, что оставили после себя прежние жители.",
+          "Пока мы шли по недрам {place}, я рассказывала остальным истории, которые пытались поведать мне камни.",
+          "Мы молча пересекли портал {place}, чувствуя, как меняется воздух, когда наши ноги коснулись священной земли.",
+          "Мы шли по тропе, ведущей к {place}, пока Лара шла впереди, проверяя, свободен ли путь.",
+          "Группа медленно продвигалась сквозь руины {place}, и я просила Мию не отходить от меня далеко.",
+          "Мы исследовали каждую деталь {place}, пока Дора шептала предупреждения о том, что принес ветер.",
+          "Когда мы пересекали центр {place}, мы с Розой обменивались взглядами на знаки, оставленные на земле.",
+          "Мы поднимались по склону {place}, сохраняя строй, пока Луна терпеливо охраняла наш тыл."
         ],
         "zh": [
-          "我们小心翼翼地在{location}的边缘前进，我要求男孩子们不要让盔甲发出太大的噪音。",
-          "当我们进入{location}时，小队散开了，我感觉到当地的灵体在远处注视着我们。",
-          "我们走过{location}的地形，试图破译前居民留下的东西。",
-          "当我们走过{location}的深处时，我向其他人讲述着那些石头试图告诉我的故事。",
-          "我们静静地穿过{location}的传送门，当双脚踏上神圣的土地时，感觉到空气发生了变化。",
-          "我们沿着通往{location}的小径前行，拉拉在前面确保道路通畅。",
-          "小队缓慢地穿过{location}的遗迹，我要求米娅不要离我太远。",
-          "我们调查了{location}的每一个细节，而多拉则低声警告风带来了什么。",
-          "当我们穿过{location}的中心时，我和罗莎交流了一下关于地面上留下的痕迹的看法。",
-          "我们爬上{location}的山坡，保持阵型，而露娜耐心地守护着我们的后方。"
+          "我们小心翼翼地在{place}的边缘前进，我要求男孩子们不要让盔甲发出太大的噪音。",
+          "当我们进入{place}时，小队散开了，我感觉到当地的灵体在远处注视着我们。",
+          "我们走过{place}的地形，试图破译前居民留下的东西。",
+          "当我们走过{place}的深处时，我向其他人讲述着那些石头试图告诉我的故事。",
+          "我们静静地穿过{place}的传送门，当双脚踏上神圣的土地时，感觉到空气发生了变化。",
+          "我们沿着通往{place}的小径前行，拉拉在前面确保道路通畅。",
+          "小队缓慢地穿过{place}的遗迹，我要求米娅不要离我太远。",
+          "我们调查了{place}的每一个细节，而多拉则低声警告风带来了什么。",
+          "当我们穿过{place}的中心时，我和罗莎交流了一下关于地面上留下的痕迹的看法。",
+          "我们爬上{place}的山坡，保持阵型，而露娜耐心地守护着我们的后方。"
         ],
         "ja": [
-          "鎧で大きな音を立てないよう男の子たちに頼みながら、私たちは{location}の端を慎重に進みました。",
-          "{location}に入るとグループは散らばり、遠くから地元の霊たちが私たちを見守っているのを感じました。",
-          "かつての住人が何を残したのかを解読しようと、{location}の地形を辿りました。",
-          "{location}の奥深くを歩きながら、石が私に伝えようとしている物語を仲間に話しました。",
-          "聖なる土地に足が触れると空気が変わるのを感じながら、私たちは静かに{location}のポータルをくぐりました。",
-          "ララが先頭に立って道が安全であることを確認しながら、私たちは{location}へと続く道を辿りました。",
-          "{location}の廃墟をゆっくりと進み、私はミアに私から離れすぎないように頼みました。",
-          "風が運んできたものについてドラが警告を囁く中、私たちは{location}のあらゆる細部を調査しました。",
-          "{location}の中心を横切る際、地面に残された跡についてローザと私は視線を交わしました。",
-          "ルナが辛抱強く後方を守る中、私たちは陣形を維持して{location}の斜面を登りました。"
+          "鎧で大きな音を立てないよう男の子たちに頼みながら、私たちは{place}の端を慎重に進みました。",
+          "{place}に入るとグループは散らばり、遠くから地元の霊たちが私たちを見守っているのを感じました。",
+          "かつての住人が何を残したのかを解読しようと、{place}の地形を辿りました。",
+          "{place}の奥深くを歩きながら、石が私に伝えようとしている物語を仲間に話しました。",
+          "聖なる土地に足が触れると空気が変わるのを感じながら、私たちは静かに{place}のポータルをくぐりました。",
+          "ララが先頭に立って道が安全であることを確認しながら、私たちは{place}へと続く道を辿りました。",
+          "{place}の廃墟をゆっくりと進み、私はミアに私から離れすぎないように頼みました。",
+          "風が運んできたものについてドラが警告を囁く中、私たちは{place}のあらゆる細部を調査しました。",
+          "{place}の中心を横切る際、地面に残された跡についてローザと私は視線を交わしました。",
+          "ルナが辛抱強く後方を守る中、私たちは陣形を維持して{place}の斜面を登りました。"
         ]
       }
     },
@@ -284,16 +284,16 @@
       "fight": {
         "alone": {
           "pt": [
-            "Eu soprava brasas de agonia enquanto minhas caveiras flamejantes voavam em direção ao {enemy}.",
-            "O Beto avançava com seus punhos pesados contra o {enemy} enquanto eu conjurava um brilho pálido.",
-            "Eu e o Nilo cercávamos o {enemy}, enquanto eu lançava chamas fátuas que iluminavam as sombras.",
-            "O Igor saltava sobre o {enemy} com seus dedos gélidos enquanto eu preparava outra explosão de luz sombria.",
-            "Eu girava meu cajado, enviando caveiras ardentes que perseguiam o {enemy} sem descanso.",
-            "O Otto bloqueava os avanços do {enemy} enquanto eu concentrava minha energia em um turbilhão de fogo azul.",
-            "Eu e o Hugo avançávamos contra o {enemy}, alternando entre golpes físicos e rajadas de energia espiritual.",
-            "Minhas mãos brilhavam enquanto eu lançava projéteis de alma no {enemy}, enquanto o Beto mantinha a linha de frente.",
-            "Eu recuava um passo para conjurar uma chuva de faíscas fúnebres sobre o {enemy} enquanto o Nilo distraía o alvo.",
-            "O Igor rugia silenciosamente enquanto investia contra o {enemy}, sob a proteção das minhas caveiras orbitantes."
+            "Eu soprava brasas de agonia enquanto minhas caveiras flamejantes voavam em direção {ao_enemy}.",
+            "O Beto avançava com seus punhos pesados contra {o_enemy} enquanto eu conjurava um brilho pálido.",
+            "Eu e o Nilo cercávamos {o_enemy}, enquanto eu lançava chamas fátuas que iluminavam as sombras.",
+            "O Igor saltava sobre {o_enemy} com seus dedos gélidos enquanto eu preparava outra explosão de luz sombria.",
+            "Eu girava meu cajado, enviando caveiras ardentes que perseguiam {o_enemy} sem descanso.",
+            "O Otto bloqueava os avanços {do_enemy} enquanto eu concentrava minha energia em um turbilhão de fogo azul.",
+            "Eu e o Hugo avançávamos contra {o_enemy}, alternando entre golpes físicos e rajadas de energia espiritual.",
+            "Minhas mãos brilhavam enquanto eu lançava projéteis de alma {no_enemy}, enquanto o Beto mantinha a linha de frente.",
+            "Eu recuava um passo para conjurar uma chuva de faíscas fúnebres sobre {o_enemy} enquanto o Nilo distraía o alvo.",
+            "O Igor rugia silenciosamente enquanto investia contra {o_enemy}, sob a proteção das minhas caveiras orbitantes."
           ],
           "en": [
             "I blew embers of agony as my flaming skulls flew toward the {enemy}.",
@@ -308,16 +308,16 @@
             "Igor roared silently as he charged at the {enemy}, under the protection of my orbiting skulls."
           ],
           "es": [
-            "Soplaba brasas de agonía mientras mis calaveras flamígeras volaban hacia el {enemy}.",
-            "Beto avanzaba con sus puños pesados contra el {enemy} mientras yo conjuraba un brillo pálido.",
-            "Nilo y yo rodeábamos al {enemy}, mientras yo lanzaba fuegos fatuos que iluminaban las sombras.",
-            "Igor saltaba sobre el {enemy} con sus dedos gélidos mientras yo preparaba otra explosión de luz sombría.",
-            "Giraba mi báculo, enviando calaveras ardientes que perseguían al {enemy} sin descanso.",
-            "Otto bloqueaba los avances del {enemy} mientras yo concentraba mi energía en un torbellino de fuego azul.",
-            "Hugo y yo avanzábamos contra el {enemy}, alternando entre golpes físicos y ráfagas de energía espiritual.",
-            "Mis manos brillaban mientras lanzaba proyectiles de alma al {enemy}, mientras Beto mantenía la línea de frente.",
-            "Retrocedía un paso para conjurar una lluvia de chispas fúnebres sobre el {enemy} mientras Nilo distraía al objetivo.",
-            "Igor rugía silenciosamente mientras arremetía contra el {enemy}, bajo la protección de mis calaveras orbitantes."
+            "Soplaba brasas de agonía mientras mis calaveras flamígeras volaban hacia {ao_enemy}.",
+            "Beto avanzaba con sus puños pesados contra {ao_enemy} mientras yo conjuraba un brillo pálido.",
+            "Nilo y yo rodeábamos {ao_enemy}, mientras yo lanzaba fuegos fatuos que iluminaban las sombras.",
+            "Igor saltaba sobre {ao_enemy} con sus dedos gélidos mientras yo preparaba otra explosión de luz sombría.",
+            "Giraba mi báculo, enviando calaveras ardientes que perseguían {ao_enemy} sin descanso.",
+            "Otto bloqueaba los avances {do_enemy} mientras yo concentraba mi energía en un torbellino de fuego azul.",
+            "Hugo y yo avanzábamos contra {ao_enemy}, alternando entre golpes físicos y ráfagas de energía espiritual.",
+            "Mis manos brillaban mientras lanzaba proyectiles de alma hacia {ao_enemy}, mientras Beto mantenía la línea de frente.",
+            "Retrocedía un paso para conjurar una lluvia de chispas fúnebres sobre {ao_enemy} mientras Nilo distraía al objetivo.",
+            "Igor rugía silenciosamente mientras arremetía contra {ao_enemy}, bajo la protección de mis calaveras orbitantes."
           ],
           "ru": [
             "Я выдувала угли агонии, пока мои пылающие черепа летели к {enemy}.",
@@ -358,15 +358,15 @@
         },
         "group": {
           "pt": [
-            "Nós coordenávamos nossos ataques contra o {enemy}, enquanto a Lara abria brechas para minhas magias.",
-            "Enquanto o grupo flanqueava o {enemy}, eu e a Mia enviávamos rajadas de fogo e gelo sepulcral.",
-            "Nós avançávamos em bloco, e eu pedia para a Dora proteger o flanco enquanto eu bombardeava o {enemy}.",
-            "A Rosa avançava destemida contra o {enemy}, enquanto eu cobria seu avanço com caveiras flamejantes.",
-            "Nós mantínhamos a pressão sobre o {enemy}, com a Luna atacando pelas costas enquanto eu conjurava luzes cegantes.",
-            "O grupo se espalhava para cercar o {enemy}, e eu sentia a Lara esperando meu sinal para atacar.",
-            "Nós lutávamos lado a lado, com a Mia derrubando as defesas do {enemy} para que meu fogo o atingisse.",
-            "Eu lançava ordens silenciosas enquanto a Dora e o grupo pressionavam o {enemy} contra as paredes.",
-            "Nós enfrentávamos o {enemy} com determinação, enquanto a Rosa cortava o ar com lâminas banhadas em minha magia.",
+            "Nós coordenávamos nossos ataques contra {o_enemy}, enquanto a Lara abria brechas para minhas magias.",
+            "Enquanto o grupo flanqueava {o_enemy}, eu e a Mia enviávamos rajadas de fogo e gelo sepulcral.",
+            "Nós avançávamos em bloco, e eu pedia para a Dora proteger o flanco enquanto eu bombardeava {o_enemy}.",
+            "A Rosa avançava destemida contra {o_enemy}, enquanto eu cobria seu avanço com caveiras flamejantes.",
+            "Nós mantínhamos a pressão sobre {o_enemy}, com a Luna atacando pelas costas enquanto eu conjurava luzes cegantes.",
+            "O grupo se espalhava para cercar {o_enemy}, e eu sentia a Lara esperando meu sinal para atacar.",
+            "Nós lutávamos lado a lado, com a Mia derrubando as defesas {do_enemy} para que meu fogo o atingisse.",
+            "Eu lançava ordens silenciosas enquanto a Dora e o grupo pressionavam {o_enemy} contra as paredes.",
+            "Nós enfrentávamos {o_enemy} com determinação, enquanto a Rosa cortava o ar com lâminas banhadas em minha magia.",
             "O combate se intensificava enquanto a Luna e os outros heróis criavam a distração perfeita para minhas caveiras."
           ],
           "en": [
@@ -382,15 +382,15 @@
             "The combat intensified as Luna and the other heroes created the perfect distraction for my skulls."
           ],
           "es": [
-            "Coordinábamos nuestros ataques contra el {enemy}, mientras Lara abría brechas para mis hechizos.",
-            "Mientras el grupo flanqueaba al {enemy}, Mia y yo enviábamos ráfagas de fuego e hielo sepulcral.",
-            "Avanzábamos en bloque, y le pedía a Dora que protegiera el flanco mientras yo bombardeaba al {enemy}.",
-            "Rosa avanzaba intrépida contra el {enemy}, mientras yo cubría su avance con calaveras flamígeras.",
-            "Manteníamos la presión sobre el {enemy}, con Luna atacando por la espalda mientras yo conjuraba luces cegadoras.",
-            "El grupo se dispersaba para rodear al {enemy}, y sentía a Lara esperando mi señal para atacar.",
-            "Luchábamos lado a lado, con Mia derribando las defensas del {enemy} para que mi fuego lo alcanzara.",
-            "Lanzaba órdenes silenciosas mientras Dora y el grupo presionaban al {enemy} contra las paredes.",
-            "Enfrentábamos al {enemy} con determinación, mientras Rosa cortaba el aire con hojas bañadas en mi magia.",
+            "Coordinábamos nuestros ataques contra {ao_enemy}, mientras Lara abría brechas para mis hechizos.",
+            "Mientras el grupo flanqueaba {ao_enemy}, Mia y yo enviábamos ráfagas de fuego e hielo sepulcral.",
+            "Avanzábamos en bloque, y le pedía a Dora que protegiera el flanco mientras yo bombardeaba {ao_enemy}.",
+            "Rosa avanzaba intrépida contra {ao_enemy}, mientras yo cubría su avance con calaveras flamígeras.",
+            "Manteníamos la presión sobre {ao_enemy}, con Luna atacando por la espalda mientras yo conjuraba luces cegadoras.",
+            "El grupo se dispersaba para rodear {ao_enemy}, y sentía a Lara esperando mi señal para atacar.",
+            "Luchábamos lado a lado, con Mia derribando las defensas {do_enemy} para que mi fuego lo alcanzara.",
+            "Lanzaba órdenes silenciosas mientras Dora y el grupo presionaban {ao_enemy} contra las paredes.",
+            "Enfrentábamos {ao_enemy} con determinación, mientras Rosa cortaba el aire con hojas bañadas en mi magia.",
             "El combate se intensificaba mientras Luna y los otros héroes creaban la distracción perfecta para mis calaveras."
           ],
           "ru": [
@@ -434,102 +434,102 @@
       "arcana": {
         "alone": {
           "pt": [
-            "Eu e o Dante traçávamos glifos pálidos no ar para tentar sintonizar a energia contida n{challenge}.",
-            "Enquanto eu canalizava um brilho azulado nas palmas, o Beto mantinha {challenge} firme para minha análise.",
-            "Eu consultava os sussurros do plano espiritual enquanto a Lara observava as oscilações mágicas vindas d{challenge}."
+            "Eu e o Dante traçávamos glifos pálidos no ar para tentar sintonizar a energia contida {no_subject}.",
+            "Enquanto eu canalizava um brilho azulado nas palmas, o Beto mantinha {subject} firme para minha análise.",
+            "Eu consultava os sussurros do plano espiritual enquanto a Lara observava as oscilações mágicas vindas d{subject}."
           ],
           "en": [
-            "Dante and I traced pale glyphs in the air to try and tune the energy contained within {challenge}.",
-            "While I channeled a bluish glow in my palms, Beto held {challenge} steady for my analysis.",
-            "I consulted the whispers from the spiritual plane while Lara observed the magical fluctuations coming from {challenge}."
+            "Dante and I traced pale glyphs in the air to try and tune the energy contained within {subject}.",
+            "While I channeled a bluish glow in my palms, Beto held {subject} steady for my analysis.",
+            "I consulted the whispers from the spiritual plane while Lara observed the magical fluctuations coming from {subject}."
           ],
           "es": [
-            "Dante y yo trazábamos glifos pálidos en el aire para intentar sintonizar la energía contenida en {challenge}.",
-            "Mientras canalizaba un brillo azulado en mis palmas, Beto mantenía {challenge} firme para mi análisis.",
-            "Consultaba los susurros del plano espiritual mientras Lara observaba las oscilaciones mágicas provenientes de {challenge}."
+            "Dante y yo trazábamos glifos pálidos en el aire para intentar sintonizar la energía contenida {no_subject}.",
+            "Mientras canalizaba un brillo azulado en mis palmas, Beto mantenía {subject} firme para mi análisis.",
+            "Consultaba los susurros del plano espiritual mientras Lara observaba las oscilaciones mágicas provenientes de {subject}."
           ],
           "ru": [
-            "Мы с Данте чертили в воздухе бледные глифы, пытаясь настроиться на энергию, заключенную в {challenge}.",
-            "Пока я направляла голубоватое сияние в свои ладони, Бето удерживал {challenge} для моего анализа.",
-            "Я прислушивалась к шепоту из духовного плана, пока Лара наблюдала за магическими колебаниями, исходящими от {challenge}."
+            "Мы с Данте чертили в воздухе бледные глифы, пытаясь настроиться на энергию, заключенную в {subject}.",
+            "Пока я направляла голубоватое сияние в свои ладони, Бето удерживал {subject} для моего анализа.",
+            "Я прислушивалась к шепоту из духовного плана, пока Лара наблюдала за магическими колебаниями, исходящими от {subject}."
           ],
           "zh": [
-            "我和但丁在空中画出苍白的符文，试图调谐{challenge}中所含的能量。",
-            "当我在手掌中引导出淡蓝色光芒时，贝托稳稳地握住{challenge}供我分析。",
-            "我向精神位面的低语寻求建议，而拉拉则观察着{challenge}传来的魔力波动。"
+            "我和但丁在空中画出苍白的符文，试图调谐{subject}中所含的能量。",
+            "当我在手掌中引导出淡蓝色光芒时，贝托稳稳地握住{subject}供我分析。",
+            "我向精神位面的低语寻求建议，而拉拉则观察着{subject}传来的魔力波动。"
           ],
           "ja": [
-            "ダンテと私は空中に青白いグリフを描き、{challenge}に秘められたエネルギーを同調させようとしました。",
-            "私が手のひらに青みがかった輝きを集中させている間、ベトは私の分析のために{challenge}をしっかりと固定しました。",
-            "私が精神世界の囁きに耳を傾ける間、ララは{challenge}から生じる魔力の揺らぎを観察していました。"
+            "ダンテと私は空中に青白いグリフを描き、{subject}に秘められたエネルギーを同調させようとしました。",
+            "私が手のひらに青みがかった輝きを集中させている間、ベトは私の分析のために{subject}をしっかりと固定しました。",
+            "私が精神世界の囁きに耳を傾ける間、ララは{subject}から生じる魔力の揺らぎを観察していました。"
           ]
           }
         },
         "diplomacy": {
         "alone": {
           "pt": [
-            "Eu tentava encontrar um meio-termo com {challenge} enquanto o Nilo gesticulava de forma calma ao meu lado.",
-            "A Mia inclinava a cabeça enquanto eu usava palavras suaves para tentar acalmar a tensão gerada pel{challenge}.",
-            "Eu buscava entender as motivações por trás d{challenge} enquanto a Dora permanecia em uma postura pacífica atrás de mim."
+            "Eu tentava encontrar um meio-termo com {subject} enquanto o Nilo gesticulava de forma calma ao meu lado.",
+            "A Mia inclinava a cabeça enquanto eu usava palavras suaves para tentar acalmar a tensão gerada pel{subject}.",
+            "Eu buscava entender as motivações por trás d{subject} enquanto a Dora permanecia em uma postura pacífica atrás de mim."
           ],
           "en": [
-            "I tried to find a middle ground with {challenge} while Nilo gestured calmly by my side.",
-            "Mia tilted her head while I used soft words to try and calm the tension generated by {challenge}.",
-            "I sought to understand the motivations behind {challenge} while Dora remained in a peaceful posture behind me."
+            "I tried to find a middle ground with {subject} while Nilo gestured calmly by my side.",
+            "Mia tilted her head while I used soft words to try and calm the tension generated by {subject}.",
+            "I sought to understand the motivations behind {subject} while Dora remained in a peaceful posture behind me."
           ],
           "es": [
-            "Intentaba encontrar un punto medio con {challenge} mientras Nilo gesticulaba de forma calmada a mi lado.",
-            "Mia inclinaba la cabeza mientras yo usaba palabras suaves para intentar calmar la tensión generada por {challenge}.",
-            "Buscaba entender las motivaciones detrás de {challenge} mientras Dora permanecía en una postura pacífica detrás de mí."
+            "Intentaba encontrar un punto medio con {subject} mientras Nilo gesticulaba de forma calmada a mi lado.",
+            "Mia inclinaba la cabeza mientras yo usaba palabras suaves para intentar calmar la tensión generada por {subject}.",
+            "Buscaba entender las motivaciones detrás de {subject} mientras Dora permanecía en una postura pacífica detrás de mí."
           ],
           "ru": [
-            "Я пыталась найти компромисс с {challenge}, пока Нил спокойно жестикулировал рядом со мной.",
-            "Мия склонила голову, пока я мягкими словами пыталась успокоить напряжение, вызванное {challenge}.",
-            "Я стремилась понять мотивы, стоящие за {challenge}, пока Дора сохраняла мирную позу позади меня."
+            "Я пыталась найти компромисс с {subject}, пока Нил спокойно жестикулировал рядом со мной.",
+            "Мия склонила голову, пока я мягкими словами пыталась успокоить напряжение, вызванное {subject}.",
+            "Я стремилась понять мотивы, стоящие за {subject}, пока Дора сохраняла мирную позу позади меня."
           ],
           "zh": [
-            "我试图与{challenge}达成折中方案，而尼洛在我身边平静地做着手势。",
-            "当米娅歪着头听时，我用温柔的话语试图平息由{challenge}产生的紧张局势。",
-            "我寻求理解{challenge}背后的动机，而多拉在我身后保持着平和的姿态。"
+            "我试图与{subject}达成折中方案，而尼洛在我身边平静地做着手势。",
+            "当米娅歪着头听时，我用温柔的话语试图平息由{subject}产生的紧张局势。",
+            "我寻求理解{subject}背后的动机，而多拉在我身后保持着平和的姿态。"
           ],
           "ja": [
-            "ニロが私の隣で穏やかに身振り手振りを交える中、私は{challenge}との妥協点を見出そうとしました。",
-            "{challenge}によって生じた緊張を和らげるために私が穏やかな言葉を使う間、ミアは首をかしげて聞いていました。",
-            "ドラが私の後ろで平和的な姿勢を保つ中、私は{challenge}の背後にある動機を理解しようと努めました。"
+            "ニロが私の隣で穏やかに身振り手振りを交える中、私は{subject}との妥協点を見出そうとしました。",
+            "{subject}によって生じた緊張を和らげるために私が穏やかな言葉を使う間、ミアは首をかしげて聞いていました。",
+            "ドラが私の後ろで平和的な姿勢を保つ中、私は{subject}の背後にある動機を理解しようと努めました。"
           ]
         }
         },
         "religion": {
         "alone": {
           "pt": [
-            "Eu entoava cânticos antigos para purificar a aura d{challenge} enquanto o Igor segurava o incensário de ossos.",
-            "A Rosa se ajoelhava comigo em silêncio enquanto eu desenhava símbolos de proteção ao redor d{challenge}.",
-            "Eu pedia a bênção dos que vieram antes para lidar com {challenge} sob o olhar atento do Otto."
+            "Eu entoava cânticos antigos para purificar a aura d{subject} enquanto o Igor segurava o incensário de ossos.",
+            "A Rosa se ajoelhava comigo em silêncio enquanto eu desenhava símbolos de proteção ao redor d{subject}.",
+            "Eu pedia a bênção dos que vieram antes para lidar com {subject} sob o olhar atento do Otto."
           ],
           "en": [
-            "I chanted ancient hymns to purify the aura of {challenge} while Igor held the bone censer.",
-            "Rosa knelt with me in silence while I drew protection symbols around {challenge}.",
-            "I asked for the blessing of those who came before to deal with {challenge} under Otto's watchful eye."
+            "I chanted ancient hymns to purify the aura of {subject} while Igor held the bone censer.",
+            "Rosa knelt with me in silence while I drew protection symbols around {subject}.",
+            "I asked for the blessing of those who came before to deal with {subject} under Otto's watchful eye."
           ],
           "es": [
-            "Entonaba cánticos antiguos para purificar el aura de {challenge} mientras Igor sostenía el incensario de huesos.",
-            "Rosa se arrodillaba conmigo en silencio mientras yo dibujaba símbolos de protección alrededor de {challenge}.",
-            "Pedía la bendición de los que vinieron antes para lidiar con {challenge} bajo la mirada atenta de Otto."
+            "Entonaba cánticos antiguos para purificar el aura de {subject} mientras Igor sostenía el incensario de huesos.",
+            "Rosa se arrodillaba conmigo en silencio mientras yo dibujaba símbolos de protección alrededor de {subject}.",
+            "Pedía la bendición de los que vinieron antes para lidiar con {subject} bajo la mirada atenta de Otto."
           ],
           "ru": [
-            "Я воспевала древние гимны, чтобы очистить ауру {challenge}, пока Игорь держал костяную кадильницу.",
-            "Роза в тишине опустилась на колени вместе со мной, пока я чертила защитные символы вокруг {challenge}.",
-            "Я просила благословения тех, кто был до нас, чтобы справиться с {challenge} под бдительным взором Отто."
+            "Я воспевала древние гимны, чтобы очистить ауру {subject}, пока Игорь держал костяную кадильницу.",
+            "Роза в тишине опустилась на колени вместе со мной, пока я чертила защитные символы вокруг {subject}.",
+            "Я просила благословения тех, кто был до нас, чтобы справиться с {subject} под бдительным взором Отто."
           ],
           "zh": [
-            "我吟唱着古老的颂歌来净化{challenge}的光环，而伊戈尔拿着骨制香炉。",
-            "当我绕着{challenge}绘制保护符号时，罗莎静静地和我一起跪下。",
-            "在奥托注视下，我祈求先辈们的祝福来应对{challenge}。"
+            "我吟唱着古老的颂歌来净化{subject}的光环，而伊戈尔拿着骨制香炉。",
+            "当我绕着{subject}绘制保护符号时，罗莎静静地和我一起跪下。",
+            "在奥托注视下，我祈求先辈们的祝福来应对{subject}。"
           ],
           "ja": [
-            "イゴールが骨の香炉を持つ中、私は{challenge}のオーラを浄化するために古の賛歌を唱えました。",
-            "私が{challenge}の周囲に保護の印を描く間、ローザは静かに私と共に膝をつきました。",
-            "オットーの見守る中、{challenge}に対処するために先人たちの加護を求めました。"
+            "イゴールが骨の香炉を持つ中、私は{subject}のオーラを浄化するために古の賛歌を唱えました。",
+            "私が{subject}の周囲に保護の印を描く間、ローザは静かに私と共に膝をつきました。",
+            "オットーの見守る中、{subject}に対処するために先人たちの加護を求めました。"
           ]
         }
       }
@@ -1011,6 +1011,131 @@
           ]
         }
       }
+    },
+    "narrative": {
+      "enemy": {
+        "details": {
+          "pt":[
+            "Pensei que {fragment} explicava por que a criatura era tão rabugenta.",
+            "Lara acreditou que havia uma história triste em {fragment}.",
+            "Tentei imaginar quem a criatura foi antes de {fragment}.",
+            "Meus amigos ficaram debatendo {fragment} o caminho inteiro.",
+            "Achei difícil não sentir curiosidade sobre {fragment}."
+          ],
+          "en": ["I thought {fragment} explained why the creature was so grumpy.", "Lara believed there was a sad story in {fragment}.", "I tried to imagine who the creature was before {fragment}.", "My friends kept debating {fragment} the whole way.", "I found it hard not to be curious about {fragment}."],
+          "es": ["Pensé que {fragment} explicaba por qué la criatura estaba tan gruñona.", "Lara creyó que había una historia triste en {fragment}.", "Intenté imaginar quién fue la criatura antes de {fragment}.", "Mis amigos estuvieron debatiendo sobre {fragment} todo el camino.", "Me resultó difícil no sentir curiosidad por {fragment}."],
+          "ru": ["Я подумал, что {fragment} объясняет, почему существо такое ворчливое.", "Лара поверила, что в {fragment} кроется грустная история.", "Я пытался представить, кем было это существо до {fragment}.", "Мои друзья спорили о {fragment} всю дорогу.", "Мне было трудно не проявить любопытство к {fragment}."],
+          "ja": ["{fragment}がなぜその生き物がこれほど気難しいのかを説明しているのだと思った。", "ララは{fragment}に悲しい物語があるのだと信じた。", "{fragment}になる前、その生き物が何者だったのか想像しようとした。", "友人たちは道中ずっと{fragment}について議論していた。", "{fragment}について好奇心を抱かずにはいられなかった。"],
+          "zh": ["我以为{fragment}解释了为什么这生物如此暴躁。", "拉拉相信{fragment}背后有一个悲伤的故事。", "我试图想象这生物在{fragment}之前是什么样子。", "我的朋友们一路上都在争论{fragment}。", "我发现自己很难不对{fragment}感到好奇。"]
+        },
+        "attack": {
+          "pt":[
+            "Edgar colocou-se na frente de {fragment}.",
+            "Beto interceptou {fragment} antes que me alcançasse.",
+            "Igor avisou-me sobre {fragment}.",
+            "Dora distraiu a criatura durante {fragment}.",
+            "Luna impediu que {fragment} me atingisse.",
+            "Um dos meus amigos resolveu {fragment} antes que eu precisasse me preocupar.",
+            "Edgar já estava lidando com {fragment} quando percebi o perigo.",
+            "Nilo reagiu a {fragment} mais rápido do que eu.",
+            "Rosa protegeu-me de {fragment}.",
+            "Lara não gostou de {fragment} nem um pouco."
+          ],
+          "en": ["Edgar stood in front of {fragment}.", "Beto intercepted {fragment} before it reached me.", "Igor warned me about {fragment}.", "Dora distracted the creature during {fragment}.", "Luna stopped {fragment} from hitting me.", "One of my friends resolved {fragment} before I needed to worry.", "Edgar was already dealing with {fragment} when I realized the danger.", "Nilo reacted to {fragment} faster than I did.", "Rosa protected me from {fragment}.", "Lara didn't like {fragment} one bit."],
+          "es": ["Edgar se puso delante de {fragment}.", "Beto interceptó {fragment} antes de que me alcanzara.", "Igor me avisó sobre {fragment}.", "Dora distrajo a la criatura durante {fragment}.", "Luna evitó que {fragment} me golpeara.", "Uno de mis amigos resolvió {fragment} antes de que tuviera que preocuparme.", "Edgar ya estaba lidiando con {fragment} cuando me di cuenta del peligro.", "Nilo reaccionó a {fragment} más rápido que yo.", "Rosa me protegió de {fragment}.", "A Lara no le gustó {fragment} ni un poco."],
+          "ru": ["Эдгар встал перед {fragment}.", "Бето перехватил {fragment}, прежде чем оно добралось до меня.", "Игорь предупредил меня о {fragment}.", "Дора отвлекала существо во время {fragment}.", "Луна помешала {fragment} ударить меня.", "Один из моих друзей разобрался с {fragment}, прежде чем мне пришлось беспокоиться.", "Эдгар уже справлялся с {fragment}, когда я осознал опасность.", "Нило среагировал на {fragment} быстрее, чем я.", "Роза защитила меня от {fragment}.", "Ларе {fragment} совсем не понравилось."],
+          "ja": ["エドガーは{fragment}の前に立った。", "ベトは{fragment}が私に届く前に迎撃した。", "イゴールは{fragment}について警告してくれた。", "ドラは{fragment}の間にその生き物の気をそらした。", "ルナは{fragment}が私に当たるのを防いだ。", "私が心配する前に、友人の一人が{fragment}を解決してくれた。", "危険に気づいたときには、すでにエドガーが{fragment}に対処していた。", "ニーロは私よりも早く{fragment}に反応した。", "ローザは{fragment}から私を守ってくれた。", "ララは{fragment}が全く気に入らなかったようだ。"],
+          "zh": ["埃德加站在了{fragment}面前。", "贝托在{fragment}触及我之前将其拦截。", "伊戈尔向我发出了关于{fragment}的警告。", "朵拉在{fragment}期间转移了生物的注意力。", "露娜阻止了{fragment}击中我。", "我还没来得及担心，我的一个朋友就解决了{fragment}。", "当我意识到危险时，埃德加已经在处理{fragment}了。", "尼洛对{fragment}的反应比我快。", "罗莎保护我免受{fragment}的伤害。", "拉拉一点也不喜欢{fragment}。"]
+        }
+      },
+      "place": {
+        "landmark": {
+          "pt":[
+            "Edgar ficou curioso com {fragment} e acabamos parando por um instante.",
+            "Nilo insistiu em investigar {fragment}.",
+            "Dora pareceu gostar de {fragment}.",
+            "Luna não tirava os olhos de {fragment}.",
+            "Acabei observando {fragment} junto com Otto."
+          ],
+          "en": ["Edgar was curious about {fragment} and we ended up stopping for a moment.", "Nilo insisted on investigating {fragment}.", "Dora seemed to like {fragment}.", "Luna couldn't take her eyes off {fragment}.", "I ended up observing {fragment} together with Otto."],
+          "es": ["Edgar sintió curiosidad por {fragment} y terminamos deteniéndonos un momento.", "Nilo insistió en investigar {fragment}.", "Dora pareció disfrutar de {fragment}.", "Luna no podía quitarle los ojos de encima a {fragment}.", "Terminé observando {fragment} junto con Otto."],
+          "ru": ["Эдгар заинтересовался {fragment}, и мы решили остановиться на мгновение.", "Нило настоял на исследовании {fragment}.", "Доре, похоже, понравился {fragment}.", "Луна не могла оторвать взгляд от {fragment}.", "В итоге я наблюдал за {fragment} вместе с Отто."],
+          "ja": ["エドガーが{fragment}に興味を示したので、少し立ち止まることになった。", "ニーロは{fragment}を調査すると主張した。", "ドラは{fragment}が気に入ったようだ。", "ルナは{fragment}から目が離せなかった。", "結局、オットーと一緒に{fragment}を観察することになった。"],
+          "zh": ["埃德加对{fragment}很好奇，我们于是停下来待了一会儿。", "尼洛坚持要调查{fragment}。", "朵拉似乎很喜欢{fragment}。", "露娜目不转睛地盯着{fragment}。", "我最终和奥托一起观察了{fragment}。"]
+        },
+        "feeling": {
+          "pt": [
+            "Mia ficou inquieta por causa de {fragment}.",
+            "Até Rosa percebeu algo estranho em {fragment}.",
+            "Igor não gostou nem um pouco de {fragment}.",
+            "Lara ficou em silêncio quando sentimos {fragment}.",
+            "Meus amigos ficaram atentos por causa de {fragment}."
+          ],
+          "en": ["Mia felt restless because of {fragment}.", "Even Rosa noticed something strange about {fragment}.", "Igor didn't like {fragment} at all.", "Lara went silent when we felt {fragment}.", "My friends were alert because of {fragment}."],
+          "es": ["Mia se sintió inquieta debido a {fragment}.", "Incluso Rosa notó algo extraño en {fragment}.", "A Igor no le gustó {fragment} en absoluto.", "Lara se quedó en silencio cuando sentimos {fragment}.", "Mis amigos se mantuvieron alerta debido a {fragment}."],
+          "ru": ["Миа чувствовала себя беспокойно из-за {fragment}.", "Даже Роза заметила что-то странное в {fragment}.", "Игорю {fragment} совсем не понравилось.", "Лара замолчала, когда мы почувствовали {fragment}.", "Мои друзья были настороже из-за {fragment}."],
+          "ja": ["ミアは{fragment}のせいで落ち着かなくなった。", "ローザでさえ{fragment}の奇妙な点に気づいた。", "イゴールは{fragment}が全く気に入らなかった。", "私たちが{fragment}を感じたとき、ララは沈黙した。", "友人たちは{fragment}のせいで警戒していた。"],
+          "zh": ["米娅因为{fragment}而感到不安。", "连罗莎也注意到了{fragment}的一些奇怪之处。", "伊戈尔一点也不喜欢{fragment}。", "当我们感受到{fragment}时，拉拉沉默了。", "我的朋友们因为{fragment}而保持警惕。"]
+        },
+        "details": {
+          "pt": [
+            "Edgar passou tempo demais examinando {fragment}.",
+            "Beto pareceu reconhecer algo em {fragment}.",
+            "Acabei discutindo {fragment} com os meus amigos.",
+            "Luna ficou fascinada por {fragment}.",
+            "Otto não conseguia parar de olhar para {fragment}."
+          ],
+          "en": ["Edgar spent too long examining {fragment}.", "Beto seemed to recognize something in {fragment}.", "I ended up discussing {fragment} with my friends.", "Luna was fascinated by {fragment}.", "Otto couldn't stop looking at {fragment}."],
+          "es": ["Edgar pasó demasiado tiempo examinando {fragment}.", "Beto pareció reconocer algo en {fragment}.", "Terminé discutiendo sobre {fragment} con mis amigos.", "Luna quedó fascinada por {fragment}.", "Otto no podía dejar de mirar {fragment}."],
+          "ru": ["Эдгар слишком долго изучал {fragment}.", "Бето, казалось, узнал что-то в {fragment}.", "В конце концов я обсуждал {fragment} со своими друзьями.", "Луна была очарована {fragment}.", "Отто не мог перестать смотреть на {fragment}."],
+          "ja": ["エドガーは時間をかけて{fragment}を調べていた。", "ベトは{fragment}の中に何かを見覚えがあるようだった。", "結局、友人たちと{fragment}について話し合った。", "ルナは{fragment}に魅了された。", "オットーは{fragment}から目が離せなかった。"],
+          "zh": ["埃德加花了太长时间检查{fragment}。", "贝托似乎在{fragment}中认出了什么。", "我最终和我的朋友们讨论了{fragment}。", "露娜被{fragment}迷住了。", "奥托无法停止注视{fragment}。"]
+        },
+        "history": {
+          "pt": [
+            "Fiquei imaginando o que meus amigos diriam sobre {fragment}.",
+            "Edgar teria gostado de ouvir mais sobre {fragment}.",
+            "Pensei em quantas pessoas foram esquecidas por causa de {fragment}.",
+            "Conversamos bastante sobre {fragment}.",
+            "Tentei imaginar quem ainda se lembrava de {fragment}."
+          ],
+          "en": ["I wondered what my friends would say about {fragment}.", "Edgar would have liked to hear more about {fragment}.", "I thought about how many people were forgotten because of {fragment}.", "We talked a lot about {fragment}.", "I tried to imagine who still remembered {fragment}."],
+          "es": ["Me pregunté qué dirían mis amigos sobre {fragment}.", "A Edgar le habría gustado saber más sobre {fragment}.", "Pensé en cuántas personas fueron olvidadas debido a {fragment}.", "Hablamos mucho sobre {fragment}.", "Intenté imaginar quién todavía recordaba {fragment}."],
+          "ru": ["Я задавался вопросом, что мои друзья скажут о {fragment}.", "Эдгару хотелось бы услышать больше о {fragment}.", "Я думал о том, сколько людей были забыты из-за {fragment}.", "Мы много говорили о {fragment}.", "Я пытался представить, кто еще помнит {fragment}."],
+          "ja": ["友人たちが{fragment}についてどう言うか考えた。", "エドガーは{fragment}についてもっと聞きたがっていただろう。", "{fragment}のせいでどれほど多くの人々が忘れ去られたのかと思った。", "{fragment}についてたくさん語り合った。", "誰がまだ{fragment}を覚えているのか想像してみた。"],
+          "zh": ["我想知道我的朋友们会怎么评价{fragment}。", "埃德加本来会想听更多关于{fragment}的事情。", "我想到有多少人因为{fragment}而被遗忘。", "我们谈论了很多关于{fragment}的话题。", "我试图想象还有谁记得{fragment}。"]
+        }
+      }
+    },
+    "failure": {
+      "solo": {
+        "pt": [
+          "Estava ocupada demais cuidando dos meus amigos para notar {enemy_attack}.",
+          "Passei tempo demais conversando sobre {enemy}.",
+          "Fiquei mais preocupada com meus amigos do que com {enemy}.",
+          "Demorei para reagir a {enemy_attack}.",
+          "Tentei entender {enemy} quando deveria agir."
+        ],
+      "en": ["I was too busy looking after my friends to notice {enemy_attack}.", "I spent too much time talking about {enemy}.", "I was more worried about my friends than {enemy}.", "I was slow to react to {enemy_attack}.", "I tried to understand {enemy} when I should have been acting."],
+      "es": ["Estaba demasiado ocupado cuidando a mis amigos para notar {enemy_attack}.", "Pasé demasiado tiempo hablando sobre {enemy}.", "Estaba más preocupado por mis amigos que por {enemy}.", "Tardé en reaccionar a {enemy_attack}.", "Intenté entender a {enemy} cuando debería haber actuado."],
+      "ru": ["Я был слишком занят заботой о друзьях, чтобы заметить {enemy_attack}.", "Я потратил слишком много времени на разговоры о {enemy}.", "Я больше беспокоился о своих друзьях, чем о {enemy}.", "Я медленно реагировал на {enemy_attack}.", "Я пытался понять {enemy}, когда нужно было действовать."],
+      "ja": ["友達の世話に忙しくて、{enemy_attack}に気づかなかった。", "{enemy}について話すのに時間を使いすぎた。", "{enemy}よりも友達のことの方が心配だった。", "{enemy_attack}への反応が遅れた。", "行動すべき時に、{enemy}を理解しようとしてしまった。"],
+      "zh": ["我太忙于照顾我的朋友们，以至于没注意到{enemy_attack}。", "我花了太多时间谈论{enemy}。", "比起{enemy}，我更担心我的朋友们。", "我对{enemy_attack}的反应太慢了。", "本该行动的时候，我却试图去理解{enemy}。"]
+      },
+      "group": {
+        "pt": [
+          "Estava verificando se todos os meus amigos estavam bem quando ocorreu {enemy_attack}.",
+          "Demorei para chamar meus amigos contra {enemy}.",
+          "Não consegui proteger todos durante {enemy_attack}.",
+          "Passei tempo demais observando {enemy}.",
+          "Meu aviso sobre {enemy_attack} veio tarde demais."
+      ],
+      "en": ["I was checking if all my friends were okay when {enemy_attack} occurred.", "I was slow to call my friends against {enemy}.", "I couldn't protect everyone during {enemy_attack}.", "I spent too much time observing {enemy}.", "My warning about {enemy_attack} came too late."],
+      "es": ["Estaba comprobando si todos mis amigos estaban bien cuando ocurrió {enemy_attack}.", "Tardé en llamar a mis amigos contra {enemy}.", "No pude proteger a todos durante {enemy_attack}.", "Pasé demasiado tiempo observando a {enemy}.", "Mi advertencia sobre {enemy_attack} llegó demasiado tarde."],
+      "ru": ["Я проверял, все ли в порядке с моими друзьями, когда произошла {enemy_attack}.", "Я медленно призывал друзей против {enemy}.", "Я не смог защитить всех во время {enemy_attack}.", "Я потратил слишком много времени на наблюдение за {enemy}.", "Мое предупреждение о {enemy_attack} пришло слишком поздно."],
+      "ja": ["{enemy_attack}が発生した時、友達が全員無事か確認していた。", "{enemy}に対して友達を呼ぶのが遅れた。", "{enemy_attack}の間、全員を守りきれなかった。", "{enemy}を観察するのに時間を使いすぎた。", "{enemy_attack}についての警告が遅すぎた。"],
+      "zh": ["当{enemy_attack}发生时，我正在确认我的朋友们是否都安好。", "我召集朋友们对抗{enemy}的动作太慢了。", "在{enemy_attack}期间，我没能保护好所有人。", "我花了太多时间观察{enemy}。", "我关于{enemy_attack}的警告来得太晚了。"]
     }
-  }  
+  }
+  }
 }

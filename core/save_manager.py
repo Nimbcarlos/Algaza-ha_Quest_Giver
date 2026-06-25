@@ -77,7 +77,7 @@ def load_game(manager, filename):
         data = json.load(f)
     
     manager.current_turn = data.get("current_turn", getattr(manager, "current_turn", 1))
-    
+
     def _to_int_if_possible(x):
         try:
             return int(x)
@@ -150,6 +150,7 @@ def load_game(manager, filename):
             qid = qid_key
         
         quest = manager.get_quest(qid)
+
         if quest:
             if isinstance(turn_value, int):
                 quest.available_since_turn = turn_value
@@ -167,7 +168,7 @@ def load_game(manager, filename):
     if hasattr(manager, 'assistant'):
         manager.assistant.first_time = False
     
-    print(f"📂 Jogo carregado de: {path}")
+    # print(f"📂 Jogo carregado de: {path}")
     return True
 
 
@@ -242,7 +243,17 @@ def get_latest_save():
 
 
 
-def save_state(self) -> dict:
+def save_state(manager, filename):
+    """Alias de save_game — compatibilidade com save.save_state(qm, filename)."""
+    return save_game(manager, filename)
+
+
+def load_state(manager, filename):
+    """Alias de load_game — compatibilidade com save.load_state(qm, filename)."""
+    return load_game(manager, filename)
+
+
+def _save_state_OLD(self) -> dict:  # mantido só para referência, não usar
     """
     Salva estado do QuestManager.
     
@@ -264,32 +275,37 @@ def save_state(self) -> dict:
     }
  
  
-def load_state(self, state: dict):
-    """
-    Carrega estado do QuestManager.
+def _load_state_OLD(self, filename):  # mantido só para referência, não usar
+    path = os.path.join(SAVE_DIR, filename)
     
-    UNIFICADO: Carrega fixas e procedurais!
-    """
+    if not os.path.exists(path):
+        print(f"⚠️  Save '{filename}' não encontrado.")
+        return False
+    
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    
     # ✅ CARREGA COMPLETED (FIXAS E PROCEDURAIS JUNTAS)
-    self.completed_quests = set(state.get("completed_quests", []))
-    self.failed_quests = set(state.get("failed_quests", []))
-    self.current_turn = state.get("current_turn", 1)
+    self.completed_quests = set(data.get("completed_quests", []))
+    self.failed_quests = set(data.get("failed_quests", []))
+    self.current_turn = data.get("current_turn", 1)
     
     # ✅ RECONSTRÓI POOL DE PROCEDURAIS
-    procedural_seeds = state.get("procedural_pool", [])
+    procedural_seeds = data.get("procedural_pool", [])
     for seed in procedural_seeds:
         quest = self.get_quest(seed)  # Reconstrói da seed
         if quest:
             self.procedural_pool[seed] = quest
     
     # ✅ CARREGA PROGRESSO DO MAPA
-    map_progress = state.get("map_progress", {})
+    map_progress = data.get("map_progress", {})
     unlocked = map_progress.get("unlocked_bridges", [])
     for bridge_key in unlocked:
         self.proc_gen.map_graph.unlock_bridge(bridge_key)
     
     # ✅ CARREGA ACTIVE QUESTS
-    active = state.get("active_quests", {})
+    active = data.get("active_quests", {})
     for qid_str, data in active.items():
         # Converte ID de volta (int se for número, str se não)
         try:
@@ -298,10 +314,10 @@ def load_state(self, state: dict):
             qid = qid_str
         
         # Reconstrói lista de heróis
-        heroes = [self.get_hero(hid) for hid in data["heroes"]]
+        heroes = [self.get_hero(hid) for hid in data.get("heroes", [])]
         heroes = [h for h in heroes if h]  # Remove None
         
         self.active_quests[qid] = {
             "heroes": heroes,
-            "turns_left": data["turns_left"]
+            "turns_left": data.get("turns_left", 0)
         }

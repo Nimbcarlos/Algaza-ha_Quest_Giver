@@ -155,7 +155,7 @@ class ProceduralQuestSystem:
             ])
             files = ["actions", "subjects", "locations", "location_groups",
                      "sub_locations", "modifiers", "text_fragments", "weights"]
-            print(f"📦 quest_data carregado: {total} entradas / {len(files)} arquivos em {self.data_dir.name}/")
+            # print(f"📦 quest_data carregado: {total} entradas / {len(files)} arquivos em {self.data_dir.name}/")
 
         except json.JSONDecodeError as e:
             print(f"[ProcSystem] ❌ JSON inválido: {e}")
@@ -373,7 +373,7 @@ class ProceduralQuestSystem:
         location_key: Optional[str] = None,
         sub_location_key: Optional[str] = None,
         modifier_key: Optional[str] = None,
-        max_heroes: Optional[int] = None,
+        # max_heroes: Optional[int] = None,
         expired_at: Optional[int] = None,
         duration: Optional[int] = None,
     ) -> int:
@@ -384,7 +384,7 @@ class ProceduralQuestSystem:
         location = self._get_location_for_sub_location(sub_location, location_key)
         modifier = self._get_modifier_for_subject(subject, modifier_key, quest_type)
 
-        max_heroes = self._get_max_heroes(max_heroes)
+        # max_heroes = random.randint(1, 4)
         expired_at = self._clamp(expired_at if expired_at is not None else random.randint(3, 7), 1, 9)
         duration = self._clamp(duration if duration is not None else random.randint(2, 5), 1, 9)
 
@@ -395,14 +395,14 @@ class ProceduralQuestSystem:
             f"{location['id']:02d}"
             f"{sub_location.get('id', 0):02d}"
             f"{modifier['id']:02d}"
-            f"{max_heroes:01d}"
+            # f"{max_heroes:01d}"
             f"{expired_at:01d}"
             f"{duration:01d}"
         )
         return int(seed_str)
 
     def decode_seed(self, seed: int) -> Dict[str, int]:
-        seed_str = str(seed).zfill(15)
+        seed_str = str(seed).zfill(14)
         return {
             "type_id": int(seed_str[0:2]),
             "verb_id": int(seed_str[2:4]),
@@ -410,16 +410,16 @@ class ProceduralQuestSystem:
             "location_id": int(seed_str[6:8]),
             "sub_location_id": int(seed_str[8:10]),
             "modifier_id": int(seed_str[10:12]),
-            "max_heroes": int(seed_str[12:13]),
-            "expired_at": int(seed_str[13:14]),
-            "duration": int(seed_str[14:15]),
+            # "max_heroes": int(seed_str[12:13]),
+            "expired_at": int(seed_str[12:13]),
+            "duration": int(seed_str[13:14]),
         }
 
     # ============================================================
     # QUEST BUILD
     # ============================================================
 
-    def reconstruct_quest_from_seed(self, seed: int) -> QuestData:
+    def reconstruct_quest_from_seed(self, seed: int, party_level: int) -> QuestData:
         parts = self.decode_seed(seed)
 
         quest_type = self._get_type_by_id(parts["type_id"])
@@ -435,7 +435,7 @@ class ProceduralQuestSystem:
 
         modifier = self._get_modifier_by_id(parts["modifier_id"])
 
-        difficulty_value = (
+        difficulty_value = round(
             verb.get("difficulty", 1.0)
             * subject.get("power", 1.0)
             * location.get("danger", 1.0)
@@ -443,7 +443,13 @@ class ProceduralQuestSystem:
             + modifier.get("difficulty_add", 0.0)
         )
 
-        heroes_multiplier = {1: 1.00, 2: 1.35, 3: 1.70, 4: 2.05}.get(parts["max_heroes"], 1.0)
+        max_heroes = self._get_max_heroes(
+            None,
+            avg_level=party_level,
+            difficulty=difficulty_value
+        )
+
+        heroes_multiplier = {1: 1.00, 2: 1.35, 3: 1.70, 4: 2.05}.get(max_heroes)
         duration_multiplier = {1: 1.00, 2: 1.08, 3: 1.15, 4: 1.22, 5: 1.28}.get(parts["duration"], 1.30)
         xp = int((difficulty_value * 45) * heroes_multiplier * duration_multiplier)
 
@@ -473,20 +479,20 @@ class ProceduralQuestSystem:
             "seed": seed,
             "id": seed,
             "name": {
-                "pt": f"{verb.get('pt', '')} {self._compose_subject_phrase(quest_type, subject, modifier, 'pt')} {sub_loc_text_pt}".strip(),
-                "en": f"{verb.get('en', '')} {self._compose_subject_phrase(quest_type, subject, modifier, 'en')} {sub_loc_text_en}".strip(),
-                "es": f"{verb.get('es', verb.get('en', ''))} {self._compose_subject_phrase(quest_type, subject, modifier, 'es')} {sub_loc_text_es}".strip(),
-                "ru": f"{verb.get('ru', '')} {self._compose_subject_phrase(quest_type, subject, modifier, 'ru')}",
-                "zh": f"{verb.get('zh', '')} {self._compose_subject_phrase(quest_type, subject, modifier, 'zh')}",
-                "ja": f"{verb.get('ja', '')} {self._compose_subject_phrase(quest_type, subject, modifier, 'ja')}",
+                "pt": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'pt')} {sub_loc_text_pt}".strip(),
+                "en": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'en')} {sub_loc_text_en}".strip(),
+                "es": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'es')} {sub_loc_text_es}".strip(),
+                "ru": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'ru')}",
+                "zh": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'zh')}",
+                "ja": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'ja')}",
             },
             "description": description,
             "type": quest_type,
-            "max_heroes": parts["max_heroes"],
+            "max_heroes": max_heroes,
             "expired_at": parts["expired_at"],
             "available_from_turn": 1,
             "duration": parts["duration"],
-            "difficulty": max(1, round(difficulty_value)),
+            "difficulty": difficulty_value,
             "rewards": {"xp": xp},
             "required_quests": [],
             "forbidden_quests": [],
@@ -526,7 +532,7 @@ class ProceduralQuestSystem:
 
     def generate_quest_of_type(self, quest_type: QuestType, party_level: int = 1) -> Quest:
         seed = self.generate_seed(quest_type, party_level)
-        quest_data = self.reconstruct_quest_from_seed(seed)
+        quest_data = self.reconstruct_quest_from_seed(seed, party_level)
         return self.to_quest_object(quest_data)
 
     def get_quest_from_seed(self, seed: int) -> Quest:
@@ -954,23 +960,39 @@ class ProceduralQuestSystem:
 
         return choices[-1][0]
 
-    def _get_max_heroes(self, max_heroes: Optional[int], avg_level: int = 1) -> int:
+    def _get_max_heroes(
+        self,
+        max_heroes: Optional[int],
+        avg_level: int = 1,
+        difficulty: float = 1.0,
+    ) -> int:
         if max_heroes is not None:
             return self._clamp(max_heroes, 1, 4)
 
-        choices = [(int(k), v) for k, v in self.max_heroes_weights.items()]
-        if not choices:
-            return random.randint(1, 4)
+        # Atributo principal de um herói médio no avg_level
+        # (2 base + 1 a cada nível ímpar — igual ao cálculo real de sucesso)
+        avg_stat = 2 + (avg_level - 1) // 2
 
-        level_bias = min(max(avg_level - 1, 0), 3)
+        # Replica calculate_success_chance:
+        # base_chance = total_rating / (difficulty * 2)
+        # com N heróis: total_rating = N * avg_stat
+        # queremos o mínimo de heróis para atingir base_chance >= 0.65
 
-        adjusted = []
-        for heroes_count, weight in choices:
-            # Curva mais suave e previsível
-            scale = 1 + (level_bias * 0.25 * (heroes_count - 1))
-            adjusted.append((heroes_count, weight * scale))
+        target_chance = 0.65
+        needed = (target_chance * difficulty * 2) / avg_stat
 
-        return self._clamp(self._weighted_choice_simple(adjusted), 1, 4)
+        # needed = heróis necessários para 65% de chance
+        # arredonda para cima, clampado entre 1 e 4
+        result = max(1, min(4, -(-int(needed) // 1)))  # ceil sem import math
+
+        # pequena aleatoriedade: ±1 herói com peso menor
+        roll = random.random()
+        if roll < 0.15 and result > 1:
+            result -= 1   # 15% chance de ir com menos (grupo experiente)
+        elif roll > 0.80 and result < 4:
+            result += 1   # 20% chance de ser mais cauteloso
+
+        return self._clamp(result, 1, 4)
 
     def _generate_context(self, subject, location, sub_location, modifier):
         result = {}
@@ -1209,5 +1231,5 @@ if __name__ == "__main__":
         print(f"ID: {quest.id}")
         print(f"Nome: {quest.name}")
         print(f"Descrição: {quest.description}")
-        # print(f"Dificuldade: {quest.difficulty}, max_heroes: {quest.max_heroes}, xp: {quest.rewards}, duration: {quest.duration} turns")
-        print(f"Context: {quest.context}")
+        print(f"Dificuldade: {quest.difficulty}, max_heroes: {quest.max_heroes}, xp: {quest.rewards}, duration: {quest.duration} turns")
+        # print(f"Context: {quest.context}")

@@ -30,7 +30,8 @@ class Hero:
         unlock_by_quest,
         available_from_turn: int,
         leave_on_quest,
-        growth_curve: Dict[str, Dict[str, int]],
+        growth_curve: Dict[str, Dict[str, int]] = None,   # legado
+        growth_rules: Dict = None,                         # novo
         starter: bool = False,
         xp: int = 0,
         language: str = "en"
@@ -56,7 +57,7 @@ class Hero:
         self.unlock_by_quest = unlock_by_quest or []
         self.available_from_turn = available_from_turn
         self.leave_on_quest = leave_on_quest or []
-        self.growth_curve = growth_curve
+        self.growth_curve = Hero._build_growth_curve(growth_rules)
         self.starter = starter
         self.xp = xp
 
@@ -84,6 +85,31 @@ class Hero:
     def stats(self) -> Dict[str, int]:
         return self.growth_curve.get(str(self.level), {}) or {}
 
+    @staticmethod
+    def _build_growth_curve(rules: dict, max_level: int = 99) -> dict:
+        base      = rules.get("base", {})
+        schedules = rules.get("schedules", [])
+
+        curve   = {}
+        current = dict(base)
+
+        for level in range(1, max_level + 1):
+
+            # aplica ganhos ANTES de registrar o nível
+            for sched in schedules:
+                every    = sched.get("every", 2)
+                start_at = sched.get("start_at", every + 1)
+                gain     = sched.get("gain", 1)
+
+                if level >= start_at and (level - start_at) % every == 0:
+                    for attr in sched["attrs"]:
+                        current[attr] = current.get(attr, 0) + gain
+
+            # registra depois dos ganhos aplicados
+            curve[str(level)] = dict(current)
+
+        return curve
+
     def get_attr(self, attr: str) -> int:
         return int(self.stats.get(attr, 0))
 
@@ -108,16 +134,6 @@ class Hero:
     # -------------------- Carregamento --------------------
     @staticmethod
     def load_heroes(language="en", heroes_folder="data/heroes") -> List["Hero"]:
-        """
-        Carrega todos os heróis da pasta especificada.
-        
-        Args:
-            language: Idioma para carregar (pt, en, es, etc)
-            heroes_folder: Pasta onde estão os arquivos JSON dos heróis
-            
-        Returns:
-            Lista de objetos Hero carregados
-        """
         folder_path = Path(heroes_folder)
         
         if not folder_path.exists():
@@ -139,7 +155,7 @@ class Hero:
             except Exception as e:
                 print(f"❌ Erro ao carregar '{json_file.name}': {e}")
                 continue
-        
+
         return heroes
 
     @staticmethod
@@ -159,5 +175,7 @@ class Hero:
 
 
 if __name__ == "__main__":
-    hero = Hero.get_hero_by_id(1, language="pt")
-    print(hero.story)
+    for x in range(1, 15):
+        hero = Hero.get_hero_by_id(x, language="pt")
+        hero.add_xp(50000)
+        print(hero)

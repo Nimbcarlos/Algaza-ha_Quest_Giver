@@ -133,150 +133,150 @@
     "arrived": {
       "alone": {
         "pt": [
-          "O fluxo de mana d{location} seguiu o caminho de menor resistência; pisei exatamente onde o circuito se fecha.",
-          "Cruzei o limiar d{location}. Os padrões geométricos do terreno indicaram que a estrutura aqui é mais complexa do que os mapas sugeriam.",
-          "Como diria um velho sábio de cajado e barbas brancas, um mago nunca se atrasa; acabei de estabelecer minha coordenada exata d{location}.",
-          "Analisei a 'assinatura de código' d{location}. Iniciei a varredura por anomalias enquanto avancei entre as sombras.",
-          "Senti uma distorção no éter d{location}... lembrou o que um Guardião de uma terra distante chamaria de 'fenda'. Meus pés já tocaram o solo.",
-          "Não precisei de um pedra verde para ver a lógica por trás das defesas d{location}; decifrei as camadas enquanto me movi.",
-          "Entre d{location}. O silêncio aqui foi um algoritmo que pretendi resolver, um passo de cada vez.",
-          "A eletricidade estática d{location} foi fascinante. Segui a voltagem mais alta, penetrando no coração da zona de busca.",
-          "Lembrei-me de uma arquimaga que dizia que 'o estudo é a melhor defesa'; cataloguei cada centímetro d{location}.",
-          "Muitos buscariam o caminho de volta para casa, como jovens perdidos em um reino de dragões, mas foquei apenas em cada passo dado d{location}."
+          "O fluxo de mana {da_place} seguiu o caminho de menor resistência; pisei exatamente onde o circuito se fecha.",
+          "Cruzei o limiar {da_place}. Os padrões geométricos do terreno indicaram que a estrutura aqui é mais complexa do que os mapas sugeriam.",
+          "Como diria um velho sábio de cajado e barbas brancas, um mago nunca se atrasa; acabei de estabelecer minha coordenada exata {da_place}.",
+          "Analisei a 'assinatura de código' {da_place}. Iniciei a varredura por anomalias enquanto avancei entre as sombras.",
+          "Senti uma distorção no éter {da_place}... lembrou o que um Guardião de uma terra distante chamaria de 'fenda'. Meus pés já tocaram o solo.",
+          "Não precisei de um pedra verde para ver a lógica por trás das defesas {da_place}; decifrei as camadas enquanto me movi.",
+          "Entre {da_place}. O silêncio aqui foi um algoritmo que pretendi resolver, um passo de cada vez.",
+          "A eletricidade estática {da_place} foi fascinante. Segui a voltagem mais alta, penetrando no coração da zona de busca.",
+          "Lembrei-me de uma arquimaga que dizia que 'o estudo é a melhor defesa'; cataloguei cada centímetro {da_place}.",
+          "Muitos buscariam o caminho de volta para casa, como jovens perdidos em um reino de dragões, mas foquei apenas em cada passo dado {da_place}."
         ],
         "en": [
-          "The mana flow of {location} followed the path of least resistance; I stepped exactly where the circuit closes.",
-          "I crossed the threshold of {location}. The geometric patterns of the terrain indicated that the structure here is more complex than the maps suggested.",
-          "As an old sage with a staff and white beard would say, a wizard is never late; I have just established my exact coordinates at {location}.",
-          "I analyzed the 'code signature' of {location}. I started scanning for anomalies as I moved through the shadows.",
-          "I felt a distortion in the ether of {location}... it reminded me of what a Guardian from a distant land would call a 'rift'. My feet have already touched the ground.",
-          "I didn't need a green stone to see the logic behind the defenses of {location}; I deciphered the layers as I moved.",
-          "I entered {location}. The silence here was an algorithm I intended to solve, one step at a time.",
-          "The static electricity of {location} was fascinating. I followed the highest voltage, penetrating the heart of the search zone.",
-          "I remembered an archmage who said that 'study is the best defense'; I cataloged every inch of {location}.",
-          "Many would seek the way back home, like youngsters lost in a realm of dragons, but I focused only on every step taken at {location}."
+          "The mana flow of {place} followed the path of least resistance; I stepped exactly where the circuit closes.",
+          "I crossed the threshold of {place}. The geometric patterns of the terrain indicated that the structure here is more complex than the maps suggested.",
+          "As an old sage with a staff and white beard would say, a wizard is never late; I have just established my exact coordinates at {place}.",
+          "I analyzed the 'code signature' of {place}. I started scanning for anomalies as I moved through the shadows.",
+          "I felt a distortion in the ether of {place}... it reminded me of what a Guardian from a distant land would call a 'rift'. My feet have already touched the ground.",
+          "I didn't need a green stone to see the logic behind the defenses of {place}; I deciphered the layers as I moved.",
+          "I entered {place}. The silence here was an algorithm I intended to solve, one step at a time.",
+          "The static electricity of {place} was fascinating. I followed the highest voltage, penetrating the heart of the search zone.",
+          "I remembered an archmage who said that 'study is the best defense'; I cataloged every inch of {place}.",
+          "Many would seek the way back home, like youngsters lost in a realm of dragons, but I focused only on every step taken at {place}."
         ],
         "es": [
-          "El flujo de maná de {location} siguió el camino de menor resistencia; pisé exactamente donde el circuito se cierra.",
-          "Crucé el umbral de {location}. Los patrones geométricos del terreno indicaron que la estructura aquí es más compleja de lo que sugerían los mapas.",
-          "Como diría un viejo sabio de báculo y barbas blancas, un mago nunca llega tarde; acabo de establecer mi coordenada exacta en {location}.",
-          "Analicé la 'firma de código' de {location}. Inicié el escaneo de anomalías mientras avanzaba entre las sombras.",
-          "Sentí una distorsión en el éter de {location}... me recordó a lo que un Guardián de una tierra lejana llamaría una 'grieta'. Mis pies ya tocaron el suelo.",
-          "No necesité una piedra verde para ver la lógica detrás de las defensas de {location}; descifré las capas mientras me movía.",
-          "Entré en {location}. El silencio aquí era un algoritmo que pretendía resolver, un paso a la vez.",
-          "La electricidad estática de {location} fue fascinante. Seguí el voltaje más alto, penetrando en el corazón de la zona de búsqueda.",
-          "Recordé a una archimaga que decía que 'el estudio es la mejor defensa'; catalogué cada centímetro de {location}.",
-          "Muchos buscarían el camino de vuelta a casa, como jóvenes perdidos en un reino de dragones, pero me enfoqué solo en cada paso dado en {location}."
+          "El flujo de maná {da_place} siguió el camino de menor resistencia; pisé exactamente donde el circuito se cierra.",
+          "Crucé el umbral {da_place}. Los patrones geométricos del terreno indicaron que la estructura aquí es más compleja de lo que sugerían los mapas.",
+          "Como diría un viejo sabio de báculo y barbas blancas, un mago nunca llega tarde; acabo de establecer mi coordenada exacta en {a_place}.",
+          "Analicé la 'firma de código' {da_place}. Inicié el escaneo de anomalías mientras avanzaba entre las sombras.",
+          "Sentí una distorsión en el éter {da_place}... me recordó a lo que un Guardián de una tierra lejana llamaría una 'grieta'. Mis pies ya tocaron el suelo.",
+          "No necesité una piedra verde para ver la lógica detrás de las defensas {da_place}; descifré las capas mientras me movía.",
+          "Entré en {a_place}. El silencio aquí era un algoritmo que pretendía resolver, un paso a la vez.",
+          "La electricidad estática {da_place} fue fascinante. Seguí el voltaje más alto, penetrando en el coração de la zona de búsqueda.",
+          "Recordé a una archimaga que decía que 'el estudio é a melhor defesa'; catalogué cada centímetro {da_place}.",
+          "Muchos buscarían el camino de vuelta a casa, como jóvenes perdidos en un reino de dragones, pero me enfoqué solo en cada paso dado en {ao_place}."
         ],
         "ru": [
-          "Поток маны в {location} шел по пути наименьшего сопротивления; я наступила именно туда, где замыкается цепь.",
-          "Я пересекла порог {location}. Геометрические узоры местности указали на то, что структура здесь сложнее, чем предполагали карты.",
-          "Как сказал бы старый мудрец с посохом и белой бородой, маг никогда не опаздывает; я только что установила свои точные координаты в {location}.",
-          "Я проанализировала «сигнатуру кода» {location}. Начала сканирование на наличие аномалий, продвигаясь сквозь тени.",
-          "Я почувствовала искажение в эфире {location}... это напомнило то, что Хранитель из далекой страны назвал бы «разломом». Мои ноги уже коснулись земли.",
-          "Мне не нужен был зеленый камень, чтобы увидеть логику защитных систем {location}; я расшифровывала слои во время движения.",
-          "Я вошла в {location}. Тишина здесь была алгоритмом, который я намерена решить, шаг за шагом.",
-          "Статическое электричество в {location} было завораживающим. Я последовала за самым высоким напряжением, проникая в самое сердце зоны поиска.",
-          "Я вспомнила одну архимагиню, которая говорила, что «изучение — лучшая защита»; я занесла в каталог каждый сантиметр {location}.",
-          " Многие искали бы путь домой, как юнцы, потерявшиеся в королевстве драконов, но я сосредоточилась только на каждом шаге, сделанном в {location}."
+          "Поток маны в {place} шел по пути наименьшего сопротивления; я наступила именно туда, где замыкается цепь.",
+          "Я пересекла порог {place}. Геометрические узоры местности указали на то, что структура здесь сложнее, чем предполагали карты.",
+          "Как сказал бы старый мудрец с посохом и белой бородой, маг никогда не опаздывает; я только что установила свои точные координаты в {place}.",
+          "Я проанализировала «сигнатуру кода» {place}. Начала сканирование на наличие аномалий, продвигаясь сквозь тени.",
+          "Я почувствовала искажение в эфире {place}... это напомнило то, что Хранитель из далекой страны назвал бы «разломом». Мои ноги уже коснулись земли.",
+          "Мне не нужен был зеленый камень, чтобы увидеть логику защитных систем {place}; я расшифровывала слои во время движения.",
+          "Я вошла в {place}. Тишина здесь была алгоритмом, который я намерена решить, шаг за шагом.",
+          "Статическое электричество в {place} было завораживающим. Я последовала за самым высоким напряжением, проникая в самое сердце зоны поиска.",
+          "Я вспомнила одну архимагиню, которая говорила, что «изучение — лучшая защита»; я занесла в каталог каждый сантиметр {place}.",
+          " Многие искали бы путь домой, как юнцы, потерявшиеся в королевстве драконов, но я сосредоточилась только на каждом шаге, сделанном в {place}."
         ],
         "zh": [
-          "{location}的玛那流向遵循了阻力最小的路径；我恰好踏在电路闭合的地方。",
-          "我跨过了{location}的门槛。地形的几何图案表明，这里的结构比地图显示的要复杂得多。",
-          "正如一位拿着法杖、蓄着白胡子的老智者所说，法师从不迟到；我刚刚确立了自己在{location}的精确坐标。",
-          "我分析了{location}的“代码签名”。在阴影中行进时，我开始了异常扫描。",
-          "我感觉到了{location}以太中的一种扭曲……这让我想起远方土地的守护者会称之为“裂缝”的东西。我的脚已经踏上了这片土地。",
-          "我不需要绿宝石也能看穿{location}防御背后的逻辑；我在移动中破解了这些层级。",
-          "进入{location}。这里的宁静是一个我打算解开的算法，一步一个脚印。",
-          "{location}的静电非常迷人。我顺着最高电压的方向，深入搜索区的核心。",
-          "我想起一位大法师曾说过“研究是最好的防御”；我记录了{location}的每一寸土地。",
-          "许多人会寻找回家的路，就像在巨龙国度迷路的孩子一样，但我只专注于在{location}迈出的每一步。"
+          "{place}的玛那流向遵循了阻力最小的路径；我恰好踏在电路闭合的地方。",
+          "我跨过了{place}的门槛。地形的几何图案表明，这里的结构比地图显示的要复杂得多。",
+          "正如一位拿着法杖、蓄着白胡子的老智者所说，法师从不迟到；我刚刚确立了自己在{place}的精确坐标。",
+          "我分析了{place}的“代码签名”。在阴影中行进时，我开始了异常扫描。",
+          "我感觉到了{place}以太中的一种扭曲……这让我想起远方土地的守护者会称之为“裂缝”的东西。我的脚已经踏上了这片土地。",
+          "我不需要绿宝石也能看穿{place}防御背后的逻辑；我在移动中破解了这些层级。",
+          "进入{place}。这里的宁静是一个我打算解开的算法，一步一个脚印。",
+          "{place}的静电非常迷人。我顺着最高电压的方向，深入搜索区的核心。",
+          "我想起一位大法师曾说过“研究是最好的防御”；我记录了{place}的每一寸土地。",
+          "许多人会寻找回家的路，就像在巨龙国度迷路的孩子一样，但我只专注于在{place}迈出的每一步。"
         ],
         "ja": [
-          "{location}のマナの流れは、抵抗の最も少ない道を選んでいました。私は回路が閉じる正確な場所に足を踏み入れました。",
-          "{location}の境界を越えました。地形の幾何学的なパターンは、ここの構造が地図で示唆されていたよりも複雑であることを示しています。",
-          "杖を突き白い髭を蓄えた老賢者が言うように、魔法使いは決して遅刻しません。{location}での正確な座標を確立したところです。",
-          "{location}の「コード署名」を分析しました。影の間を進みながら、異常の走査を開始しました。",
-          "{location}のエーテルに歪みを感じました……遠い地の守護者が「裂け目」と呼ぶであろうものを思い出させます。私の足はすでに地面に触れています。",
-          "{location}の防御の背後にある論理を見抜くのに、緑の石は必要ありませんでした。移動しながらその層を解読しました。",
-          "{location}に入りました。ここの静寂は、一歩ずつ解決すべきアルゴリズムのようでした。",
-          "{location}の静電気は魅力的でした。最も高い電圧を追い、探索ゾーンの核心部へと入り込みました。",
-          "「学びこそが最善の防御である」と言ったある大魔導師のことを思い出しました。{location}の隅々までカタログ化しました。",
-          "多くの者は、ドラゴンの王国で迷子になった若者のように帰り道を探すでしょうが、私は{location}で踏み出す一歩一歩にのみ集中しました。"
+          "{place}のマナの流れは、抵抗の最も少ない道を選んでいました。私は回路が閉じる正確な場所に足を踏み入れました。",
+          "{place}の境界を越えました。地形の幾何学的なパターンは、ここの構造が地図で示唆されていたよりも複雑であることを示しています。",
+          "杖を突き白い髭を蓄えた老賢者が言うように、魔法使いは決して遅刻しません。{place}での正確な座標を確立したところです。",
+          "{place}の「コード署名」を分析しました。影の間を進みながら、異常の走査を開始しました。",
+          "{place}のエーテルに歪みを感じました……遠い地の守護者が「裂け目」と呼ぶであろうものを思い出させます。私の足はすでに地面に触れています。",
+          "{place}の防御の背後にある論理を見抜くのに、緑の石は必要ありませんでした。移動しながらその層を解読しました。",
+          "{place}に入りました。ここの静寂は、一歩ずつ解決すべきアルゴリズムのようでした。",
+          "{place}の静電気は魅力的でした。最も高い電圧を追い、探索ゾーンの核心部へと入り込みました。",
+          "「学びこそが最善の防御である」と言ったある大魔導師のことを思い出しました。{place}の隅々までカタログ化しました。",
+          "多くの者は、ドラゴンの王国で迷子になった若者のように帰り道を探すでしょうが、私は{place}で踏み出す一歩一歩にのみ集中しました。"
         ]
       },
       "group": {
         "pt": [
-          "Mantivemos a formação ao entrar d{location}. O grupo agora é um sistema fechado; não permitam quedas de tensão.",
-          "Avancei com o grupo d{location}. Como um mestre de escola de magia diria: 'fiquem juntos e vigiem as sombras'.",
-          "Analisei o posicionamento de todos d{location}. Vocês são as variáveis que protegem o núcleo deste algoritmo.",
-          "Entramos d{location}. Se houver um 'traidor' ou uma fenda em nossa lógica, como na torre de magos, eu os detectarei.",
-          "Coordenei nossa chegada d{location}. Lembrem-se: o segredo não é a força bruta, mas a solução elegante para o caos.",
-          "Vi os fios do destino se entrelaçarem enquanto entramos d{location}. Mantenham-se nos pontos de menor resistência.",
-          "Guiei o grupo através da entrada d{location}. Mesmo sem um guia de túnica vermelha, nossa rota foi calculada.",
-          "Observei o comportamento da equipe d{location}. A eficiência do nosso 'party' depende da anulação de ruídos externos.",
-          "Distribuí as frequências de vigia d{location}. Cada um de vocês é um nó essencial nesta rede de combate.",
-          "Pisei d{location} com o grupo. Estudei o terreno; agora, movam-se como engrenagens de um relógio alquímico."
+          "Mantivemos a formação ao entrar {na_place}. O grupo agora é um sistema fechado; não permitam quedas de tensão.",
+          "Avancei com o grupo {na_place}. Como um mestre de escola de magia diria: 'fiquem juntos e vigiem as sombras'.",
+          "Analisei o posicionamento de todos {na_place}. Vocês são as variáveis que protegem o núcleo deste algoritmo.",
+          "Entramos {na_place}. Se houver um 'traidor' ou uma fenda em nossa lógica, como na torre de magos, eu os detectarei.",
+          "Coordenei nossa chegada {na_place}. Lembrem-se: o segredo não é a força bruta, mas a solução elegante para o caos.",
+          "Vi os fios do destino se entrelaçarem enquanto entramos {na_place}. Mantenham-se nos pontos de menor resistência.",
+          "Guiei o grupo através da entrada {na_place}. Mesmo sem um guia de túnica vermelha, nossa rota foi calculada.",
+          "Observei o comportamento da equipe {na_place}. A eficiência do nosso 'party' depende da anulação de ruídos externos.",
+          "Distribuí as frequências de vigia {na_place}. Cada um de vocês é um nó essencial nesta rede de combate.",
+          "Pisei {na_place} com o grupo. Estudei o terreno; agora, movam-se como engrenagens de um relógio alquímico."
         ],
         "en": [
-          "We maintained formation upon entering {location}. The group is now a closed system; do not allow any voltage drops.",
-          "I advanced with the group through {location}. As a magic school master would say: 'stay together and watch the shadows'.",
-          "I analyzed everyone's positioning at {location}. You are the variables that protect the core of this algorithm.",
-          "We entered {location}. If there is a 'traitor' or a rift in our logic, like in the wizards' tower, I will detect them.",
-          "I coordinated our arrival at {location}. Remember: the secret is not brute force, but the elegant solution to chaos.",
-          "I saw the threads of fate intertwine as we entered {location}. Stay within the points of least resistance.",
-          "I guided the group through the entrance of {location}. Even without a red-robed guide, our route was calculated.",
-          "I observed the team's behavior at {location}. The efficiency of our 'party' depends on the cancellation of external noise.",
-          "I distributed the watch frequencies at {location}. Each of you is an essential node in this combat network.",
-          "I stepped into {location} with the group. I studied the terrain; now, move like gears of an alchemical clock."
+          "We maintained formation upon entering {place}. The group is now a closed system; do not allow any voltage drops.",
+          "I advanced with the group through {place}. As a magic school master would say: 'stay together and watch the shadows'.",
+          "I analyzed everyone's positioning at {place}. You are the variables that protect the core of this algorithm.",
+          "We entered {place}. If there is a 'traitor' or a rift in our logic, like in the wizards' tower, I will detect them.",
+          "I coordinated our arrival at {place}. Remember: the secret is not brute force, but the elegant solution to chaos.",
+          "I saw the threads of fate intertwine as we entered {place}. Stay within the points of least resistance.",
+          "I guided the group through the entrance of {place}. Even without a red-robed guide, our route was calculated.",
+          "I observed the team's behavior at {place}. The efficiency of our 'party' depends on the cancellation of external noise.",
+          "I distributed the watch frequencies at {place}. Each of you is an essential node in this combat network.",
+          "I stepped into {place} with the group. I studied the terrain; now, move like gears of an alchemical clock."
         ],
         "es": [
-          "Mantuvimos la formación al entrar en {location}. El grupo ahora es un sistema cerrado; no permitan caídas de tensión.",
-          "Avancé con el grupo por {location}. Como diría un maestro de escuela de magia: 'permanezcan juntos y vigilen las sombras'.",
-          "Analicé el posicionamiento de todos en {location}. Ustedes son las variables que protegen el núcleo de este algoritmo.",
-          "Entramos en {location}. Si hay un 'traidor' o una grieta en nuestra lógica, como en la torre de magos, lo detectaré.",
-          "Coordiné nuestra llegada a {location}. Recuerden: el secreto no es la fuerza bruta, sino la solución elegante para el caos.",
-          "Vi los hilos del destino entrelazarse mientras entrábamos en {location}. Manténganse en los puntos de menor resistencia.",
-          "Guié al grupo a través de la entrada de {location}. Incluso sin un guía de túnica roja, nuestra ruta fue calculada.",
-          "Observé el comportamiento del equipo en {location}. La eficiencia de nuestro 'party' depende de la anulación de ruidos externos.",
-          "Distribuí las frecuencias de vigilancia en {location}. Cada uno de ustedes es un nodo esencial en esta red de combate.",
-          "Pisé {location} con el grupo. Estudié el terreno; ahora, muévanse como engranajes de un reloj alquímico."
+          "Mantuvimos la formación al entrar en {a_place}. El grupo ahora es un sistema cerrado; no permitan caídas de tensión.",
+          "Avancé con el grupo por {a_place}. Como diría un maestro de escuela de magia: 'permanezcan juntos y vigilen las sombras'.",
+          "Analicé el posicionamiento de todos {na_place}. Ustedes son las variables que protegen el núcleo de este algoritmo.",
+          "Entramos en {a_place}. Si hay un 'traidor' o una grieta en nuestra lógica, como en la torre de magos, lo detectaré.",
+          "Coordiné nuestra llegada {ao_place}. Recuerden: el secreto no es la fuerza bruta, sino la solución elegante para el caos.",
+          "Vi los hilos del destino entrelazarse mientras entrábamos {na_place}. Manténganse en los puntos de menor resistencia.",
+          "Guié al grupo a través de la entrada {da_place}. Incluso sin un guía de túnica roja, nuestra ruta fue calculada.",
+          "Observé el comportamiento del equipo {na_place}. La eficiencia de nuestro 'party' depende de la anulación de ruidos externos.",
+          "Distribuí las frecuencias de vigilancia {na_place}. Cada uno de ustedes es un nodo esencial en esta red de combate.",
+          "Pisé {a_place} con el grupo. Estudié el terreno; ahora, muévanse como engranajes de un reloj alquímico."
         ],
         "ru": [
-          "Мы сохраняли строй при входе в {location}. Группа теперь — замкнутая система; не допускайте падения напряжения.",
-          "Я продвигалась с группой через {location}. Как сказал бы мастер школы магии: «держитесь вместе и следите за тенями».",
-          "Я проанализировала расстановку всех в {location}. Вы — переменные, которые защищают ядро этого алгоритма.",
-          "Мы вошли в {location}. Если здесь есть «предатель» или брешь в нашей логике, как в башне магов, я их обнаружу.",
-          "Я координировала наше прибытие в {location}. Помните: секрет не в грубой силе, а в элегантном решении хаоса.",
-          "Я видела, как переплетаются нити судьбы, когда мы входили в {location}. Держитесь точек наименьшего сопротивления.",
-          "Я вела группу через вход в {location}. Даже без проводника в красной мантии наш маршрут был просчитан.",
-          "Я наблюдала за поведением команды в {location}. Эффективность нашей группы зависит от устранения внешних шумов.",
-          "Я распределила частоты дозора в {location}. Каждый из вас — важный узел в этой боевой сети.",
-          "Я ступила в {location} вместе с группой. Я изучила местность; теперь двигайтесь как шестеренки алхимических часов."
+          "Мы сохраняли строй при входе в {place}. Группа теперь — замкнутая система; не допускайте падения напряжения.",
+          "Я продвигалась с группой через {place}. Как сказал бы мастер школы магии: «держитесь вместе и следите за тенями».",
+          "Я проанализировала расстановку всех в {place}. Вы — переменные, которые защищают ядро этого алгоритма.",
+          "Мы вошли в {place}. Если здесь есть «предатель» или брешь в нашей логике, как в башне магов, я их обнаружу.",
+          "Я координировала наше прибытие в {place}. Помните: секрет не в грубой силе, а в элегантном решении хаоса.",
+          "Я видела, как переплетаются нити судьбы, когда мы входили в {place}. Держитесь точек наименьшего сопротивления.",
+          "Я вела группу через вход в {place}. Даже без проводника в красной мантии наш маршрут был просчитан.",
+          "Я наблюдала за поведением команды в {place}. Эффективность нашей группы зависит от устранения внешних шумов.",
+          "Я распределила частоты дозора в {place}. Каждый из вас — важный узел в этой боевой сети.",
+          "Я ступила в {place} вместе с группой. Я изучила местность; теперь двигайтесь как шестеренки алхимических часов."
         ],
         "zh": [
-          "进入{location}时我们保持了阵型。现在队伍是一个封闭系统；不许出现电压下降。",
-          "我带着队伍穿过{location}。就像魔法学校的大师会说的那样：“聚在一起，留意阴影。”",
-          "我分析了大家在{location}的站位。你们是保护这个算法核心的变量。",
-          "我们进入了{location}。如果我们的逻辑中存在“叛徒”或裂缝，就像在法师塔里一样，我会检测到他们。",
-          "我协调了我们在{location}的到达。请记住：秘密不在于蛮力，而在于解决混沌的优雅方案。",
-          "当我们进入{location}时，我看到命运之线相互交织。保持在阻力最小的点上。",
-          "我带领队伍通过了{location}的入口。即使没有红袍向导，我们的路线也是经过计算的。",
-          "我观察了小队在{location}的表现。我们“小队”的效率取决于外部噪音的消除。",
-          "我分配了在{location}的警戒频率。你们每一个人都是这个战斗网络中必不可少的节点。",
-          "我和队伍一起踏入{location}。我研究了地形；现在，像炼金钟表的齿轮一样行动吧。"
+          "进入{place}时我们保持了阵型。现在队伍是一个封闭系统；不许出现电压下降。",
+          "我带着队伍穿过{place}。就像魔法学校的大师会说的那样：“聚在一起，留意阴影。”",
+          "我分析了大家在{place}的站位。你们是保护这个算法核心的变量。",
+          "我们进入了{place}。如果我们的逻辑中存在“叛徒”或裂缝，就像在法师塔里一样，我会检测到他们。",
+          "我协调了我们在{place}的到达。请记住：秘密不在于蛮力，而在于解决混沌的优雅方案。",
+          "当我们进入{place}时，我看到命运之线相互交织。保持在阻力最小的点上。",
+          "我带领队伍通过了{place}的入口。即使没有红袍向导，我们的路线也是经过计算的。",
+          "我观察了小队在{place}的表现。我们“小队”的效率取决于外部噪音的消除。",
+          "我分配了在{place}的警戒频率。你们每一个人都是这个战斗网络中必不可少的节点。",
+          "我和队伍一起踏入{place}。我研究了地形；现在，像炼金钟表的齿轮一样行动吧。"
         ],
         "ja": [
-          "{location}に入るとき、私たちは陣形を維持しました。グループは今や閉じたシステムです。電圧降下を許してはいけません。",
-          "グループと共に{location}を進みました。魔法学校の師範が言うように、「一丸となって影を警戒せよ」です。",
-          "{location}での全員の配置を分析しました。あなたたちはこのアルゴリズムの核を守る変数なのです。",
-          "{location}に入りました。もし魔術師の塔のように、私たちの論理に「裏切り者」や裂け目があるなら、私が検知します。",
-          "{location}への到着を調整しました。忘れないでください。秘訣は蛮力ではなく、混沌に対する優雅な解決策なのです。",
-          "{location}に入る際、運命の糸が絡み合うのを見ました。抵抗の最も少ない地点を維持してください。",
-          "グループを導いて{location}の入り口を通過しました。赤いローブのガイドがいなくとも、ルートは計算済みです。",
-          "{location}でのチームの行動を観察しました。パーティーの効率は、外部ノイズの遮断にかかっています。",
-          "{location}での警戒周波数を割り当てました。あなたたち一人一人が、この戦闘ネットワークにおける不可欠なノード（節）です。",
-          "グループと共に{location}に足を踏み入れました。地形は学習済みです。さあ、錬金時計の歯車のように動きなさい。"
+          "{place}に入るとき、私たちは陣形を維持しました。グループは今や閉じたシステムです。電圧降下を許してはいけません。",
+          "グループと共に{place}を進みました。魔法学校の師範が言うように、「一丸となって影を警戒せよ」です。",
+          "{place}での全員の配置を分析しました。あなたたちはこのアルゴリズムの核を守る変数なのです。",
+          "{place}に入りました。もし魔術師の塔のように、私たちの論理に「裏切り者」や裂け目があるなら、私が検知します。",
+          "{place}への到着を調整しました。忘れないでください。秘訣は蛮力ではなく、混沌に対する優雅な解決策なのです。",
+          "{place}に入る際、運命の糸が絡み合うのを見ました。抵抗の最も少ない地点を維持してください。",
+          "グループを導いて{place}の入り口を通過しました。赤いローブのガイドがいなくとも、ルートは計算済みです。",
+          "{place}でのチームの行動を観察しました。パーティーの効率は、外部ノイズの遮断にかかっています。",
+          "{place}での警戒周波数を割り当てました。あなたたち一人一人が、この戦闘ネットワークにおける不可欠なノード（節）です。",
+          "グループと共に{place}に足を踏み入れました。地形は学習済みです。さあ、錬金時計の歯車のように動きなさい。"
         ]
       }
     },
@@ -284,40 +284,28 @@
       "fight": {
         "alone": {
           "pt": [
-            "Iniciei a sequência de descarga contra o {enemy}. O ar estalou como o cajado de um velho mago no abismo negro.",
-            "Tracei os glifos de contenção sobre o {enemy}. Canalizei a energia como se estivesse abrindo um portal para o monastério oculto.",
-            "Invoquei o fluxo elétrico para atingir o {enemy}. Segui o conselho de uma arquimaga: foquei na precisão antes do impacto.",
-            "Movi as mãos em padrões geométricos contra o {enemy}. O caos do alvo se tornou apenas mais um algoritmo para eu resolver.",
-            "Liberei uma centelha de alta voltagem no {enemy}. Reagi como um Guardião das terras renegadas diante de uma anomalia abissal.",
-            "Analisei a resistência do {enemy}. Preparei o feitiço com a paciência de quem ensina em uma escola de magia e bruxaria.",
-            "Descarreguei minha reserva de mana contra o {enemy}. Corri como se estivesse fugindo de um destino selado por uma joia do tempo.",
-            "Projetei as correntes de relâmpago no {enemy}. Mesmo sem um guia de túnica vermelha, encontrei o ponto crítico do adversário.",
-            "Manipulei os fios de energia ao redor do {enemy}. Foi uma dança de elétrons matemática, como os ensinamentos do mago conselheiro real.",
-            "Disparei o pulso arcano diretamente no {enemy}. O ambiente reagiu à minha vontade, submetendo a física à minha lógica."
-          ],
-          "en": [
-            "I initiated the discharge sequence against {enemy}. The air crackled like an old wizard's staff in the black abyss.",
-            "I traced the containment glyphs over {enemy}. I channeled the energy as if opening a portal to the hidden monastery.",
-            "I invoked the electric flow to hit {enemy}. Following an archmage's advice: I focused on precision before impact.",
-            "I moved my hands in geometric patterns against {enemy}. The target's chaos became just another algorithm for me to solve.",
-            "I released a high-voltage spark at {enemy}. I reacted like a Guardian of the renegade lands facing an abyssal anomaly.",
-            "I analyzed {enemy}'s resistance. I prepared the spell with the patience of one who teaches at a school of witchcraft and wizardry.",
-            "I discharged my mana reserve against {enemy}. I ran as if escaping a fate sealed by a time stone.",
-            "I projected lightning chains at {enemy}. Even without a red-robed guide, I found the adversary's critical point.",
-            "I manipulated the energy threads around {enemy}. It was a mathematical dance of electrons, like the teachings of the royal advisor mage.",
-            "I fired the arcane pulse directly at {enemy}. The environment reacted to my will, subjecting physics to my logic."
+            "Iniciei a sequência de descarga contra {a_place}. O ar estalou como o cajado de um velho mago no abismo negro.",
+            "Tracei os glifos de contenção sobre {a_place}. Canalizei a energia como se estivesse abrindo um portal para o monastério oculto.",
+            "Invoquei o fluxo elétrico para atingir {a_place}. Segui o conselho de uma arquimaga: foquei na precisão antes do impacto.",
+            "Movi as mãos em padrões geométricos contra {a_place}. O caos do alvo se tornou apenas mais um algoritmo para eu resolver.",
+            "Liberei uma centelha de alta voltagem {na_place}. Reagi como um Guardião das terras renegadas diante de uma anomalia abissal.",
+            "Analisei a resistência {da_place}. Preparei o feitiço com a paciência de quem ensina em uma escola de magia e bruxaria.",
+            "Descarreguei minha reserva de mana contra {a_place}. Corri como se estivesse fugindo de um destino selado por uma joia do tempo.",
+            "Projetei as correntes de relâmpago {na_place}. Mesmo sem um guia de túnica vermelha, encontrei o ponto crítico do adversário.",
+            "Manipulei os fios de energia ao redor {da_place}. Foi uma dança de elétrons matemática, como os ensinamentos do mago conselheiro real.",
+            "Disparei o pulso arcano diretamente {na_place}. O ambiente reagiu à minha vontade, submetendo a física à minha lógica."
           ],
           "es": [
-            "Inicié la secuencia de descarga contra {enemy}. El aire restalló como el báculo de un viejo mago en el abismo negro.",
-            "Tracé los glifos de contención sobre {enemy}. Canalicé la energía como si estuviera abriendo un portal al monasterio oculto.",
-            "Invoqué el flujo eléctrico para golpear a {enemy}. Seguí el consejo de una archimaga: me enfoqué en la precisión antes del impacto.",
-            "Moví las manos en patrones geométricos contra {enemy}. El caos del objetivo se convirtió en solo un algoritmo más para resolver.",
-            "Liberé una chispa de alto voltaje en {enemy}. Reaccioné como un Guardián de las tierras renegadas ante una anomalía abisal.",
-            "Analicé la resistencia de {enemy}. Preparé el hechizo con la paciencia de quien enseña en una escuela de magia y hechicería.",
-            "Descargué mi reserva de maná contra {enemy}. Corrí como si escapara de un destino sellado por una gema del tiempo.",
-            "Proyecté las cadenas de rayos en {enemy}. Incluso sin un guía de túnica roja, encontré el punto crítico del adversario.",
-            "Manipulé los hilos de energía alrededor de {enemy}. Fue una danza de electrones matemática, como las enseñanzas del mago consejero real.",
-            "Disparé el pulso arcano directamente a {enemy}. El entorno reaccionó a mi voluntad, sometiendo la física a mi lógica."
+            "Inicié la secuencia de descarga contra {o_enemy}. El aire restalló como el báculo de un viejo mago en el abismo negro.",
+            "Tracé los glifos de contención sobre {o_enemy}. Canalicé la energía como si estuviera abriendo un portal al monasterio oculto.",
+            "Invoqué el flujo eléctrico para golpear a {o_enemy}. Seguí el consejo de una archimaga: me enfoqué en la precisión antes del impacto.",
+            "Moví las manos en patrones geométricos contra {o_enemy}. El caos del objetivo se convirtió en solo un algoritmo más para resolver.",
+            "Liberé una chispa de alto voltaje en {no_enemy}. Reaccioné como un Guardián de las tierras renegadas ante una anomalía abisal.",
+            "Analicé la resistencia de {do_enemy}. Preparé el hechizo con la paciencia de quien enseña en una escuela de magia y hechicería.",
+            "Descargué mi reserva de maná contra {o_enemy}. Corrí como si escapara de un destino sellado por una gema del tiempo.",
+            "Proyecté las cadenas de rayos en {no_enemy}. Incluso sin un guía de túnica roja, encontré el punto crítico del adversario.",
+            "Manipulé los hilos de energía alrededor de {do_enemy}. Fue una danza de electrones matemática, como las enseñanzas del mago consejero real.",
+            "Disparé el pulso arcano directamente a {ao_enemy}. El entorno reaccionó a mi voluntad, sometiendo la física a mi lógica."
           ],
           "ru": [
             "Я начала последовательность разряда против {enemy}. Воздух трещал, как посох старого мага в черной бездне.",
@@ -354,20 +342,32 @@
             "{enemy}に稲妻の連鎖を投影しました。赤いローブのガイドがいなくとも、敵の急所を見つけ出しました。",
             "{enemy}の周囲のエネルギー糸を操りました。それは王室顧問魔導師の教えのような、数学的な電子の舞いでした。",
             "{enemy}に直接アルケインパルスを放ちました。周囲は私の意志に反応し、物理法則を私の論理に従わせました。"
+          ],
+          "en": [
+            "I initiated the discharge sequence against {enemy}. The air crackled like the staff of an old mage in the black abyss.",
+            "I traced containment glyphs over {enemy}. I channeled the energy as if opening a portal to the hidden monastery.",
+            "I invoked the electric flow to strike {enemy}. Following the advice of an archmage: I focused on precision before impact.",
+            "I moved my hands in geometric patterns against {enemy}. The target's chaos became just another algorithm for me to solve.",
+            "I released a high-voltage spark at {enemy}. I reacted like a Guardian of the forsaken lands facing an abyssal anomaly.",
+            "I analyzed the resistance of {enemy}. I prepared the spell with the patience of someone teaching at a school of magic and sorcery.",
+            "I discharged my mana reserve against {enemy}. I ran as if escaping from a fate sealed by a time gem.",
+            "I projected chains of lightning at {enemy}. Even without a red-robed guide, I found the opponent's critical point.",
+            "I manipulated the energy threads around {enemy}. It was a mathematical dance of electrons, like the teachings of the royal mage advisor.",
+            "I fired the arcane pulse directly at {enemy}. The environment reacted to my will, subjecting physics to my logic."
           ]
         },
         "group": {
           "pt": [
-            "Comandei o início da ofensiva contra o {enemy}. Atuei como o núcleo de um circuito, distribuindo a carga entre meus aliados.",
-            "Gritei as coordenadas para o ataque ao {enemy}. 'Fiquem juntos!', como diria um mago grisalho diante de uma ponte caída.",
-            "Sincronizei meus disparos no {enemy} com o grupo. Somos engrenagens de um sistema; a falha de um é a falha de todos.",
-            "Abri o caminho contra o {enemy} com uma explosão. Mostrei a eles que, em grupo, a lógica supera a força bruta.",
-            "Intervi no fluxo de combate contra o {enemy}. Protegi as variáveis vulneráveis do grupo com uma barreira de relâmpago.",
-            "Liderei a carga arcana sobre o {enemy}. Transformei o grupo em uma força-tarefa digna de uma cidade flutuante de magos.",
-            "Ajustei minha frequência à dos companheiros para cercar o {enemy}. O combate é uma equação que resolvemos em conjunto.",
-            "Apontei as falhas na guarda do {enemy}. Dei a ordem como uma mestra que não tolera erros em sua sala de aula.",
-            "Lancei as faíscas que guiaram o ataque ao {enemy}. Fomos a tempestade que nenhum algoritmo inimigo pôde prever.",
-            "Organizei a retaliação contra o {enemy}. Como em um jogo de xadrez de bruxo, cada movimento nosso foi calculado."
+            "Comandei o início da ofensiva contra {a_place}. Atuei como o núcleo de um circuito, distribuindo a carga entre meus aliados.",
+            "Gritei as coordenadas para o ataque {ao_place}. 'Fiquem juntos!', como diria um mago grisalho diante de uma ponte caída.",
+            "Sincronizei meus disparos {na_place} com o grupo. Somos engrenagens de um sistema; a falha de um é a falha de todos.",
+            "Abri o caminho contra {a_place} com uma explosão. Mostrei a eles que, em grupo, a lógica supera a força bruta.",
+            "Intervi no fluxo de combate contra {a_place}. Protegi as variáveis vulneráveis do grupo com uma barreira de relâmpago.",
+            "Liderei a carga arcana sobre {a_place}. Transformei o grupo em uma força-tarefa digna de uma cidade flutuante de magos.",
+            "Ajustei minha frequência à dos companheiros para cercar {a_place}. O combate é uma equação que resolvemos em conjunto.",
+            "Apontei as falhas na guarda {da_place}. Dei a ordem como uma mestra que não tolera erros em sua sala de aula.",
+            "Lancei as faíscas que guiaram o ataque {ao_place}. Fomos a tempestade que nenhum algoritmo inimigo pôde prever.",
+            "Organizei a retaliação contra {a_place}. Como em um jogo de xadrez de bruxo, cada movimento nosso foi calculado."
           ],
           "en": [
             "I commanded the start of the offensive against {enemy}. I acted as the core of a circuit, distributing the charge among my allies.",
@@ -380,18 +380,6 @@
             "I pointed out the flaws in {enemy}'s guard. I gave the order like a mistress who tolerates no mistakes in her classroom.",
             "I launched the sparks that guided the attack on {enemy}. We were the storm that no enemy algorithm could predict.",
             "I organized the retaliation against {enemy}. As in a wizard's chess game, every move of ours was calculated."
-          ],
-          "es": [
-            "Comandé el inicio de la ofensiva contra {enemy}. Actué como el núcleo de un circuito, distribuyendo la carga entre mis aliados.",
-            "Grité las coordenadas para el ataque a {enemy}. '¡Manténganse juntos!', como diría un mago gris ante un puente caído.",
-            "Sincronicé mis disparos a {enemy} con el grupo. Somos engranajes de un sistema; el fallo de uno es el fallo de todos.",
-            "Abrí el camino contra {enemy} con una explosión. Les mostré que, en grupo, la lógica supera la fuerza bruta.",
-            "Intervine en el flujo de combate contra {enemy}. Protegí las variables vulnerables del grupo con una barrera de rayos.",
-            "Lideré la carga arcana sobre {enemy}. Transformé al grupo en una fuerza de choque digna de una ciudad flotante de magos.",
-            "Ajusté mi frecuencia a la de mis compañeros para rodear a {enemy}. El combate es una ecuación que resolvemos en conjunto.",
-            "Señalé los fallos en la guardia de {enemy}. Di la orden como una maestra que no tolera errores en su salón de clases.",
-            "Lancé las chispas que guiaron el ataque a {enemy}. Fuimos la tormenta que ningún algoritmo enemigo pudo predecir.",
-            "Organicé la represalia contra {enemy}. Como en un juego de ajedrez de brujo, cada uno de nuestros movimientos fue calculado."
           ],
           "ru": [
             "Я скомандовала начало наступления на {enemy}. Я действовала как ядро цепи, распределяя заряд между союзниками.",
@@ -434,102 +422,102 @@
       "arcana": {
         "alone":{
         "pt": [
-          "Ajustei a ressonância mágica para decifrar {challenge}. Segui o fluxo do éter como se estivesse diante da biblioteca de uma cidade flutuante.",
-          "Manipulei as correntes de energia que envolviam {challenge}. Busquei a solução elegante, tal qual um mestre supremo lidando com fendas dimensionais.",
-          "Iniciei a varredura de padrões arcanos n{challenge}. O código místico aqui foi tão complexo quanto os antigos manuscritos de um conselheiro real."
+          "Ajustei a ressonância mágica para decifrar {subject}. Segui o fluxo do éter como se estivesse diante da biblioteca de uma cidade flutuante.",
+          "Manipulei as correntes de energia que envolviam {subject}. Busquei a solução elegante, tal qual um mestre supremo lidando com fendas dimensionais.",
+          "Iniciei a varredura de padrões arcanos n{subject}. O código místico aqui foi tão complexo quanto os antigos manuscritos de um conselheiro real."
         ],
         "en": [
-          "I adjusted the magical resonance to decipher {challenge}. I followed the ether flow as if I were before the library of a floating city.",
-          "I manipulated the energy currents surrounding {challenge}. I sought the elegant solution, just like a supreme master dealing with dimensional rifts.",
-          "I initiated a scan of arcane patterns in {challenge}. The mystical code here was as complex as the ancient manuscripts of a royal advisor."
+          "I adjusted the magical resonance to decipher {subject}. I followed the ether flow as if I were before the library of a floating city.",
+          "I manipulated the energy currents surrounding {subject}. I sought the elegant solution, just like a supreme master dealing with dimensional rifts.",
+          "I initiated a scan of arcane patterns in {subject}. The mystical code here was as complex as the ancient manuscripts of a royal advisor."
         ],
         "es": [
-          "Ajusté la resonancia mágica para descifrar {challenge}. Seguí el flujo del éter como si estuviera ante la biblioteca de una ciudad flotante.",
-          "Manipulé las corrientes de energía que rodeaban {challenge}. Busqué la solución elegante, tal como un maestro supremo lidiando con grietas dimensionales.",
-          "Inicié el escaneo de patrones arcanos en {challenge}. El código místico aquí era tan complejo como los antiguos manuscritos de un consejero real."
+          "Ajusté la resonancia mágica para descifrar {subject}. Seguí el flujo del éter como si estuviera ante la biblioteca de una ciudad flotante.",
+          "Manipulé las corrientes de energía que rodeaban {subject}. Busqué la solución elegante, tal como un maestro supremo lidiando con grietas dimensionales.",
+          "Inicié el escaneo de patrones arcanos en {subject}. El código místico aquí era tan complejo como los antiguos manuscritos de un consejero real."
         ],
         "ru": [
-          "Я настроила магический резонанс, чтобы расшифровать {challenge}. Я следовала за потоком эфира, словно стояла перед библиотекой парящего города.",
-          "Я манипулировала энергетическими потоками, окружавшими {challenge}. Я искала элегантное решение, подобно верховному мастеру, имеющему дело с пространственными разломами.",
-          "Я начала сканирование арканных паттернов в {challenge}. Мистический код здесь был таким же сложным, как древние рукописи королевского советника."
+          "Я настроила магический резонанс, чтобы расшифровать {subject}. Я следовала за потоком эфира, словно стояла перед библиотекой парящего города.",
+          "Я манипулировала энергетическими потоками, окружавшими {subject}. Я искала элегантное решение, подобно верховному мастеру, имеющему дело с пространственными разломами.",
+          "Я начала сканирование арканных паттернов в {subject}. Мистический код здесь был таким же сложным, как древние рукописи королевского советника."
         ],
         "zh": [
-          "我调整了魔力共振以破译{challenge}。我顺着以太的流动，仿佛置身于一座漂浮城市的图书馆前。",
-          "我操纵了围绕着{challenge}的能量流。我寻求着优雅的解决方案，就像一位处理空间裂缝的至尊大师。",
-          "我开始扫描{challenge}中的奥术模型。这里的神秘代码就像皇家顾问的古代手稿一样复杂。"
+          "我调整了魔力共振以破译{subject}。我顺着以太的流动，仿佛置身于一座漂浮城市的图书馆前。",
+          "我操纵了围绕着{subject}的能量流。我寻求着优雅的解决方案，就像一位处理空间裂缝的至尊大师。",
+          "我开始扫描{subject}中的奥术模型。这里的神秘代码就像皇家顾问的古代手稿一样复杂。"
         ],
         "ja": [
-          "{challenge}を解読するために魔法共鳴を調整しました。浮遊都市の図書館にいるかのように、エーテルの流れを追いました。",
-          "{challenge}を取り巻くエネルギー流を操作しました。次元の裂け目を扱う至高の魔導師のように、優雅な解決策を模索しました。",
-          "{challenge}のアルケインパターンの走査を開始しました。ここの神秘的なコードは、王室顧問の古文書と同じくらい複雑でした。"
+          "{subject}を解読するために魔法共鳴を調整しました。浮遊都市の図書館にいるかのように、エーテルの流れを追いました。",
+          "{subject}を取り巻くエネルギー流を操作しました。次元の裂け目を扱う至高の魔導師のように、優雅な解決策を模索しました。",
+          "{subject}のアルケインパターンの走査を開始しました。ここの神秘的なコードは、王室顧問の古文書と同じくらい複雑でした。"
         ]        
       }
       },
       "investigation": {
         "alone":{
         "pt": [
-          "Analisei os vestígios e as lacunas lógicas d{challenge}. Procurei por pistas ocultas como quem usa um artefato para enxergar além do tempo.",
-          "Decompus {challenge} em seus componentes básicos. Observei cada detalhe, ciente de que, como dizia um velho sábio, até o menor detalhe pode mudar o destino.",
-          "Rastreei a sequência de eventos que gerou {challenge}. Estudei as engrenagens dessa situação como se estivesse em uma sala de aula de magia e bruxaria."
+          "Analisei os vestígios e as lacunas lógicas d{subject}. Procurei por pistas ocultas como quem usa um artefato para enxergar além do tempo.",
+          "Decompus {subject} em seus componentes básicos. Observei cada detalhe, ciente de que, como dizia um velho sábio, até o menor detalhe pode mudar o destino.",
+          "Rastreei a sequência de eventos que gerou {subject}. Estudei as engrenagens dessa situação como se estivesse em uma sala de aula de magia e bruxaria."
         ],
         "en": [
-          "I analyzed the traces and logical gaps of {challenge}. I searched for hidden clues like someone using an artifact to see beyond time.",
-          "I decomposed {challenge} into its basic components. I observed every detail, aware that, as an old sage said, even the smallest detail can change destiny.",
-          "I traced the sequence of events that generated {challenge}. I studied the gears of this situation as if I were in a classroom of magic and witchcraft."
+          "I analyzed the traces and logical gaps of {subject}. I searched for hidden clues like someone using an artifact to see beyond time.",
+          "I decomposed {subject} into its basic components. I observed every detail, aware that, as an old sage said, even the smallest detail can change destiny.",
+          "I traced the sequence of events that generated {subject}. I studied the gears of this situation as if I were in a classroom of magic and witchcraft."
         ],
         "es": [
-          "Analicé los rastros y las lagunas lógicas de {challenge}. Busqué pistas ocultas como quien usa un artefacto para ver más allá del tiempo.",
-          "Descompuse {challenge} en sus componentes básicos. Observé cada detalle, consciente de que, como decía un viejo sabio, hasta el más mínimo detalle puede cambiar el destino.",
-          "Rastreé la secuencia de eventos que generó {challenge}. Estudié los engranajes de esta situación como si estuviera en un salón de clases de magia y hechicería."
+          "Analicé los rastros y las lagunas lógicas de {subject}. Busqué pistas ocultas como quien usa un artefacto para ver más allá del tiempo.",
+          "Descompuse {subject} en sus componentes básicos. Observé cada detalle, consciente de que, como decía un viejo sabio, hasta el más mínimo detalle puede cambiar el destino.",
+          "Rastreé la secuencia de eventos que generó {subject}. Estudié los engranajes de esta situación como si estuviera en un salón de clases de magia y hechicería."
         ],
         "ru": [
-          "Я проанализировала следы и логические пробелы в {challenge}. Я искала скрытые улики, подобно тому, кто использует артефакт, чтобы видеть сквозь время.",
-          "Я разложила {challenge} на базовые компоненты. Я наблюдала за каждой деталью, зная, что, как говорил старый мудрец, даже самая малая деталь может изменить судьбу.",
-          "Я проследила последовательность событий, породивших {challenge}. Я изучала шестеренки этой ситуации, словно находилась в классе чародейства и волшебства."
+          "Я проанализировала следы и логические пробелы в {subject}. Я искала скрытые улики, подобно тому, кто использует артефакт, чтобы видеть сквозь время.",
+          "Я разложила {subject} на базовые компоненты. Я наблюдала за каждой деталью, зная, что, как говорил старый мудрец, даже самая малая деталь может изменить судьбу.",
+          "Я проследила последовательность событий, породивших {subject}. Я изучала шестеренки этой ситуации, словно находилась в классе чародейства и волшебства."
         ],
         "zh": [
-          "我分析了{challenge}的痕迹和逻辑漏洞。我寻找着隐藏的线索，就像使用神器窥视时间彼岸的人一样。",
-          "我将{challenge}分解为基础组件。我观察每一个细节，深知正如一位老智者所说，哪怕是最小的细节也能改变命运。",
-          "我追踪了产生{challenge}的一系列事件。我研究着这种情况的齿轮，仿佛置身于魔法与巫术的课堂。"
+          "我分析了{subject}的痕迹和逻辑漏洞。我寻找着隐藏的线索，就像使用神器窥视时间彼岸的人一样。",
+          "我将{subject}分解为基础组件。我观察每一个细节，深知正如一位老智者所说，哪怕是最小的细节也能改变命运。",
+          "我追踪了产生{subject}的一系列事件。我研究着这种情况的齿轮，仿佛置身于魔法与巫术的课堂。"
         ],
         "ja": [
-          "{challenge}の痕跡と論理的な欠陥を分析しました。時の彼方を見るアーティファクトを使う者のように、隠された手がかりを探しました。",
-          "{challenge}を基本構成要素に分解しました。老賢者が言ったように、どんなに小さな細部でも運命を変えうることを意識しながら、すべてを観察しました。",
-          "{challenge}を引き起こした一連の出来事を追跡しました。魔法魔術学校の教室にいるかのように、この状況の歯車を研究しました。"
+          "{subject}の痕跡と論理的な欠陥を分析しました。時の彼方を見るアーティファクトを使う者のように、隠された手がかりを探しました。",
+          "{subject}を基本構成要素に分解しました。老賢者が言ったように、どんなに小さな細部でも運命を変えうることを意識しながら、すべてを観察しました。",
+          "{subject}を引き起こした一連の出来事を追跡しました。魔法魔術学校の教室にいるかのように、この状況の歯車を研究しました。"
         ]
       }
       },
       "alchemy": {
         "alone":{
         "pt": [
-          "Calculei as proporções exatas de reagentes para neutralizar {challenge}. Tratei a mistura como uma equação química que não admite erros.",
-          "Iniciei o processo de transmutação aplicado n{challenge}. Busquei o caminho de menor resistência molecular, uma técnica digna de um alquimista de elite.",
-          "Preparei o composto catalisador para interagir com {challenge}. Agi com a precisão de quem sabe que uma única gota errada causaria um desequilíbrio sistêmico."
+          "Calculei as proporções exatas de reagentes para neutralizar {subject}. Tratei a mistura como uma equação química que não admite erros.",
+          "Iniciei o processo de transmutação aplicado n{subject}. Busquei o caminho de menor resistência molecular, uma técnica digna de um alquimista de elite.",
+          "Preparei o composto catalisador para interagir com {subject}. Agi com a precisão de quem sabe que uma única gota errada causaria um desequilíbrio sistêmico."
         ],
         "en": [
-          "I calculated the exact proportions of reagents to neutralize {challenge}. I treated the mixture like a chemical equation that admits no errors.",
-          "I initiated the transmutation process applied to {challenge}. I sought the path of least molecular resistance, a technique worthy of an elite alchemist.",
-          "I prepared the catalyst compound to interact with {challenge}. I acted with the precision of someone who knows that a single wrong drop would cause a systemic imbalance."
+          "I calculated the exact proportions of reagents to neutralize {subject}. I treated the mixture like a chemical equation that admits no errors.",
+          "I initiated the transmutation process applied to {subject}. I sought the path of least molecular resistance, a technique worthy of an elite alchemist.",
+          "I prepared the catalyst compound to interact with {subject}. I acted with the precision of someone who knows that a single wrong drop would cause a systemic imbalance."
         ],
         "es": [
-          "Calculé las proporciones exactas de reactivos para neutralizar {challenge}. Traté la mezcla como una ecuación química que no admite errores.",
-          "Inicié el proceso de transmutación aplicado en {challenge}. Busqué el camino de menor resistencia molecular, una técnica digna de un alquimista de élite.",
-          "Preparé el compuesto catalizador para interactuar con {challenge}. Actué con la precisión de quien sabe que una sola gota errónea causaría un desequilibrio sistémico."
+          "Calculé las proporciones exactas de reactivos para neutralizar {subject}. Traté la mezcla como una ecuación química que no admite errores.",
+          "Inicié el proceso de transmutación aplicado en {subject}. Busqué el camino de menor resistencia molecular, una técnica digna de un alquimista de élite.",
+          "Preparé el compuesto catalizador para interactuar con {subject}. Actué con la precisión de quien sabe que una sola gota errónea causaría un desequilibrio sistémico."
         ],
         "ru": [
-          "Я рассчитала точные пропорции реагентов для нейтрализации {challenge}. Я относилась к смеси как к химическому уравнению, не допускающему ошибок.",
-          "Я начала процесс трансмутации, примененный к {challenge}. Я искала путь наименьшего молекулярного сопротивления — техника, достойная элитного алхимика.",
-          "Я подготовила каталитическое соединение для взаимодействия с {challenge}. Я действовала с точностью того, кто знает, что одна неверная капля вызовет системный дисбаланс."
+          "Я рассчитала точные пропорции реагентов для нейтрализации {subject}. Я относилась к смеси как к химическому уравнению, не допускающему ошибок.",
+          "Я начала процесс трансмутации, примененный к {subject}. Я искала путь наименьшего молекулярного сопротивления — техника, достойная элитного алхимика.",
+          "Я подготовила каталитическое соединение для взаимодействия с {subject}. Я действовала с точностью того, кто знает, что одна неверная капля вызовет системный дисбаланс."
         ],
         "zh": [
-          "我计算了中和{challenge}所需的反应剂精确比例。我像对待不容许出错的化学方程式一样对待混合物。",
-          "我开始了应用于{challenge}的嬗变过程。我寻找着分子阻力最小的路径，这是值得精锐炼金术士使用的技术。",
-          "我准备了与{challenge}相互作用的催化化合物。我的动作精准，因为深知哪怕一滴错误都会导致系统性失衡。"
+          "我计算了中和{subject}所需的反应剂精确比例。我像对待不容许出错的化学方程式一样对待混合物。",
+          "我开始了应用于{subject}的嬗变过程。我寻找着分子阻力最小的路径，这是值得精锐炼金术士使用的技术。",
+          "我准备了与{subject}相互作用的催化化合物。我的动作精准，因为深知哪怕一滴错误都会导致系统性失衡。"
         ],
         "ja": [
-          "{challenge}を中和するための試薬の正確な比率を計算しました。間違いが許されない化学反応式のように混合物を扱いました。",
-          "{challenge}に適用される錬成（変成）プロセスを開始しました。エリート錬金術師にふさわしい技術である、分子抵抗の最も少ない道を探りました。",
-          "{challenge}と反応させるための触媒化合物を準備しました。たった一滴の間違いがシステム全体の不均衡を招くことを知る者の正確さで行動しました。"
+          "{subject}を中和するための試薬の正確な比率を計算しました。間違いが許されない化学反応式のように混合物を扱いました。",
+          "{subject}に適用される錬成（変成）プロセスを開始しました。エリート錬金術師にふさわしい技術である、分子抵抗の最も少ない道を探りました。",
+          "{subject}と反応させるための触媒化合物を準備しました。たった一滴の間違いがシステム全体の不均衡を招くことを知る者の正確さで行動しました。"
         ]
       }
       }
@@ -573,32 +561,32 @@
         "group": {
           "pt": [
             "Aureth manteve sua superproteção habitual. É ilógico como ela tenta filtrar todos os danos para mim, como se eu fosse um componente frágil.",
-            "Suportei o mal-humor de Aureth enquanto atravessávamos {location}. Ela agiu como um sistema de segurança rígido demais, perdendo a elegância da flexibilidade.",
+            "Suportei o mal-humor de Aureth enquanto atravessávamos {place}. Ela agiu como um sistema de segurança rígido demais, perdendo a elegância da flexibilidade.",
             "Minha irmã tentou intervir na minha sequência lógica novamente. Sua insistência em me proteger criou uma redundância desnecessária no meu campo de força."
           ],
           "en": [
             "Aureth maintained her habitual overprotection. It is illogical how she tries to filter all damage to me, as if I were a fragile component.",
-            "I endured Aureth's moodiness while we crossed {location}. She acted like a security system that is too rigid, losing the elegance of flexibility.",
+            "I endured Aureth's moodiness while we crossed {place}. She acted like a security system that is too rigid, losing the elegance of flexibility.",
             "My sister tried to intervene in my logical sequence again. Her insistence on protecting me created unnecessary redundancy in my force field."
           ],
           "es": [
             "Aureth mantuvo su sobreprotección habitual. Es ilógico cómo intenta filtrar todo el daño hacia mí, como si yo fuera un componente frágil.",
-            "Soporté el mal humor de Aureth mientras atravesábamos {location}. Actuó como un sistema de seguridad demasiado rígido, perdiendo la elegancia de la flexibilidad.",
+            "Soporté el mal humor de Aureth mientras atravesábamos {place}. Actuó como un sistema de seguridad demasiado rígido, perdiendo la elegancia de la flexibilidad.",
             "Mi hermana intentó intervenir en mi secuencia lógica de nuevo. Su insistencia en protegerme creó una redundancia innecesaria en mi campo de fuerza."
           ],
           "ru": [
             "Орет сохраняла свою привычную гиперопеку. Нелогично, как она пытается отфильтровать весь урон, направленный на меня, будто я — хрупкий компонент.",
-            "Я терпела дурное настроение Орет, пока мы пересекали {location}. Она вела себя как слишком жесткая система безопасности, теряя элегантность гибкости.",
+            "Я терпела дурное настроение Орет, пока мы пересекали {place}. Она вела себя как слишком жесткая система безопасности, теряя элегантность гибкости.",
             "Моя сестра снова попыталась вмешаться в мою логическую последовательность. Её настойчивое желание защитить меня создало ненужную избыточность в моем силовом поле."
           ],
           "zh": [
             "奥莱丝保持着她惯有的过度保护。她试图为我过滤掉所有伤害，这很不合逻辑，仿佛我是一个脆弱的组件。",
-            "当我们穿过{location}时，我忍受了奥莱丝的小脾气。她的表现就像一个过于僵化的安全系统，失去了灵活性的优雅。",
+            "当我们穿过{place}时，我忍受了奥莱丝的小脾气。她的表现就像一个过于僵化的安全系统，失去了灵活性的优雅。",
             "我的姐姐又试图干预我的逻辑序列。她坚持要保护我，这在我的力场中造成了不必要的冗余。"
           ],
           "ja": [
             "オーレスは相変わらずの過保護ぶりでした。私が壊れやすい部品であるかのように、すべてのダメージをフィルタリングしようとするのは非論理的です。",
-            "{location}を通過する間、オーレスの不機嫌さに耐えました。彼女は硬直すぎるセキュリティシステムのように振る舞い、柔軟性の優雅さを失っていました。",
+            "{place}を通過する間、オーレスの不機嫌さに耐えました。彼女は硬直すぎるセキュリティシステムのように振る舞い、柔軟性の優雅さを失っていました。",
             "姉がまた私の論理シーケンスに介入しようとしました。私を守ろうとする彼女の執着は、私のフォースフィールドに不必要な冗長性を生み出しました。"
           ]
         }
@@ -1011,6 +999,372 @@
     ]
   }
   }
-  }    
+  },
+  "narrative": {
+    "enemy": {
+      "details": {
+        "pt": [
+          "Analisei {fragment} para calcular o padrão comportamental do inimigo.",
+          "Tentei decodificar a lógica biológica por trás de {fragment}.",
+          "Fiquei observando {fragment} e tentando traduzir aquela estrutura em uma equação matemática.",
+          "Notei uma assimetria intrigante em {fragment} que desalinhou meus cálculos.",
+          "Mapeei o fluxo de energia que corria por {fragment} para prever o próximo movimento."
+        ],
+        "en": [
+          "I analyzed {fragment} to calculate the enemy's behavioral pattern.",
+          "I tried to decode the biological logic behind {fragment}.",
+          "I kept observing {fragment} and trying to translate that structure into a mathematical equation.",
+          "I noticed an intriguing asymmetry in {fragment} that misaligned my calculations.",
+          "I mapped the energy flow running through {fragment} to predict the next move."
+        ],
+        "es": [
+          "Analicé {fragment} para calcular el patrón de comportamiento del enemigo.",
+          "Intenté decodificar la lógica biológica detrás de {fragment}.",
+          "Seguí observando {fragment} e intentando traducir esa estructura en una ecuación matemática.",
+          "Noté una intrigante asimetría en {fragment} que desalineó mis cálculos.",
+          "Mapeé el flujo de energía que corría por {fragment} para predecir el próximo movimiento."
+        ],
+        "ru": [
+          "Я проанализировала {fragment}, чтобы вычислить поведенческий шаблон врага.",
+          "Я пыталась расшифровать биологическую логику, стоящую за {fragment}.",
+          "Я продолжала наблюдать за {fragment} и пыталась перевести эту структуру в математическое уравнение.",
+          "Я заметила интригующую асимметрию в {fragment}, которая сбила с толку мои расчеты.",
+          "Я нанесла на карту энергетический поток, проходящий через {fragment}, чтобы предсказать следующий ход."
+        ],
+        "zh": [
+          "我分析了{fragment}以计算敌人的行为模式。",
+          "我试图解码{fragment}背后的生物逻辑。",
+          "我一直在观察{fragment}，试图将那个结构翻译成一个数学方程。",
+          "我注意到{fragment}中一个引人入胜的非对称性，使我的计算失调了。",
+          "我绘制了流经{fragment}的能量流，以预测下一步动作。"
+        ],
+        "ja": [
+          "{fragment}を分析して、敵の行動パターンを計算しました。",
+          "{fragment}の背後にある生物学的なロジックを解読しようとしました。",
+          "{fragment}を観察し続け、その構造を数学的な方程式に翻訳しようとしました。",
+          "{fragment}の中に興味深い非対称性があることに気づき、私の計算がずれてしまいました。",
+          "{fragment}を流れるエネルギーフローをマッピングして、次の動きを予測しました。"
+        ]
+      },
+      "attack": {
+        "pt": [
+          "Ativei minha Armadura Estática para dissipar o impacto cinético de {fragment}.",
+          "Projetei uma Barreira Prismática de Elétrons que anulou o vetor de {fragment}.",
+          "Minha Pele de Diamante Construtora isolou a condutividade de {fragment}.",
+          "Usei um Deslocamento de Centelha para reprogramar minha posição antes que {fragment} me atingisse.",
+          "Ergui uma Égide Magnética para repelir a força linear de {fragment}.",
+          "Meu Escudo de Mana barrou {fragment}.",
+          "Ativei um Lampejo para desviar de {fragment}.",
+          "Minha Barreira de Choque absorveu {fragment}.",
+          "Usei um Campo Magnético contra {fragment}.",
+          "Minha Armadura de Raios repeliu {fragment}."
+        ],
+        "en": [
+          "I activated my Static Armor to dissipate the kinetic impact of {fragment}.",
+          "I projected a Prism of Electrons Barrier that nullified the vector of {fragment}.",
+          "My Diamond Builder's Skin insulated the conductivity of {fragment}.",
+          "I used a Spark Displacement to reprogram my position before {fragment} hit me.",
+          "I raised a Magnetic Aegis to repel the linear force of {fragment}.",
+          "My Mana Shield blocked {fragment}.",
+          "I activated a Blink to dodge {fragment}.",
+          "My Shock Barrier absorbed {fragment}.",
+          "I used a Magnetic Field against {fragment}.",
+          "My Lightning Armor repelled {fragment}."
+        ],
+        "es": [
+          "Activé mi Armadura Estática para disipar el impacto cinético de {fragment}.",
+          "Proyecté una Barrera de Prismas de Electrones que anuló el vector de {fragment}.",
+          "Mi Piel de Constructor de Diamante aisló la conductividad de {fragment}.",
+          "Usé un Desplazamiento de Chispa para reprogramar mi posición antes de que {fragment} me golpeara.",
+          "Levanté una Égida Magnética para repeler la fuerza lineal de {fragment}.",
+          "Mi Escudo de Maná bloqueó {fragment}.",
+          "Activé un Parpadeo para esquivar {fragment}.",
+          "Mi Barrera de Choque absorbió {fragment}.",
+          "Usé un Campo Magnético contra {fragment}.",
+          "Mi Armadura de Rayos repelió {fragment}."
+         ],
+        "ru": [
+          "Я активировала свою Статическую Броню, чтобы рассеять кинетическое воздействие {fragment}.",
+          "Я проецировала Барьер из Призм Электронов, который нейтрализовал вектор {fragment}.",
+          "Моя Кожа Алмазного Строителя изолировала проводимость {fragment}.",
+          "Я использовала Искровое Смещение, чтобы перепрограммировать свою позицию до того, как {fragment} ударил меня.",
+          "Я подняла Магнитную Эгиду, чтобы отразить линейную силу {fragment}.",
+          "Мой Манашилд заблокировал {fragment}.",
+          "Я активировала Миг, чтобы увернуться от {fragment}.",
+          "Мой Шоковый Барьер поглотил {fragment}.",
+          "Я использовала Магнитное Поле против {fragment}.",
+          "Моя Броня Молний отразила {fragment}."
+         ],
+        "zh": [
+          "我激活了我的静态护甲来消散{fragment}的动能冲击。",
+          "我投射了一个电子棱镜屏障，抵消了{fragment}的向量。",
+          "我的钻石建造者之肤隔离了{fragment}的导电性。",
+          "我使用了一个火花位移，在{fragment}击中我之前重新编程了我的位置。",
+          "我举起了一个磁性神盾来抵御{fragment}的线性力量。",
+          "我的法力护盾挡住了{fragment}。",
+          "我激活了一个闪烁来躲避{fragment}。",
+          "我的震荡屏障吸收了{fragment}。",
+          "我使用了一个磁场对抗{fragment}。",
+          "我的闪电护甲击退了{fragment}。"
+         ],
+        "ja": [
+          "私は{fragment}の運動エネルギーの衝撃を散らすために、静的な鎧を起動しました。",
+          "{fragment}のベクトルを無効化する電子のプリズムバリアを投影しました。",
+          "私のダイヤモンドビルダースキンは{fragment}の導電性を絶縁しました。",
+          "{fragment}が私に当たる前に位置を再プログラムするために、スパークディスプレイスメントを使用しました。",
+          "{fragment}の線形力を反発するために、マグネティックイージスを立てました。",
+          "私のマナシールドは{fragment}をブロックしました。",
+          "{fragment}を回避するためにブリンクを起動しました。",
+          "私のショックバリアは{fragment}を吸収しました。",
+          "{fragment}に対してマグネティックフィールドを使用しました。",
+          "私のライトニングアーマーは{fragment}を撃退しました。"
+         ]
+        }
+    },
+    "place": {
+      "landmark": {
+        "pt": [
+          "Utilizei {fragment} como vetor de referência para mapear o quadrante.",
+          "Calculei o alinhamento geométrico a partir de {fragment}.",
+          "Notei que {fragment} quebrava a simetria visual daquela área.",
+          "Achei curioso como {fragment} mantinha um padrão físico constante.",
+          "Meus olhos registraram {fragment} enquanto eu calculava a trajetória da rota."
+        ],
+        "en": [
+          "I used {fragment} as a reference vector to map the quadrant.",
+          "I calculated the geometric alignment from {fragment}.",
+          "I noticed that {fragment} broke the visual symmetry of that area.",
+          "I found it curious how {fragment} maintained a constant physical pattern.",
+          "My eyes registered {fragment} as I calculated the trajectory of the route."
+        ],
+        "es": [
+          "Utilicé {fragment} como vector de referencia para mapear el cuadrante.",
+          "Calculé la alineación geométrica a partir de {fragment}.",
+          "Noté que {fragment} rompía la simetría visual de esa área.",
+          "Me pareció curioso cómo {fragment} mantenía un patrón físico constante.",
+          "Mis ojos registraron {fragment} mientras calculaba la trayectoria de la ruta."
+        ],
+        "ru": [
+          "Я использовала {fragment} в качестве опорного вектора для картирования квадранта.",
+          "Я вычислила геометрическое выравнивание на основе {fragment}.",
+          "Я заметила, что {fragment} нарушает визуальную симметрию этой области.",
+          "Мне показалось любопытным, как {fragment} поддерживает постоянный физический узор.",
+          "Мои глаза зарегистрировали {fragment}, когда я рассчитывала траекторию маршрута."
+        ],
+        "zh": [
+          "我使用{fragment}作为参考向量来绘制象限图。",
+          "我从{fragment}计算了几何对齐。",
+          "我注意到{fragment}打破了那个区域的视觉对称性。",
+          "我觉得很奇怪，{fragment}保持着一个恒定的物理模式。",
+          "当我计算路线的轨迹时，我的眼睛记录了{fragment}。"
+        ],
+        "ja": [
+          "{fragment}を参照ベクトルとして使用して、象限をマッピングしました。",
+          "{fragment}から幾何学的な整列を計算しました。",
+          "{fragment}がそのエリアの視覚的な対称性を破っていることに気づきました。",
+          "{fragment}が一定の物理パターンを維持しているのは興味深いと思いました。",
+          "ルートの軌道を計算しながら、私の目は{fragment}を記録しました。"
+        ]
+      },
+      "details": {
+        "pt": [
+          "Fiquei medindo as propriedades físicas de {fragment}.",
+          "Anotei os dados estruturais sobre {fragment} no meu relatório.",
+          "Analisei a composição e a densidade de {fragment}.",
+          "Achei curioso como {fragment} alterava a acústica e a fricção do local.",
+          "Estudei a mecânica de fluido e relevo presente em {fragment}."
+        ],
+        "en": [
+          "I was measuring the physical properties of {fragment}.",
+          "I noted the structural data about {fragment} in my report.",
+          "I analyzed the composition and density of {fragment}.",
+          "I found it curious how {fragment} altered the acoustics and friction of the place.",
+          "I studied the fluid mechanics and relief present in {fragment}."
+        ],
+        "es": [
+          "Estaba midiendo las propiedades físicas de {fragment}.",
+          "Anoté los datos estructurales sobre {fragment} en mi informe.",
+          "Analicé la composición y densidad de {fragment}.",
+          "Me pareció curioso cómo {fragment} alteraba la acústica y la fricción del lugar.",
+          "Estudié la mecánica de fluidos y el relieve presente en {fragment}."
+        ],
+        "ru": [
+          "Я измеряла физические свойства {fragment}.",
+          "Я отметила структурные данные о {fragment} в своем отчете.",
+          "Я проанализировала состав и плотность {fragment}.",
+          "Мне показалось любопытным, как {fragment} изменяет акустику и трение места.",
+          "Я изучила механические свойства жидкости и рельеф, присутствующие в {fragment}."
+        ],
+        "zh": [
+          "我正在测量{fragment}的物理属性。",
+          "我在报告中记录了关于{fragment}的结构数据。",
+          "我分析了{fragment}的组成和密度。",
+          "我觉得很奇怪，{fragment}改变了这个地方的声学和摩擦。",
+          "我研究了{fragment}中存在的流体力学和地形。"
+         ],
+        "ja": [
+          "{fragment}の物理的な特性を測定していました。",
+          "レポートに{fragment}に関する構造データを記録しました。",
+          "{fragment}の組成と密度を分析しました。",
+          "{fragment}が場所の音響と摩擦をどのように変えるかが興味深いと思いました。",
+          "{fragment}に存在する流体力学と地形を研究しました。"
+      ]
+    },
+      "history": {
+        "pt": [
+          "Analisei os registros de causa e efeito deixados por {fragment}.",
+          "Tentei decodificar a ordem cronológica dos eventos associados a {fragment}.",
+          "Estudei como {fragment} funcionou como a variável que desencadeou o estado atual do local.",
+          "Fiquei calculando o intervalo de tempo necessário para que {fragment} gerasse este resultado.",
+          "Tratei os relatos sobre {fragment} como dados históricos para entender a entropia da região."
+        ],
+        "en": [
+          "I analyzed the cause-and-effect records left by {fragment}.",
+          "I tried to decode the chronological order of events associated with {fragment}.",
+          "I studied how {fragment} functioned as the variable that triggered the current state of the place.",
+          "I kept calculating the time interval needed for {fragment} to generate this outcome.",
+          "I treated the accounts about {fragment} as historical data to understand the entropy of the region."
+        ],
+        "es": [
+          "Analicé los registros de causa y efecto dejados por {fragment}.",
+          "Intenté decodificar el orden cronológico de los eventos asociados con {fragment}.",
+          "Estudié cómo {fragment} funcionó como la variable que desencadenó el estado actual del lugar.",
+          "Seguí calculando el intervalo de tiempo necesario para que {fragment} generara este resultado.",
+          "Traté las cuentas sobre {fragment} como datos históricos para entender la entropía de la región."
+        ],
+        "ru": [
+          "Я проанализировала записи причинно-следственных связей, оставленные {fragment}.",
+          "Я пыталась расшифровать хронологический порядок событий, связанных с {fragment}.",
+          "Я изучила, как {fragment} функционировал как переменная, которая вызвала текущее состояние места.",
+          "Я продолжала рассчитывать интервал времени, необходимый для того, чтобы {fragment} сгенерировал этот результат.",
+          "Я рассматривала рассказы о {fragment} как исторические данные для понимания энтропии региона."
+        ],
+        "zh": [
+          "我分析了{fragment}留下的因果记录。",
+          "我试图解码与{fragment}相关的事件的时间顺序。",
+          "我研究了{fragment}如何作为触发该地点当前状态的变量发挥作用。",
+          "我一直在计算{fragment}生成这个结果所需的时间间隔。",
+          "我把关于{fragment}的描述当作历史数据来理解该地区的熵。"
+        ],
+        "ja": [
+          "{fragment}によって残された因果関係の記録を分析しました。",
+          "{fragment}に関連するイベントの時間的な順序を解読しようとしました。",
+          "{fragment}がその場所の現在の状態を引き起こす変数としてどのように機能したかを研究しました。",
+          "{fragment}がこの結果を生成するために必要な時間間隔を計算し続けました。",
+          "{fragment}に関する説明を歴史的なデータとして扱い、その地域のエントロピーを理解しました。"
+        ]
+      },
+      "feeling": {
+        "pt": [
+        "Monitorei uma alteração nos meus dados sensoriais ao registrar {fragment}.",
+        "Meu sistema nervoso detectou e processou {fragment}.",
+        "Identifiquei {fragment} como uma anomalia atmosférica que afetava minha eficiência.",
+        "Tentei isolar a causa lógica que gerava {fragment}.",
+        "Fiz um diagnóstico interno para garantir que {fragment} não descalibrasse meu foco."
+      ],
+        "en": [
+        "I monitored a change in my sensory data when registering {fragment}.",
+        "My nervous system detected and processed {fragment}.",
+        "I identified {fragment} as an atmospheric anomaly that was affecting my efficiency.",
+        "I tried to isolate the logical cause that was generating {fragment}.",
+        "I performed an internal diagnostic to ensure that {fragment} didn't miscalibrate my focus."
+      ],
+        "es": [
+        "Monitoreé un cambio en mis datos sensoriales al registrar {fragment}.",
+        "Mi sistema nervioso detectó y procesó {fragment}.",
+        "Identifiqué {fragment} como una anomalía atmosférica que estaba afectando mi eficiencia.",
+        "Intenté aislar la causa lógica que generaba {fragment}.",
+        "Realicé un diagnóstico interno para asegurarme de que {fragment} no descalibrara mi enfoque."
+      ],
+        "ru": [
+        "Я отслеживала изменение в моих сенсорных данных при регистрации {fragment}.",
+        "Моя нервная система обнаружила и обработала {fragment}.",
+        "Я идентифицировала {fragment} как атмосферную аномалию, которая влияла на мою эффективность.",
+        "Я пыталась изолировать логическую причину, которая генерировала {fragment}.",
+        "Я провела внутреннюю диагностику, чтобы убедиться, что {fragment} не сбивает с толку мой фокус."
+      ],
+        "zh": [
+        "当记录{fragment}时，我监测到了我的感官数据的变化。",
+        "我的神经系统检测并处理了{fragment}。",
+        "我将{fragment}识别为一种影响我效率的大气异常。",
+        "我试图隔离产生{fragment}的逻辑原因。",
+        "我进行了内部诊断，以确保{fragment}不会使我的注意力失调。"
+       ],
+       "ja": [
+         "{fragment}を登録するときに、私の感覚データの変化を監視しました。",
+         "私の神経系は{fragment}を検出し、処理しました。",
+         "{fragment}を私の効率に影響を与える大気の異常として特定しました。",
+         "{fragment}を生成する論理的な原因を特定しようとしました。",
+         "{fragment}が私の焦点を誤調整しないように、内部診断を行いました。"
+       ]
+    }
+    }
+  },
+  "failure": {
+    "solo": {
+      "pt": [
+      "Gastei ciclos demais processando os vetores de {enemy} e falhei na execução da esquiva.",
+      "Subestimei a velocidade de {enemy_attack} ao tentar calcular sua trajetória exata.",
+      "Uma anomalia imprevista em {na_place} descalibrou minha análise de {enemy_attack}."
+    ],
+    "en": [
+      "I spent too many cycles processing the vectors of {enemy} and failed in executing the dodge.",
+      "I underestimated the speed of {enemy_attack} while trying to calculate its exact trajectory.",
+      "An unforeseen anomaly in {place} miscalibrated my analysis of {enemy_attack}."
+    ],
+    "es": [
+      "Gasté demasiados ciclos procesando los vectores de {enemy} y fallé en ejecutar la esquiva.",
+      "Subestimé la velocidad de {enemy_attack} al intentar calcular su trayectoria exacta.",
+      "Una anomalía imprevista en {na_place} descalibró mi análisis de {enemy_attack}."
+    ],
+    "ru": [
+      "Я потратила слишком много циклов на обработку векторов {enemy} и не смогла выполнить уклонение.",
+      "Я недооценила скорость {enemy_attack}, пытаясь вычислить его точную траекторию.",
+      "Непредвиденная аномалия в {place} сбила с толку мой анализ {enemy_attack}."
+    ],
+    "zh": [
+      "我花了太多周期处理{enemy}的向量，未能执行躲避。",
+      "我在试图计算{enemy_attack}的确切轨迹时低估了它的速度。",
+      "{place}中一个不可预见的异常使我的{enemy_attack}分析失调了。"
+     ],
+     "ja": [
+       "{enemy}のベクトルを処理するのにあまりにも多くのサイクルを費やし、回避の実行に失敗しました。",
+       "{enemy_attack}の正確な軌道を計算しようとしたときに、その速度を過小評価しました。",
+       "{place}で予期せぬ異常が発生し、{enemy_attack}の分析が誤調整されました。"
+     ]
+  },
+    "group": {
+      "pt": [
+      "Passei tempo demais tentando otimizar nossa estratégia contra {enemy} em vez de agir instantaneamente.",
+      "Não consegui antecipar o tempo de recarga de {enemy_attack} para proteger o grupo.",
+      "Minha tentativa de criar uma rota de fuga lógica em {na_place} atrasou nossa reação a {enemy_attack}."
+    ],
+    "en": [
+      "I spent too much time trying to optimize our strategy against {enemy} instead of acting instantly.",
+      "I failed to anticipate the cooldown time of {enemy_attack} to protect the group.",
+      "My attempt to create a logical escape route in {place} delayed our reaction to {enemy_attack}."
+    ],
+      "es": [
+      "Gasté demasiado tiempo tratando de optimizar nuestra estrategia contra {enemy} en lugar de actuar instantáneamente.",
+      "No pude anticipar el tiempo de recarga de {enemy_attack} para proteger al grupo.",
+      "Mi intento de crear una ruta de escape lógica en {na_place} retrasó nuestra reacción a {enemy_attack}."
+    ],
+      "ru": [
+      "Я потратила слишком много времени, пытаясь оптимизировать нашу стратегию против {enemy}, вместо того чтобы действовать мгновенно.",
+      "Я не смогла предвидеть время восстановления {enemy_attack}, чтобы защитить группу.",
+      "{place}で論理的な脱出ルートを作成しようとした私の試みが、{enemy_attack}への反応を遅らせました。"
+    ],
+      "zh": [
+      "我花了太多时间试图优化我们对{enemy}的策略，而不是立即行动。",
+      "我未能预见到{enemy_attack}的冷却时间来保护小队。",
+      "{place}中我试图创建一个逻辑逃生路线的尝试延迟了我们对{enemy_attack}的反应。"
+     ],
+     "ja": [
+       "{enemy}に対する私たちの戦略を最適化しようとするのにあまりにも多くの時間を費やし、即座に行動することができませんでした。",
+       "{enemy_attack}のクールダウン時間を予測できず、グループを保護できませんでした。",
+       "{place}で論理的な脱出ルートを作成しようとした私の試みが、{enemy_attack}への反応を遅らせました。"
+       ]
   }
+}
+}
 }

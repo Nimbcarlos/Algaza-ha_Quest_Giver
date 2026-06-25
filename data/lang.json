@@ -1,12 +1,12 @@
 {
   "turn_label": {
-    "pt": "Turno: {turn}",
-    "en": "Turn: {turn}",
-    "es": "Turno: {turn}",
-    "ru": "Ход: {turn}",
-    "zh": "回合：{turn}",
-    "ja": "ターン：{turn}",
-    "kr": "차례: {turn}"
+    "pt": "Turno",
+    "en": "Turn",
+    "es": "Turno",
+    "ru": "Ход",
+    "zh": "回合",
+    "ja": "ターン",
+    "kr": "차례"
   },
   "advance_turn_btn": {
     "pt": "Avançar Turno",
@@ -1890,6 +1890,61 @@
   "ru": ["Герои выполнили десятки контрактов. Монстры повержены. В регионе стало спокойнее. Но некоторые двери остались заперты. И некоторые истины все еще скрыты."],
   "zh": ["英雄们完成了数十项契约。怪物已被讨伐。该地区似乎变得更安全了。 但有些门依然紧锁。 而有些真相，依旧深藏不露。"],
   "ja": ["英雄たちは数十もの契約を果たした。魔物は討たれ、地域には平穏が訪れたかに見えた。 しかし、いくつかの扉は閉ざされたままだった。 そして、ある真実は今もなお、闇の中に隠されている。"]
+},
+"selected_quest_label": {
+  "pt": "Missão selecionada",
+  "en": "Selected quest",
+  "es": "Misión seleccionada",
+  "ru": "Выбранное задание",
+  "zh": "已选任务",
+  "ja": "選択されたクエスト"
+},
+"description_label": {
+  "pt": "Descrição",
+  "en": "Description",
+  "es": "Descripción",
+  "ru": "Описание",
+  "zh": "描述",
+  "ja": "説明"
+},
+"level_short": {
+  "pt": "Nív",
+  "en": "Lvl",
+  "es": "Nv",
+  "ru": "Ур",
+  "zh": "等级",
+  "ja": "レベル"
+},
+"max_heroes": {
+  "en": "Max party size",
+  "pt": "Tamanho máximo do grupo",
+  "es": "Tamaño máximo del grupo",
+  "ru": "Максимальный размер группы",
+  "zh": "最大队伍规模",
+  "ja": "最大パーティサイズ"
+},
+"duration": {
+  "en": "Duration",
+  "pt": "Duração",
+  "es": "Duración",
+  "ru": "Продолжительность",
+  "zh": "持续时间",
+  "ja": "期間"
+},
+"turns": {
+  "en": "Turns",
+  "pt": "Turnos",
+  "es": "Turnos",
+  "ru": "Ходы",
+  "zh": "回合数",
+  "ja": "ターン数"
+},
+"world_map_title": {
+  "en": "World Map",
+  "pt": "Mapa do Mundo",
+  "es": "Mapa del Mundo",
+  "ru": "Карта мира",
+  "zh": "世界地图",
+  "ja": "世界地図"
 }
-
 }

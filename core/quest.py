@@ -7,8 +7,8 @@ class Quest:
     def __init__(
         self,
         id: str,
-        name,
-        description,
+        name: Dict[str, str],
+        description: Dict[str, str],
         type: str,
         max_heroes: int,
         expired_at: int,
@@ -31,9 +31,8 @@ class Quest:
         self.id = id
         self.language = language
 
-        # 🔹 Traduz automaticamente name e description se forem dicionários
-        self.name = self._get_lang_value(name)
-        self.description = self._get_lang_value(description)
+        self._name_data = name or {}
+        self._description_data = description or {}
 
         self.type = type or []
         self.max_heroes = max_heroes
@@ -58,9 +57,14 @@ class Quest:
     # -------------------- Métodos auxiliares --------------------
 
     def _get_lang_value(self, value):
-        """Retorna o texto no idioma atual (ou o original se for string)."""
+
         if isinstance(value, dict):
-            return value.get(self.language) or next(iter(value.values()))
+            return (
+                value.get(self.language)
+                or value.get("en")
+                or next(iter(value.values()))
+            )
+
         return value
 
     def _get_lang_list(self, value):
@@ -124,7 +128,6 @@ class Quest:
             except Exception as e:
                 print(f"❌ Erro ao carregar '{json_file.name}': {e}")
                 continue
-        
         return quests
 
     @staticmethod
@@ -134,3 +137,11 @@ class Quest:
             if q.name.lower() == name.lower():
                 return q
         return None
+
+    @property
+    def name(self):
+        return self._get_lang_value(self._name_data)
+
+    @property
+    def description(self):
+        return self._get_lang_value(self._description_data)

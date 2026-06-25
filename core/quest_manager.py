@@ -23,6 +23,11 @@ from core.map_graph import MapGraph
 
 class QuestManager:
     def __init__(self, save_file="auto_save.json"):
+        self.completed_quests = defaultdict(set)
+        self.failed_quests = set()
+        self.active_quests = {}     # {quest_id: {"heroes": [...], "turns_left": n}}
+        self.current_turn = 1
+
         self.save_file = save_file
         self.requirement_checks = [
             check_not_completed,
@@ -48,11 +53,6 @@ class QuestManager:
             language=self.lm.language,
             data_file="data/quest_data.json"
         )
-
-        self.completed_quests = defaultdict(set)
-        self.failed_quests = set()
-        self.active_quests = {}     # {quest_id: {"heroes": [...], "turns_left": n}}
-        self.current_turn = 1
 
         self.log_callback = None
         self.dialog_callback = None
@@ -91,6 +91,7 @@ class QuestManager:
 
     def get_quest(self, quest_id):
         quest = self.quest_registry.get(quest_id)
+        avg_lvl = self._get_average_hero_level()
 
         if quest:
             return quest
@@ -98,7 +99,7 @@ class QuestManager:
         # fallback procedural
         if isinstance(quest_id, int):
             try:
-                quest_data = self.proc_gen.reconstruct_quest_from_seed(quest_id)
+                quest_data = self.proc_gen.reconstruct_quest_from_seed(quest_id, avg_lvl)
                 quest = self.proc_gen.to_quest_object(quest_data)
                 quest.origin = "procedural"
 
@@ -172,7 +173,7 @@ class QuestManager:
                 self.completed_quests[quest.id] = set()
 
             if len(heroes) > 1:
-                xp_reward = (quest.rewards.get("xp", 0) / len(heroes)) * 1.2
+                xp_reward = round((quest.rewards.get("xp", 0) / len(heroes)) * 1.2)
             else:
                 xp_reward = quest.rewards.get("xp", 0)
 
@@ -385,10 +386,8 @@ class QuestManager:
     # ──────────────────────────────────────────────────────────────────────────
 
     def load_quests(self, language: str = "pt"):
-        from core.quest import Quest
         self.language = language
         self.quests = Quest.load_quests(language)
-        print(f"📜 Quests carregadas no idioma: {language}")
 
     def _revalidate_available_quests(self):
         from core.quest_requirements import (
@@ -500,3 +499,38 @@ class QuestManager:
                 count += 1
 
         return count
+
+
+# import traceback
+# import datetime
+# import sys
+# try:
+#     pass
+# except Exception as e:
+#     exc_type, exc_value, exc_traceback = sys.exc_info()
+#     tb_list = traceback.format_exception(exc_type, exc_value, exc_traceback)
+#     tb_text = "".join(tb_list)
+
+#     # Extração básica
+#     tb = traceback.extract_tb(exc_traceback)
+#     filename, line, func, text = tb[-1]
+
+#     # ===============================
+#     # 📌 SALVA EM LOG.TXT
+#     # ===============================
+#     with open("log.txt", "a", encoding="utf-8") as log:
+#         log.write("\n" + "=" * 60 + "\n")
+#         log.write(f"Erro em: {datetime.now()}\n")
+#         log.write(f"Exception: {exc_type.__name__}\n")
+#         log.write(f"Arquivo: {filename}\n")
+#         log.write(f"Linha: {line}\n")
+#         log.write(f"Função: {func}\n")
+#         log.write(f"Mensagem: {exc_value}\n")
+#         log.write(f"Código: {text}\n")
+#         log.write("\n--- Traceback completo ---\n")
+#         log.write(tb_text)
+#         log.write("\n" + "=" * 60 + "\n")
+
+#     # Mostra no console também
+#     print("❌ Erro capturado!")
+#     print(tb_text)

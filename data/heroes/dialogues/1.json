@@ -135,13 +135,13 @@
         "pt": [
           "C-cheguei {na_place}. Fiquei parada um instante antes de dar primeiro passo.",
           "Estive {na_place}. Ajustei escudo devagar, tentando p-parecer confiante.",
-          "Cheguei sozinha {na_place}. Respirei fundo antes de avançar.",
+          "Cheguei sozinha {ao_place}. Respirei fundo antes de avançar.",
           "Pisei {na_place} com cuidado. Não gosto de lugares onde todos olham.",
           "Já estava {na_place}. Segurei escudo firme pra esconder tremor.",
           "Entrei {na_place} em silêncio. Preferi que ninguém notasse presença.",
           "{a_place} parecia grande demais... mas fiquei na frente mesmo assim.",
           "P-posicionada {na_place}. Mantive olhos baixos e escudo pronto.",
-          "Avancei até {a_place}. Esperei coração acalmar antes de seguir.",
+          "Avancei até {ao_place}. Esperei coração acalmar antes de seguir.",
           "Fiquei {na_place}. Não sou boa falando... então permaneci de guarda."
         ],
         "en": [
@@ -157,16 +157,16 @@
           "Stayed at {place}. Not good with words... remained on guard."
         ],
         "es": [
-          "L-llegué a {na_place}. Me detuve antes de dar primer paso.",
-          "Estuve en {na_place}. Ajusté escudo despacio, intentando p-parecer segura.",
-          "Llegué sola a {na_place}. Respiré hondo antes de avanzar.",
-          "Entré en {na_place} con cuidado. No me gustan miradas.",
-          "Ya estaba en {na_place}. Sujeté escudo firme para ocultar temblor.",
-          "Entré en {na_place} en silencio. Preferí que nadie notara presencia.",
+          "L-llegué {ao_place}. Me detuve antes de dar primer paso.",
+          "Estuve {na_place}. Ajusté escudo despacio, intentando p-parecer segura.",
+          "Llegué sola {ao_place}. Respiré hondo antes de avanzar.",
+          "Entré {na_place} con cuidado. No me gustan miradas.",
+          "Ya estaba {na_place}. Sujeté escudo firme para ocultar temblor.",
+          "Entré {na_place} en silencio. Preferí que nadie notara presencia.",
           "{na_place} parecía demasiado grande... pero me quedé al frente.",
-          "Me p-posicioné en {na_place}. Manteniendo mirada baja y escudo listo.",
-          "Avancé hacia {na_place}. Esperé que corazón se calmara.",
-          "Permanecí en {na_place}. No hablo bien... quedé de guardia."
+          "Me p-posicioné {na_place}. Manteniendo mirada baja y escudo listo.",
+          "Avancé hacia {place}. Esperé que corazón se calmara.",
+          "Permanecí {na_place}. No hablo bien... quedé de guardia."
         ],
         "ru": [
           "Я-я прибыла в {place}. Замерла перед первым шагом.",
@@ -231,16 +231,16 @@
         "Stopped at {place}. Remained at front despite trembling."
       ],
       "es": [
-        "L-llegamos a {na_place}. Me quedé al frente sin mirar atrás.",
-        "Entramos en {na_place}. Sujeté escudo mientras pasos sonaban detrás.",
-        "Ya estábamos en {na_place}. Manteniendo posición al frente.",
-        "Avanzamos hacia {na_place}. Respiré hondo antes de liderar.",
-        "Pisé primero en {na_place}. Esperaba que nadie notara duda.",
-        "Fuimos a {na_place}. Permanecí delante con escudo alzado.",
-        "Llegamos juntos a {na_place}. Mirada baja, línea firme.",
-        "{na_place} parecía amenazante... pero tomé el frente.",
-        "Estábamos en {na_place}. Ajusté postura para parecer segura.",
-        "Nos detuvimos en {na_place}. Seguí al frente pese al temblor."
+        "L-llegamos {ao_place}. Me quedé al frente sin mirar atrás.",
+        "Entramos {na_place}. Sujeté escudo mientras pasos sonaban detrás.",
+        "Ya estábamos {na_place}. Manteniendo posición al frente.",
+        "Avanzamos hacia {place}. Respiré hondo antes de liderar.",
+        "Fui la primera en entrar {na_place}. Esperaba que nadie notara duda.",
+        "Fuimos {ao_place}. Permanecí delante con escudo alzado.",
+        "Llegamos juntos {ao_place}. Mirada baja, línea firme.",
+        "{place} parecía amenazante... pero tomé el frente.",
+        "Estábamos {na_place}. Ajusté postura para parecer segura.",
+        "Nos detuvimos {na_place}. Seguí al frente pese al temblor."
       ],
       "ru": [
         "М-мы прибыли в {place}. Осталась впереди, не оглядываясь.",
@@ -394,102 +394,102 @@
       "intimidation": {
         "alone": {
           "pt": [
-            "Fiquei em frente a {challenge} e sustentei olhar.",
-            "Aproximei devagar de {challenge}, sem dizer palavra.",
-            "Mantive postura firme diante de {challenge}."
+            "Fiquei em frente a {subject} e sustentei olhar.",
+            "Aproximei devagar de {subject}, sem dizer palavra.",
+            "Mantive postura firme diante de {subject}."
           ],
           "en": [
-            "I stood in front of {challenge} and held eye contact.",
-            "I approached {challenge} slowly, without saying a word.",
-            "I kept a steady posture in front of {challenge}."
+            "I stood in front of {subject} and held eye contact.",
+            "I approached {subject} slowly, without saying a word.",
+            "I kept a steady posture in front of {subject}."
           ],
           "es": [
-            "Me paré frente a {challenge} y mantuve contacto visual.",
-            "Me acerqué lentamente a {challenge}, sin decir una palabra.",
-            "Mantuve una postura firme frente a {challenge}."
+            "Me paré frente a {subject} y mantuve contacto visual.",
+            "Me acerqué lentamente a {subject}, sin decir una palabra.",
+            "Mantuve una postura firme frente a {subject}."
           ],
           "ru": [
-            "Я встала перед {challenge} и удерживала зрительный контакт.",
-            "Я медленно подошла к {challenge}, не говоря ни слова.",
-            "Я сохраняла устойчивую позу перед {challenge}."
+            "Я встала перед {subject} и удерживала зрительный контакт.",
+            "Я медленно подошла к {subject}, не говоря ни слова.",
+            "Я сохраняла устойчивую позу перед {subject}."
           ],
           "zh": [
-            "我站在{challenge}面前，保持眼神交流。",
-            "我慢慢接近{challenge}，没有说一句话。",
-            "我在{challenge}面前保持稳定的姿势。"
+            "我站在{subject}面前，保持眼神交流。",
+            "我慢慢接近{subject}，没有说一句话。",
+            "我在{subject}面前保持稳定的姿势。"
           ],
           "ja": [
-            "私は{challenge}の前に立ち、目を合わせた。",
-            "私は{challenge}にゆっくり近づき、何も言わなかった。",
-            "私は{challenge}の前で安定した姿勢を保った。"
+            "私は{subject}の前に立ち、目を合わせた。",
+            "私は{subject}にゆっくり近づき、何も言わなかった。",
+            "私は{subject}の前で安定した姿勢を保った。"
           ]
         }
       },
       "athletics": {
         "alone": {
           "pt": [
-            "Apoiei pés no chão e forcei {challenge}.",
-            "Segurei peso de {challenge} nos ombros.",
-            "Empurrei {challenge} usando toda força."
+            "Apoiei pés no chão e forcei {subject}.",
+            "Segurei peso de {subject} nos ombros.",
+            "Empurrei {subject} usando toda força."
           ],
           "en": [
-            "I planted my feet and forced {challenge}.",
-            "I held {challenge}'s weight on my shoulders.",
-            "I pushed {challenge} using all my strength."
+            "I planted my feet and forced {subject}.",
+            "I held {subject}'s weight on my shoulders.",
+            "I pushed {subject} using all my strength."
           ],
           "es": [
-            "Apoyé mis pies en el suelo y forcé a {challenge}.",
-            "Sostuve el peso de {challenge} en mis hombros.",
-            "Empujé a {challenge} usando toda mi fuerza."
+            "Apoyé mis pies en el suelo y forcé a {subject}.",
+            "Sostuve el peso de {subject} en mis hombros.",
+            "Empujé a {subject} usando toda mi fuerza."
           ],
           "ru": [
-            "Я поставила ноги на землю и заставила {challenge}.",
-            "Я держала вес {challenge} на своих плечах.",
-            "Я толкнула {challenge}, используя всю свою силу."
+            "Я поставила ноги на землю и заставила {subject}.",
+            "Я держала вес {subject} на своих плечах.",
+            "Я толкнула {subject}, используя всю свою силу."
           ],
           "zh": [
-            "我把脚踩在地上，强迫{challenge}。",
-            "我肩负着{challenge}的重量。",
-            "我用尽全力推开{challenge}。"
+            "我把脚踩在地上，强迫{subject}。",
+            "我肩负着{subject}的重量。",
+            "我用尽全力推开{subject}。"
           ],
           "ja": [
-            "私は足を地面にしっかりつけて{challenge}を押し切った。",
-            "私は{challenge}の重さを肩に乗せた。",
-            "私は全力で{challenge}を押した。"
+            "私は足を地面にしっかりつけて{subject}を押し切った。",
+            "私は{subject}の重さを肩に乗せた。",
+            "私は全力で{subject}を押した。"
            ]
         }
       },
       "survival": {
         "alone": {
           "pt": [
-            "Observei sinais deixados por {challenge}.",
-            "Examinei terreno ao redor de {challenge}.",
-            "Segui marcas associadas a {challenge}."
+            "Observei sinais deixados por {subject}.",
+            "Examinei terreno ao redor de {subject}.",
+            "Segui marcas associadas a {subject}."
           ],
           "en": [
-            "I observed signs left by {challenge}.",
-            "I examined terrain around {challenge}.",
-            "I followed tracks associated with {challenge}."
+            "I observed signs left by {subject}.",
+            "I examined terrain around {subject}.",
+            "I followed tracks associated with {subject}."
           ],
           "es": [
-            "Observé señales dejadas por {challenge}.",
-            "Examiné el terreno alrededor de {challenge}.",
-            "Seguí las marcas asociadas con {challenge}."
+            "Observé señales dejadas por {subject}.",
+            "Examiné el terreno alrededor de {subject}.",
+            "Seguí las marcas asociadas con {subject}."
           ],
           "ru": [
-            "Я наблюдала за следами, оставленными {challenge}.",
-            "Я осмотрела местность вокруг {challenge}.",
-            "Я следовала по следам, связанным с {challenge}."
+            "Я наблюдала за следами, оставленными {subject}.",
+            "Я осмотрела местность вокруг {subject}.",
+            "Я следовала по следам, связанным с {subject}."
           ],
           "zh": [
-            "我观察了{challenge}留下的迹象。",
-            "我检查了{challenge}周围的地形。",
-            "我跟踪了与{challenge}相关的痕迹。"
+            "我观察了{subject}留下的迹象。",
+            "我检查了{subject}周围的地形。",
+            "我跟踪了与{subject}相关的痕迹。"
           ],
           "ja": [
-            "私は{challenge}が残した痕跡を観察した。",
-            "私は{challenge}の周りの地形を調べた。",
-            "私は{challenge}に関連する足跡を追った。"
+            "私は{subject}が残した痕跡を観察した。",
+            "私は{subject}の周りの地形を調べた。",
+            "私は{subject}に関連する足跡を追った。"
            ]
         }
       }
@@ -1248,8 +1248,72 @@
         ]
       }
     }
+  },
+  "failure": {
+    "solo":{
+      "pt": [
+        "Eu... achei que conseguiria parar {enemy}, mas não consegui.",
+        "Desculpe. {enemy_attack} foi mais rápido do que eu esperava.",
+        "Eu falhei em {place}. Não tenho muito mais a dizer."
+      ],
+      "en": [
+        "I... thought I could stop {enemy}, but I couldn't.",
+        "Sorry. {enemy_attack} was faster than I expected.",
+        "I failed at {place}. I don't have much more to say."
+      ],
+      "es": [
+        "Yo... pensé que podría detener a {enemy}, pero no pude.",
+        "Lo siento. {enemy_attack} fue más rápido de lo que esperaba.",
+        "Fallé en {place}. No tengo mucho más que decir."
+      ],
+      "ru": [
+        "Я... думал, что смогу остановить {enemy}, но не смог.",
+        "Простите. {enemy_attack} был быстрее, чем я ожидал.",
+        "Я провалился в {place}. Мне нечего больше сказать."
+      ],
+      "zh": [
+        "我……以为我能阻止{enemy}，但我做不到。",
+        "抱歉。{enemy_attack}比我预期的更快。",
+        "我在{place}失败了。我没有更多的话要说。"
+      ],
+      "ja": [
+        "私は...{enemy}を止められると思っていましたが、できませんでした。",
+        "ごめんなさい。{enemy_attack}は私の予想よりも速かったです。",
+        "{place}で失敗しました。これ以上言うことはありません。"
+       ]
+    },
+    "group": {
+      "pt": [
+        "Desculpem... eu devia ter protegido melhor o grupo de {enemy}.",
+        "Foi culpa minha. Eu não consegui impedir {enemy_attack}.",
+        "Todos confiaram em mim em {place}... e eu não fui forte o bastante."
+      ],
+      "en": [
+        "Sorry... I should have protected the group better from {enemy}.",
+        "It was my fault. I couldn't stop {enemy_attack}.",
+        "Everyone trusted me at {place}... and I wasn't strong enough."
+      ],
+      "es": [
+        "Lo siento... debería haber protegido mejor al grupo de {enemy}.",
+        "Fue mi culpa. No pude detener {enemy_attack}.",
+        "Todos confiaron en mí en {place}... y no fui lo suficientemente fuerte."
+      ],
+      "ru": [
+        "Простите... я должен был лучше защитить группу от {enemy}.",
+        "Это моя вина. Я не смог остановить {enemy_attack}.",
+        "Все доверяли мне в {place}... и я не был достаточно сильным."
+      ],
+      "zh": [
+        "抱歉……我应该更好地保护团队免受{enemy}的伤害。",
+        "这是我的错。我无法阻止{enemy_attack}。",
+        "每个人都在{place}信任我……但我不够强大。"
+      ],
+      "ja": [
+        "ごめんなさい...私は{enemy}からグループをもっとよく守るべきでした。",
+        "私のせいです。{enemy_attack}を止められませんでした。",
+        "{place}でみんなが私を信頼してくれたのに...私は十分に強くありませんでした。"
+       ]
+    }
   }
-
-
   }
 }

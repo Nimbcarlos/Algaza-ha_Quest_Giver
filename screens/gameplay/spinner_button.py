@@ -1,4 +1,4 @@
-from kivy.uix.spinner import Spinner
+from kivy.uix.spinner import Spinner, SpinnerOption
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout
@@ -6,10 +6,20 @@ from kivy.uix.popup import Popup
 from kivy.uix.label import Label
 from kivy.uix.scrollview import ScrollView
 from screens.gameplay.hero_popup import show_hero_details
+from screens.gameplay.map_popup import QuestMapPopup
 
 # ════════════════════════════════════════════════════════════════
 # OPÇÃO 1: SPINNER SIMPLES (Recomendado)
 # ════════════════════════════════════════════════════════════════
+
+class CustomSpinnerOption(SpinnerOption):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+        self.background_normal = "assets/buttons/button.png"
+        self.background_down = "assets/buttons/button.png"
+        self.background_color = (1, 1, 1, 1)
+        self.border = (0, 0, 0, 0)
 
 class InfoMenuSpinner:
     """
@@ -36,16 +46,20 @@ class InfoMenuSpinner:
             self.lm.t("menu_select"),           # "Selecione..."
             self.lm.t("completed_quests_title"), # "Missões Completas"
             self.lm.t("hero_details_title"),     # "Detalhes dos Heróis"
+            self.lm.t("world_map_title"),      # "Estatísticas da Guilda" (opcional)
             # self.lm.t("guild_stats_title"),      # "Estatísticas da Guilda" (opcional)
         ]
         
         spinner = Spinner(
             text=options[0],  # Texto inicial
             values=options[1:],  # Opções disponíveis (sem o "Selecione")
+            option_cls=CustomSpinnerOption,
+            background_normal="assets/buttons/button.png",
+            background_down="assets/buttons/button.png",
+            border=(0,0,0,0),
             size_hint_y=None,
             height=40,
-            background_color=(0.3, 0.3, 0.3, 1),
-            background_down=''
+            background_color=(0.8, 0.8, 0.8, 1),
         )
         
         # Bind do evento de seleção
@@ -71,13 +85,30 @@ class InfoMenuSpinner:
         
         elif text == self.lm.t("hero_details_title"):
             self.show_hero_selection_popup()
-        
+
+        elif text == self.lm.t("world_map_title"):
+            self.show_world_map_popup()
+
         # elif text == self.lm.t("guild_stats_title"):
         #     self.show_guild_stats_popup()
         
         # Reseta o spinner para o estado inicial
         spinner.text = self.lm.t("menu_select")
-    
+
+# screens/gameplay/spinner_button.py
+
+    def show_world_map_popup(self):
+        quests = self.manager.quest_manager.get_active_quests()
+
+        # ❌ ANTES: QuestMapPopup.open(quests, self.lm)
+        #    chama 'open' na CLASSE, sem instância — quests vira 'self'
+
+        # ✅ DEPOIS: cria/reutiliza a instância e chama nela
+        if not hasattr(self.manager, 'quest_map_popup'):
+            self.manager.quest_map_popup = QuestMapPopup()
+
+        self.manager.quest_map_popup.open(quests, self.manager.lm)    
+
     def show_hero_selection_popup(self):
         """
         Mostra popup com lista de heróis para seleção.
@@ -104,11 +135,13 @@ class InfoMenuSpinner:
         hero_list.bind(minimum_height=hero_list.setter('height'))
         
         # Adiciona botão para cada herói
-        heroes = self.manager.qm.hero_manager.get_available_heroes()
+        heroes = self.manager.quest_manager.hero_manager.get_all_available_heroes()
 
         for hero in heroes:
             btn = Button(
                 text=hero.name,
+                background_normal="assets/buttons/button.png",
+                border=(0,0,0,0),
                 size_hint_y=None,
                 height=40,
             )
@@ -121,7 +154,9 @@ class InfoMenuSpinner:
         # Botão Fechar
         close_btn = Button(
             text=self.lm.t("close"),
+            background_normal="assets/buttons/button.png",
             size_hint_y=None,
+            border=(0,0,0,0),
             height=50,
             background_color=(0.8, 0.2, 0.2, 1)
         )
@@ -164,7 +199,9 @@ class InfoMenuSpinner:
         close_btn = Button(
             text=self.lm.t("close"),
             size_hint_y=None,
-            height=50
+            height=50,
+            background_normal="assets/buttons/button.png",
+            border=(0,0,0,0)
         )
         
         popup = Popup(

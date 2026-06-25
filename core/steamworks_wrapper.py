@@ -38,7 +38,7 @@ class STEAMWORKS:
                 if not os.path.exists(lib_path):
                     raise FileNotFoundError(f"DLL não encontrada: {lib_path}")
                 
-                print(f"[Steamworks] Tentando carregar: {lib_path}")
+                # print(f"[Steamworks] Tentando carregar: {lib_path}")
                 
                 # Carrega com caminho completo
                 self.steam_api = ctypes.CDLL(lib_path, winmode=0)

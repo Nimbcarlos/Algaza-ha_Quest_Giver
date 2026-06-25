@@ -18,7 +18,10 @@ try:
     from kivy.config import Config
     Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
     Config.set('graphics', 'resizable', False)
+    Config.set('graphics', 'position', 'custom')
     Config.set('graphics', 'dpi', '96')
+    Config.set('graphics', 'left', 50)
+    Config.set('graphics', 'top', 35)
 
     from kivy.app import App
     from kivy.uix.screenmanager import ScreenManager, FadeTransition
@@ -28,8 +31,6 @@ try:
     from screens.load_game_screen import LoadGameScreen
     from screens.settings_screen import SettingsScreen
     from screens.responsive_frame import ResponsiveFrame
-    from core.quest_manager import QuestManager
-    from core.hero_manager import HeroManager
     from core.language_manager import LanguageManager
     from core.font_manager import FontManager
     import traceback
@@ -49,8 +50,6 @@ try:
     class GameScreenManager(ScreenManager):
         def __init__(self, **kwargs):
             super().__init__(**kwargs)
-            self.quest_manager = QuestManager()
-            self.hero_manager = HeroManager()
             self.transition = FadeTransition(duration=0.3)
 
 
@@ -77,31 +76,23 @@ try:
             self.title = "ALGAZA-HA: Quest Giver"
             self.icon = "assets/icon.ico"
             return sm
-        
+
         def change_language(self, language: str):
-            """
-            Troca o idioma do jogo e atualiza a fonte automaticamente.
-            
-            Args:
-                language: Código do idioma (pt, en, zh, ja, etc.)
-            """
-            # Atualiza idioma
+            # 1) idioma e fonte
             self.lm.set_language(language)
-            
-            # ✅ Atualiza fonte (isso dispara atualização em TODOS os widgets)
             self.font_name = FontManager.get_font_for_language(language)
-            
-            if hasattr(self, 'root') and hasattr(self.root, 'hero_manager'):
-                self.root.hero_manager.load_heroes(language)
 
-            # 🔹 Recarrega os dados dependentes do idioma
-            if hasattr(self, 'root') and hasattr(self.root, 'quest_manager'):
-                self.root.quest_manager.load_quests(language)
+            # 2) recarrega dados PRIMEIRO — antes de qualquer UI
+            sm = self.root
+            if hasattr(sm, 'hero_manager'):
+                sm.hero_manager.load_heroes(language)
+            if hasattr(sm, 'quest_manager'):
+                sm.quest_manager.load_quests(language)
 
-            # 🔹 Notifica telas ativas
-            if hasattr(self.root, "current_screen") and hasattr(self.root.current_screen, "on_language_changed"):
-
-                self.root.current_screen.on_language_changed(language)
+            # 3) só agora notifica a tela — os objetos já estão no idioma certo
+            screen = getattr(sm, 'current_screen', None)
+            if screen and hasattr(screen, 'on_language_changed'):
+                screen.on_language_changed(language)
 
 
     if __name__ == "__main__":

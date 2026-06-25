@@ -31,7 +31,8 @@ class AssistantManager:
             unlock_by_quest=None,
             available_from_turn=0,
             leave_on_quest=False,
-            growth_curve={}
+            growth_curve={},
+            growth_rules={} 
         )
 
         self.commentary_quests = {

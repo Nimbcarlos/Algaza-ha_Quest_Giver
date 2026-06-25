@@ -13,10 +13,10 @@ def show_quest_details(self, quest, *_):
 
     self.pending_assignments[quest.id] = []
 
-    self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests, self.qm.current_turn)
+    self.manager.qm.hero_manager.check_hero_unlocks(self.manager.qm.completed_quests, self.manager.qm.current_turn)
 
     # Lista os heróis disponíveis
-    available_heroes = self.qm.hero_manager.get_available_heroes()
+    available_heroes = self.manager.qm.hero_manager.get_available_heroes()
 
     # Detecta se é tela pequena
     is_small_screen = container.width <= 850 or container.height <= 650

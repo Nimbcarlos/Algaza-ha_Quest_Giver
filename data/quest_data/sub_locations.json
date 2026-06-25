@@ -23,9 +23,7 @@
       "es": {
         "gender": "f",
         "number": "plural",
-        "base": "senderos de las llanuras",
-        "with_em": "en los",
-        "with_de": "de las"
+        "base": "senderos de las llanuras"
       },
       "zh": "沿着平原小径",
       "ja": "平原の小道を通って",

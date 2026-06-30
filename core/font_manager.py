@@ -54,7 +54,7 @@ class FontManager:
         
         try:
             LabelBase.register(
-                name="NotoSans",
+                name="Roboto",
                 fn_regular="assets/fonts/NotoSans-Regular.ttf"
             )
         except Exception as e:
@@ -62,7 +62,7 @@ class FontManager:
         
         try:
             LabelBase.register(
-                name="NotoSansSC",
+                name="Roboto",
                 fn_regular="assets/fonts/NotoSansSC-Regular.ttf"
             )
         except Exception as e:
@@ -70,15 +70,16 @@ class FontManager:
         
         try:
             LabelBase.register(
-                name="NotoSansJP",
+                name="Roboto",
                 fn_regular="assets/fonts/NotoSansJP-Regular.ttf"
             )
+
         except Exception as e:
             print(f"⚠️  Erro ao registrar NotoSansJP: {e}")
         
         try:
             LabelBase.register(
-                name="NotoSansKR",
+                name="Roboto",
                 fn_regular="assets/fonts/NotoSansKR-Regular.ttf"
             )
         except Exception as e:
@@ -106,6 +107,7 @@ class FontManager:
             "NotoSansSC"
         """
         language = language.lower().strip()
+        print(language)
         return FontManager.FONT_MAP.get(language, FontManager.DEFAULT_FONT)
     
     @staticmethod

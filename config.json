@@ -1,8 +1,8 @@
 {
-    "language": "pt",
+    "language": "en",
     "screen_mode": "Window",
     "screen_size": [
-        1366,
+        1024,
         768
     ],
     "music_muted": false,

@@ -479,9 +479,9 @@ class ProceduralQuestSystem:
             "seed": seed,
             "id": seed,
             "name": {
-                "pt": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'pt')} {sub_loc_text_pt}".strip(),
-                "en": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'en')} {sub_loc_text_en}".strip(),
-                "es": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'es')} {sub_loc_text_es}".strip(),
+                "pt": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'pt')} {sub_loc_text_pt}".strip().capitalize(),
+                "en": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'en')} {sub_loc_text_en}".strip().capitalize(),
+                "es": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'es')} {sub_loc_text_es}".strip().capitalize(),
                 "ru": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'ru')}",
                 "zh": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'zh')}",
                 "ja": f"{self._compose_subject_phrase(quest_type, subject, modifier, 'ja')}",

@@ -28,6 +28,7 @@ from core.language_manager import LanguageManager
 from core.quest_manager import QuestManager
 from core.hero_manager import HeroManager
 from core.music_manager import get_music_manager
+from core.font_manager import FontManager
 import core.save_manager as save
 
 from screens.dialog_box import DialogueBox
@@ -43,6 +44,8 @@ class HeroCard(ButtonBehavior, FloatLayout):
     def __init__(self, hero, quest, pending_assignments, max_heroes,
                  on_selection_changed=None, readonly=False, **kwargs):
         super().__init__(**kwargs)
+        font_name = StringProperty("NotoSans")
+
 
         self.readonly = readonly
 
@@ -244,7 +247,7 @@ class GameplayScreen(Screen):
         sidebar.bind(pos=self._update_sidebar_bg, size=self._update_sidebar_bg)
         
         # Seção Quests Ativas
-        sidebar.add_widget(Label(text="Quests Ativas", size_hint_y=None, height=30, color=(0,0,0,1)))
+        sidebar.add_widget(Label(text=self.lm.t('active_quests'), size_hint_y=None, height=30, color=(0,0,0,1)))
         active_scroll = ScrollView(size_hint_y=0.45)
         self.ui_elements['active_quests'] = BoxLayout(orientation="vertical", size_hint_y=None, spacing=5)
         self.ui_elements['active_quests'].bind(minimum_height=self.ui_elements['active_quests'].setter('height'))
@@ -252,7 +255,7 @@ class GameplayScreen(Screen):
         sidebar.add_widget(active_scroll)
         
         # Seção Quests Disponíveis
-        sidebar.add_widget(Label(text="Quests Disponíveis", size_hint_y=None, height=30, color=(0,0,0,1)))
+        sidebar.add_widget(Label(text=self.lm.t('available_quests'), size_hint_y=None, height=30, color=(0,0,0,1)))
         available_scroll = ScrollView(size_hint_y=0.45)
         self.ui_elements['available_quests'] = BoxLayout(orientation="vertical", size_hint_y=None, spacing=5)
         self.ui_elements['available_quests'].bind(minimum_height=self.ui_elements['available_quests'].setter('height'))
@@ -280,17 +283,16 @@ class GameplayScreen(Screen):
 
     # --- LÓGICA ORIGINAL INTEGRADA ---
     def on_pre_enter(self):
-        # coming_from_load é setado EXTERNAMENTE pelo load_game_screen
-        # antes de mudar a tela — não tenta detectar aqui
-        # self.coming_from_settings = (self.manager.current == "settings")
-
-        # NÃO toca em coming_from_load aqui
-
         self.rf = ResponsiveFrame()
         self.lm = LanguageManager()
         self.dm = DialogueManager(language=self.lm.language)
         self.dialog_box = DialogueBox(self.dm)
         self.info_menu = InfoMenuSpinner(manager_instance=self)
+
+        FontManager.register_fonts()
+        # ✅ Define fonte inicial baseada no idioma
+        self.font_name = FontManager.get_font_for_language(self.lm.language)
+
 
         self.build_ui()
 

@@ -21,6 +21,7 @@ from core.quest_requirements import (
 from core.quest_gen import ProceduralQuestSystem
 from core.map_graph import MapGraph
 
+
 class QuestManager:
     def __init__(self, save_file="auto_save.json"):
         self.completed_quests = defaultdict(set)
